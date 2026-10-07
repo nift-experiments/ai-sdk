@@ -1,27 +1,13 @@
-# EXTERNAL-INPUTS.md
+# External inputs — A1 discovery
 
-A pinned Git SHA does not necessarily define the complete production input
-set. Inventory inputs that can move independently of Git or the toolchain.
+Upstream pin: 3ebefff610f96892c50be48cf1838c453e2349f7. Locked dependency installation in progress; not yet a frozen baseline.
 
-Only fill in rows that apply; this is a checklist, not bureaucracy.
+Historical content: v6 0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a; v5 239ea3a151f81aa55b78d8eeca5fd20555730de5. Sync fetches git refs with archive/tarball fallback and caches under apps/docs/node_modules/.cache/ai-sdk-docs. Preserve complete upstream history and archived historical content outside migrations.
 
-## Inventory
+Font input: Next Google-font acquisition (Geist/Geist Mono); capture exact bytes before parity freeze. Home stats read public npm/GitHub counts, with authored fallback values and 3s timeouts; capture and freeze accepted responses separately. External image/video/model-list inputs require URL/hash inventory.
 
-For each relevant input record: source URL/system; version/revision; captured
-body/hash; capture date; deterministic (yes/no/unknown); can move independently
-of Git SHA (yes/no); credentials required; cache boundary; must be frozen for
-parity (yes/no).
+Runtime search is a version-selected local Geistdocs index, not assumed remote search. AI chat has optional Geistdocs proxy credentials: never request/use private credentials; deterministic fixture transport only. Feedback files upstream GitHub issues through Geistdocs; Markdown tracking POSTs to geistdocs.com/md-tracking; Vercel Analytics is mounted globally. Block these mutations/telemetry during reference and migration tests. Remote UI parity, transport shape and unexercised backend behavior must be reported separately.
 
-| Input | Source | Version/revision | Captured hash | Date | Deterministic | Moves w/o Git | Creds | Cache boundary | Freeze |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| | | | | | | | | | |
+OG has current-source slug image routes and a query-param shape with bounded arbitrary title/description. Capturing published cards as static assets alone does not preserve arbitrary query behavior. Evaluate a bounded route handler plus explicit static maintenance; do not erase this behavior. Historical versions are noindex with no social cards.
 
-## Categories to consider
-
-- network-fetched inputs;
-- registry-derived inputs;
-- generated API/reference data;
-- environment-derived inputs;
-- tool-version-derived inputs;
-- search/index inputs;
-- other generated publication inputs.
+Root build invokes Turbo; docs vercel.json directly uses pnpm build:site. Root SDK/package builds are not silently included in docs benchmarks.

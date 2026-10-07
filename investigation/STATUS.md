@@ -27,7 +27,7 @@ phase 5 in progress until phases 1-4 acceptance criteria are met.
 
 ## Current
 
-- Checkpoint: A0 complete; A1 upstream acquisition in progress.
-- Commit SHA:
-- Known blockers:
+- Checkpoint: A0 complete; A1 production build in progress.
+- Commit SHA: ea741b5
+- Known blockers: none exceptional; build not yet accepted.
 - Next checkpoint: A1 frozen production baseline, then A2 parity contract.

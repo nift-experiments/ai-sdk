@@ -317,3 +317,7 @@ Prefer documented Nift behaviour and the existing project structure over guessin
 ## AI SDK experiment — A0
 
 Source model: authored Markdown/MDX/frontmatter. Original generated guidance preserved in investigation/init-generated. Framework islands allowed with feature-specific justification; no broad migration before frozen upstream publication. Upstream clone in sibling ai-sdk-upstream is in progress. Public GitHub repositories created after explicit visibility approval. Nift core/templates must remain unchanged. Next: pin upstream, inspect actual production pipeline/external services, build/freeze reference, continue living init review.
+
+### A1 acquisition progress
+
+Pinned upstream 3ebefff610f96892c50be48cf1838c453e2349f7; nine synced collections/1,386 MDX inputs archived and hashed outside experiment repos in ../ai-sdk-baseline. Frozen-lock dependency install is pending slow registry responses. No baseline build accepted yet; no migration translated. A0 committed/pushed independently. Investigate supported Node runtime with TypeScript capability and use declared pnpm 11.23.0 before baseline measurements.
