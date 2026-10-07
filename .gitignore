@@ -1,0 +1,6 @@
+/.nift/*
+!/.nift/config.json
+!/.nift/tracked.json
+/public/index.html
+/node_modules/
+/generated/
