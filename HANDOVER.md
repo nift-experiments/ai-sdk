@@ -341,3 +341,17 @@ All 288 current documentation bodies pass frozen-reference text, heading-anchor,
 This is content preparation, not complete A4 page publication or browser parity. Existing seven-route proof publication remains separate while the shared navigation/UI composition is implemented. Authored-source edits in the full corpus use `scripts/prepare-current-docs.py`; `scripts/build-proof.py` still exercises the A3 fixture pipeline. Do not treat the prototype `sources/` as full-corpus authority.
 
 Current corpus discovery adds BrowserIllustration, InlinePrompt and CardPlayer islands because their observable animation, prompt and play/pause behavior requires state. Their client and server markup share the upstream components. Asset-cache validity now checks every generated bundle hash, rather than assuming the cache record proves output files exist.
+
+### Shared UI probe
+
+`node scripts/probe-docs-chrome.mjs` renders public package navbar/sidebar/version/footer/provider APIs around an opaque article slot. The server/browser probes have zero Next runtime inputs after separating unused font-barrel execution and the feedback server-action transport. Route hooks use explicit route context and ordinary document navigation. This remains an investigation, not the accepted full-corpus publication implementation. Current browser probe shows sidebar disclosure, version menu and search modal with no observed console warnings/errors. Search results, version fallback, resource dropdown and article/mobile actions remain uncertified. Client probe totals 1,977,268 bytes across 19 outputs; record and profile this cost rather than presenting it as minimal. Temporary public probe artifacts were removed; evidence remains outside the migration repository. The shared UI prototype has not been applied to `ai-sdk-agent` yet.
+
+## A4 current publication validation
+
+The current command publishes 288 current docs plus five remaining A3 prototype routes through shared pinned UI and raw Nift composition. Both 288-page content/TOC comparisons pass. Current-page edits with literal Nift syntax and title/description removal pass incremental-versus-forced byte comparisons; source inputs are restored. Final head checks and cache/shared-layout tests precede A4 acceptance. Current documentation authority is original authored sources in the human project and maintained HTML/metadata/navigation in the agent project. Do not run the seven-route proof command as a normal full-corpus build.
+
+The shared UI is now present in both projects, with zero Next runtime graph inputs. Four internal pinned UI bindings are intentional package coupling. Desktop TOC label serialization and production environment defines were corrected after browser defects were detected. Version-path fallback across the full corpus and search/Markdown/OG/AI/feedback endpoints remain subsequent checkpoint work. Client bytes and shared navigation fan-out remain profiling targets.
+
+### A4 accepted
+
+All 288 current pages pass content, TOC, head metadata, canonical and title comparisons. Missing/corrupt shell, corrupt body, shared-head fan-out and current-page literal syntax/metadata incremental-versus-forced checks pass with restored inputs. Representative streamText desktop/mobile geometry and visible text match. See A4-PUBLICATION-SCOPE.json for browser scope and open transports. Next A5: historical authored corpora/agent HTML and full version fallback/navigation; A6 special families/transports.

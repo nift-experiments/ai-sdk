@@ -12,12 +12,12 @@ islands=json.loads((ROOT/'generated/islands-build.json').read_text())
 entry='/'+islands['entry'].removeprefix('public/')
 metadata={}
 if (ROOT/'generated/a3-render-results.json').exists() and (ROOT/'sources').exists():
- for row in json.loads((ROOT/'generated/a3-render-results.json').read_text()):metadata['sources/'+row['file']]=row['metadata']
+ for row in json.loads((ROOT/'generated/a3-render-results.json').read_text()):metadata['generated/'+row['file'].replace('.mdx','.html')]=row['metadata']
 tracked=[];owned=[]
 for page in model:
  name=page['name']
  prefix=(ROOT/page['prefix']).read_text()
- meta=metadata.get(page['source'],page.get('metadata'))
+ meta=metadata.get(page['body'],page.get('metadata'))
  if meta is not None:
   title=html.escape(str(meta.get('title') or page['route'].split('/')[-1]),quote=True)
   description=meta.get('description')

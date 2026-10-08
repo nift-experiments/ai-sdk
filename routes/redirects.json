@@ -1,0 +1,3640 @@
+[
+  {
+    "source": "/:path+/",
+    "destination": "/:path+",
+    "internal": true,
+    "priority": true,
+    "statusCode": 308,
+    "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$",
+    "parameters": [
+      "path"
+    ]
+  },
+  {
+    "source": "/",
+    "destination": "https://ai-sdk.dev/v5/docs/introduction",
+    "has": [
+      {
+        "type": "host",
+        "value": "v5\\.ai-sdk\\.dev"
+      }
+    ],
+    "statusCode": 307,
+    "regex": "^(?!/_next)/(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/:version(v[4-7])/:path*",
+    "destination": "https://ai-sdk.dev/:version/:path*",
+    "has": [
+      {
+        "type": "host",
+        "value": "v5\\.ai-sdk\\.dev"
+      }
+    ],
+    "statusCode": 307,
+    "regex": "^(?!/_next)(?:/(v[4-7]))(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+    "parameters": [
+      "version",
+      "path"
+    ]
+  },
+  {
+    "source": "/:path*",
+    "destination": "https://ai-sdk.dev/v5/:path*",
+    "has": [
+      {
+        "type": "host",
+        "value": "v5\\.ai-sdk\\.dev"
+      }
+    ],
+    "statusCode": 307,
+    "regex": "^(?!/_next)(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+    "parameters": [
+      "path"
+    ]
+  },
+  {
+    "source": "/",
+    "destination": "https://ai-sdk.dev/v6/docs/introduction",
+    "has": [
+      {
+        "type": "host",
+        "value": "v6\\.ai-sdk\\.dev"
+      }
+    ],
+    "statusCode": 307,
+    "regex": "^(?!/_next)/(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/:version(v[4-7])/:path*",
+    "destination": "https://ai-sdk.dev/:version/:path*",
+    "has": [
+      {
+        "type": "host",
+        "value": "v6\\.ai-sdk\\.dev"
+      }
+    ],
+    "statusCode": 307,
+    "regex": "^(?!/_next)(?:/(v[4-7]))(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+    "parameters": [
+      "version",
+      "path"
+    ]
+  },
+  {
+    "source": "/:path*",
+    "destination": "https://ai-sdk.dev/v6/:path*",
+    "has": [
+      {
+        "type": "host",
+        "value": "v6\\.ai-sdk\\.dev"
+      }
+    ],
+    "statusCode": 307,
+    "regex": "^(?!/_next)(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+    "parameters": [
+      "path"
+    ]
+  },
+  {
+    "source": "/v4",
+    "destination": "https://v4.ai-sdk.dev/docs/introduction",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v4(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v4/:path*",
+    "destination": "https://v4.ai-sdk.dev/:path*",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v4(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+    "parameters": [
+      "path"
+    ]
+  },
+  {
+    "source": "/v5",
+    "destination": "/v5/docs/introduction",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v5(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6",
+    "destination": "/v6/docs/introduction",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v6(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v7/docs/harnesses/overview",
+    "destination": "/docs/ai-sdk-harnesses/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v7/docs/harnesses/overview(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v7",
+    "destination": "/docs/introduction",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v7(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v7/docs",
+    "destination": "/docs/introduction",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v7/docs(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v7/providers",
+    "destination": "/providers/ai-sdk-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v7/providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v7/:path*",
+    "destination": "/:path*",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v7(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+    "parameters": [
+      "path"
+    ]
+  },
+  {
+    "source": "/docs/ai-sdk-core/evaluation",
+    "destination": "/docs/ai-sdk-core/decisions",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/evaluation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-core/evaluate",
+    "destination": "/docs/reference/ai-sdk-core/decide",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-core/evaluate(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-errors/ai-evaluation-unsupported-question-type-error",
+    "destination": "/docs/reference/ai-sdk-errors/ai-decision-unsupported-question-type-error",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-errors/ai-evaluation-unsupported-question-type-error(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/rag-chatbot",
+    "destination": "/cookbook/guides/rag-chatbot",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/rag-chatbot(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/multi-modal-chatbot",
+    "destination": "/cookbook/guides/multi-modal-chatbot",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/multi-modal-chatbot(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/slackbot",
+    "destination": "/cookbook/guides/slackbot",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/slackbot(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/natural-language-postgres",
+    "destination": "/cookbook/guides/natural-language-postgres",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/natural-language-postgres(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/computer-use",
+    "destination": "/cookbook/guides/computer-use",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/computer-use(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/claude-4",
+    "destination": "/cookbook/guides/claude-4",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/claude-4(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/openai-responses",
+    "destination": "/cookbook/guides/openai-responses",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/openai-responses(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/sonnet-3-7",
+    "destination": "/cookbook/guides/sonnet-3-7",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/sonnet-3-7(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/llama-3_1",
+    "destination": "/cookbook/guides/llama-3_1",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/llama-3_1(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/gpt-4-5",
+    "destination": "/cookbook/guides/gpt-4-5",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/gpt-4-5(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/o1",
+    "destination": "/cookbook/guides/o1",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/o1(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/o3",
+    "destination": "/cookbook/guides/o3",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/o3(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/r1",
+    "destination": "/cookbook/guides/r1",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/r1(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides",
+    "destination": "/cookbook/guides",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/nextjs-app",
+    "destination": "/docs/guides/frameworks/nextjs-app",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/nextjs-app(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/nextjs-pages",
+    "destination": "/docs/guides/frameworks/nextjs-pages",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/nextjs-pages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/sveltekit",
+    "destination": "/docs/guides/frameworks/sveltekit",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/sveltekit(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/solidjs",
+    "destination": "/docs/getting-started",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/solidjs(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/frameworks/nextjs-app",
+    "destination": "/docs/getting-started/nextjs-app-router",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/frameworks/nextjs-app(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/frameworks/nextjs-pages",
+    "destination": "/docs/getting-started/nextjs-pages-router",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/frameworks/nextjs-pages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/frameworks/sveltekit",
+    "destination": "/docs/getting-started/svelte",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/frameworks/sveltekit(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers",
+    "destination": "/providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/anthropic",
+    "destination": "/providers/ai-sdk-providers/anthropic",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/anthropic(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/cohere",
+    "destination": "/providers/ai-sdk-providers/cohere",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/cohere(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/huggingface",
+    "destination": "/providers/ai-sdk-providers/huggingface",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/huggingface(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/langchain",
+    "destination": "/providers/ai-sdk-providers/langchain",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/langchain(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/openai",
+    "destination": "/providers/ai-sdk-providers/openai",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/openai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/fireworks",
+    "destination": "/providers/ai-sdk-providers/fireworks",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/fireworks(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/mistral",
+    "destination": "/providers/ai-sdk-providers/mistral",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/mistral(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/cohere",
+    "destination": "/providers/legacy-providers/cohere",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/cohere(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/langchain",
+    "destination": "/providers/legacy-providers/langchain",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/langchain(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/fireworks",
+    "destination": "/providers/legacy-providers/fireworks",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/fireworks(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/aws-bedrock",
+    "destination": "/providers/legacy-providers/aws-bedrock",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/aws-bedrock(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/azure-openai",
+    "destination": "/providers/legacy-providers/azure-openai",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/azure-openai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/google",
+    "destination": "/providers/legacy-providers/google",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/google(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/inkeep",
+    "destination": "/providers/legacy-providers/inkeep",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/inkeep(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/mistral",
+    "destination": "/providers/legacy-providers/mistral",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/mistral(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/perplexity",
+    "destination": "/providers/legacy-providers/perplexity",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/perplexity(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/replicate",
+    "destination": "/providers/legacy-providers/replicate",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/replicate(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/anthropic",
+    "destination": "/providers/ai-sdk-providers/anthropic",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/anthropic(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/huggingface",
+    "destination": "/providers/ai-sdk-providers/huggingface",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/huggingface(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/openai",
+    "destination": "/providers/ai-sdk-providers/openai",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/guides/providers/openai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/demo",
+    "destination": "https://chat.vercel.ai",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/demo(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs",
+    "destination": "/docs/introduction",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-rsc/generative-ui",
+    "destination": "/docs/ai-sdk-rsc/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-rsc/generative-ui(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers",
+    "destination": "/providers/ai-sdk-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core",
+    "destination": "/docs/ai-sdk-core",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/generate-text",
+    "destination": "/docs/ai-sdk-core/generate-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/generate-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/generate-object",
+    "destination": "/docs/ai-sdk-core/generate-object",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/generate-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/stream-text",
+    "destination": "/docs/ai-sdk-core/stream-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/stream-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/stream-object",
+    "destination": "/docs/ai-sdk-core/stream-object",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/stream-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/prompt",
+    "destination": "/docs/ai-sdk-core/prompts",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/prompt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/settings",
+    "destination": "/docs/ai-sdk-core/settings",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/settings(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/tools",
+    "destination": "/docs/ai-sdk-core/tools-and-tool-calling",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/custom-provider",
+    "destination": "/providers/community-providers/custom-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/custom-provider(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/community-providers/index.mjs",
+    "destination": "/providers/community-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/community-providers/index\\.mjs(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/api/completion",
+    "destination": "/docs/ai-sdk-ui/completion",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/api/completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/anthropic",
+    "destination": "/providers/ai-sdk-providers/anthropic",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/anthropic(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/openai",
+    "destination": "/providers/ai-sdk-providers/openai",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/openai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/mistral",
+    "destination": "/providers/ai-sdk-providers/mistral",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/mistral(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-core/google",
+    "destination": "/providers/ai-sdk-providers/google",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-core/google(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/concepts",
+    "destination": "/docs/advanced",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/concepts(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/concepts/ai-rsc",
+    "destination": "/docs/ai-sdk-rsc",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/concepts/ai-rsc(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/concepts/backpressure-and-cancellation",
+    "destination": "/docs/advanced/backpressure",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/concepts/backpressure-and-cancellation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/concepts/caching",
+    "destination": "/docs/advanced/caching",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/concepts/caching(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/concepts/prompt-engineering",
+    "destination": "/docs/advanced/prompt-engineering",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/concepts/prompt-engineering(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/concepts/streaming",
+    "destination": "/docs/advanced/why-streaming",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/concepts/streaming(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/concepts/tools",
+    "destination": "/docs/ai-sdk-core/tools-and-tool-calling",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/concepts/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference",
+    "destination": "/docs/reference",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/use-chat",
+    "destination": "/docs/reference/ai-sdk-ui/use-chat",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/use-chat(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/use-completion",
+    "destination": "/docs/reference/ai-sdk-ui/use-completion",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/use-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/use-assistant",
+    "destination": "/docs/reference/ai-sdk-ui/use-assistant",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/use-assistant(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/ai-stream",
+    "destination": "/docs/reference/stream-helpers/ai-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/ai-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/streaming-text-response",
+    "destination": "/docs/reference/stream-helpers/streaming-text-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/streaming-text-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/streaming-react-response",
+    "destination": "/docs/reference/stream-helpers/streaming-react-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/streaming-react-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/stream-to-response",
+    "destination": "/docs/reference/stream-helpers/stream-to-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/stream-to-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/stream-data",
+    "destination": "/docs/reference/stream-helpers/stream-data",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/stream-data(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers",
+    "destination": "/docs/providers/ai-sdk-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/anthropic-stream",
+    "destination": "/docs/reference/stream-helpers/anthropic-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/anthropic-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/assistant-response",
+    "destination": "/docs/reference/stream-helpers/assistant-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/assistant-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/aws-bedrock-stream",
+    "destination": "/docs/reference/stream-helpers/aws-bedrock-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/aws-bedrock-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/cohere-stream",
+    "destination": "/docs/reference/stream-helpers/cohere-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/cohere-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/google-generative-ai-stream",
+    "destination": "/docs/reference/stream-helpers/google-generative-ai-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/google-generative-ai-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/huggingface-stream",
+    "destination": "/docs/reference/stream-helpers/huggingface-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/huggingface-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/inkeep-stream",
+    "destination": "/docs/reference/stream-helpers/inkeep-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/inkeep-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/langchain-stream",
+    "destination": "/docs/reference/stream-helpers/langchain-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/langchain-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/mistral-stream",
+    "destination": "/docs/reference/stream-helpers/mistral-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/mistral-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/openai-stream",
+    "destination": "/docs/reference/stream-helpers/openai-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/openai-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/providers/replicate-stream",
+    "destination": "/docs/reference/stream-helpers/replicate-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/providers/replicate-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui",
+    "destination": "/docs/reference/ai-sdk-rsc",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/create-ai",
+    "destination": "/docs/reference/ai-sdk-rsc/create-ai",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/create-ai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/create-streamable-ui",
+    "destination": "/docs/reference/ai-sdk-rsc/create-streamable-ui",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/create-streamable-ui(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/create-streamable-value",
+    "destination": "/docs/reference/ai-sdk-rsc/create-streamable-value",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/create-streamable-value(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/get-ai-state",
+    "destination": "/docs/reference/ai-sdk-rsc/get-ai-state",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/get-ai-state(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/get-mutable-ai-state",
+    "destination": "/docs/reference/ai-sdk-rsc/get-mutable-ai-state",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/get-mutable-ai-state(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/render",
+    "destination": "/docs/reference/ai-sdk-rsc/stream-ui",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/render(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/use-actions",
+    "destination": "/docs/reference/ai-sdk-rsc/use-actions",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/use-actions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/use-ai-state",
+    "destination": "/docs/reference/ai-sdk-rsc/use-ai-state",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/use-ai-state(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/generative-ui/use-ui-state",
+    "destination": "/docs/reference/ai-sdk-rsc/use-ui-state",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/generative-ui/use-ui-state(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/schemas-and-zod",
+    "destination": "/docs/foundations/tools#schema-specification-and-validation-with-zod",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/schemas-and-zod(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/providers-and-models",
+    "destination": "/docs/foundations/providers-and-models",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/providers-and-models(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/advanced/why-streaming",
+    "destination": "/docs/foundations/streaming",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/advanced/why-streaming(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/lang-chain-stream",
+    "destination": "/docs/reference/stream-helpers/langchain-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/lang-chain-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/assistant-response",
+    "destination": "/docs/reference/ai-sdk-ui/assistant-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/assistant-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/streaming-react-response",
+    "destination": "/docs/troubleshooting/migration-guide/migration-guide-3-2#removed-functionality",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/streaming-react-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/open-ai-stream",
+    "destination": "/docs/reference/stream-helpers/openai-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/open-ai-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-rsc/streaming-user-interfaces",
+    "destination": "/docs/ai-sdk-rsc/streaming-react-components",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-rsc/streaming-user-interfaces(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/reference",
+    "destination": "/docs/reference",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/reference(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/getting-started/new-docs/building-applications",
+    "destination": "/docs/getting-started",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/getting-started/new-docs/building-applications(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/foundations/tools-and-tool-calling",
+    "destination": "/docs/foundations/tools",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/foundations/tools-and-tool-calling(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/generate-object",
+    "destination": "/docs/ai-sdk-core/generating-structured-data",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/generate-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-core/generate-object",
+    "destination": "/docs/reference/ai-sdk-core/output",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-core/generate-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-core/stream-object",
+    "destination": "/docs/reference/ai-sdk-core/output",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-core/stream-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/tools/call-function",
+    "destination": "/examples/next-app/tools/call-tool",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/tools/call-function(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-rsc/ai-ui-states",
+    "destination": "/docs/ai-sdk-rsc/generative-ui-state",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-rsc/ai-ui-states(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/model-management",
+    "destination": "/docs/ai-sdk-core/provider-management",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/model-management(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-pages/basics/stream-text-generation",
+    "destination": "/examples/next-pages/basics/streaming-text-generation",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-pages/basics/stream-text-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/prompts",
+    "destination": "/docs/foundations/prompts",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/prompts(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/stream-text",
+    "destination": "/docs/ai-sdk-core/generating-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/stream-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-pages/basics/generate-text",
+    "destination": "/examples/next-pages/basics/generating-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-pages/basics/generate-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/huggingface-stream",
+    "destination": "/docs/reference/stream-helpers/hugging-face-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/huggingface-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/fundamentals/providers-and-models",
+    "destination": "/docs/foundations/providers-and-models",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/fundamentals/providers-and-models(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/fundamentals/tools",
+    "destination": "/docs/foundations/tools",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/fundamentals/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/fundamentals/overview",
+    "destination": "/docs/foundations/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/fundamentals/overview(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/fundamentals/prompts",
+    "destination": "/docs/foundations/prompts",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/fundamentals/prompts(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/fundamentals/streaming",
+    "destination": "/docs/foundations/streaming",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/fundamentals/streaming(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/01.5-fundamentals/providers-and-models",
+    "destination": "/docs/foundations/providers-and-models",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/01\\.5-fundamentals/providers-and-models(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/01.5-fundamentals/tools",
+    "destination": "/docs/foundations/tools",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/01\\.5-fundamentals/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/01.5-fundamentals/overview",
+    "destination": "/docs/foundations/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/01\\.5-fundamentals/overview(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/01.5-fundamentals/prompts",
+    "destination": "/docs/foundations/prompts",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/01\\.5-fundamentals/prompts(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/01.5-fundamentals/streaming",
+    "destination": "/docs/foundations/streaming",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/01\\.5-fundamentals/streaming(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/fundamentals",
+    "destination": "/docs/foundations",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/fundamentals(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/01.5-fundamentals",
+    "destination": "/docs/foundations",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/01\\.5-fundamentals(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/building-your-application/ai-rsc/ai-ui-states",
+    "destination": "/docs/ai-sdk-rsc/generative-ui-state",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/building-your-application/ai-rsc/ai-ui-states(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/ai-sdk-core/tools-and-tool-calling",
+    "destination": "/docs/ai-sdk-core/tools-and-tool-calling",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/ai-sdk-core/tools-and-tool-calling(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/working-with-llms",
+    "destination": "/docs/foundations/overview#large-language-models",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/working-with-llms(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/awsbedrock-messages-stream",
+    "destination": "/docs/reference/stream-helpers/aws-bedrock-messages-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/awsbedrock-messages-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/generate-text",
+    "destination": "/docs/ai-sdk-core/generating-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/generate-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/getting-started/docs/building-applications",
+    "destination": "/docs/getting-started",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/getting-started/docs/building-applications(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/tokens",
+    "destination": "/docs/ai-sdk-core/settings",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/tokens(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk/providers/openai",
+    "destination": "/providers/ai-sdk-providers/openai",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk/providers/openai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/node/basics/stream-chat-completion",
+    "destination": "/examples/node/generating-text/stream-text-with-chat-prompt",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/node/basics/stream-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/awsbedrock-stream",
+    "destination": "/docs/reference/stream-helpers/aws-bedrock-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/awsbedrock-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/awsbedrock-llama2-stream",
+    "destination": "/docs/reference/stream-helpers/aws-bedrock-llama-2-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/awsbedrock-llama2-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/hugging-face",
+    "destination": "/docs/reference/stream-helpers/hugging-face-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/providers/hugging-face(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/hugging-face",
+    "destination": "/docs/reference/stream-helpers/hugging-face-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/hugging-face(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/db/schema/embeddings",
+    "destination": "/docs/ai-sdk-core/embeddings",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/db/schema/embeddings(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai/embedding",
+    "destination": "/docs/ai-sdk-core/embeddings",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai/embedding(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/acknowledgements",
+    "destination": "/docs/introduction",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/acknowledgements(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/frameworks/solidjs",
+    "destination": "/docs/getting-started",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/frameworks/solidjs(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/fireworks",
+    "destination": "/providers/ai-sdk-providers/fireworks",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/fireworks(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/fireworks-ai",
+    "destination": "/providers/ai-sdk-providers/fireworks",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/fireworks-ai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/streaming-not-working-in-production",
+    "destination": "/docs/troubleshooting/streaming-not-working-on-vercel",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/streaming-not-working-in-production(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/azure-stream-slow",
+    "destination": "/docs/troubleshooting/azure-stream-slow",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/azure-stream-slow(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/client-side-function-calls-not-invoked",
+    "destination": "/docs/troubleshooting/client-side-function-calls-not-invoked",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/client-side-function-calls-not-invoked(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/server-actions-in-client-components",
+    "destination": "/docs/troubleshooting/server-actions-in-client-components",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/server-actions-in-client-components(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/strange-stream-output",
+    "destination": "/docs/troubleshooting/strange-stream-output",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/strange-stream-output(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/streamable-ui-errors",
+    "destination": "/docs/troubleshooting/streamable-ui-errors",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/streamable-ui-errors(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/streaming-not-working-on-vercel",
+    "destination": "/docs/troubleshooting/streaming-not-working-on-vercel",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/streaming-not-working-on-vercel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/streaming-not-working-on-vercel-pages-router",
+    "destination": "/docs/troubleshooting/streaming-not-working-on-vercel-pages-router",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/streaming-not-working-on-vercel-pages-router(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/timeout-on-vercel",
+    "destination": "/docs/troubleshooting/timeout-on-vercel",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/timeout-on-vercel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/unclosed-streams",
+    "destination": "/docs/troubleshooting/unclosed-streams",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/unclosed-streams(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/use-chat-failed-to-parse-stream",
+    "destination": "/docs/troubleshooting/use-chat-failed-to-parse-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/use-chat-failed-to-parse-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/client-stream-error",
+    "destination": "/docs/troubleshooting/client-stream-error",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/client-stream-error(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/use-chat-tools-no-response",
+    "destination": "/docs/troubleshooting/use-chat-tools-no-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/use-chat-tools-no-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/nan-token-counts-openai-streaming",
+    "destination": "/docs/troubleshooting/nan-token-counts-openai-streaming",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/nan-token-counts-openai-streaming(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/model-is-not-assignable-to-type",
+    "destination": "/docs/troubleshooting/model-is-not-assignable-to-type",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/model-is-not-assignable-to-type(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/typescript-cannot-find-namespace-jsx",
+    "destination": "/docs/troubleshooting/typescript-cannot-find-namespace-jsx",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/typescript-cannot-find-namespace-jsx(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/react-maximum-update-depth-exceeded",
+    "destination": "/docs/troubleshooting/react-maximum-update-depth-exceeded",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/react-maximum-update-depth-exceeded(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/inkeeps-stream",
+    "destination": "/docs/reference/stream-helpers/inkeep-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/inkeeps-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/stream-object",
+    "destination": "/docs/ai-sdk-core/generating-structured-data",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/stream-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/ai-sdk-core/generating-structured-data",
+    "destination": "/docs/ai-sdk-core/generating-structured-data",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/ai-sdk-core/generating-structured-data(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-rsc",
+    "destination": "/docs/ai-sdk-rsc",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-rsc(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/langchain",
+    "destination": "/providers/adapters/langchain",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/langchain(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/getting-started/nextjs-app-router",
+    "destination": "/docs/getting-started/nextjs-app-router",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/getting-started/nextjs-app-router(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/working-with-llms/settings",
+    "destination": "/docs/ai-sdk-core/settings",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/working-with-llms/settings(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-core/model-registry",
+    "destination": "/docs/reference/ai-sdk-core/provider-registry",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-core/model-registry(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-providers",
+    "destination": "/providers/ai-sdk-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/sveltekit/chat/stream-chat-completion",
+    "destination": "/examples",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/sveltekit/chat/stream-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/node/basics/stream-text-generation",
+    "destination": "/examples/node/generating-text/stream-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/node/basics/stream-text-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/node/basics/generate-text",
+    "destination": "/examples/node/generating-text/generate-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/node/basics/generate-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/tools/render-component-during-call",
+    "destination": "/examples/next-app/tools/render-interface-during-tool-call",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/tools/render-component-during-call(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/state-management/persist-and-restore-states",
+    "destination": "/examples/next-app/state-management/save-and-restore-states",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/state-management/persist-and-restore-states(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/state-management/ai-and-ui-states",
+    "destination": "/examples/next-app/state-management/ai-ui-states",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/state-management/ai-and-ui-states(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/interface/stream-component-updates",
+    "destination": "/examples/next-app/interface/stream-component-updates",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/interface/stream-component-updates(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/interface/route-components",
+    "destination": "/examples/next-app/interface/route-components",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/interface/route-components(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/interface/add-interactions-to-context",
+    "destination": "/examples/next-app/interface",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/interface/add-interactions-to-context(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/basics/stream-text-generation",
+    "destination": "/examples/next-app/basics/streaming-text-generation",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/basics/stream-text-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/basics/generate-text",
+    "destination": "/examples/next-app/basics/generating-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/basics/generate-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/examples/next-app/basics/generate-object",
+    "destination": "/examples/next-app/basics/generating-object",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/examples/next-app/basics/generate-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/building-your-application/ai-rsc",
+    "destination": "/docs/ai-sdk-rsc/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/building-your-application/ai-rsc(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-rsc/multi-step-interfaces",
+    "destination": "/docs/advanced/multistep-interfaces",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-rsc/multi-step-interfaces(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/ai-sdk-rsc",
+    "destination": "/docs/ai-sdk-rsc",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/ai-sdk-rsc(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/ai-sdk-core/settings",
+    "destination": "/docs/ai-sdk-core/settings",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/ai-sdk-core/settings(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/ai-sdk-core/schemas-and-zod",
+    "destination": "/docs/foundations/tools#schema-specification-and-validation-with-zod",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/ai-sdk-core/schemas-and-zod(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/ai-sdk-core/embeddings",
+    "destination": "/docs/ai-sdk-core/embeddings",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/ai-sdk-core/embeddings(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/ai-sdk-core/generating-text",
+    "destination": "/docs/ai-sdk-core/generating-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/ai-sdk-core/generating-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/ai-sdk-core/prompts",
+    "destination": "/docs/foundations/prompts",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/ai-sdk-core/prompts(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/advanced/streaming",
+    "destination": "/docs/foundations/streaming",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/advanced/streaming(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/openai-compatible-providers/fireworks",
+    "destination": "/providers/ai-sdk-providers/fireworks",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/openai-compatible-providers/fireworks(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/openai-compatible-providers/togetherai",
+    "destination": "/providers/ai-sdk-providers/togetherai",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/openai-compatible-providers/togetherai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/openai-compatible-providers/baseten",
+    "destination": "/providers/ai-sdk-providers/baseten",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/openai-compatible-providers/baseten(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/migration-guide/migration-guide-3-1",
+    "destination": "/docs/migration-guides/migration-guide-3-1",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/troubleshooting/migration-guide/migration-guide-3-1(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/migration-guide/migration-guide-3-2",
+    "destination": "/docs/migration-guides/migration-guide-3-2",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/troubleshooting/migration-guide/migration-guide-3-2(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/migration-guide/migration-guide-3-3",
+    "destination": "/docs/migration-guides/migration-guide-3-3",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/troubleshooting/migration-guide/migration-guide-3-3(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/migration-guide/migration-guide-3-4",
+    "destination": "/docs/migration-guides/migration-guide-3-4",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/troubleshooting/migration-guide/migration-guide-3-4(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/migration-guide/migration-guide-4-0",
+    "destination": "/docs/migration-guides/migration-guide-4-0",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/troubleshooting/migration-guide/migration-guide-4-0(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-ui/storing-messages",
+    "destination": "/docs/ai-sdk-ui/chatbot-message-persistence",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/ai-sdk-ui/storing-messages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/cookbook/next/restore-messages-from-database",
+    "destination": "/docs/ai-sdk-ui/chatbot-message-persistence",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/cookbook/next/restore-messages-from-database(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/cookbook/next/save-messages-from-database",
+    "destination": "/docs/ai-sdk-ui/chatbot-message-persistence",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/cookbook/next/save-messages-from-database(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/cookbook/next/save-messages-to-database",
+    "destination": "/docs/ai-sdk-ui/chatbot-message-persistence",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/cookbook/next/save-messages-to-database(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-ui/chatbot-with-tool-calling",
+    "destination": "/docs/ai-sdk-ui/chatbot-tool-usage",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/ai-sdk-ui/chatbot-with-tool-calling(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/api/notifications",
+    "destination": "/",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/api/notifications(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/api/object",
+    "destination": "/docs/reference/ai-sdk-ui/use-object",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/api/object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/api/use-chat",
+    "destination": "/docs/reference/ai-sdk-ui/use-chat#usechat",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/api/use-chat(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/api/use-object",
+    "destination": "/docs/reference/ai-sdk-ui/use-object",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/api/use-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-rsc/ErrorBoundary",
+    "destination": "/docs/ai-sdk-rsc/error-handling",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-rsc/ErrorBoundary(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-ui/api/notifications/schema",
+    "destination": "/docs/ai-sdk-ui/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-ui/api/notifications/schema(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/anthropic-stream",
+    "destination": "/docs/reference/stream-helpers/anthropic-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/anthropic-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/assistant-response",
+    "destination": "/docs/reference/ai-sdk-ui/assistant-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/assistant-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/huggingface-stream",
+    "destination": "/docs/reference/stream-helpers/hugging-face-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/huggingface-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/langchain-stream",
+    "destination": "/docs/reference/stream-helpers/langchain-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/langchain-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/api-reference/openai-stream",
+    "destination": "/docs/reference/stream-helpers/openai-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/api-reference/openai-stream(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/frameworks/nuxt",
+    "destination": "/docs/getting-started/nuxt",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/frameworks/nuxt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/providers/openai-functions",
+    "destination": "/providers/ai-sdk-providers/openai",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/providers/openai-functions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-providers/amazon-bedrock",
+    "destination": "/providers/ai-sdk-providers/amazon-bedrock",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-providers/amazon-bedrock(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-providers/anthropic",
+    "destination": "/providers/ai-sdk-providers/anthropic",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-providers/anthropic(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-providers/azure",
+    "destination": "/providers/ai-sdk-providers/azure",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-providers/azure(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-providers/fireworks",
+    "destination": "/providers/ai-sdk-providers/fireworks",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-providers/fireworks(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-providers/google-geneative-ai",
+    "destination": "/providers/ai-sdk-providers/google",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-providers/google-geneative-ai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-providers/google-vertex",
+    "destination": "/providers/ai-sdk-providers/google-vertex",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-providers/google-vertex(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-providers/groq",
+    "destination": "/providers/ai-sdk-providers/groq",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-providers/groq(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/providers/ai-sdk-provviders/groq",
+    "destination": "/providers/ai-sdk-providers/groq",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/providers/ai-sdk-provviders/groq(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/stream-data",
+    "destination": "/docs/reference/ai-sdk-ui/stream-data#streamdata",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/stream-data(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/stream-helpers/to-data-stream-response",
+    "destination": "/docs/reference/ai-sdk-core/stream-text#to-data-stream-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/stream-helpers/to-data-stream-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/ai-sdk-errors",
+    "destination": "/docs/reference/ai-sdk-errors",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/ai-sdk-errors(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues",
+    "destination": "/docs/troubleshooting",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/common-issues/streaming-not-working-in-production",
+    "destination": "/docs/troubleshooting/streaming-not-working-on-vercel",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/common-issues/streaming-not-working-in-production(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/troubleshooting/migration-guide",
+    "destination": "/docs/migration-guides",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/troubleshooting/migration-guide(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/community-providers/custom-chat-settings",
+    "destination": "/providers/community-providers/custom-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/community-providers/custom-chat-settings(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers",
+    "destination": "/docs/reference/stream-helpers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/anthropic",
+    "destination": "/docs/reference/stream-helpers/anthropic-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/anthropic(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/aws-bedrock",
+    "destination": "/docs/reference/stream-helpers/aws-bedrock-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/aws-bedrock(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/azure-openai",
+    "destination": "/docs/reference/stream-helpers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/azure-openai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/cohere",
+    "destination": "/docs/reference/stream-helpers/cohere-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/cohere(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/google",
+    "destination": "/docs/reference/stream-helpers/google-generative-ai-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/google(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/inkeep",
+    "destination": "/docs/reference/stream-helpers/inkeep-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/inkeep(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/langchain",
+    "destination": "/docs/reference/stream-helpers/langchain-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/langchain(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/mistral",
+    "destination": "/docs/reference/stream-helpers/mistral-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/mistral(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/openai",
+    "destination": "/docs/reference/stream-helpers/openai-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/openai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/openai-functions",
+    "destination": "/providers/ai-sdk-providers/openai",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/openai-functions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/rag-chatbot-app",
+    "destination": "/docs/guides/rag-chatbot",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/rag-chatbot-app(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-rsc/actions",
+    "destination": "/docs/ai-sdk-rsc/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-rsc/actions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-core/middleware",
+    "destination": "/docs/ai-sdk-core/middleware",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-core/middleware(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/lib/handle-messages",
+    "destination": "/docs/ai-sdk-core/tools-and-tool-calling",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/lib/handle-messages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/guides/functions",
+    "destination": "/docs/guides/rag-chatbot",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/guides/functions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/ai-sdk-providers/openai-compatible",
+    "destination": "/providers/openai-compatible-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/ai-sdk-providers/openai-compatible(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/perplexity",
+    "destination": "/docs/reference/stream-helpers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/perplexity(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/legacy-providers/replicate",
+    "destination": "/docs/reference/stream-helpers/replicate-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/legacy-providers/replicate(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/repo",
+    "destination": "https://github.com/vercel/ai",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/repo(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/rsc-demo",
+    "destination": "/docs/ai-sdk-rsc/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/rsc-demo(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/stream-data",
+    "destination": "/docs/reference/ai-sdk-ui/stream-data",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/stream-data(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/demoXXXX",
+    "destination": "/",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/demoXXXX(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs-og-image",
+    "destination": "/",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs-og-image(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/ai-sdk-providers/data/ai.pdf",
+    "destination": "/",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/ai-sdk-providers/data/ai\\.pdf(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/repo/file.py",
+    "destination": "/",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/repo/file\\.py(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/agents",
+    "destination": "/docs/agents",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/agents(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/announcing-ai-sdk-5-alpha",
+    "destination": "/docs/announcing-ai-sdk-5-beta",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/announcing-ai-sdk-5-alpha(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/announcing-ai-sdk-5-beta",
+    "destination": "https://vercel.com/blog/ai-sdk-5",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/announcing-ai-sdk-5-beta(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/harnesses/overview",
+    "destination": "/docs/ai-sdk-harnesses/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/harnesses/overview(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-ui/append-response-messages",
+    "destination": "/docs/migration-guides/migration-guide-5-0#message-persistence-changes",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-ui/append-response-messages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-ui/append-client-message",
+    "destination": "/docs/migration-guides/migration-guide-5-0#message-persistence-changes",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-ui/append-client-message(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-ui/pipe-data-stream-to-response",
+    "destination": "/docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-ui/pipe-data-stream-to-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-ui/stream-data",
+    "destination": "/docs/migration-guides/migration-guide-5-0#stream-data-removal",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-ui/stream-data(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-ui/smooth-stream-japanese",
+    "destination": "/docs/reference/ai-sdk-core/smooth-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-ui/smooth-stream-japanese(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-ui/smooth-stream-chinese",
+    "destination": "/docs/reference/ai-sdk-core/smooth-stream",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-ui/smooth-stream-chinese(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-ui/create-data-stream-response",
+    "destination": "/docs/reference/ai-sdk-ui/create-ui-message-stream-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-ui/create-data-stream-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-ui/assistant-response",
+    "destination": "/docs/reference/ai-sdk-ui/use-chat",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-ui/assistant-response(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/foundations/agents",
+    "destination": "/docs/agents/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/foundations/agents(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-errors/ai-no-audio-generated-error",
+    "destination": "/docs/reference/ai-sdk-errors/ai-no-speech-generated-error",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-errors/ai-no-audio-generated-error(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/introduction/announcing-ai-sdk-6-beta",
+    "destination": "/docs/announcing-ai-sdk-6-beta",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/introduction/announcing-ai-sdk-6-beta(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/cookbook/guides/gemini-2-5",
+    "destination": "/cookbook/guides/gemini",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/cookbook/guides/gemini-2-5(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/announcing-ai-sdk-6-beta",
+    "destination": "https://vercel.com/blog/ai-sdk-6",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/announcing-ai-sdk-6-beta(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/providers/ai-sdk-providers/google-generative-ai",
+    "destination": "/providers/ai-sdk-providers/google",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/providers/ai-sdk-providers/google-generative-ai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/getting-started",
+    "destination": "/docs/getting-started",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/getting-started(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/unauthenticated-ai-gateway/:path*",
+    "destination": "/unauthenticated-ai-gateway/:path*",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/unauthenticated-ai-gateway(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+    "parameters": [
+      "path"
+    ]
+  },
+  {
+    "source": "/docs/:section(foundations|agents|ai-sdk-core|ai-sdk-harnesses|ai-sdk-ui|ai-sdk-rsc)",
+    "destination": "/docs/:section/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs(?:/(foundations|agents|ai-sdk-core|ai-sdk-harnesses|ai-sdk-ui|ai-sdk-rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/docs/:section(foundations|agents|ai-sdk-core|ai-sdk-harnesses|ai-sdk-ui|ai-sdk-rsc).md",
+    "destination": "/docs/:section/overview.md",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs(?:/(foundations|agents|ai-sdk-core|ai-sdk-harnesses|ai-sdk-ui|ai-sdk-rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v6/docs/:section(foundations|agents|ai-sdk-core|ai-sdk-ui|ai-sdk-rsc)",
+    "destination": "/v6/docs/:section/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v6/docs(?:/(foundations|agents|ai-sdk-core|ai-sdk-ui|ai-sdk-rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v6/docs/:section(foundations|agents|ai-sdk-core|ai-sdk-ui|ai-sdk-rsc).md",
+    "destination": "/v6/docs/:section/overview.md",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v6/docs(?:/(foundations|agents|ai-sdk-core|ai-sdk-ui|ai-sdk-rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v5/docs/:section(foundations|agents|ai-sdk-core|ai-sdk-ui|ai-sdk-rsc)",
+    "destination": "/v5/docs/:section/overview",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v5/docs(?:/(foundations|agents|ai-sdk-core|ai-sdk-ui|ai-sdk-rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v5/docs/:section(foundations|agents|ai-sdk-core|ai-sdk-ui|ai-sdk-rsc).md",
+    "destination": "/v5/docs/:section/overview.md",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v5/docs(?:/(foundations|agents|ai-sdk-core|ai-sdk-ui|ai-sdk-rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v6/docs",
+    "destination": "/v6/docs/introduction",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/docs(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/docs",
+    "destination": "/v5/docs/introduction",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v5/docs(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/providers",
+    "destination": "/v6/providers/ai-sdk-providers",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/providers",
+    "destination": "/v5/providers/ai-sdk-providers",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v5/providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/tools-registry",
+    "destination": "/resources/tools",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/tools-registry(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/tools-registry/:slug",
+    "destination": "/resources/tools/:slug",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/tools-registry(?:/([^/]+?))(?:/)?$",
+    "parameters": [
+      "slug"
+    ]
+  },
+  {
+    "source": "/showcase",
+    "destination": "/resources/showcase",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/showcase(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools/call-tool-in-parallel",
+    "destination": "/examples/node/tools/call-tools-in-parallel",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/node/tools/call-tool-in-parallel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/tools/call-function",
+    "destination": "/examples/next-app/tools/call-tool",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-app/tools/call-function(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/tools/call-functions-in-parallel",
+    "destination": "/examples/next-pages/tools/call-tools-in-parallel",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-app/tools/call-functions-in-parallel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools/call-function-in-parallel",
+    "destination": "/examples/node/tools/call-tools-in-parallel",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/node/tools/call-function-in-parallel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools/call-function-with-image-prompt",
+    "destination": "/examples/node/tools/call-tool-with-image-prompt",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/node/tools/call-function-with-image-prompt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/tools/render-interface-during-function-call",
+    "destination": "/examples/node/tools",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-app/tools/render-interface-during-function-call(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools/call-function",
+    "destination": "/examples/node/tools/call-tool",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/node/tools/call-function(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-structured-data/stream-object",
+    "destination": "/examples/node/generating-structured-data/generate-object",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/node/generating-structured-data/stream-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/chat/use-chat-image-input",
+    "destination": "/examples/next-app/chat",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-app/chat/use-chat-image-input(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app",
+    "destination": "/examples/next",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages",
+    "destination": "/examples/next",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/basics",
+    "destination": "/examples/next/basics",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/basics(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/basics/generating-text",
+    "destination": "/examples/next/basics/generating-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/basics/generating-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/basics/streaming-text-generation",
+    "destination": "/examples/next/basics/streaming-text-generation",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/basics/streaming-text-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/basics/generating-object",
+    "destination": "/examples/next/basics/generating-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/basics/generating-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/basics/streaming-object-generation",
+    "destination": "/examples/next/basics/streaming-object-generation",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/basics/streaming-object-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/chat",
+    "destination": "/examples/next/chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/chat(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/chat/generate-chat-completion",
+    "destination": "/examples/next/chat/generate-chat-completion",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/chat/generate-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/chat/stream-chat-completion",
+    "destination": "/examples/next/chat/stream-chat-completion",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/chat/stream-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/chat/use-chat-image-input",
+    "destination": "/examples/next/chat/use-chat-image-input",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/chat/use-chat-image-input(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/chat/use-chat-custom-body",
+    "destination": "/examples/next/chat/use-chat-custom-body",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/chat/use-chat-custom-body(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/tools",
+    "destination": "/examples/next/tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/tools/call-tool",
+    "destination": "/examples/next/tools/call-tool",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/tools/call-tool(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/tools/call-tools-in-parallel",
+    "destination": "/examples/next/tools/call-tools-in-parallel",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/tools/call-tools-in-parallel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/tools/render-interface-during-tool-call",
+    "destination": "/examples/next/tools/render-interface-during-tool-call",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/tools/render-interface-during-tool-call(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/state-management",
+    "destination": "/examples/next/state-management",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/state-management(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/state-management/save-messages",
+    "destination": "/examples/next/state-management/save-messages",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/state-management/save-messages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/state-management/restore-messages",
+    "destination": "/examples/next/state-management/restore-messages",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/state-management/restore-messages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/interface",
+    "destination": "/examples/next/interface",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/interface(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/interface/route-components",
+    "destination": "/examples/next/interface/route-components",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/interface/route-components(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/assistants",
+    "destination": "/examples/next/assistants",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/assistants(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/assistants/stream-assistant-responses",
+    "destination": "/examples/next/assistants/stream-assistant-responses",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/assistants/stream-assistant-responses(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/assistants/stream-assistant-responses-with-tools",
+    "destination": "/examples/next/assistants/stream-assistant-responses-with-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-pages/assistants/stream-assistant-responses-with-tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/basics",
+    "destination": "/examples/rsc/basics",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/basics(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/basics/generating-text",
+    "destination": "/examples/rsc/basics/generating-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/basics/generating-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/basics/streaming-text-generation",
+    "destination": "/examples/rsc/basics/streaming-text-generation",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/basics/streaming-text-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/basics/generating-object",
+    "destination": "/examples/rsc/basics/generating-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/basics/generating-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/basics/streaming-object-generation",
+    "destination": "/examples/rsc/basics/streaming-object-generation",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/basics/streaming-object-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/chat",
+    "destination": "/examples/rsc/chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/chat(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/chat/generate-chat-completion",
+    "destination": "/examples/rsc/chat/generate-chat-completion",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/chat/generate-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/chat/stream-chat-completion",
+    "destination": "/examples/rsc/chat/stream-chat-completion",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/chat/stream-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/tools",
+    "destination": "/examples/rsc/tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/tools/call-tool",
+    "destination": "/examples/rsc/tools/call-tool",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/tools/call-tool(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/tools/call-tools-in-parallel",
+    "destination": "/examples/rsc/tools/call-tools-in-parallel",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/tools/call-tools-in-parallel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/tools/render-interface-during-tool-call",
+    "destination": "/examples/rsc/tools/render-interface-during-tool-call",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/tools/render-interface-during-tool-call(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/state-management",
+    "destination": "/examples/rsc/state-management",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/state-management(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/state-management/ai-ui-states",
+    "destination": "/examples/rsc/state-management/ai-ui-states",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/state-management/ai-ui-states(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/state-management/save-and-restore-states",
+    "destination": "/examples/rsc/state-management/save-and-restore-states",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/state-management/save-and-restore-states(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/interface",
+    "destination": "/examples/rsc/interface",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/interface(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/interface/route-components",
+    "destination": "/examples/rsc/interface/route-components",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/interface/route-components(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/interface/stream-component-updates",
+    "destination": "/examples/rsc/interface/stream-component-updates",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/interface/stream-component-updates(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/interface/token-usage",
+    "destination": "/examples/rsc/interface/token-usage",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/interface/token-usage(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/assistants",
+    "destination": "/examples/rsc/assistants",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/assistants(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/assistants/stream-assistant-responses",
+    "destination": "/examples/rsc/assistants/stream-assistant-responses",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/assistants/stream-assistant-responses(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/assistants/stream-assistant-responses-with-tools",
+    "destination": "/examples/rsc/assistants/stream-assistant-responses-with-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next-app/assistants/stream-assistant-responses-with-tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples",
+    "destination": "/cookbook",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next",
+    "destination": "/cookbook/next/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/basics",
+    "destination": "/cookbook/next/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/basics(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/basics/generating-text",
+    "destination": "/cookbook/next/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/basics/generating-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/basics/streaming-text-generation",
+    "destination": "/cookbook/next/stream-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/basics/streaming-text-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/basics/generating-object",
+    "destination": "/cookbook/next/generate-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/basics/generating-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/basics/streaming-object-generation",
+    "destination": "/cookbook/next/stream-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/basics/streaming-object-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/chat",
+    "destination": "/cookbook/next/generate-text-with-chat-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/chat(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/chat/generate-chat-completion",
+    "destination": "/cookbook/next/generate-text-with-chat-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/chat/generate-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/chat/stream-chat-completion",
+    "destination": "/cookbook/next/stream-text-with-chat-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/chat/stream-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/chat/use-chat-image-input",
+    "destination": "/cookbook/next/stream-text-with-image-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/chat/use-chat-image-input(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/chat/use-chat-custom-body",
+    "destination": "/cookbook/next/send-custom-body-from-use-chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/chat/use-chat-custom-body(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/tools",
+    "destination": "/cookbook/next/call-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/tools/call-tool",
+    "destination": "/cookbook/next/call-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/tools/call-tool(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/tools/call-tools-in-parallel",
+    "destination": "/cookbook/next/call-tools-in-parallel",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/tools/call-tools-in-parallel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/tools/render-interface-during-tool-call",
+    "destination": "/cookbook/next/render-visual-interface-in-chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/tools/render-interface-during-tool-call(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/state-management",
+    "destination": "/docs/ai-sdk-ui/chatbot-message-persistence",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/state-management(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/state-management/save-messages",
+    "destination": "/docs/ai-sdk-ui/chatbot-message-persistence",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/state-management/save-messages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/state-management/restore-messages",
+    "destination": "/docs/ai-sdk-ui/chatbot-message-persistence",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/state-management/restore-messages(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/interface",
+    "destination": "/cookbook/next/render-visual-interface-in-chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/interface(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/interface/route-components",
+    "destination": "/cookbook/next/render-visual-interface-in-chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/interface/route-components(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/assistants",
+    "destination": "/cookbook/next/stream-assistant-response",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/assistants(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/assistants/stream-assistant-responses",
+    "destination": "/cookbook/next/stream-assistant-response",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/assistants/stream-assistant-responses(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/assistants/stream-assistant-responses-with-tools",
+    "destination": "/cookbook/next/stream-assistant-response-with-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/next/assistants/stream-assistant-responses-with-tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node",
+    "destination": "/cookbook/node/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-text",
+    "destination": "/cookbook/node/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-text/generate-text",
+    "destination": "/cookbook/node/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-text/generate-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-text/stream-text",
+    "destination": "/cookbook/node/stream-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-text/stream-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-text/generate-text-with-chat-prompt",
+    "destination": "/cookbook/node/generate-text-with-chat-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-text/generate-text-with-chat-prompt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-text/stream-text-with-chat-prompt",
+    "destination": "/cookbook/node/stream-text-with-chat-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-text/stream-text-with-chat-prompt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-text/generate-text-with-image-prompt",
+    "destination": "/cookbook/node/generate-text-with-image-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-text/generate-text-with-image-prompt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-text/rag",
+    "destination": "/cookbook/node/retrieval-augmented-generation",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-text/rag(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-structured-data",
+    "destination": "/cookbook/node/generate-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-structured-data(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-structured-data/generate-object",
+    "destination": "/cookbook/node/generate-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-structured-data/generate-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/generating-structured-data/add-images-to-prompt",
+    "destination": "/cookbook/node/stream-object-with-image-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/generating-structured-data/add-images-to-prompt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/streaming-structured-data",
+    "destination": "/cookbook/node/stream-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/streaming-structured-data(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/streaming-structured-data/stream-object",
+    "destination": "/cookbook/node/stream-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/streaming-structured-data/stream-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/streaming-structured-data/token-usage",
+    "destination": "/cookbook/node/stream-object-record-token-usage",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/streaming-structured-data/token-usage(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/streaming-structured-data/object",
+    "destination": "/cookbook/node/stream-object-record-final-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/streaming-structured-data/object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools",
+    "destination": "/cookbook/node/call-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools/call-tool",
+    "destination": "/cookbook/node/call-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/tools/call-tool(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools/call-tool-with-image-prompt",
+    "destination": "/cookbook/node/call-tools-with-image-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/tools/call-tool-with-image-prompt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools/call-tools-in-parallel",
+    "destination": "/cookbook/node/call-tools-in-parallel",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/tools/call-tools-in-parallel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/node/tools/call-tools-with-automatic-roundtrips",
+    "destination": "/cookbook/node/call-tools-multiple-steps",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/node/tools/call-tools-with-automatic-roundtrips(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc",
+    "destination": "/cookbook/rsc/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/generating-text",
+    "destination": "/cookbook/rsc/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/generating-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/basics/generating-text",
+    "destination": "/cookbook/rsc/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/basics/generating-text(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/basics/streaming-text-generation",
+    "destination": "/cookbook/rsc/stream-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/basics/streaming-text-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/basics/generating-object",
+    "destination": "/cookbook/rsc/generate-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/basics/generating-object(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/basics/streaming-object-generation",
+    "destination": "/cookbook/rsc/stream-object",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/basics/streaming-object-generation(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/chat",
+    "destination": "/cookbook/rsc/generate-text-with-chat-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/chat(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/chat/generate-chat-completion",
+    "destination": "/cookbook/rsc/generate-text-with-chat-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/chat/generate-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/chat/stream-chat-completion",
+    "destination": "/cookbook/rsc/stream-text-with-chat-prompt",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/chat/stream-chat-completion(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/tools",
+    "destination": "/cookbook/rsc/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/tools/call-tool",
+    "destination": "/cookbook/rsc/call-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/tools/call-tool(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/tools/call-tools-in-parallel",
+    "destination": "/cookbook/rsc/call-tools-in-parallel",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/tools/call-tools-in-parallel(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/tools/render-interface-during-tool-call",
+    "destination": "/cookbook/rsc/render-visual-interface-in-chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/tools/render-interface-during-tool-call(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/state-management",
+    "destination": "/cookbook/rsc/save-messages-to-database",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/state-management(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/state-management/ai-ui-states",
+    "destination": "/docs/ai-sdk-rsc/generative-ui-state#what-is-ai-and-ui-state",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/state-management/ai-ui-states(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/state-management/save-and-restore-states",
+    "destination": "/cookbook/rsc/save-messages-to-database",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/state-management/save-and-restore-states(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/interface",
+    "destination": "/cookbook/rsc/render-visual-interface-in-chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/interface(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/interface/route-components",
+    "destination": "/cookbook/rsc/render-visual-interface-in-chat",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/interface/route-components(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/interface/stream-component-updates",
+    "destination": "/cookbook/rsc/stream-updates-to-visual-interfaces",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/interface/stream-component-updates(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/interface/token-usage",
+    "destination": "/cookbook/rsc/stream-ui-record-token-usage",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/interface/token-usage(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/assistants",
+    "destination": "/cookbook/rsc/stream-assistant-response",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/assistants(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/assistants/stream-assistant-responses",
+    "destination": "/cookbook/rsc/stream-assistant-response",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/assistants/stream-assistant-responses(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/assistants/stream-assistant-responses-with-tools",
+    "destination": "/cookbook/rsc/stream-assistant-response-with-tools",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/rsc/assistants/stream-assistant-responses-with-tools(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/api-servers",
+    "destination": "/cookbook/api-servers/node-http-server",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/api-servers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/api-servers/node-js-http-server",
+    "destination": "/cookbook/api-servers/node-http-server",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/api-servers/node-js-http-server(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/api-servers/express",
+    "destination": "/cookbook/api-servers/express",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/api-servers/express(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/api-servers/hono",
+    "destination": "/cookbook/api-servers/hono",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/api-servers/hono(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/api-servers/fastify",
+    "destination": "/cookbook/api-servers/fastify",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/api-servers/fastify(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/api-servers/nest",
+    "destination": "/cookbook/api-servers/nest",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/api-servers/nest(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/providers",
+    "destination": "/cookbook/node/intercept-fetch-requests",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/providers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/providers/intercepting-fetch-requests",
+    "destination": "/cookbook/node/intercept-fetch-requests",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/examples/providers/intercepting-fetch-requests(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/assistants/function",
+    "destination": "/cookbook/next/stream-assistant-response-with-tools",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-app/assistants/function(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/state-management/actions",
+    "destination": "/cookbook/next/save-messages-to-database",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-app/state-management/actions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-app/state-management/ai",
+    "destination": "/cookbook/next/save-messages-to-database",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-app/state-management/ai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/basics/api/use-object/schema",
+    "destination": "/cookbook/next/generate-object",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-pages/basics/api/use-object/schema(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next-pages/basics/schema",
+    "destination": "/cookbook/next/generate-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next-pages/basics/schema(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/next/basics/schema",
+    "destination": "/cookbook/next/generate-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/next/basics/schema(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/assistants/ai",
+    "destination": "/cookbook/rsc/stream-assistant-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/assistants/ai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/assistants/function",
+    "destination": "/cookbook/rsc/stream-assistant-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/assistants/function(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/assistants/message",
+    "destination": "/cookbook/rsc/stream-assistant-response",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/assistants/message(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/basics",
+    "destination": "/cookbook/rsc/generate-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/basics(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/basics/actions",
+    "destination": "/cookbook/rsc/generate-text",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/basics/actions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/chat/actions",
+    "destination": "/cookbook/rsc/stream-text-with-chat-prompt",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/chat/actions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/interface/actions",
+    "destination": "/cookbook/rsc/render-visual-interface-in-chat",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/interface/actions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/state-management/ai",
+    "destination": "/cookbook/rsc/save-messages-to-database",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/state-management/ai(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/examples/rsc/tools/actions",
+    "destination": "/cookbook/rsc/call-tools",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/examples/rsc/tools/actions(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/elements",
+    "destination": "https://elements.ai-sdk.dev",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/elements(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/elements/:path*",
+    "destination": "https://elements.ai-sdk.dev/:path*",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/elements(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$",
+    "parameters": [
+      "path"
+    ]
+  },
+  {
+    "source": "/model-library",
+    "destination": "https://vercel.com/docs/ai-gateway",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/model-library(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/llms-full.txt",
+    "destination": "/llms.txt",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/llms-full\\.txt(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/cookbook",
+    "destination": "/resources/recipes",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/cookbook(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/cookbook/:section(next|node|rsc)",
+    "destination": "/cookbook/:section/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/cookbook(?:/(next|node|rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/cookbook/:section(next|node|rsc).md",
+    "destination": "/cookbook/:section/generate-text.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/cookbook(?:/(next|node|rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/cookbook/api-servers",
+    "destination": "/cookbook/api-servers/node-http-server",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/cookbook/api-servers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/cookbook/api-servers.md",
+    "destination": "/cookbook/api-servers/node-http-server.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/cookbook/api-servers\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/resources/recipes/:section(next|node|rsc)",
+    "destination": "/resources/recipes/:section/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/resources/recipes(?:/(next|node|rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/resources/recipes/:section(next|node|rsc).md",
+    "destination": "/resources/recipes/:section/generate-text.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/resources/recipes(?:/(next|node|rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/resources/recipes/api-servers",
+    "destination": "/resources/recipes/api-servers/node-http-server",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/resources/recipes/api-servers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/resources/recipes/api-servers.md",
+    "destination": "/resources/recipes/api-servers/node-http-server.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/resources/recipes/api-servers\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/cookbook",
+    "destination": "/v6/resources/recipes",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v6/cookbook(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/cookbook/:section(next|node|rsc)",
+    "destination": "/v6/cookbook/:section/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/cookbook(?:/(next|node|rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v6/cookbook/:section(next|node|rsc).md",
+    "destination": "/v6/cookbook/:section/generate-text.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/cookbook(?:/(next|node|rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v6/cookbook/api-servers",
+    "destination": "/v6/cookbook/api-servers/node-http-server",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/cookbook/api-servers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/cookbook/api-servers.md",
+    "destination": "/v6/cookbook/api-servers/node-http-server.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/cookbook/api-servers\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/resources/recipes/:section(next|node|rsc)",
+    "destination": "/v6/resources/recipes/:section/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/resources/recipes(?:/(next|node|rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v6/resources/recipes/:section(next|node|rsc).md",
+    "destination": "/v6/resources/recipes/:section/generate-text.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/resources/recipes(?:/(next|node|rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v6/resources/recipes/api-servers",
+    "destination": "/v6/resources/recipes/api-servers/node-http-server",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/resources/recipes/api-servers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/resources/recipes/api-servers.md",
+    "destination": "/v6/resources/recipes/api-servers/node-http-server.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/resources/recipes/api-servers\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/cookbook",
+    "destination": "/v5/resources/recipes",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v5/cookbook(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/cookbook/:section(next|node|rsc)",
+    "destination": "/v5/cookbook/:section/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/cookbook(?:/(next|node|rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v5/cookbook/:section(next|node|rsc).md",
+    "destination": "/v5/cookbook/:section/generate-text.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/cookbook(?:/(next|node|rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v5/cookbook/api-servers",
+    "destination": "/v5/cookbook/api-servers/node-http-server",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/cookbook/api-servers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/cookbook/api-servers.md",
+    "destination": "/v5/cookbook/api-servers/node-http-server.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/cookbook/api-servers\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/resources/recipes/:section(next|node|rsc)",
+    "destination": "/v5/resources/recipes/:section/generate-text",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/resources/recipes(?:/(next|node|rsc))(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v5/resources/recipes/:section(next|node|rsc).md",
+    "destination": "/v5/resources/recipes/:section/generate-text.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/resources/recipes(?:/(next|node|rsc))\\.md(?:/)?$",
+    "parameters": [
+      "section"
+    ]
+  },
+  {
+    "source": "/v5/resources/recipes/api-servers",
+    "destination": "/v5/resources/recipes/api-servers/node-http-server",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/resources/recipes/api-servers(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/resources/recipes/api-servers.md",
+    "destination": "/v5/resources/recipes/api-servers/node-http-server.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/resources/recipes/api-servers\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/prompts",
+    "destination": "/docs/foundations/prompts",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/prompts(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/ai-sdk-core/prompts.md",
+    "destination": "/docs/foundations/prompts.md",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/docs/ai-sdk-core/prompts\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/docs/ai-sdk-core/prompts",
+    "destination": "/v6/docs/foundations/prompts",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v6/docs/ai-sdk-core/prompts(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/docs/ai-sdk-core/prompts.md",
+    "destination": "/v6/docs/foundations/prompts.md",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v6/docs/ai-sdk-core/prompts\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/docs/ai-sdk-core/prompts",
+    "destination": "/v5/docs/foundations/prompts",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v5/docs/ai-sdk-core/prompts(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/docs/ai-sdk-core/prompts.md",
+    "destination": "/v5/docs/foundations/prompts.md",
+    "statusCode": 308,
+    "regex": "^(?!/_next)/v5/docs/ai-sdk-core/prompts\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-core/validate-json-rpc-message",
+    "destination": "/docs/reference/ai-sdk-core/create-mcp-client",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-core/validate-json-rpc-message(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/docs/reference/ai-sdk-core/validate-json-rpc-message.md",
+    "destination": "/docs/reference/ai-sdk-core/create-mcp-client.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/docs/reference/ai-sdk-core/validate-json-rpc-message\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/docs/reference/ai-sdk-core/validate-json-rpc-message",
+    "destination": "/v6/docs/reference/ai-sdk-core/create-mcp-client",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/docs/reference/ai-sdk-core/validate-json-rpc-message(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v6/docs/reference/ai-sdk-core/validate-json-rpc-message.md",
+    "destination": "/v6/docs/reference/ai-sdk-core/create-mcp-client.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v6/docs/reference/ai-sdk-core/validate-json-rpc-message\\.md(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/docs/reference/ai-sdk-core/validate-json-rpc-message",
+    "destination": "/v5/docs/reference/ai-sdk-core/create-mcp-client",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/docs/reference/ai-sdk-core/validate-json-rpc-message(?:/)?$",
+    "parameters": []
+  },
+  {
+    "source": "/v5/docs/reference/ai-sdk-core/validate-json-rpc-message.md",
+    "destination": "/v5/docs/reference/ai-sdk-core/create-mcp-client.md",
+    "statusCode": 307,
+    "regex": "^(?!/_next)/v5/docs/reference/ai-sdk-core/validate-json-rpc-message\\.md(?:/)?$",
+    "parameters": []
+  }
+]

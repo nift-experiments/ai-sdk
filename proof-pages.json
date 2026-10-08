@@ -10,7 +10,7 @@
   {
     "route": "/docs/introduction",
     "name": "docs/introduction/index",
-    "source": "sources/v7/docs/introduction/index.mdx",
+    "source": "authored/v7/docs/00-introduction/index.mdx",
     "body": "generated/v7/docs/introduction/index.html",
     "prefix": "shells/docs/introduction/index.prefix.html",
     "suffix": "shells/docs/introduction/index.suffix.html",
@@ -22,7 +22,7 @@
   {
     "route": "/docs/reference/ai-sdk-core/stream-text",
     "name": "docs/reference/ai-sdk-core/stream-text/index",
-    "source": "sources/v7/docs/reference/ai-sdk-core/stream-text.mdx",
+    "source": "authored/v7/docs/07-reference/01-ai-sdk-core/02-stream-text.mdx",
     "body": "generated/v7/docs/reference/ai-sdk-core/stream-text.html",
     "prefix": "shells/docs/reference/ai-sdk-core/stream-text/index.prefix.html",
     "suffix": "shells/docs/reference/ai-sdk-core/stream-text/index.suffix.html",

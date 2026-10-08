@@ -1,0 +1,49 @@
+{
+  "scope": "A4 current documentation; complete-site browser/transport parity remains A7",
+  "current_documentation_routes": 288,
+  "tracked_routes_including_A3_prototypes": 293,
+  "representative_browser_comparisons": [
+    {
+      "route": "/docs/reference/ai-sdk-core/stream-text",
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "title_equal": true,
+      "heading_equal": true,
+      "bodyVisibleText_equal": true,
+      "toc_equal": true,
+      "articleRect_equal": true
+    },
+    {
+      "route": "/docs/reference/ai-sdk-core/stream-text",
+      "css_viewport": [
+        390,
+        844
+      ],
+      "title_equal": true,
+      "heading_equal": true,
+      "bodyVisibleText_equal": true,
+      "toc_equal": true,
+      "articleRect_equal": true
+    }
+  ],
+  "observed_interactions": [
+    "provider tab updates code",
+    "version menu lists v7/v6/v5",
+    "Resources menu keyboard activation exposes links",
+    "mobile Browse and TOC drawers",
+    "desktop TOC labels including inline code",
+    "theme selection",
+    "page actions menu"
+  ],
+  "transport": "Search/projections/OG/AI/feedback remain A6/A7. No live AI/feedback/analytics requests.",
+  "package_coupling": [
+    "internal page-actions-client",
+    "internal page-breadcrumb",
+    "internal page-footer",
+    "internal table-of-contents"
+  ],
+  "next_runtime_bundle_inputs": 0,
+  "nift_core_changes": false
+}

@@ -1,0 +1,1730 @@
+[
+  {
+    "route": "/docs/advanced/backpressure",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/caching",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/model-as-router",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/multiple-streamables",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/multistep-interfaces",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/prompt-engineering",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/rate-limiting",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/rendering-ui-with-language-models",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/secure-url-fetching",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/sequential-generations",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/stopping-streams",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/advanced/vercel-deployment-guide",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/building-agents",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/configuring-call-options",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/loop-control",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/memory",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/overview",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/policy-tool-approvals",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/subagents",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/terminal-ui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/tool-approvals",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/workflow-agent",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/agents/workflows",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/batch",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/code-mode",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/decisions",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/devtools",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/embeddings",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/error-handling",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/file-uploads",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/generating-structured-data",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/generating-text",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/image-generation",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/lifecycle-callbacks",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/mcp-apps",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/mcp-events",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/mcp-tools",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/middleware",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/overview",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/prompt-engineering",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/provider-management",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/realtime",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/reasoning",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/reranking",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/runtime-and-tool-context",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/settings",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/skill-uploads",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/speech",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/telemetry",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/testing",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/tool-search",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/tools-and-tool-calling",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/transcription",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/translation",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-core/video-generation",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-harnesses/harness-adapters",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-harnesses/harness-agent",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-harnesses/overview",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-harnesses/skills",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-harnesses/terminal-ui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-harnesses/tools",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-harnesses/ui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-harnesses/workflow-utilities",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/authentication",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/error-handling",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/generative-ui-state",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/loading-state",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/migrating-to-ui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/multistep-interfaces",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/overview",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/saving-and-restoring-states",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/streaming-react-components",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-rsc/streaming-values",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/chatbot-message-persistence",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/chatbot-resume-streams",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/chatbot-tool-usage",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/chatbot",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/completion",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/error-handling",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/generative-user-interfaces",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/message-metadata",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/object-generation",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/overview",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/reading-ui-message-streams",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/stream-protocol",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/streaming-data",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/ai-sdk-ui/transport",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/foundations/overview",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/foundations/prompts",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/foundations/provider-options",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/foundations/providers-and-models",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/foundations/streaming",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/foundations/tools",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/choosing-a-provider",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/coding-agents",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/expo",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/navigating-the-library",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/nextjs-app-router",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/nextjs-pages-router",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/nodejs",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/nuxt",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/svelte",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/getting-started/tanstack-start",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/introduction",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-3-1",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-3-2",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-3-3",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-3-4",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-4-0",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-4-1",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-4-2",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-5-0-data",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-5-0",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-6-0",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/migration-guide-7-0",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/migration-guides/versioning",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/add-tool-input-examples-middleware",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/agent",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/cancel-batch",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/cosine-similarity",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/create-agent-ui-stream-response",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/create-agent-ui-stream",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/create-id-generator",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/create-mcp-client",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/custom-provider",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/decide",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/default-generated-file",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/default-instructions-middleware",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/default-settings-middleware",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/dynamic-tool",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/embed-many",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/embed",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/extract-json-middleware",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/extract-reasoning-middleware",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/filter-active-tools",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/generate-id",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/generate-image",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/generate-speech",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/generate-text",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/generate-video",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/get-batch-results",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/get-batch-status",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/get-realtime-tool-definitions",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/has-tool-call",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/is-step-count",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/json-schema",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/language-model-v2-middleware",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/list-batches",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/loop-finished",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/mcp-apps",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/mcp-events",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/mcp-stdio-transport",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/model-message",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/output",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/pipe-agent-ui-stream-to-response",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/provider-registry",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/rerank",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/safe-validate-ui-messages",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/sandbox",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/simulate-readable-stream",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/simulate-streaming-middleware",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/smooth-stream",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/start-batch",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/stream-text",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/stream-transcribe",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/stream-translate",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/tool-loop-agent",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/tool-search",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/tool",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/transcribe",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/ui-message",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/upload-file",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/upload-skill",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/valibot-schema",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/validate-ui-messages",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/wrap-image-model",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/wrap-language-model",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/zod-schema",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-api-call-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-decision-refusal-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-decision-unsupported-question-type-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-download-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-empty-response-body-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-invalid-argument-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-invalid-data-content-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-invalid-message-role-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-invalid-prompt-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-invalid-response-data-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-signature-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-invalid-tool-input-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-json-parse-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-load-api-key-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-load-setting-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-message-conversion-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-content-generated-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-image-generated-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-object-generated-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-output-generated-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-speech-generated-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-such-model-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-such-provider-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-such-provider-reference-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-such-tool-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-transcript-generated-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-translation-generated-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-no-video-generated-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-retry-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-stream-provider-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-tool-call-not-found-for-approval-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-tool-call-repair-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-tool-choice-violation-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-type-validation-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-ui-message-stream-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors/ai-unsupported-functionality-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-errors",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/create-ai",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/create-streamable-ui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/create-streamable-value",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/get-ai-state",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/get-mutable-ai-state",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/read-streamable-value",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/render",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/stream-ui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/use-actions",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/use-ai-state",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/use-streamable-value",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-rsc/use-ui-state",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-tui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-tui/run-agent-tui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/convert-to-model-messages",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/create-ui-message-stream-response",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/create-ui-message-stream",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/direct-chat-transport",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/infer-ui-tool",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/infer-ui-tools",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/mcp-app-renderer",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/prune-messages",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/read-ui-message-stream",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/use-chat",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/use-completion",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/use-object",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-ui/use-realtime",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-workflow/generate-video",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-workflow",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-workflow/workflow-agent",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-workflow/workflow-chat-transport",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/reference",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/abort-breaks-resumable-streams",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/azure-stream-slow",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/client-stream-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/high-memory-usage-with-images",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/jest-cannot-find-module-ai-rsc",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/missing-tool-results-error",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/model-is-not-assignable-to-type",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/no-object-generated-content-filter",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/ontoolcall-type-narrowing",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/react-maximum-update-depth-exceeded",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/repeated-assistant-messages",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/server-actions-in-client-components",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/strange-stream-output",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/stream-abort-handling",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/stream-text-not-working",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/streamable-ui-errors",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/streaming-not-working-when-deployed",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/streaming-not-working-when-proxied",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/streaming-status-delay",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/timeout-on-vercel",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/tool-calling-with-structured-outputs",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/tool-invocation-missing-result",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/typescript-cannot-find-namespace-jsx",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/typescript-performance-zod",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/unclosed-streams",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/unsupported-model-version",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/use-chat-an-error-occurred",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/use-chat-custom-request-options",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/use-chat-failed-to-parse-stream",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/use-chat-stale-body-data",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  },
+  {
+    "route": "/docs/troubleshooting/use-chat-tools-no-response",
+    "metadata_equal": true,
+    "title_equal": true,
+    "canonical_equal": true
+  }
+]

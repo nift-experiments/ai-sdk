@@ -1,0 +1,34 @@
+{
+  "scope": "A4 shared UI investigation; not accepted publication architecture",
+  "publicApis": [
+    "@vercel/geistdocs/layout",
+    "@vercel/geistdocs/navbar",
+    "@vercel/geistdocs/footer",
+    "@vercel/geistdocs/versions",
+    "@vercel/geistdocs/source"
+  ],
+  "serverAndBrowserNextRuntimeInputs": 0,
+  "clientOutputBytes": 1977268,
+  "clientOutputFiles": 19,
+  "observedPasses": [
+    "shared UI hydration without console warnings/errors",
+    "derived current-docs sidebar section disclosure",
+    "version menu opens with v7/v6/v5",
+    "search modal opens and closes"
+  ],
+  "notCertified": [
+    "resource-dropdown interaction",
+    "version fallback paths",
+    "search results and transport",
+    "Ask AI and feedback transport",
+    "opaque article actions, TOC/mobile controls and nested island integration",
+    "all routes and viewport/theme parity"
+  ],
+  "boundaryAdapters": [
+    "route pathname/params plus ordinary document navigation",
+    "scoped chat error boundary",
+    "optional script slot",
+    "local feedback transport contract; backend not implemented",
+    "unused font barrel export separated from already maintained CSS/font bytes"
+  ]
+}

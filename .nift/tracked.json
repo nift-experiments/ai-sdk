@@ -1,8 +1,528 @@
 {
   "tracked": [
     {
-      "name": "index",
-      "title": "/",
+      "name": "docs/advanced/backpressure/index",
+      "title": "/docs/advanced/backpressure",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/caching/index",
+      "title": "/docs/advanced/caching",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/index",
+      "title": "/docs/advanced",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/model-as-router/index",
+      "title": "/docs/advanced/model-as-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/multiple-streamables/index",
+      "title": "/docs/advanced/multiple-streamables",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/multistep-interfaces/index",
+      "title": "/docs/advanced/multistep-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/prompt-engineering/index",
+      "title": "/docs/advanced/prompt-engineering",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/rate-limiting/index",
+      "title": "/docs/advanced/rate-limiting",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/rendering-ui-with-language-models/index",
+      "title": "/docs/advanced/rendering-ui-with-language-models",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/secure-url-fetching/index",
+      "title": "/docs/advanced/secure-url-fetching",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/sequential-generations/index",
+      "title": "/docs/advanced/sequential-generations",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/stopping-streams/index",
+      "title": "/docs/advanced/stopping-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/advanced/vercel-deployment-guide/index",
+      "title": "/docs/advanced/vercel-deployment-guide",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/building-agents/index",
+      "title": "/docs/agents/building-agents",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/configuring-call-options/index",
+      "title": "/docs/agents/configuring-call-options",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/loop-control/index",
+      "title": "/docs/agents/loop-control",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/memory/index",
+      "title": "/docs/agents/memory",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/overview/index",
+      "title": "/docs/agents/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/policy-tool-approvals/index",
+      "title": "/docs/agents/policy-tool-approvals",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/subagents/index",
+      "title": "/docs/agents/subagents",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/terminal-ui/index",
+      "title": "/docs/agents/terminal-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/tool-approvals/index",
+      "title": "/docs/agents/tool-approvals",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/workflow-agent/index",
+      "title": "/docs/agents/workflow-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/agents/workflows/index",
+      "title": "/docs/agents/workflows",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/batch/index",
+      "title": "/docs/ai-sdk-core/batch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/code-mode/index",
+      "title": "/docs/ai-sdk-core/code-mode",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/decisions/index",
+      "title": "/docs/ai-sdk-core/decisions",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/devtools/index",
+      "title": "/docs/ai-sdk-core/devtools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/embeddings/index",
+      "title": "/docs/ai-sdk-core/embeddings",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/error-handling/index",
+      "title": "/docs/ai-sdk-core/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/file-uploads/index",
+      "title": "/docs/ai-sdk-core/file-uploads",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/generating-structured-data/index",
+      "title": "/docs/ai-sdk-core/generating-structured-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/generating-text/index",
+      "title": "/docs/ai-sdk-core/generating-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/image-generation/index",
+      "title": "/docs/ai-sdk-core/image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/lifecycle-callbacks/index",
+      "title": "/docs/ai-sdk-core/lifecycle-callbacks",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/mcp-apps/index",
+      "title": "/docs/ai-sdk-core/mcp-apps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/mcp-events/index",
+      "title": "/docs/ai-sdk-core/mcp-events",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/mcp-tools/index",
+      "title": "/docs/ai-sdk-core/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/middleware/index",
+      "title": "/docs/ai-sdk-core/middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/overview/index",
+      "title": "/docs/ai-sdk-core/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/prompt-engineering/index",
+      "title": "/docs/ai-sdk-core/prompt-engineering",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/provider-management/index",
+      "title": "/docs/ai-sdk-core/provider-management",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/realtime/index",
+      "title": "/docs/ai-sdk-core/realtime",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/reasoning/index",
+      "title": "/docs/ai-sdk-core/reasoning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/reranking/index",
+      "title": "/docs/ai-sdk-core/reranking",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/runtime-and-tool-context/index",
+      "title": "/docs/ai-sdk-core/runtime-and-tool-context",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/settings/index",
+      "title": "/docs/ai-sdk-core/settings",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/skill-uploads/index",
+      "title": "/docs/ai-sdk-core/skill-uploads",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/speech/index",
+      "title": "/docs/ai-sdk-core/speech",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/telemetry/index",
+      "title": "/docs/ai-sdk-core/telemetry",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/testing/index",
+      "title": "/docs/ai-sdk-core/testing",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/tool-search/index",
+      "title": "/docs/ai-sdk-core/tool-search",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/tools-and-tool-calling/index",
+      "title": "/docs/ai-sdk-core/tools-and-tool-calling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/transcription/index",
+      "title": "/docs/ai-sdk-core/transcription",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/translation/index",
+      "title": "/docs/ai-sdk-core/translation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-core/video-generation/index",
+      "title": "/docs/ai-sdk-core/video-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-harnesses/harness-adapters/index",
+      "title": "/docs/ai-sdk-harnesses/harness-adapters",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-harnesses/harness-agent/index",
+      "title": "/docs/ai-sdk-harnesses/harness-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-harnesses/overview/index",
+      "title": "/docs/ai-sdk-harnesses/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-harnesses/skills/index",
+      "title": "/docs/ai-sdk-harnesses/skills",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-harnesses/terminal-ui/index",
+      "title": "/docs/ai-sdk-harnesses/terminal-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-harnesses/tools/index",
+      "title": "/docs/ai-sdk-harnesses/tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-harnesses/ui/index",
+      "title": "/docs/ai-sdk-harnesses/ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-harnesses/workflow-utilities/index",
+      "title": "/docs/ai-sdk-harnesses/workflow-utilities",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/authentication/index",
+      "title": "/docs/ai-sdk-rsc/authentication",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/error-handling/index",
+      "title": "/docs/ai-sdk-rsc/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/generative-ui-state/index",
+      "title": "/docs/ai-sdk-rsc/generative-ui-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/loading-state/index",
+      "title": "/docs/ai-sdk-rsc/loading-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/migrating-to-ui/index",
+      "title": "/docs/ai-sdk-rsc/migrating-to-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/multistep-interfaces/index",
+      "title": "/docs/ai-sdk-rsc/multistep-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/overview/index",
+      "title": "/docs/ai-sdk-rsc/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/saving-and-restoring-states/index",
+      "title": "/docs/ai-sdk-rsc/saving-and-restoring-states",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/streaming-react-components/index",
+      "title": "/docs/ai-sdk-rsc/streaming-react-components",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-rsc/streaming-values/index",
+      "title": "/docs/ai-sdk-rsc/streaming-values",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/chatbot-message-persistence/index",
+      "title": "/docs/ai-sdk-ui/chatbot-message-persistence",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/chatbot-resume-streams/index",
+      "title": "/docs/ai-sdk-ui/chatbot-resume-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/chatbot-tool-usage/index",
+      "title": "/docs/ai-sdk-ui/chatbot-tool-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/chatbot/index",
+      "title": "/docs/ai-sdk-ui/chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/completion/index",
+      "title": "/docs/ai-sdk-ui/completion",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/error-handling/index",
+      "title": "/docs/ai-sdk-ui/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/generative-user-interfaces/index",
+      "title": "/docs/ai-sdk-ui/generative-user-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/message-metadata/index",
+      "title": "/docs/ai-sdk-ui/message-metadata",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/object-generation/index",
+      "title": "/docs/ai-sdk-ui/object-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/overview/index",
+      "title": "/docs/ai-sdk-ui/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/reading-ui-message-streams/index",
+      "title": "/docs/ai-sdk-ui/reading-ui-message-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/stream-protocol/index",
+      "title": "/docs/ai-sdk-ui/stream-protocol",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/streaming-data/index",
+      "title": "/docs/ai-sdk-ui/streaming-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/ai-sdk-ui/transport/index",
+      "title": "/docs/ai-sdk-ui/transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/foundations/overview/index",
+      "title": "/docs/foundations/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/foundations/prompts/index",
+      "title": "/docs/foundations/prompts",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/foundations/provider-options/index",
+      "title": "/docs/foundations/provider-options",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/foundations/providers-and-models/index",
+      "title": "/docs/foundations/providers-and-models",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/foundations/streaming/index",
+      "title": "/docs/foundations/streaming",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/foundations/tools/index",
+      "title": "/docs/foundations/tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/choosing-a-provider/index",
+      "title": "/docs/getting-started/choosing-a-provider",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/coding-agents/index",
+      "title": "/docs/getting-started/coding-agents",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/expo/index",
+      "title": "/docs/getting-started/expo",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/index",
+      "title": "/docs/getting-started",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/navigating-the-library/index",
+      "title": "/docs/getting-started/navigating-the-library",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/nextjs-app-router/index",
+      "title": "/docs/getting-started/nextjs-app-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/nextjs-pages-router/index",
+      "title": "/docs/getting-started/nextjs-pages-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/nodejs/index",
+      "title": "/docs/getting-started/nodejs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/nuxt/index",
+      "title": "/docs/getting-started/nuxt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/svelte/index",
+      "title": "/docs/getting-started/svelte",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/getting-started/tanstack-start/index",
+      "title": "/docs/getting-started/tanstack-start",
       "template": "templates/raw.html"
     },
     {
@@ -11,8 +531,918 @@
       "template": "templates/raw.html"
     },
     {
+      "name": "docs/migration-guides/index",
+      "title": "/docs/migration-guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-3-1/index",
+      "title": "/docs/migration-guides/migration-guide-3-1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-3-2/index",
+      "title": "/docs/migration-guides/migration-guide-3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-3-3/index",
+      "title": "/docs/migration-guides/migration-guide-3-3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-3-4/index",
+      "title": "/docs/migration-guides/migration-guide-3-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-4-0/index",
+      "title": "/docs/migration-guides/migration-guide-4-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-4-1/index",
+      "title": "/docs/migration-guides/migration-guide-4-1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-4-2/index",
+      "title": "/docs/migration-guides/migration-guide-4-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-5-0-data/index",
+      "title": "/docs/migration-guides/migration-guide-5-0-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-5-0/index",
+      "title": "/docs/migration-guides/migration-guide-5-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-6-0/index",
+      "title": "/docs/migration-guides/migration-guide-6-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/migration-guide-7-0/index",
+      "title": "/docs/migration-guides/migration-guide-7-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/migration-guides/versioning/index",
+      "title": "/docs/migration-guides/versioning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/add-tool-input-examples-middleware/index",
+      "title": "/docs/reference/ai-sdk-core/add-tool-input-examples-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/agent/index",
+      "title": "/docs/reference/ai-sdk-core/agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/cancel-batch/index",
+      "title": "/docs/reference/ai-sdk-core/cancel-batch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/cosine-similarity/index",
+      "title": "/docs/reference/ai-sdk-core/cosine-similarity",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/create-agent-ui-stream-response/index",
+      "title": "/docs/reference/ai-sdk-core/create-agent-ui-stream-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/create-agent-ui-stream/index",
+      "title": "/docs/reference/ai-sdk-core/create-agent-ui-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/create-id-generator/index",
+      "title": "/docs/reference/ai-sdk-core/create-id-generator",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/create-mcp-client/index",
+      "title": "/docs/reference/ai-sdk-core/create-mcp-client",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/custom-provider/index",
+      "title": "/docs/reference/ai-sdk-core/custom-provider",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/decide/index",
+      "title": "/docs/reference/ai-sdk-core/decide",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/default-generated-file/index",
+      "title": "/docs/reference/ai-sdk-core/default-generated-file",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/default-instructions-middleware/index",
+      "title": "/docs/reference/ai-sdk-core/default-instructions-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/default-settings-middleware/index",
+      "title": "/docs/reference/ai-sdk-core/default-settings-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/dynamic-tool/index",
+      "title": "/docs/reference/ai-sdk-core/dynamic-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/embed-many/index",
+      "title": "/docs/reference/ai-sdk-core/embed-many",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/embed/index",
+      "title": "/docs/reference/ai-sdk-core/embed",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/extract-json-middleware/index",
+      "title": "/docs/reference/ai-sdk-core/extract-json-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/extract-reasoning-middleware/index",
+      "title": "/docs/reference/ai-sdk-core/extract-reasoning-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/filter-active-tools/index",
+      "title": "/docs/reference/ai-sdk-core/filter-active-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/generate-id/index",
+      "title": "/docs/reference/ai-sdk-core/generate-id",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/generate-image/index",
+      "title": "/docs/reference/ai-sdk-core/generate-image",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/generate-speech/index",
+      "title": "/docs/reference/ai-sdk-core/generate-speech",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/generate-text/index",
+      "title": "/docs/reference/ai-sdk-core/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/generate-video/index",
+      "title": "/docs/reference/ai-sdk-core/generate-video",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/get-batch-results/index",
+      "title": "/docs/reference/ai-sdk-core/get-batch-results",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/get-batch-status/index",
+      "title": "/docs/reference/ai-sdk-core/get-batch-status",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/get-realtime-tool-definitions/index",
+      "title": "/docs/reference/ai-sdk-core/get-realtime-tool-definitions",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/has-tool-call/index",
+      "title": "/docs/reference/ai-sdk-core/has-tool-call",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/index",
+      "title": "/docs/reference/ai-sdk-core",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/is-step-count/index",
+      "title": "/docs/reference/ai-sdk-core/is-step-count",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/json-schema/index",
+      "title": "/docs/reference/ai-sdk-core/json-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/language-model-v2-middleware/index",
+      "title": "/docs/reference/ai-sdk-core/language-model-v2-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/list-batches/index",
+      "title": "/docs/reference/ai-sdk-core/list-batches",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/loop-finished/index",
+      "title": "/docs/reference/ai-sdk-core/loop-finished",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/mcp-apps/index",
+      "title": "/docs/reference/ai-sdk-core/mcp-apps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/mcp-events/index",
+      "title": "/docs/reference/ai-sdk-core/mcp-events",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/mcp-stdio-transport/index",
+      "title": "/docs/reference/ai-sdk-core/mcp-stdio-transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/model-message/index",
+      "title": "/docs/reference/ai-sdk-core/model-message",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/output/index",
+      "title": "/docs/reference/ai-sdk-core/output",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/pipe-agent-ui-stream-to-response/index",
+      "title": "/docs/reference/ai-sdk-core/pipe-agent-ui-stream-to-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/provider-registry/index",
+      "title": "/docs/reference/ai-sdk-core/provider-registry",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/rerank/index",
+      "title": "/docs/reference/ai-sdk-core/rerank",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/safe-validate-ui-messages/index",
+      "title": "/docs/reference/ai-sdk-core/safe-validate-ui-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/sandbox/index",
+      "title": "/docs/reference/ai-sdk-core/sandbox",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/simulate-readable-stream/index",
+      "title": "/docs/reference/ai-sdk-core/simulate-readable-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/simulate-streaming-middleware/index",
+      "title": "/docs/reference/ai-sdk-core/simulate-streaming-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/smooth-stream/index",
+      "title": "/docs/reference/ai-sdk-core/smooth-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/start-batch/index",
+      "title": "/docs/reference/ai-sdk-core/start-batch",
+      "template": "templates/raw.html"
+    },
+    {
       "name": "docs/reference/ai-sdk-core/stream-text/index",
       "title": "/docs/reference/ai-sdk-core/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/stream-transcribe/index",
+      "title": "/docs/reference/ai-sdk-core/stream-transcribe",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/stream-translate/index",
+      "title": "/docs/reference/ai-sdk-core/stream-translate",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/tool-loop-agent/index",
+      "title": "/docs/reference/ai-sdk-core/tool-loop-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/tool-search/index",
+      "title": "/docs/reference/ai-sdk-core/tool-search",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/tool/index",
+      "title": "/docs/reference/ai-sdk-core/tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/transcribe/index",
+      "title": "/docs/reference/ai-sdk-core/transcribe",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/ui-message/index",
+      "title": "/docs/reference/ai-sdk-core/ui-message",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/upload-file/index",
+      "title": "/docs/reference/ai-sdk-core/upload-file",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/upload-skill/index",
+      "title": "/docs/reference/ai-sdk-core/upload-skill",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/valibot-schema/index",
+      "title": "/docs/reference/ai-sdk-core/valibot-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/validate-ui-messages/index",
+      "title": "/docs/reference/ai-sdk-core/validate-ui-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/wrap-image-model/index",
+      "title": "/docs/reference/ai-sdk-core/wrap-image-model",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/wrap-language-model/index",
+      "title": "/docs/reference/ai-sdk-core/wrap-language-model",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/zod-schema/index",
+      "title": "/docs/reference/ai-sdk-core/zod-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-api-call-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-api-call-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-decision-refusal-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-decision-refusal-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-decision-unsupported-question-type-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-decision-unsupported-question-type-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-download-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-download-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-empty-response-body-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-empty-response-body-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-invalid-argument-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-invalid-argument-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-invalid-data-content-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-invalid-data-content-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-invalid-message-role-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-invalid-message-role-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-invalid-prompt-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-invalid-prompt-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-invalid-response-data-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-invalid-response-data-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-invalid-tool-approval-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-invalid-tool-approval-signature-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-signature-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-invalid-tool-input-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-invalid-tool-input-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-json-parse-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-json-parse-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-load-api-key-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-load-api-key-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-load-setting-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-load-setting-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-message-conversion-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-message-conversion-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-content-generated-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-content-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-image-generated-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-image-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-object-generated-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-object-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-output-generated-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-output-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-speech-generated-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-speech-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-such-model-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-such-model-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-such-provider-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-such-provider-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-such-provider-reference-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-such-provider-reference-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-such-tool-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-such-tool-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-transcript-generated-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-transcript-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-translation-generated-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-translation-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-no-video-generated-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-no-video-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-retry-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-retry-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-stream-provider-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-stream-provider-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-tool-call-not-found-for-approval-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-tool-call-not-found-for-approval-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-tool-call-repair-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-tool-call-repair-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-tool-choice-violation-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-tool-choice-violation-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-type-validation-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-type-validation-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-ui-message-stream-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-ui-message-stream-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/ai-unsupported-functionality-error/index",
+      "title": "/docs/reference/ai-sdk-errors/ai-unsupported-functionality-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-errors/index",
+      "title": "/docs/reference/ai-sdk-errors",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/create-ai/index",
+      "title": "/docs/reference/ai-sdk-rsc/create-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/create-streamable-ui/index",
+      "title": "/docs/reference/ai-sdk-rsc/create-streamable-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/create-streamable-value/index",
+      "title": "/docs/reference/ai-sdk-rsc/create-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/get-ai-state/index",
+      "title": "/docs/reference/ai-sdk-rsc/get-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/get-mutable-ai-state/index",
+      "title": "/docs/reference/ai-sdk-rsc/get-mutable-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/index",
+      "title": "/docs/reference/ai-sdk-rsc",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/read-streamable-value/index",
+      "title": "/docs/reference/ai-sdk-rsc/read-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/render/index",
+      "title": "/docs/reference/ai-sdk-rsc/render",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/stream-ui/index",
+      "title": "/docs/reference/ai-sdk-rsc/stream-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/use-actions/index",
+      "title": "/docs/reference/ai-sdk-rsc/use-actions",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/use-ai-state/index",
+      "title": "/docs/reference/ai-sdk-rsc/use-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/use-streamable-value/index",
+      "title": "/docs/reference/ai-sdk-rsc/use-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-rsc/use-ui-state/index",
+      "title": "/docs/reference/ai-sdk-rsc/use-ui-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-tui/index",
+      "title": "/docs/reference/ai-sdk-tui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-tui/run-agent-tui/index",
+      "title": "/docs/reference/ai-sdk-tui/run-agent-tui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/convert-to-model-messages/index",
+      "title": "/docs/reference/ai-sdk-ui/convert-to-model-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/create-ui-message-stream-response/index",
+      "title": "/docs/reference/ai-sdk-ui/create-ui-message-stream-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/create-ui-message-stream/index",
+      "title": "/docs/reference/ai-sdk-ui/create-ui-message-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/direct-chat-transport/index",
+      "title": "/docs/reference/ai-sdk-ui/direct-chat-transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/index",
+      "title": "/docs/reference/ai-sdk-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/infer-ui-tool/index",
+      "title": "/docs/reference/ai-sdk-ui/infer-ui-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/infer-ui-tools/index",
+      "title": "/docs/reference/ai-sdk-ui/infer-ui-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/mcp-app-renderer/index",
+      "title": "/docs/reference/ai-sdk-ui/mcp-app-renderer",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response/index",
+      "title": "/docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/prune-messages/index",
+      "title": "/docs/reference/ai-sdk-ui/prune-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/read-ui-message-stream/index",
+      "title": "/docs/reference/ai-sdk-ui/read-ui-message-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/use-chat/index",
+      "title": "/docs/reference/ai-sdk-ui/use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/use-completion/index",
+      "title": "/docs/reference/ai-sdk-ui/use-completion",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/use-object/index",
+      "title": "/docs/reference/ai-sdk-ui/use-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-ui/use-realtime/index",
+      "title": "/docs/reference/ai-sdk-ui/use-realtime",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-workflow/generate-video/index",
+      "title": "/docs/reference/ai-sdk-workflow/generate-video",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-workflow/index",
+      "title": "/docs/reference/ai-sdk-workflow",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-workflow/workflow-agent/index",
+      "title": "/docs/reference/ai-sdk-workflow/workflow-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-workflow/workflow-chat-transport/index",
+      "title": "/docs/reference/ai-sdk-workflow/workflow-chat-transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/index",
+      "title": "/docs/reference",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/abort-breaks-resumable-streams/index",
+      "title": "/docs/troubleshooting/abort-breaks-resumable-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/azure-stream-slow/index",
+      "title": "/docs/troubleshooting/azure-stream-slow",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/client-stream-error/index",
+      "title": "/docs/troubleshooting/client-stream-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/high-memory-usage-with-images/index",
+      "title": "/docs/troubleshooting/high-memory-usage-with-images",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/index",
+      "title": "/docs/troubleshooting",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/jest-cannot-find-module-ai-rsc/index",
+      "title": "/docs/troubleshooting/jest-cannot-find-module-ai-rsc",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/missing-tool-results-error/index",
+      "title": "/docs/troubleshooting/missing-tool-results-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/model-is-not-assignable-to-type/index",
+      "title": "/docs/troubleshooting/model-is-not-assignable-to-type",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/no-object-generated-content-filter/index",
+      "title": "/docs/troubleshooting/no-object-generated-content-filter",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/ontoolcall-type-narrowing/index",
+      "title": "/docs/troubleshooting/ontoolcall-type-narrowing",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/react-maximum-update-depth-exceeded/index",
+      "title": "/docs/troubleshooting/react-maximum-update-depth-exceeded",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/repeated-assistant-messages/index",
+      "title": "/docs/troubleshooting/repeated-assistant-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/server-actions-in-client-components/index",
+      "title": "/docs/troubleshooting/server-actions-in-client-components",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/strange-stream-output/index",
+      "title": "/docs/troubleshooting/strange-stream-output",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/stream-abort-handling/index",
+      "title": "/docs/troubleshooting/stream-abort-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/stream-text-not-working/index",
+      "title": "/docs/troubleshooting/stream-text-not-working",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/streamable-ui-errors/index",
+      "title": "/docs/troubleshooting/streamable-ui-errors",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/streaming-not-working-when-deployed/index",
+      "title": "/docs/troubleshooting/streaming-not-working-when-deployed",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/streaming-not-working-when-proxied/index",
+      "title": "/docs/troubleshooting/streaming-not-working-when-proxied",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/streaming-status-delay/index",
+      "title": "/docs/troubleshooting/streaming-status-delay",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/timeout-on-vercel/index",
+      "title": "/docs/troubleshooting/timeout-on-vercel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/tool-calling-with-structured-outputs/index",
+      "title": "/docs/troubleshooting/tool-calling-with-structured-outputs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/tool-invocation-missing-result/index",
+      "title": "/docs/troubleshooting/tool-invocation-missing-result",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/typescript-cannot-find-namespace-jsx/index",
+      "title": "/docs/troubleshooting/typescript-cannot-find-namespace-jsx",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/typescript-performance-zod/index",
+      "title": "/docs/troubleshooting/typescript-performance-zod",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/unclosed-streams/index",
+      "title": "/docs/troubleshooting/unclosed-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/unsupported-model-version/index",
+      "title": "/docs/troubleshooting/unsupported-model-version",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/use-chat-an-error-occurred/index",
+      "title": "/docs/troubleshooting/use-chat-an-error-occurred",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/use-chat-custom-request-options/index",
+      "title": "/docs/troubleshooting/use-chat-custom-request-options",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/use-chat-failed-to-parse-stream/index",
+      "title": "/docs/troubleshooting/use-chat-failed-to-parse-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/use-chat-stale-body-data/index",
+      "title": "/docs/troubleshooting/use-chat-stale-body-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/troubleshooting/use-chat-tools-no-response/index",
+      "title": "/docs/troubleshooting/use-chat-tools-no-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "index",
+      "title": "/",
       "template": "templates/raw.html"
     },
     {

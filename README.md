@@ -1,21 +1,23 @@
 # AI SDK / Nift migration experiment
 
-Source model: maintained Markdown/MDX/frontmatter; transient compatible HTML.
+Source model: maintained authored Markdown/MDX/frontmatter and original numeric organization.
 
-A0–A2 are accepted. A3 currently publishes seven representative routes. This is an architecture proof, not the completed migration or final benchmark. The upstream reference is pinned to `3ebefff610f96892c50be48cf1838c453e2349f7`; frozen output/history/evidence stays outside this repository.
+A0–A4 are accepted. A4 publishes 288 current documentation pages plus five representative routes from A3 (293 routes total). Historical families, ancillary outputs, complete parity and final benchmarks remain open. The upstream reference is pinned to `3ebefff610f96892c50be48cf1838c453e2349f7`. Frozen upstream builds/history and original benchmark evidence remain outside this repository.
 
-Use Node 24.21.0, pnpm 11.23.0, Nift 4.8.0 and Python with `requirements.txt` installed. Install dependencies with `pnpm install --frozen-lockfile`. Run:
+Use Node 24.21.0, pnpm 11.23.0, Nift 4.8.0 and Python dependencies from `requirements.txt`. Install with `pnpm install --frozen-lockfile`.
 
 ```sh
-python3 scripts/build-proof.py
-python3 scripts/build-proof.py --force
+python3 scripts/build-current-docs.py
+python3 scripts/build-current-docs.py --force
 nift status
 ```
 
-Set `AI_SDK_NODE` when the pinned Node binary is not first on PATH. The project command prepares its owned inputs before Nift composition. `nift build` alone composes already prepared HTML.
+Set `AI_SDK_NODE` if the pinned Node binary is not first on PATH. The project command prepares inputs before raw Nift composition. Bare `nift build` composes already prepared HTML. The old `build-proof.py` command owns the seven-route A3 prototype and replaces tracking; use it only when deliberately reproducing that historical scope.
 
-The human path uses the pinned MDX/Fumadocs transforms and upstream component ports. Its current representative `sources/` are synchronized MDX fixtures; full authored organization/sync ownership is required before scaling.
+Current documentation authority is `authored/v7/docs/`. The bounded pure synchronization stage derives transient MDX under `generated/synced/`, then pinned MDX/Fumadocs transforms derive transient HTML. Four unrelated prototype fixtures remain under `sources/` pending their family migrations. Current documentation has no duplicate maintained synchronized MDX.
 
-The UI ports replace only corpus-required Next link/image/English locale behavior. Independently bundled React islands retain the stateful hero, provider/model examples and simulated generation. No Next runtime appears in the island artifact graph. Geistdocs has a transitive Next peer in the installation lockfile; this prototype does not run it.
+Pinned Geistdocs/Fumadocs React UI preserves shared navigation, mobile drawers, TOC, page actions, themes and footer. Independent React content islands preserve stateful examples. External bundling owns client/server compilation; Nift owns publication composition with explicit dependencies. Neither bundle graph includes a Next runtime. Four non-exported, pinned Geistdocs UI modules are explicitly bound (page actions, breadcrumbs, footer links and TOC); this package coupling is recorded rather than presented as a public API. Unused font-barrel execution is separated from accepted static fonts/CSS, and feedback transport targets a local endpoint. The dependency lock includes a transitive Next peer, which is not executed.
 
-Catalog/media bytes are maintained static assets with frozen provenance. Normal proof builds make no AI, feedback or analytics requests. Full search/navigation, ancillary routes, OG runtime behavior, corpus migration, publication/browser parity, clean-checkout verification and final benchmarks remain open. Read `HANDOVER.md`, `investigation/STATUS.md`, and the living migration-init review before continuing.
+Run `python3 scripts/serve.py --port 4332` for local publication testing (use a different port for the other repo). Compiled pinned redirect rules are maintained under `routes/`. Search/projections/OG and synthetic AI/feedback transport certification remain open; do not infer backend parity from an opening dialog. No live AI, feedback or analytics requests are authorized.
+
+Read `HANDOVER.md`, `investigation/STATUS.md` and the living migration-init review. No Nift core/templates changes are permitted in this experiment.

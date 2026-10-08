@@ -1,3 +1,3 @@
 # Status
 
-A0–A3 accepted and pushed. A4 source preparation: 288 current docs bodies pass semantic reference checks in both source models. Human authored sync is byte-identical to pinned upstream; agent owns maintained HTML/metadata/navigation. Shared current-corpus publication UI, browser parity and full A4 acceptance remain open. A5–A10 remain open. No Nift core/template changes.
+A0–A4 accepted. All 288 current docs publish with five A3 prototypes (293 tracked routes). Authored provenance, content/TOC/head checks, representative responsive browser comparisons, page metadata/literal syntax lifecycle and cache/shared-layout recovery pass. Full historical/provider/cookbook/ancillary coverage, transport and complete browser parity remain A5–A7; benchmarks/optimization/final assessment remain A8–A10. No Nift core/templates changes.

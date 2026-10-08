@@ -22,4 +22,4 @@ Do not declare completion without clean-checkout verification.
 
 ## Project pipeline
 
-Use `python3 scripts/build-proof.py` for representative source edits, then `nift status`. Bare `nift build` composes prepared inputs. A3 has seven prototype routes; do not describe it as the complete site. Full authored sync ownership, shared UI, ancillary outputs and final parity/benchmarks remain open.
+Use `python3 scripts/build-current-docs.py` for current-corpus publication and `nift status` afterward. Bare Nift composes prepared inputs. A4 currently tracks 293 routes; complete-site parity and benchmarks remain open. `build-proof.py` replaces tracking with the historical seven-route prototype. Preserve the maintained source-model distinction and avoid live AI/feedback/analytics requests.
