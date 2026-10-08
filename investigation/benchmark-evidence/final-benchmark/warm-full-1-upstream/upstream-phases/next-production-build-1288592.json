@@ -1,0 +1,1 @@
+{"stage":"next-production-build","pid":1288592,"start_utc":"2026-10-08T07:50:19.055Z","scope":"CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline","elapsed_s":351.515036083,"exit_code":0,"cli_maximum_rss_kib":28956564}

@@ -1,0 +1,29 @@
+[
+  {
+    "project": "ai-sdk-agent",
+    "case": "historical-version-coordinated",
+    "incremental_s": 7.480239438824356,
+    "forced_s": 22.86210393696092,
+    "incremental_forced_equal": true,
+    "changed_files": 5,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "provider-reference-coordinated",
+    "incremental_s": 8.68284544814378,
+    "forced_s": 23.87920525087975,
+    "incremental_forced_equal": true,
+    "changed_files": 5,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "metadata-coordinated",
+    "incremental_s": 10.500367257976905,
+    "forced_s": 24.793014753144234,
+    "incremental_forced_equal": true,
+    "changed_files": 294,
+    "retired_files": 0
+  }
+]

@@ -1,0 +1,105 @@
+{"versions":[{"version":"v7","family":"docs","authoredMdx":294,"synchronizedMdx":288},{"version":"v7","family":"providers","authoredMdx":153,"synchronizedMdx":153},{"version":"v7","family":"cookbook","authoredMdx":93,"synchronizedMdx":89},{"version":"v6","family":"docs","authoredMdx":237,"synchronizedMdx":232},{"version":"v6","family":"providers","authoredMdx":131,"synchronizedMdx":131},{"version":"v6","family":"cookbook","authoredMdx":92,"synchronizedMdx":88},{"version":"v5","family":"docs","authoredMdx":230,"synchronizedMdx":225},{"version":"v5","family":"providers","authoredMdx":98,"synchronizedMdx":98},{"version":"v5","family":"cookbook","authoredMdx":86,"synchronizedMdx":82}],"pages":1386}
+{"key":"dd453acf58d148fbdc36c5a2579a6f93698ed1b2c8fdbe09a544d00e6398ee5e","entry":"public/assets/islands/entry-ZEYD5DZB.js","build_ms":796.748593,"bytes":1131411,"outputs":7}
+{"key":"9a17357a5fd4c6af7da3a1a1f2cfbc8cb15ba58176a4c6e72ddbd494d06e0351","entry":"public/assets/chrome/entry-ZHY4FQEP.js","clientBytes":2035693,"build_ms":898.894449}
+{"pages":328,"cached":0,"compileReuse":57,"diskCompileReuse":0,"highlightingStats":{"hits":13,"misses":1854,"evictions":0,"maxBytes":67108864}}
+{"pages":360,"cached":0,"compileReuse":57,"diskCompileReuse":0,"highlightingStats":{"hits":23,"misses":2093,"evictions":0,"maxBytes":67108864}}
+{"pages":337,"cached":0,"compileReuse":45,"diskCompileReuse":0,"highlightingStats":{"hits":39,"misses":1777,"evictions":0,"maxBytes":67108864}}
+{"pages":361,"cached":0,"compileReuse":42,"diskCompileReuse":0,"highlightingStats":{"hits":42,"misses":1903,"evictions":0,"maxBytes":67108864}}
+{"workers":4,"pages":1386,"dirty":1386,"compileReuse":201}
+{"version":"v7","family":"docs","pages":288}
+{"version":"v7","family":"providers","pages":153}
+{"version":"v7","family":"cookbook","pages":89}
+{"version":"v7","family":"recipes","pages":89}
+{"version":"v6","family":"docs","pages":232}
+{"version":"v6","family":"providers","pages":131}
+{"version":"v6","family":"cookbook","pages":88}
+{"version":"v6","family":"recipes","pages":88}
+{"version":"v5","family":"docs","pages":225}
+{"version":"v5","family":"providers","pages":98}
+{"version":"v5","family":"cookbook","pages":82}
+{"version":"v5","family":"recipes","pages":82}
+{"pages":29,"recipes":{"v7":88,"v6":87,"v5":81}}
+{"markdownProjections":251,"converted":251,"cached":0}
+{"markdownProjections":356,"converted":356,"cached":0}
+{"markdownProjections":409,"converted":409,"cached":0}
+{"markdownProjections":370,"converted":370,"cached":0}
+{"markdownProjections":1386,"workers":4,"dirty":1386}
+{"discoveryOutputs":7}
+{"pages":1674,"shellsRendered":1674,"markdownRenderers":0}
+📦 1674 files built successfully
+time taken: 1.8454 seconds
+{"version":"v7","pages":530,"bytes":32664586}
+{"version":"v6","pages":451,"bytes":25276501}
+{"version":"v5","pages":405,"bytes":19491335}
+{"runtimeBytes":2164123}
+{"markdown": 1386, "discovery": 7, "xmlUrls": 554, "markdownRenderers": 0}
+{
+  "pipelineSeconds": 89.41334712668322,
+  "phases": [
+    {
+      "name": "authored source synchronization",
+      "elapsed_s": 1.2159222660120577,
+      "maximum_process_phase_rss_kib": 82572
+    },
+    {
+      "name": "content island compilation",
+      "elapsed_s": 0.8941454398445785,
+      "maximum_process_phase_rss_kib": 77392
+    },
+    {
+      "name": "shared UI compilation",
+      "elapsed_s": 0.9770985338836908,
+      "maximum_process_phase_rss_kib": 78660
+    },
+    {
+      "name": "MDX compatibility and server rendering",
+      "elapsed_s": 42.49042373499833,
+      "maximum_process_phase_rss_kib": 931184
+    },
+    {
+      "name": "content navigation",
+      "elapsed_s": 0.5765387660358101,
+      "maximum_process_phase_rss_kib": 113268
+    },
+    {
+      "name": "ancillary authored pages",
+      "elapsed_s": 1.1275094458833337,
+      "maximum_process_phase_rss_kib": 143920
+    },
+    {
+      "name": "Markdown projection conversion",
+      "elapsed_s": 13.988655435852706,
+      "maximum_process_phase_rss_kib": 454636
+    },
+    {
+      "name": "discovery projections",
+      "elapsed_s": 1.0119161668699235,
+      "maximum_process_phase_rss_kib": 268484
+    },
+    {
+      "name": "shared page UI preparation",
+      "elapsed_s": 15.645467709051445,
+      "maximum_process_phase_rss_kib": 356244
+    },
+    {
+      "name": "Nift composition",
+      "elapsed_s": 2.950815834105015,
+      "maximum_process_phase_rss_kib": 137132
+    },
+    {
+      "name": "search indexing",
+      "elapsed_s": 7.332786065060645,
+      "maximum_process_phase_rss_kib": 732208
+    },
+    {
+      "name": "runtime handler compilation",
+      "elapsed_s": 0.24741498893126845,
+      "maximum_process_phase_rss_kib": 59428
+    },
+    {
+      "name": "reference and runtime publication",
+      "elapsed_s": 0.9546527401544154,
+      "maximum_process_phase_rss_kib": 164736
+    }
+  ]
+}

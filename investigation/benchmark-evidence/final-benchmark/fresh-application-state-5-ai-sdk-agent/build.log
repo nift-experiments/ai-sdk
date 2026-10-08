@@ -1,0 +1,62 @@
+{"key":"f64ff943ab50b2987ac4a09aecaea56c5e3db7b4096a26b1e7a105029d696683","entry":"public/assets/islands/entry-ZEYD5DZB.js","build_ms":657.9986,"bytes":1131411,"outputs":7}
+{"key":"708cde4a2b2e54fed1556d46c3d9ffeb7e2262639a2f23180154f039602a8482","entry":"public/assets/chrome/entry-ZHY4FQEP.js","clientBytes":2035693,"build_ms":721.274756}
+{"html_pages_refreshed": 1386, "islands_rendered": 972, "markdown_renderers": 0}
+{"html_pages_refreshed": 29, "islands_rendered": 11, "markdown_renderers": 0}
+{"pages":1674,"shellsRendered":1674,"markdownRenderers":0}
+📦 1674 files built successfully
+time taken: 1.707174 seconds
+{"version":"v7","pages":530,"bytes":32664586}
+{"version":"v6","pages":451,"bytes":25276501}
+{"version":"v5","pages":405,"bytes":19491335}
+{"runtimeBytes":2164123}
+{"markdown": 1386, "discovery": 7, "xmlUrls": 554, "markdownRenderers": 0}
+{
+  "pipelineSeconds": 32.820548143005,
+  "phases": [
+    {
+      "name": "content island compilation",
+      "elapsed_s": 0.713938290020451,
+      "maximum_process_phase_rss_kib": 77944
+    },
+    {
+      "name": "shared UI compilation",
+      "elapsed_s": 0.7889345930889249,
+      "maximum_process_phase_rss_kib": 79236
+    },
+    {
+      "name": "maintained HTML island preparation",
+      "elapsed_s": 4.421010595047846,
+      "maximum_process_phase_rss_kib": 281908
+    },
+    {
+      "name": "ancillary HTML island preparation",
+      "elapsed_s": 0.28539581084623933,
+      "maximum_process_phase_rss_kib": 96236
+    },
+    {
+      "name": "shared page UI preparation",
+      "elapsed_s": 15.256187135819346,
+      "maximum_process_phase_rss_kib": 477120
+    },
+    {
+      "name": "Nift composition",
+      "elapsed_s": 3.0207104040309787,
+      "maximum_process_phase_rss_kib": 138028
+    },
+    {
+      "name": "search indexing",
+      "elapsed_s": 6.830913315992802,
+      "maximum_process_phase_rss_kib": 804100
+    },
+    {
+      "name": "runtime handler compilation",
+      "elapsed_s": 0.26600709301419556,
+      "maximum_process_phase_rss_kib": 59216
+    },
+    {
+      "name": "reference and runtime publication",
+      "elapsed_s": 1.2374509051442146,
+      "maximum_process_phase_rss_kib": 137268
+    }
+  ]
+}

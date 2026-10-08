@@ -1,0 +1,11 @@
+{
+  "source_read_hash_s": 0.0022530334535986185,
+  "html_parse_s": 0.00909205712378025,
+  "host_inventory_s": 1.2495089322328568e-05,
+  "react_subprocess_s": 0.3940838980488479,
+  "html_serialize_write_s": 0.00397416902706027,
+  "pages": 29,
+  "islands": 11,
+  "total_s": 0.4125533520709723,
+  "methodology": "Exclusive refresh-stage counters; html_parse_s is lexical host span location, not DOM construction; subprocess includes its startup, all SSR, and request/response IO. No MDX parser runs."
+}

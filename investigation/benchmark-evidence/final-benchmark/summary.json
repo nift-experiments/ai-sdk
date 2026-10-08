@@ -1,0 +1,101 @@
+[
+  {
+    "project": "upstream",
+    "mode": "warm-full",
+    "samples": 5,
+    "median_s": 337.34376179706305,
+    "min_s": 282.8364757830277,
+    "max_s": 389.32030949997716,
+    "median_maximum_process_phase_rss_mib": 23671.46875,
+    "rss_min_mib": 19978.91015625,
+    "rss_max_mib": 28277.89453125
+  },
+  {
+    "project": "upstream",
+    "mode": "fresh-application-state",
+    "samples": 5,
+    "median_s": 306.0321945431642,
+    "min_s": 287.4888444910757,
+    "max_s": 340.79129019589163,
+    "median_maximum_process_phase_rss_mib": 16317.38671875,
+    "rss_min_mib": 16260.86328125,
+    "rss_max_mib": 17300.41015625
+  },
+  {
+    "project": "upstream",
+    "mode": "unchanged-cached",
+    "samples": 5,
+    "median_s": 264.9289056540001,
+    "min_s": 257.26498291199096,
+    "max_s": 304.7948273560032,
+    "median_maximum_process_phase_rss_mib": 19935.40234375,
+    "rss_min_mib": 19704.1875,
+    "rss_max_mib": 20583.94921875
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "warm-full",
+    "samples": 5,
+    "median_s": 83.15820610499941,
+    "min_s": 71.0548329569865,
+    "max_s": 96.4599049219396,
+    "median_maximum_process_phase_rss_mib": 901.765625,
+    "rss_min_mib": 887.375,
+    "rss_max_mib": 944.38671875
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "fresh-application-state",
+    "samples": 5,
+    "median_s": 68.86807532096282,
+    "min_s": 67.46315134619363,
+    "max_s": 89.46883017290384,
+    "median_maximum_process_phase_rss_mib": 909.359375,
+    "rss_min_mib": 887.484375,
+    "rss_max_mib": 937.0390625
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "unchanged-cached",
+    "samples": 5,
+    "median_s": 12.865685180062428,
+    "min_s": 11.890218517975882,
+    "max_s": 18.65098304185085,
+    "median_maximum_process_phase_rss_mib": 517.3828125,
+    "rss_min_mib": 514.74609375,
+    "rss_max_mib": 564.3203125
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "warm-full",
+    "samples": 5,
+    "median_s": 37.95567362802103,
+    "min_s": 26.95112720411271,
+    "max_s": 41.872928622877225,
+    "median_maximum_process_phase_rss_mib": 758.91796875,
+    "rss_min_mib": 757.36328125,
+    "rss_max_mib": 759.39453125
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "fresh-application-state",
+    "samples": 5,
+    "median_s": 28.094691146863624,
+    "min_s": 26.705420373007655,
+    "max_s": 35.849147910950705,
+    "median_maximum_process_phase_rss_mib": 753.62890625,
+    "rss_min_mib": 693.3359375,
+    "rss_max_mib": 785.25390625
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "unchanged-cached",
+    "samples": 5,
+    "median_s": 8.428536624880508,
+    "min_s": 6.275508922059089,
+    "max_s": 11.557153817964718,
+    "median_maximum_process_phase_rss_mib": 283.03125,
+    "rss_min_mib": 282.23046875,
+    "rss_max_mib": 284.40234375
+  }
+]

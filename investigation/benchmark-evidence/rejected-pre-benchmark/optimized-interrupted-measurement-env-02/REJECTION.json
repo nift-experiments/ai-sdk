@@ -1,0 +1,4 @@
+{
+  "accepted_samples": 0,
+  "reason": "Interrupted before acceptance to keep measurement environment constant across warm-cache samples. Observation paths are now constant and results copied after each command."
+}

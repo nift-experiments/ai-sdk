@@ -1,6 +1,6 @@
 # Status
 
-A0–A5 accepted. All 745 versioned documentation routes publish with three A3 prototypes (748 tracked routes). Authored/synchronized provenance, all-page content/TOC/head/alternate checks, representative historical browser/version switching and serialized lifecycle checks pass with immutable source restoration. A6 provider/cookbook/resources/special families, A7 complete browser/publication parity and A8–A10 benchmarks/optimization/final assessment remain open. No Nift core/templates changes.
+A0–A10 complete. Optimized parity and fresh-clone gates pass; 45 production samples and 13 controlled upstream input cases are preserved in [A10-REPORT.md](A10-REPORT.md). No Nift core/template changes. Historical checkpoint notes follow.
 
 ## A6 accepted — complete families and HTTP publication
 
@@ -18,3 +18,8 @@ The final 24 HTTP cases pass. The all-page local asset/link plus CSS audit finds
 ## A8 initial profiles and A9 optimized parity accepted
 
 Initial A7 forced-publication diagnostics and the rejected broad cache attempt are preserved independently. Optimized primary/alias/ancillary content, all heads, Markdown/discovery, 72 browser states per migration, affected interactions, HTTP cases and asset resolution pass. Controlled lifecycle publications equal forced rebuilds; stale HTML/Markdown retirement and corrupted generated artifacts recover correctly. Fresh public clones reproduce all 3,219 public/runtime files byte-for-byte and remain clean. The agent fresh-clone gate exposed an obsolete prototype cache read; it was removed and a second fresh public clone passed. No Nift core/templates were modified. Final five-sample A10 benchmarking and engineering assessment remain open.
+
+
+## A10 accepted — experiment closed
+
+Initial and rejected profiles remain visible. Complete production timing, separate component/memory scopes, coordinated rendered-source edits and route retirement are documented with raw evidence. Remaining costs are later planning targets. Both source models retain their architectural distinction. No further polishing or Nift changes are part of this experiment.

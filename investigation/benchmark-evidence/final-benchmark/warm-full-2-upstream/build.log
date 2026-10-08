@@ -1,0 +1,203 @@
+$ pnpm sync-content && fumadocs-mdx && next build
+$ node scripts/sync-content.mjs
+[sync-content] transformed v7/docs
+[sync-content] transformed v7/providers
+[sync-content] transformed v7/cookbook
+[sync-content] using cached content for 0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a (pass --force to refresh)
+[sync-content] transformed v6/docs
+[sync-content] transformed v6/providers
+[sync-content] transformed v6/cookbook
+[sync-content] using cached content for 239ea3a151f81aa55b78d8eeca5fd20555730de5 (pass --force to refresh)
+[sync-content] transformed v5/docs
+[sync-content] transformed v5/providers
+[sync-content] transformed v5/cookbook
+[sync-content] done
+[MDX] generated files in 44.144623999999965ms
+▲ Next.js 16.3.6 (Turbopack)
+✓ Running next.config.ts took 56ms
+[MDX] generated files in 929.1883439999999ms
+- Cache Components enabled
+- Partial Prefetching enabled
+- Experiments (use with caution):
+  · cpus: 8
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 3.0min
+  Running TypeScript ...
+  Finished TypeScript in 5.2s ...
+  Collecting page data using 8 workers ...
+  Generating static pages using 8 workers (0/3107) ...
+  Generating static pages using 8 workers (776/3107) 
+  Generating static pages using 8 workers (1553/3107) 
+  Generating static pages using 8 workers (2330/3107) 
+✓ Generating static pages using 8 workers (3107/3107) in 77s
+  Finalizing page optimization ...
+
+Route (app)                                            Revalidate  Expire
+┌ ○ /_not-found
+├   /[lang]                                                    1h      1d
+│ ├ ◐ /[lang]                                                  1h      1d
+│ └ ○ /en                                                      1h      1d
+├ ƒ /[lang]/[...not-found]
+├ ƒ /[lang]/agents.md
+├   /[lang]/cookbook-llms.mdx/[[...slug]]
+│ ├ ● /en/cookbook-llms.mdx/api-servers/express
+│ ├ ● /en/cookbook-llms.mdx/api-servers/fastify
+│ ├ ● /en/cookbook-llms.mdx/api-servers/hono
+│ └ ● [+86 more paths]
+├   /[lang]/cookbook/[[...slug]]
+│ ├ ◐ /[lang]/cookbook/[[...slug]]
+│ ├ ◐ /en/cookbook/[[...slug]]
+│ ├ ○ /en/cookbook/api-servers/express
+│ └ ◐ [+88 more paths]
+├   /[lang]/docs/[[...slug]]
+│ ├ ◐ /[lang]/docs/[[...slug]]
+│ ├ ◐ /en/docs/[[...slug]]
+│ ├ ○ /en/docs/agents/building-agents
+│ └ ◐ [+287 more paths]
+├   /[lang]/llms.mdx/[[...slug]]
+│ ├ ● /en/llms.mdx/agents/building-agents
+│ ├ ● /en/llms.mdx/agents/configuring-call-options
+│ ├ ● /en/llms.mdx/agents/loop-control
+│ └ ● [+285 more paths]
+├ ƒ /[lang]/llms.txt
+├ ƒ /[lang]/og/[...slug]
+├   /[lang]/playground-recovery
+│ ├ ◐ /[lang]/playground-recovery
+│ └ ○ /en/playground-recovery
+├   /[lang]/providers-llms.mdx/[[...slug]]
+│ ├ ● /en/providers-llms.mdx/adapters
+│ ├ ● /en/providers-llms.mdx/adapters/langchain
+│ ├ ● /en/providers-llms.mdx/adapters/llamaindex
+│ └ ● [+150 more paths]
+├   /[lang]/providers/[[...slug]]
+│ ├ ◐ /[lang]/providers/[[...slug]]
+│ ├ ◐ /en/providers/[[...slug]]
+│ ├ ○ /en/providers/adapters
+│ └ ◐ [+152 more paths]
+├   /[lang]/resources
+│ ├ ◐ /[lang]/resources
+│ └ ○ /en/resources
+├   /[lang]/resources/recipes
+│ ├ ◐ /[lang]/resources/recipes
+│ └ ○ /en/resources/recipes
+├   /[lang]/resources/recipes/[...slug]
+│ ├ ◐ /[lang]/resources/recipes/[...slug]
+│ ├ ◐ /en/resources/recipes/[...slug]
+│ ├ ○ /en/resources/recipes/api-servers/express
+│ └ ◐ [+88 more paths]
+├   /[lang]/resources/showcase
+│ ├ ◐ /[lang]/resources/showcase
+│ └ ○ /en/resources/showcase
+├   /[lang]/resources/templates
+│ ├ ◐ /[lang]/resources/templates
+│ └ ○ /en/resources/templates
+├   /[lang]/resources/tools
+│ ├ ◐ /[lang]/resources/tools
+│ └ ○ /en/resources/tools
+├   /[lang]/resources/tools/[slug]
+│ ├ ◐ /[lang]/resources/tools/[slug]
+│ ├ ◐ /en/resources/tools/[slug]
+│ ├ ○ /en/resources/tools/code-execution                      30d      1y
+│ └ ◐ [+18 more paths]
+├   /[lang]/sitemap.md
+│ └ ● /en/sitemap.md
+├   /[lang]/unauthenticated-ai-gateway
+│ ├ ◐ /[lang]/unauthenticated-ai-gateway
+│ └ ○ /en/unauthenticated-ai-gateway
+├   /[lang]/v5/cookbook-llms.mdx/[[...slug]]
+│ ├ ● /en/v5/cookbook-llms.mdx/api-servers/express
+│ ├ ● /en/v5/cookbook-llms.mdx/api-servers/fastify
+│ ├ ● /en/v5/cookbook-llms.mdx/api-servers/hono
+│ └ ● [+79 more paths]
+├   /[lang]/v5/cookbook/[[...slug]]
+│ ├ ◐ /[lang]/v5/cookbook/[[...slug]]
+│ ├ ◐ /en/v5/cookbook/[[...slug]]
+│ ├ ○ /en/v5/cookbook/api-servers/express
+│ └ ◐ [+81 more paths]
+├   /[lang]/v5/docs/[[...slug]]
+│ ├ ◐ /[lang]/v5/docs/[[...slug]]
+│ ├ ◐ /en/v5/docs/[[...slug]]
+│ ├ ○ /en/v5/docs/advanced/backpressure
+│ └ ◐ [+224 more paths]
+├   /[lang]/v5/llms.mdx/[[...slug]]
+│ ├ ● /en/v5/llms.mdx/advanced/backpressure
+│ ├ ● /en/v5/llms.mdx/advanced/caching
+│ ├ ● /en/v5/llms.mdx/advanced
+│ └ ● [+222 more paths]
+├ ƒ /[lang]/v5/llms.txt
+├   /[lang]/v5/providers-llms.mdx/[[...slug]]
+│ ├ ● /en/v5/providers-llms.mdx/adapters
+│ ├ ● /en/v5/providers-llms.mdx/adapters/langchain
+│ ├ ● /en/v5/providers-llms.mdx/adapters/llamaindex
+│ └ ● [+95 more paths]
+├   /[lang]/v5/providers/[[...slug]]
+│ ├ ◐ /[lang]/v5/providers/[[...slug]]
+│ ├ ◐ /en/v5/providers/[[...slug]]
+│ ├ ○ /en/v5/providers/adapters
+│ └ ◐ [+97 more paths]
+├   /[lang]/v5/resources/recipes
+│ ├ ◐ /[lang]/v5/resources/recipes
+│ └ ○ /en/v5/resources/recipes
+├   /[lang]/v5/resources/recipes/[...slug]
+│ ├ ◐ /[lang]/v5/resources/recipes/[...slug]
+│ ├ ◐ /en/v5/resources/recipes/[...slug]
+│ ├ ○ /en/v5/resources/recipes/api-servers/express
+│ └ ◐ [+81 more paths]
+├   /[lang]/v5/sitemap.md
+│ └ ● /en/v5/sitemap.md
+├   /[lang]/v6/cookbook-llms.mdx/[[...slug]]
+│ ├ ● /en/v6/cookbook-llms.mdx/api-servers/express
+│ ├ ● /en/v6/cookbook-llms.mdx/api-servers/fastify
+│ ├ ● /en/v6/cookbook-llms.mdx/api-servers/hono
+│ └ ● [+85 more paths]
+├   /[lang]/v6/cookbook/[[...slug]]
+│ ├ ◐ /[lang]/v6/cookbook/[[...slug]]
+│ ├ ◐ /en/v6/cookbook/[[...slug]]
+│ ├ ○ /en/v6/cookbook/api-servers/express
+│ └ ◐ [+87 more paths]
+├   /[lang]/v6/docs/[[...slug]]
+│ ├ ◐ /[lang]/v6/docs/[[...slug]]
+│ ├ ◐ /en/v6/docs/[[...slug]]
+│ ├ ○ /en/v6/docs/agents/building-agents
+│ └ ◐ [+231 more paths]
+├   /[lang]/v6/llms.mdx/[[...slug]]
+│ ├ ● /en/v6/llms.mdx/agents/building-agents
+│ ├ ● /en/v6/llms.mdx/agents/configuring-call-options
+│ ├ ● /en/v6/llms.mdx/agents/loop-control
+│ └ ● [+229 more paths]
+├ ƒ /[lang]/v6/llms.txt
+├   /[lang]/v6/providers-llms.mdx/[[...slug]]
+│ ├ ● /en/v6/providers-llms.mdx/adapters
+│ ├ ● /en/v6/providers-llms.mdx/adapters/langchain
+│ ├ ● /en/v6/providers-llms.mdx/adapters/llamaindex
+│ └ ● [+128 more paths]
+├   /[lang]/v6/providers/[[...slug]]
+│ ├ ◐ /[lang]/v6/providers/[[...slug]]
+│ ├ ◐ /en/v6/providers/[[...slug]]
+│ ├ ○ /en/v6/providers/adapters
+│ └ ◐ [+130 more paths]
+├   /[lang]/v6/resources/recipes
+│ ├ ◐ /[lang]/v6/resources/recipes
+│ └ ○ /en/v6/resources/recipes
+├   /[lang]/v6/resources/recipes/[...slug]
+│ ├ ◐ /[lang]/v6/resources/recipes/[...slug]
+│ ├ ◐ /en/v6/resources/recipes/[...slug]
+│ ├ ○ /en/v6/resources/recipes/api-servers/express
+│ └ ◐ [+87 more paths]
+├   /[lang]/v6/sitemap.md
+│ └ ● /en/v6/sitemap.md
+├ ƒ /api/chat
+├ ƒ /api/search
+├ ○ /icon.svg
+├ ○ /robots.txt
+└ ○ /sitemap.xml                                              30d      1y
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)             prerendered as static content
+●  (SSG)                prerendered as static HTML (uses generateStaticParams)
+◐  (Partial Prerender)  prerendered as static HTML with dynamic server-streamed content
+ƒ  (Dynamic)            server-rendered on demand
+

@@ -1,0 +1,1 @@
+{"command": "pnpm --dir apps/docs build:site", "reason": "Prepare cache in this isolated checkout so paths match; not a benchmark sample"}

@@ -1,0 +1,24 @@
+$ pnpm sync-content && fumadocs-mdx && next build
+$ node scripts/sync-content.mjs
+[sync-content] transformed v7/docs
+[sync-content] transformed v7/providers
+[sync-content] transformed v7/cookbook
+[sync-content] using cached content for 0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a (pass --force to refresh)
+[sync-content] transformed v6/docs
+[sync-content] transformed v6/providers
+[sync-content] transformed v6/cookbook
+[sync-content] using cached content for 239ea3a151f81aa55b78d8eeca5fd20555730de5 (pass --force to refresh)
+[sync-content] transformed v5/docs
+[sync-content] transformed v5/providers
+[sync-content] transformed v5/cookbook
+[sync-content] done
+[MDX] generated files in 45.42397699999998ms
+▲ Next.js 16.3.6 (Turbopack)
+✓ Running next.config.ts took 58ms
+[MDX] generated files in 1027.4080909999998ms
+- Cache Components enabled
+- Partial Prefetching enabled
+- Experiments (use with caution):
+  · cpus: 8
+
+  Creating an optimized production build ...

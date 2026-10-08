@@ -1,0 +1,1 @@
+{"stage":"fumadocs-mdx-generation","pid":1385779,"start_utc":"2026-10-08T08:57:24.614Z","scope":"CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline","elapsed_s":0.465692286,"exit_code":0,"cli_maximum_rss_kib":103792}

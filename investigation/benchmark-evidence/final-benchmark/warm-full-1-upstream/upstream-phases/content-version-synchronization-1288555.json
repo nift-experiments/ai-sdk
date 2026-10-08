@@ -1,0 +1,1 @@
+{"stage":"content-version-synchronization","pid":1288555,"start_utc":"2026-10-08T07:50:17.607Z","scope":"CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline","elapsed_s":0.888380086,"exit_code":0,"cli_maximum_rss_kib":73708}

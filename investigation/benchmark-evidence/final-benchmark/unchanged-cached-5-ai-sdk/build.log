@@ -1,0 +1,100 @@
+{"versions":[{"version":"v7","family":"docs","authoredMdx":294,"synchronizedMdx":288},{"version":"v7","family":"providers","authoredMdx":153,"synchronizedMdx":153},{"version":"v7","family":"cookbook","authoredMdx":93,"synchronizedMdx":89},{"version":"v6","family":"docs","authoredMdx":237,"synchronizedMdx":232},{"version":"v6","family":"providers","authoredMdx":131,"synchronizedMdx":131},{"version":"v6","family":"cookbook","authoredMdx":92,"synchronizedMdx":88},{"version":"v5","family":"docs","authoredMdx":230,"synchronizedMdx":225},{"version":"v5","family":"providers","authoredMdx":98,"synchronizedMdx":98},{"version":"v5","family":"cookbook","authoredMdx":86,"synchronizedMdx":82}],"pages":1386}
+{"cached":true,"key":"dd453acf58d148fbdc36c5a2579a6f93698ed1b2c8fdbe09a544d00e6398ee5e","bytes":1131411}
+{"cached":true,"key":"9a17357a5fd4c6af7da3a1a1f2cfbc8cb15ba58176a4c6e72ddbd494d06e0351"}
+{"pages":1386,"cached":1386,"compileReuse":0,"diskCompileReuse":0,"highlightingStats":{"hits":0,"misses":0,"evictions":0,"maxBytes":67108864}}
+{"version":"v7","family":"docs","pages":288}
+{"version":"v7","family":"providers","pages":153}
+{"version":"v7","family":"cookbook","pages":89}
+{"version":"v7","family":"recipes","pages":89}
+{"version":"v6","family":"docs","pages":232}
+{"version":"v6","family":"providers","pages":131}
+{"version":"v6","family":"cookbook","pages":88}
+{"version":"v6","family":"recipes","pages":88}
+{"version":"v5","family":"docs","pages":225}
+{"version":"v5","family":"providers","pages":98}
+{"version":"v5","family":"cookbook","pages":82}
+{"version":"v5","family":"recipes","pages":82}
+{"pages":29,"recipes":{"v7":88,"v6":87,"v5":81}}
+{"markdownProjections":1386,"converted":0,"cached":1386}
+{"version":"v7","cached":true}
+{"version":"v6","cached":true}
+{"version":"v5","cached":true}
+{"discoveryOutputs":7}
+{"pages":1674,"shellsRendered":0,"markdownRenderers":0}
+✓ 1674 tracked files are up to date
+time taken: 0.200054 seconds
+{"version":"v7","pages":530,"cached":true}
+{"version":"v6","pages":451,"cached":true}
+{"version":"v5","pages":405,"cached":true}
+{"cached":true,"runtimeBytes":2164123}
+{"markdown": 1386, "discovery": 7, "xmlUrls": 554, "markdownRenderers": 0}
+{
+  "pipelineSeconds": 11.826327172107995,
+  "phases": [
+    {
+      "name": "authored source synchronization",
+      "elapsed_s": 0.8716491810046136,
+      "maximum_process_phase_rss_kib": 85864
+    },
+    {
+      "name": "content island compilation",
+      "elapsed_s": 0.16274536796845496,
+      "maximum_process_phase_rss_kib": 66560
+    },
+    {
+      "name": "shared UI compilation",
+      "elapsed_s": 0.12225682102143764,
+      "maximum_process_phase_rss_kib": 78560
+    },
+    {
+      "name": "MDX compatibility and server rendering",
+      "elapsed_s": 3.040190322091803,
+      "maximum_process_phase_rss_kib": 527100
+    },
+    {
+      "name": "content navigation",
+      "elapsed_s": 0.3609384810552001,
+      "maximum_process_phase_rss_kib": 115104
+    },
+    {
+      "name": "ancillary authored pages",
+      "elapsed_s": 0.7348402221687138,
+      "maximum_process_phase_rss_kib": 143840
+    },
+    {
+      "name": "Markdown projection conversion",
+      "elapsed_s": 0.9103791259694844,
+      "maximum_process_phase_rss_kib": 326364
+    },
+    {
+      "name": "discovery projections",
+      "elapsed_s": 0.4523048389237374,
+      "maximum_process_phase_rss_kib": 182476
+    },
+    {
+      "name": "shared page UI preparation",
+      "elapsed_s": 3.244813628960401,
+      "maximum_process_phase_rss_kib": 362516
+    },
+    {
+      "name": "Nift composition",
+      "elapsed_s": 0.7804288459010422,
+      "maximum_process_phase_rss_kib": 31404
+    },
+    {
+      "name": "search indexing",
+      "elapsed_s": 0.4375586600508541,
+      "maximum_process_phase_rss_kib": 239272
+    },
+    {
+      "name": "runtime handler compilation",
+      "elapsed_s": 0.06910318695008755,
+      "maximum_process_phase_rss_kib": 58148
+    },
+    {
+      "name": "reference and runtime publication",
+      "elapsed_s": 0.6391184900421649,
+      "maximum_process_phase_rss_kib": 165048
+    }
+  ]
+}

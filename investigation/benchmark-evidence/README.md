@@ -1,0 +1,7 @@
+# Evidence scopes
+
+`final-benchmark/` contains all 45 accepted serialized production samples, component records, GNU time logs and output-integrity checks. `changed-input-upstream/` contains the 13 single controlled upstream production cases, warm-state preparation, interrupted/rejected preparation logs and final source-restoration proof. Preparation attempts are not accepted samples.
+
+Authored incremental/forced comparisons use `lifecycle-optimized/ai-sdk-body-proof.json` and `ai-sdk-routes-proof.json`. Rendered comparisons use `lifecycle-scoped-optimized/ai-sdk-agent-body-proof.json` and `lifecycle-scoped-routes-optimized/ai-sdk-agent-routes-proof.json`; metadata, historical-version and provider comparisons instead use their complete coordinated cases in `lifecycle-scoped-coordinated-optimized/`. Older agent observations in `lifecycle-optimized/` are retained diagnostics, not the final comparison rows. Each Nift case restores maintained inputs and compares incremental output against forced recomputation. Route deletion can report zero differences relative to pristine publication after retiring the fixture; zero does not mean no retirement occurred.
+
+Large disposable application-state snapshots are retained externally, not committed. The reproduction runners and immutable pinned inputs describe how to prepare them. SHA256SUMS.json covers every committed evidence file except itself. Individual-process RSS and sampled descendant RSS sums have different scopes; the report states shared-page and sampling limitations.

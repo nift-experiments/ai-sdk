@@ -1,0 +1,84 @@
+{
+  "wall_ms": 30589.10225,
+  "workers": 4,
+  "summed_worker_ms": 102504.39521700001,
+  "plugins": {
+    "remark:remarkSteps:0": 295.1344010000248,
+    "remark:remarkHeading:2": 235.66361000002144,
+    "remark:remarkImage:3": 410.0203790000196,
+    "remark:remarkCodeTab:4": 236.20833199999106,
+    "remark:remarkNpm:5": 187.0313090000236,
+    "remark:remarkStructure:6": 385.28820700006327,
+    "remark:remarkMdxMermaid:7": 249.10379700001067,
+    "remark:remarkCodeTemplates:8": 68.14741200002027,
+    "remark:remarkDetails:9": 17.088502000009612,
+    "remark:captureProcessedMarkdown:10": 2199.6856719999378,
+    "rehype:rehypeCodeTemplates:0": 51.320939000026556,
+    "rehype:rehypeCode:1": 33227.89266700005,
+    "rehype:rehypeToc:2": 295.65763099995456
+  },
+  "families": {
+    "v7/docs": {
+      "pages": 288,
+      "compile_ms": 25494.936574999992,
+      "render_ms": 2985.9352380000014,
+      "cached": 0
+    },
+    "v7/providers": {
+      "pages": 153,
+      "compile_ms": 12923.500396999998,
+      "render_ms": 1271.7911910000103,
+      "cached": 0
+    },
+    "v7/cookbook": {
+      "pages": 89,
+      "compile_ms": 4462.999975000006,
+      "render_ms": 474.8129239999889,
+      "cached": 0
+    },
+    "v6/docs": {
+      "pages": 232,
+      "compile_ms": 12784.666552000008,
+      "render_ms": 1676.7587960000037,
+      "cached": 0
+    },
+    "v6/providers": {
+      "pages": 131,
+      "compile_ms": 10150.975325000009,
+      "render_ms": 1107.7313169999834,
+      "cached": 0
+    },
+    "v6/cookbook": {
+      "pages": 88,
+      "compile_ms": 4444.830751000001,
+      "render_ms": 469.4641579999861,
+      "cached": 0
+    },
+    "v5/docs": {
+      "pages": 225,
+      "compile_ms": 8596.007275000014,
+      "render_ms": 1351.283977999974,
+      "cached": 0
+    },
+    "v5/providers": {
+      "pages": 98,
+      "compile_ms": 5377.239346999995,
+      "render_ms": 600.3870960000022,
+      "cached": 0
+    },
+    "v5/cookbook": {
+      "pages": 82,
+      "compile_ms": 2909.33265199999,
+      "render_ms": 395.6273190000102,
+      "cached": 0
+    }
+  },
+  "methodology": "Worker phase/plugin/family counters sum elapsed task time across concurrent workers and must not be added to wall time. Plugin counters remain nested within transforms. Whole-stage GNU time reports maximum process/phase RSS, not concurrent aggregate memory.",
+  "initialization_ms": 192.83513500003983,
+  "frontmatter_ms": 71.56400400000598,
+  "parse_ms": 23541.678309999967,
+  "transforms_ms": 56000.09927800001,
+  "stringify_ms": 2126.6103560000342,
+  "evaluate_ms": 1474.759283999974,
+  "react_render_ms": 7148.5472020000425
+}

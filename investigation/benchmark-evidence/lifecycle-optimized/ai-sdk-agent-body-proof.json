@@ -1,0 +1,83 @@
+[
+  {
+    "project": "ai-sdk-agent",
+    "case": "body-1",
+    "incremental_s": 9.89861673489213,
+    "forced_s": 23.490955368848518,
+    "incremental_forced_equal": true,
+    "changed_files": 5,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "body-10",
+    "incremental_s": 9.836651437915862,
+    "forced_s": 24.060822157887742,
+    "incremental_forced_equal": true,
+    "changed_files": 23,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "body-100",
+    "incremental_s": 10.376951490994543,
+    "forced_s": 23.176491167163476,
+    "incremental_forced_equal": true,
+    "changed_files": 203,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "metadata-update-remove",
+    "incremental_s": 9.676803161157295,
+    "forced_s": 22.968550155870616,
+    "incremental_forced_equal": true,
+    "changed_files": 6,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "shared-layout",
+    "incremental_s": 16.676586585119367,
+    "forced_s": 23.034023568965495,
+    "incremental_forced_equal": true,
+    "changed_files": 1675,
+    "retired_files": 1
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "redirect",
+    "incremental_s": 6.284789900062606,
+    "forced_s": 23.02913706912659,
+    "incremental_forced_equal": true,
+    "changed_files": 1,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "island-source",
+    "incremental_s": 11.785857297014445,
+    "forced_s": 23.072369985980913,
+    "incremental_forced_equal": true,
+    "changed_files": 1675,
+    "retired_files": 1
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "historical-version",
+    "incremental_s": 6.201837866101414,
+    "forced_s": 22.570450694067404,
+    "incremental_forced_equal": true,
+    "changed_files": 1,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "provider-reference",
+    "incremental_s": 6.244306655135006,
+    "forced_s": 23.137396757956594,
+    "incremental_forced_equal": true,
+    "changed_files": 1,
+    "retired_files": 0
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "project": "ai-sdk-agent",
+    "case": "navigation-order",
+    "incremental_s": 9.844870000844821,
+    "forced_s": 27.24773222906515,
+    "incremental_forced_equal": true,
+    "changed_files": 288,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "route-add",
+    "incremental_s": 11.91588997701183,
+    "forced_s": 24.624476739903912,
+    "incremental_forced_equal": true,
+    "changed_files": 297,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "route-rename",
+    "incremental_s": 11.061773617053404,
+    "forced_s": 23.104065244086087,
+    "incremental_forced_equal": true,
+    "changed_files": 297,
+    "retired_files": 0
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "route-delete",
+    "incremental_s": 10.6344239867758,
+    "forced_s": 26.268276461865753,
+    "incremental_forced_equal": true,
+    "changed_files": 0,
+    "retired_files": 0
+  }
+]

@@ -1,0 +1,62 @@
+{"cached":true,"key":"f64ff943ab50b2987ac4a09aecaea56c5e3db7b4096a26b1e7a105029d696683","bytes":1131411}
+{"cached":true,"key":"708cde4a2b2e54fed1556d46c3d9ffeb7e2262639a2f23180154f039602a8482"}
+{"html_pages_refreshed": 0, "islands_rendered": 0, "markdown_renderers": 0}
+{"html_pages_refreshed": 0, "islands_rendered": 0, "markdown_renderers": 0}
+{"pages":1674,"shellsRendered":0,"markdownRenderers":0}
+✓ 1674 tracked files are up to date
+time taken: 0.326442 seconds
+{"version":"v7","pages":530,"cached":true}
+{"version":"v6","pages":451,"cached":true}
+{"version":"v5","pages":405,"cached":true}
+{"cached":true,"runtimeBytes":2164123}
+{"markdown": 1386, "discovery": 7, "xmlUrls": 554, "markdownRenderers": 0}
+{
+  "pipelineSeconds": 11.465789596782997,
+  "phases": [
+    {
+      "name": "content island compilation",
+      "elapsed_s": 0.23160501010715961,
+      "maximum_process_phase_rss_kib": 66700
+    },
+    {
+      "name": "shared UI compilation",
+      "elapsed_s": 0.25204523792490363,
+      "maximum_process_phase_rss_kib": 78392
+    },
+    {
+      "name": "maintained HTML island preparation",
+      "elapsed_s": 1.3846521249506623,
+      "maximum_process_phase_rss_kib": 87708
+    },
+    {
+      "name": "ancillary HTML island preparation",
+      "elapsed_s": 0.14481713296845555,
+      "maximum_process_phase_rss_kib": 20308
+    },
+    {
+      "name": "shared page UI preparation",
+      "elapsed_s": 5.611884861020371,
+      "maximum_process_phase_rss_kib": 289824
+    },
+    {
+      "name": "Nift composition",
+      "elapsed_s": 2.159956483868882,
+      "maximum_process_phase_rss_kib": 104300
+    },
+    {
+      "name": "search indexing",
+      "elapsed_s": 0.5661979550495744,
+      "maximum_process_phase_rss_kib": 175496
+    },
+    {
+      "name": "runtime handler compilation",
+      "elapsed_s": 0.11101593100465834,
+      "maximum_process_phase_rss_kib": 57440
+    },
+    {
+      "name": "reference and runtime publication",
+      "elapsed_s": 1.00361485988833,
+      "maximum_process_phase_rss_kib": 169408
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+	Command being timed: "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node /home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs --dir apps/docs build:site"
+	User time (seconds): 491.59
+	System time (seconds): 58.96
+	Percent of CPU this job got: 207%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 4:24.89
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 20177088
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 44193
+	Minor (reclaiming a frame) page faults: 19744120
+	Voluntary context switches: 327635
+	Involuntary context switches: 60403
+	Swaps: 0
+	File system inputs: 1146336
+	File system outputs: 4305016
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

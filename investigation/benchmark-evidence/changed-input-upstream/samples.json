@@ -1,0 +1,145 @@
+[
+  {
+    "project": "upstream",
+    "case": "body-1",
+    "elapsed_s": 267.89005230600014,
+    "maximum_process_phase_rss_kib": 21730784,
+    "sampled_peak_sum_rss_bytes": 31572459520,
+    "memory_samples": 3579,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "body-10",
+    "elapsed_s": 299.08810183708556,
+    "maximum_process_phase_rss_kib": 22554452,
+    "sampled_peak_sum_rss_bytes": 30878294016,
+    "memory_samples": 3756,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "body-100",
+    "elapsed_s": 317.15616475301795,
+    "maximum_process_phase_rss_kib": 20773108,
+    "sampled_peak_sum_rss_bytes": 30751260672,
+    "memory_samples": 4051,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "metadata-update-remove",
+    "elapsed_s": 321.7214997089468,
+    "maximum_process_phase_rss_kib": 20717588,
+    "sampled_peak_sum_rss_bytes": 30267187200,
+    "memory_samples": 4037,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "shared-layout",
+    "elapsed_s": 326.6302993230056,
+    "maximum_process_phase_rss_kib": 20304220,
+    "sampled_peak_sum_rss_bytes": 29606412288,
+    "memory_samples": 3929,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "navigation-order",
+    "elapsed_s": 333.1436425240245,
+    "maximum_process_phase_rss_kib": 20910344,
+    "sampled_peak_sum_rss_bytes": 30382055424,
+    "memory_samples": 4075,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "historical-version",
+    "elapsed_s": 304.7868958590552,
+    "maximum_process_phase_rss_kib": 24027432,
+    "sampled_peak_sum_rss_bytes": 31620399104,
+    "memory_samples": 3809,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "provider-reference",
+    "elapsed_s": 266.5318230970297,
+    "maximum_process_phase_rss_kib": 20707916,
+    "sampled_peak_sum_rss_bytes": 31326519296,
+    "memory_samples": 3439,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "redirect",
+    "elapsed_s": 271.1443782930728,
+    "maximum_process_phase_rss_kib": 28432688,
+    "sampled_peak_sum_rss_bytes": 38321172480,
+    "memory_samples": 3524,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "island-source",
+    "elapsed_s": 259.3689665349666,
+    "maximum_process_phase_rss_kib": 28177708,
+    "sampled_peak_sum_rss_bytes": 38007312384,
+    "memory_samples": 3377,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "route-add",
+    "elapsed_s": 256.7095495769754,
+    "maximum_process_phase_rss_kib": 21466012,
+    "sampled_peak_sum_rss_bytes": 31385718784,
+    "memory_samples": 3371,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "route-rename",
+    "elapsed_s": 231.22928746789694,
+    "maximum_process_phase_rss_kib": 12460248,
+    "sampled_peak_sum_rss_bytes": 30746177536,
+    "memory_samples": 3110,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  },
+  {
+    "project": "upstream",
+    "case": "route-delete",
+    "elapsed_s": 248.95223531499505,
+    "maximum_process_phase_rss_kib": 12246600,
+    "sampled_peak_sum_rss_bytes": 27829964800,
+    "memory_samples": 3329,
+    "command": "pnpm --dir apps/docs build:site",
+    "application_state": "copied pristine warm application cache before each measured edit; package/OS caches retained",
+    "source_head": "3ebefff610f96892c50be48cf1838c453e2349f7"
+  }
+]

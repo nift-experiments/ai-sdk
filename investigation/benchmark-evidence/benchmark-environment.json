@@ -1,0 +1,14 @@
+{
+  "platform": "Linux-7.0.0-29-generic-x86_64-with-glibc2.43",
+  "python": "3.14.4",
+  "logical_cpus": 20,
+  "available_cpu_affinity": 20,
+  "total_ram_bytes": 65626243072,
+  "psutil": "7.1.0",
+  "node": "24.21.0",
+  "pnpm": "11.23.0",
+  "nift": "4.8.0",
+  "memory_scope": "GNU maximum individual process/phase RSS plus supplemental 50 ms sampled sum of live descendants RSS; shared pages may be double counted",
+  "worker_cap": 4,
+  "no_os_or_package_cache_reset": true
+}

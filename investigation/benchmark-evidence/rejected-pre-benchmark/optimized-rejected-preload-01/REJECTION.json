@@ -1,0 +1,4 @@
+{
+  "accepted_samples": 0,
+  "reason": "Next normalizes repeated --require options to the final value for child loaders; timing preload displaced frozen-image preload. Retained failed production run. Corrected by one combined preload; no source/output/command changes."
+}

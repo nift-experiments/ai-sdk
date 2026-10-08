@@ -1,0 +1,3487 @@
+[
+  {
+    "project": "upstream",
+    "mode": "warm-full",
+    "sample": 1,
+    "elapsed_s": 354.6329801150132,
+    "maximum_process_phase_rss_kib": 28956564,
+    "sampled_peak_sum_rss_bytes": 34057945088,
+    "memory_samples": 4153,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17876,
+        "bytes": 5848023141
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1288555,
+        "start_utc": "2026-10-08T07:50:17.607Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.888380086,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 73708
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1288565,
+        "start_utc": "2026-10-08T07:50:18.591Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.401990112,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 106956
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1288592,
+        "start_utc": "2026-10-08T07:50:19.055Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 351.515036083,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 28956564
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.827573834013208
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "warm-full",
+    "sample": 1,
+    "elapsed_s": 96.4599049219396,
+    "maximum_process_phase_rss_kib": 908672,
+    "sampled_peak_sum_rss_bytes": 4584935424,
+    "memory_samples": 1404,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.7293935068883002,
+        "maximum_process_phase_rss_kib": 89412
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 1.5382357090711594,
+        "maximum_process_phase_rss_kib": 84768
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.3845174091402441,
+        "maximum_process_phase_rss_kib": 93568
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 50.81792229413986,
+        "maximum_process_phase_rss_kib": 908672
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.7701382120139897,
+        "maximum_process_phase_rss_kib": 115032
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 1.1420207750052214,
+        "maximum_process_phase_rss_kib": 145036
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 13.209731683135033,
+        "maximum_process_phase_rss_kib": 434428
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 1.0656532910652459,
+        "maximum_process_phase_rss_kib": 330212
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 13.47385415295139,
+        "maximum_process_phase_rss_kib": 362780
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 3.5989944939501584,
+        "maximum_process_phase_rss_kib": 132280
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 6.319374321959913,
+        "maximum_process_phase_rss_kib": 772320
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.3268291959539056,
+        "maximum_process_phase_rss_kib": 60968
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.0214606730733067,
+        "maximum_process_phase_rss_kib": 164516
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "warm-full",
+    "sample": 1,
+    "elapsed_s": 38.56567696318962,
+    "maximum_process_phase_rss_kib": 777532,
+    "sampled_peak_sum_rss_bytes": 815702016,
+    "memory_samples": 603,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 1.4081732891499996,
+        "maximum_process_phase_rss_kib": 89428
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.2361254710704088,
+        "maximum_process_phase_rss_kib": 96484
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 6.115175352897495,
+        "maximum_process_phase_rss_kib": 293988
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.3482208859641105,
+        "maximum_process_phase_rss_kib": 98592
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 17.339956840965897,
+        "maximum_process_phase_rss_kib": 524132
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 3.8753744810819626,
+        "maximum_process_phase_rss_kib": 135132
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 6.671999817015603,
+        "maximum_process_phase_rss_kib": 777532
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.313399770995602,
+        "maximum_process_phase_rss_kib": 61228
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.1642905119806528,
+        "maximum_process_phase_rss_kib": 170020
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "warm-full",
+    "sample": 2,
+    "elapsed_s": 71.0548329569865,
+    "maximum_process_phase_rss_kib": 967052,
+    "sampled_peak_sum_rss_bytes": 4737511424,
+    "memory_samples": 1095,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.054035397944972,
+        "maximum_process_phase_rss_kib": 86332
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.9638105800841004,
+        "maximum_process_phase_rss_kib": 83428
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.0032867051195353,
+        "maximum_process_phase_rss_kib": 97496
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 37.37039673700929,
+        "maximum_process_phase_rss_kib": 967052
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.4219706279691309,
+        "maximum_process_phase_rss_kib": 116536
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 0.8032622949685901,
+        "maximum_process_phase_rss_kib": 146176
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 10.314418243942782,
+        "maximum_process_phase_rss_kib": 473388
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.729255449026823,
+        "maximum_process_phase_rss_kib": 328668
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 9.104825789108872,
+        "maximum_process_phase_rss_kib": 361436
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.1973204801324755,
+        "maximum_process_phase_rss_kib": 144572
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 6.091432549059391,
+        "maximum_process_phase_rss_kib": 637384
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.23512364900670946,
+        "maximum_process_phase_rss_kib": 60820
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.7202256701420993,
+        "maximum_process_phase_rss_kib": 165136
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "warm-full",
+    "sample": 2,
+    "elapsed_s": 26.95112720411271,
+    "maximum_process_phase_rss_kib": 777132,
+    "sampled_peak_sum_rss_bytes": 815407104,
+    "memory_samples": 431,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.8807010101154447,
+        "maximum_process_phase_rss_kib": 82456
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.9226555230561644,
+        "maximum_process_phase_rss_kib": 96804
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 4.1896376388613135,
+        "maximum_process_phase_rss_kib": 294488
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.2457252850290388,
+        "maximum_process_phase_rss_kib": 92536
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 11.617901725927368,
+        "maximum_process_phase_rss_kib": 521804
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.45242981496267,
+        "maximum_process_phase_rss_kib": 138492
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 5.655783120077103,
+        "maximum_process_phase_rss_kib": 777132
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.22017373191192746,
+        "maximum_process_phase_rss_kib": 61544
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.7146044340915978,
+        "maximum_process_phase_rss_kib": 169512
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "warm-full",
+    "sample": 2,
+    "elapsed_s": 282.8364757830277,
+    "maximum_process_phase_rss_kib": 21221404,
+    "sampled_peak_sum_rss_bytes": 30699843584,
+    "memory_samples": 3596,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17908,
+        "bytes": 6189909682
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1301047,
+        "start_utc": "2026-10-08T08:00:06.362Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.654239068,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 70724
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1301057,
+        "start_utc": "2026-10-08T08:00:07.081Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.290948712,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 107124
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1301082,
+        "start_utc": "2026-10-08T08:00:07.433Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 280.337633216,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 21221404
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.5536547870277104
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "warm-full",
+    "sample": 3,
+    "elapsed_s": 34.004816649947315,
+    "maximum_process_phase_rss_kib": 777620,
+    "sampled_peak_sum_rss_bytes": 815185920,
+    "memory_samples": 537,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 1.0263879850972444,
+        "maximum_process_phase_rss_kib": 83936
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.1258105169981718,
+        "maximum_process_phase_rss_kib": 93596
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 5.124377030879259,
+        "maximum_process_phase_rss_kib": 294440
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.32701266882941127,
+        "maximum_process_phase_rss_kib": 99028
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 14.791134111117572,
+        "maximum_process_phase_rss_kib": 525564
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 3.3932991069741547,
+        "maximum_process_phase_rss_kib": 144208
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 6.714660890167579,
+        "maximum_process_phase_rss_kib": 777620
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.3197704809717834,
+        "maximum_process_phase_rss_kib": 60812
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.1238546161912382,
+        "maximum_process_phase_rss_kib": 169076
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "warm-full",
+    "sample": 3,
+    "elapsed_s": 309.17830601893365,
+    "maximum_process_phase_rss_kib": 28202608,
+    "sampled_peak_sum_rss_bytes": 35142610944,
+    "memory_samples": 3797,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17881,
+        "bytes": 5962564343
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1307061,
+        "start_utc": "2026-10-08T08:05:24.182Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.770816613,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 73408
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1307071,
+        "start_utc": "2026-10-08T08:05:25.017Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.388548664,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 106148
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1307099,
+        "start_utc": "2026-10-08T08:05:25.474Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 306.175279453,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 28202608
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.8436612889336743
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "warm-full",
+    "sample": 3,
+    "elapsed_s": 75.02611627988517,
+    "maximum_process_phase_rss_kib": 940448,
+    "sampled_peak_sum_rss_bytes": 4587466752,
+    "memory_samples": 1176,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.152264480944723,
+        "maximum_process_phase_rss_kib": 85548
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 1.3337841441389173,
+        "maximum_process_phase_rss_kib": 77708
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.1284739160910249,
+        "maximum_process_phase_rss_kib": 94260
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 36.03655121312477,
+        "maximum_process_phase_rss_kib": 940448
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.43049855693243444,
+        "maximum_process_phase_rss_kib": 112596
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 0.8609497200231999,
+        "maximum_process_phase_rss_kib": 138200
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 10.952445902163163,
+        "maximum_process_phase_rss_kib": 436156
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 1.0575786330737174,
+        "maximum_process_phase_rss_kib": 326532
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 12.410544137004763,
+        "maximum_process_phase_rss_kib": 359376
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 3.1716689341701567,
+        "maximum_process_phase_rss_kib": 129328
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 5.357702326960862,
+        "maximum_process_phase_rss_kib": 770000
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.27095811115577817,
+        "maximum_process_phase_rss_kib": 59488
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.8061431080568582,
+        "maximum_process_phase_rss_kib": 164664
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "warm-full",
+    "sample": 4,
+    "elapsed_s": 337.34376179706305,
+    "maximum_process_phase_rss_kib": 20458404,
+    "sampled_peak_sum_rss_bytes": 28396404736,
+    "memory_samples": 4034,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17910,
+        "bytes": 6270339850
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1314043,
+        "start_utc": "2026-10-08T08:11:49.099Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.719587977,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 72096
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1314050,
+        "start_utc": "2026-10-08T08:11:49.890Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.376068322,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 103640
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1314083,
+        "start_utc": "2026-10-08T08:11:50.316Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 334.457009282,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 20458404
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.7910962160630675
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "warm-full",
+    "sample": 4,
+    "elapsed_s": 88.26508691115305,
+    "maximum_process_phase_rss_kib": 921572,
+    "sampled_peak_sum_rss_bytes": 4593475584,
+    "memory_samples": 1315,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.5905681122094393,
+        "maximum_process_phase_rss_kib": 87784
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 1.1823843319434673,
+        "maximum_process_phase_rss_kib": 85760
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.4198656538501382,
+        "maximum_process_phase_rss_kib": 94852
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 46.10856413003057,
+        "maximum_process_phase_rss_kib": 921572
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.6544150840491056,
+        "maximum_process_phase_rss_kib": 114584
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 1.221318316878751,
+        "maximum_process_phase_rss_kib": 143180
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 10.625100495992228,
+        "maximum_process_phase_rss_kib": 432484
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.7842815779149532,
+        "maximum_process_phase_rss_kib": 326660
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 12.5011081318371,
+        "maximum_process_phase_rss_kib": 358788
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 3.7839006690774113,
+        "maximum_process_phase_rss_kib": 136600
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 6.917950070928782,
+        "maximum_process_phase_rss_kib": 770436
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.3349731219932437,
+        "maximum_process_phase_rss_kib": 59516
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.070912797935307,
+        "maximum_process_phase_rss_kib": 164632
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "warm-full",
+    "sample": 4,
+    "elapsed_s": 41.872928622877225,
+    "maximum_process_phase_rss_kib": 775796,
+    "sampled_peak_sum_rss_bytes": 813391872,
+    "memory_samples": 627,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 1.3678705370984972,
+        "maximum_process_phase_rss_kib": 86664
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.3886939601507038,
+        "maximum_process_phase_rss_kib": 92044
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 6.157769159879535,
+        "maximum_process_phase_rss_kib": 293396
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.3350765791255981,
+        "maximum_process_phase_rss_kib": 96740
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 18.08373245387338,
+        "maximum_process_phase_rss_kib": 524288
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 5.183359649963677,
+        "maximum_process_phase_rss_kib": 127780
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 7.548371949931607,
+        "maximum_process_phase_rss_kib": 775796
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.4009161479771137,
+        "maximum_process_phase_rss_kib": 58936
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.2910310190636665,
+        "maximum_process_phase_rss_kib": 169436
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "warm-full",
+    "sample": 5,
+    "elapsed_s": 83.15820610499941,
+    "maximum_process_phase_rss_kib": 923408,
+    "sampled_peak_sum_rss_bytes": 4619698176,
+    "memory_samples": 1236,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.199776843888685,
+        "maximum_process_phase_rss_kib": 86676
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 1.2294536030385643,
+        "maximum_process_phase_rss_kib": 85456
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.1900814869441092,
+        "maximum_process_phase_rss_kib": 91772
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 44.172385219018906,
+        "maximum_process_phase_rss_kib": 923408
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.6644947549793869,
+        "maximum_process_phase_rss_kib": 114140
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 1.1275302020367235,
+        "maximum_process_phase_rss_kib": 144048
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 11.66635628300719,
+        "maximum_process_phase_rss_kib": 407356
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.8143813060596585,
+        "maximum_process_phase_rss_kib": 326748
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 10.172160956077278,
+        "maximum_process_phase_rss_kib": 360768
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.3477173019200563,
+        "maximum_process_phase_rss_kib": 141572
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 7.051510413177311,
+        "maximum_process_phase_rss_kib": 770388
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.3154947650618851,
+        "maximum_process_phase_rss_kib": 59128
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.125332240946591,
+        "maximum_process_phase_rss_kib": 165052
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "warm-full",
+    "sample": 5,
+    "elapsed_s": 37.95567362802103,
+    "maximum_process_phase_rss_kib": 775540,
+    "sampled_peak_sum_rss_bytes": 813101056,
+    "memory_samples": 557,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 1.3045541159808636,
+        "maximum_process_phase_rss_kib": 82644
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.3586852890439332,
+        "maximum_process_phase_rss_kib": 91972
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 5.144117694813758,
+        "maximum_process_phase_rss_kib": 294100
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.38898064591921866,
+        "maximum_process_phase_rss_kib": 95296
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 16.44860844197683,
+        "maximum_process_phase_rss_kib": 525256
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 3.004633082076907,
+        "maximum_process_phase_rss_kib": 136820
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 8.963921563932672,
+        "maximum_process_phase_rss_kib": 775540
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.35057747014798224,
+        "maximum_process_phase_rss_kib": 59604
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.9253424520138651,
+        "maximum_process_phase_rss_kib": 170064
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "warm-full",
+    "sample": 5,
+    "elapsed_s": 389.32030949997716,
+    "maximum_process_phase_rss_kib": 24239584,
+    "sampled_peak_sum_rss_bytes": 28329107456,
+    "memory_samples": 4468,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17938,
+        "bytes": 6597931318
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1327140,
+        "start_utc": "2026-10-08T08:21:39.359Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.973950492,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 72796
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1327195,
+        "start_utc": "2026-10-08T08:21:40.412Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.54959082,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 103932
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1327223,
+        "start_utc": "2026-10-08T08:21:41.026Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 385.657393057,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 24239584
+      }
+    ],
+    "cli_stage_overhead_residual_s": 2.1393751309771574
+  },
+  {
+    "project": "upstream",
+    "mode": "fresh-application-state",
+    "sample": 1,
+    "elapsed_s": 328.2058882450219,
+    "maximum_process_phase_rss_kib": 16709004,
+    "sampled_peak_sum_rss_bytes": 26739441664,
+    "memory_samples": 3868,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17818,
+        "bytes": 4690344854
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1335374,
+        "start_utc": "2026-10-08T08:28:08.945Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.854218677,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 70688
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1335384,
+        "start_utc": "2026-10-08T08:28:09.884Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.36021189,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 105576
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1335409,
+        "start_utc": "2026-10-08T08:28:10.302Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 325.104511169,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 16709004
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.886946509021925
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "fresh-application-state",
+    "sample": 1,
+    "elapsed_s": 89.46883017290384,
+    "maximum_process_phase_rss_kib": 931184,
+    "sampled_peak_sum_rss_bytes": 4427935744,
+    "memory_samples": 1326,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.2159222660120577,
+        "maximum_process_phase_rss_kib": 82572
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.8941454398445785,
+        "maximum_process_phase_rss_kib": 77392
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.9770985338836908,
+        "maximum_process_phase_rss_kib": 78660
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 42.49042373499833,
+        "maximum_process_phase_rss_kib": 931184
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.5765387660358101,
+        "maximum_process_phase_rss_kib": 113268
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 1.1275094458833337,
+        "maximum_process_phase_rss_kib": 143920
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 13.988655435852706,
+        "maximum_process_phase_rss_kib": 454636
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 1.0119161668699235,
+        "maximum_process_phase_rss_kib": 268484
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 15.645467709051445,
+        "maximum_process_phase_rss_kib": 356244
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.950815834105015,
+        "maximum_process_phase_rss_kib": 137132
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 7.332786065060645,
+        "maximum_process_phase_rss_kib": 732208
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.24741498893126845,
+        "maximum_process_phase_rss_kib": 59428
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.9546527401544154,
+        "maximum_process_phase_rss_kib": 164736
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "fresh-application-state",
+    "sample": 1,
+    "elapsed_s": 35.849147910950705,
+    "maximum_process_phase_rss_kib": 790412,
+    "sampled_peak_sum_rss_bytes": 823087104,
+    "memory_samples": 552,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.8822470428422093,
+        "maximum_process_phase_rss_kib": 78152
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.0303218849003315,
+        "maximum_process_phase_rss_kib": 79052
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 5.422059468924999,
+        "maximum_process_phase_rss_kib": 281180
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.348785059992224,
+        "maximum_process_phase_rss_kib": 97076
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 16.873333529103547,
+        "maximum_process_phase_rss_kib": 469784
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.7078732000663877,
+        "maximum_process_phase_rss_kib": 134136
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 7.0835111029446125,
+        "maximum_process_phase_rss_kib": 790412
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.35876237601041794,
+        "maximum_process_phase_rss_kib": 58796
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.0850799481850117,
+        "maximum_process_phase_rss_kib": 137652
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "fresh-application-state",
+    "sample": 2,
+    "elapsed_s": 82.21360861393623,
+    "maximum_process_phase_rss_kib": 940736,
+    "sampled_peak_sum_rss_bytes": 4409712640,
+    "memory_samples": 1246,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.2791369538754225,
+        "maximum_process_phase_rss_kib": 82364
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.9658308250363916,
+        "maximum_process_phase_rss_kib": 77516
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.97554912394844,
+        "maximum_process_phase_rss_kib": 79272
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 40.6520609210711,
+        "maximum_process_phase_rss_kib": 940736
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.6711991259362549,
+        "maximum_process_phase_rss_kib": 113152
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 1.2017702050507069,
+        "maximum_process_phase_rss_kib": 138592
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 11.582994060823694,
+        "maximum_process_phase_rss_kib": 453280
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.9156290849205106,
+        "maximum_process_phase_rss_kib": 267916
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 14.156634449958801,
+        "maximum_process_phase_rss_kib": 355836
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.6947754439897835,
+        "maximum_process_phase_rss_kib": 136708
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 5.743428350193426,
+        "maximum_process_phase_rss_kib": 731152
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.2208813400939107,
+        "maximum_process_phase_rss_kib": 59452
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.0956002539023757,
+        "maximum_process_phase_rss_kib": 164032
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "fresh-application-state",
+    "sample": 2,
+    "elapsed_s": 26.818225957918912,
+    "maximum_process_phase_rss_kib": 771716,
+    "sampled_peak_sum_rss_bytes": 791494656,
+    "memory_samples": 436,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.887832511914894,
+        "maximum_process_phase_rss_kib": 77768
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.9272590668406337,
+        "maximum_process_phase_rss_kib": 78684
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 4.56122948997654,
+        "maximum_process_phase_rss_kib": 281244
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.3598189791664481,
+        "maximum_process_phase_rss_kib": 95856
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 11.491989987902343,
+        "maximum_process_phase_rss_kib": 465332
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.436545975971967,
+        "maximum_process_phase_rss_kib": 135148
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 4.995393104152754,
+        "maximum_process_phase_rss_kib": 771716
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.2070434051565826,
+        "maximum_process_phase_rss_kib": 59004
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.8946050370577723,
+        "maximum_process_phase_rss_kib": 137004
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "fresh-application-state",
+    "sample": 2,
+    "elapsed_s": 287.4888444910757,
+    "maximum_process_phase_rss_kib": 16661564,
+    "sampled_peak_sum_rss_bytes": 26844217344,
+    "memory_samples": 3616,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17816,
+        "bytes": 4689984838
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1344447,
+        "start_utc": "2026-10-08T08:37:32.899Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.639904647,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 75440
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1344457,
+        "start_utc": "2026-10-08T08:37:33.599Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.330608717,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 103892
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1344510,
+        "start_utc": "2026-10-08T08:37:34.003Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 284.535378498,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 16661564
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.9829526290757258
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "fresh-application-state",
+    "sample": 3,
+    "elapsed_s": 26.705420373007655,
+    "maximum_process_phase_rss_kib": 768344,
+    "sampled_peak_sum_rss_bytes": 787460096,
+    "memory_samples": 433,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.9321766151115298,
+        "maximum_process_phase_rss_kib": 77324
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.8814040578436106,
+        "maximum_process_phase_rss_kib": 78772
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 4.6786121318582445,
+        "maximum_process_phase_rss_kib": 281376
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.2971240479964763,
+        "maximum_process_phase_rss_kib": 96880
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 10.900957203935832,
+        "maximum_process_phase_rss_kib": 391248
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.4907366191037,
+        "maximum_process_phase_rss_kib": 130652
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 5.360438086790964,
+        "maximum_process_phase_rss_kib": 768344
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.20271159103140235,
+        "maximum_process_phase_rss_kib": 59288
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.8976617050357163,
+        "maximum_process_phase_rss_kib": 137360
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "fresh-application-state",
+    "sample": 3,
+    "elapsed_s": 306.0321945431642,
+    "maximum_process_phase_rss_kib": 16738772,
+    "sampled_peak_sum_rss_bytes": 25968566272,
+    "memory_samples": 3732,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17817,
+        "bytes": 4690745743
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1363626,
+        "start_utc": "2026-10-08T08:42:47.804Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.615217651,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 75588
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1363636,
+        "start_utc": "2026-10-08T08:42:48.489Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.312683781,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 105712
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1363664,
+        "start_utc": "2026-10-08T08:42:48.852Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 303.584862018,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 16738772
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.5194310931642008
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "fresh-application-state",
+    "sample": 3,
+    "elapsed_s": 68.65121017908677,
+    "maximum_process_phase_rss_kib": 908784,
+    "sampled_peak_sum_rss_bytes": 4365815808,
+    "memory_samples": 1068,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.3109545870684087,
+        "maximum_process_phase_rss_kib": 82292
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.9656730168499053,
+        "maximum_process_phase_rss_kib": 78020
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.9919431428425014,
+        "maximum_process_phase_rss_kib": 79288
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 37.488080124836415,
+        "maximum_process_phase_rss_kib": 908784
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.4212488760240376,
+        "maximum_process_phase_rss_kib": 113240
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 0.823124362854287,
+        "maximum_process_phase_rss_kib": 144880
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 8.79706199397333,
+        "maximum_process_phase_rss_kib": 453856
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.6943400530144572,
+        "maximum_process_phase_rss_kib": 268168
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 9.122374834958464,
+        "maximum_process_phase_rss_kib": 353196
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.0990378099959344,
+        "maximum_process_phase_rss_kib": 139320
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 4.930277328006923,
+        "maximum_process_phase_rss_kib": 732016
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.1880089279729873,
+        "maximum_process_phase_rss_kib": 59252
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.7508836479391903,
+        "maximum_process_phase_rss_kib": 165028
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "fresh-application-state",
+    "sample": 4,
+    "elapsed_s": 301.04345908993855,
+    "maximum_process_phase_rss_kib": 16651124,
+    "sampled_peak_sum_rss_bytes": 26527911936,
+    "memory_samples": 3711,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17818,
+        "bytes": 4690130289
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1374297,
+        "start_utc": "2026-10-08T08:49:03.267Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.67973444,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 73148
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1374364,
+        "start_utc": "2026-10-08T08:49:04.010Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.325489242,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 104928
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1374400,
+        "start_utc": "2026-10-08T08:49:04.389Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 298.383410417,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 16651124
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.6548249909385504
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "fresh-application-state",
+    "sample": 4,
+    "elapsed_s": 68.86807532096282,
+    "maximum_process_phase_rss_kib": 925152,
+    "sampled_peak_sum_rss_bytes": 4486303744,
+    "memory_samples": 1069,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.573911925777793,
+        "maximum_process_phase_rss_kib": 81140
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.9040636359713972,
+        "maximum_process_phase_rss_kib": 77792
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 1.0757226180285215,
+        "maximum_process_phase_rss_kib": 78392
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 34.80082296486944,
+        "maximum_process_phase_rss_kib": 925152
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.3912474119570106,
+        "maximum_process_phase_rss_kib": 114176
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 0.8529381360858679,
+        "maximum_process_phase_rss_kib": 139004
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 8.960294716991484,
+        "maximum_process_phase_rss_kib": 452704
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.7729119518771768,
+        "maximum_process_phase_rss_kib": 267980
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 10.963638243963942,
+        "maximum_process_phase_rss_kib": 353612
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.2789394790306687,
+        "maximum_process_phase_rss_kib": 135108
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 5.195439951959997,
+        "maximum_process_phase_rss_kib": 732144
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.1952364961616695,
+        "maximum_process_phase_rss_kib": 59500
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.85076913703233,
+        "maximum_process_phase_rss_kib": 164584
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "fresh-application-state",
+    "sample": 4,
+    "elapsed_s": 28.094691146863624,
+    "maximum_process_phase_rss_kib": 709976,
+    "sampled_peak_sum_rss_bytes": 720859136,
+    "memory_samples": 453,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.7681142420042306,
+        "maximum_process_phase_rss_kib": 78192
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.8320523670408875,
+        "maximum_process_phase_rss_kib": 79540
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 4.700956261018291,
+        "maximum_process_phase_rss_kib": 281668
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.33729495597071946,
+        "maximum_process_phase_rss_kib": 95500
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 12.284243936883286,
+        "maximum_process_phase_rss_kib": 474584
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.55202006502077,
+        "maximum_process_phase_rss_kib": 133504
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 5.442760276142508,
+        "maximum_process_phase_rss_kib": 709976
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.19583497499115765,
+        "maximum_process_phase_rss_kib": 59668
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.9300623279996216,
+        "maximum_process_phase_rss_kib": 137728
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "fresh-application-state",
+    "sample": 5,
+    "elapsed_s": 67.46315134619363,
+    "maximum_process_phase_rss_kib": 959528,
+    "sampled_peak_sum_rss_bytes": 4649025536,
+    "memory_samples": 1049,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.0369915368501097,
+        "maximum_process_phase_rss_kib": 81052
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.7138689369894564,
+        "maximum_process_phase_rss_kib": 77892
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.8066371160093695,
+        "maximum_process_phase_rss_kib": 79348
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 34.308258103905246,
+        "maximum_process_phase_rss_kib": 959528
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.38551895204000175,
+        "maximum_process_phase_rss_kib": 114452
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 0.8333138588350266,
+        "maximum_process_phase_rss_kib": 143072
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 9.323198071215302,
+        "maximum_process_phase_rss_kib": 446148
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.7450795320328325,
+        "maximum_process_phase_rss_kib": 268436
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 10.552117449929938,
+        "maximum_process_phase_rss_kib": 356008
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.2898288459982723,
+        "maximum_process_phase_rss_kib": 134220
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 5.3663658308796585,
+        "maximum_process_phase_rss_kib": 730824
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.23661593813449144,
+        "maximum_process_phase_rss_kib": 59128
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.8100556870922446,
+        "maximum_process_phase_rss_kib": 164396
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "fresh-application-state",
+    "sample": 5,
+    "elapsed_s": 32.90781115205027,
+    "maximum_process_phase_rss_kib": 804100,
+    "sampled_peak_sum_rss_bytes": 831127552,
+    "memory_samples": 510,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py",
+      "--force"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.713938290020451,
+        "maximum_process_phase_rss_kib": 77944
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.7889345930889249,
+        "maximum_process_phase_rss_kib": 79236
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 4.421010595047846,
+        "maximum_process_phase_rss_kib": 281908
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.28539581084623933,
+        "maximum_process_phase_rss_kib": 96236
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 15.256187135819346,
+        "maximum_process_phase_rss_kib": 477120
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 3.0207104040309787,
+        "maximum_process_phase_rss_kib": 138028
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 6.830913315992802,
+        "maximum_process_phase_rss_kib": 804100
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.26600709301419556,
+        "maximum_process_phase_rss_kib": 59216
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.2374509051442146,
+        "maximum_process_phase_rss_kib": 137268
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "fresh-application-state",
+    "sample": 5,
+    "elapsed_s": 340.79129019589163,
+    "maximum_process_phase_rss_kib": 17715620,
+    "sampled_peak_sum_rss_bytes": 25208844288,
+    "memory_samples": 3960,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17818,
+        "bytes": 4691233128
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1385736,
+        "start_utc": "2026-10-08T08:57:23.505Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 1.023515023,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 71496
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1385779,
+        "start_utc": "2026-10-08T08:57:24.614Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.465692286,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 103792
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1385820,
+        "start_utc": "2026-10-08T08:57:25.145Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 337.169843831,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 17715620
+      }
+    ],
+    "cli_stage_overhead_residual_s": 2.1322390558916595
+  },
+  {
+    "project": "upstream",
+    "mode": "unchanged-cached",
+    "sample": 1,
+    "elapsed_s": 304.7948273560032,
+    "maximum_process_phase_rss_kib": 20490720,
+    "sampled_peak_sum_rss_bytes": 30462177280,
+    "memory_samples": 3844,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17802,
+        "bytes": 4876738019
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1393858,
+        "start_utc": "2026-10-08T09:03:04.297Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.673630882,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 72384
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1393865,
+        "start_utc": "2026-10-08T09:03:05.038Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.318628295,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 104784
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1393893,
+        "start_utc": "2026-10-08T09:03:05.412Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 302.316402445,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 20490720
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.4861657340032366
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "unchanged-cached",
+    "sample": 1,
+    "elapsed_s": 18.65098304185085,
+    "maximum_process_phase_rss_kib": 559912,
+    "sampled_peak_sum_rss_bytes": 1374457856,
+    "memory_samples": 303,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.100155504886061,
+        "maximum_process_phase_rss_kib": 88228
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.3132877859752625,
+        "maximum_process_phase_rss_kib": 66924
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.2085047229193151,
+        "maximum_process_phase_rss_kib": 78300
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 4.163304870016873,
+        "maximum_process_phase_rss_kib": 559912
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.5195966300088912,
+        "maximum_process_phase_rss_kib": 115632
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 1.0781115849968046,
+        "maximum_process_phase_rss_kib": 141308
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 1.3048651460558176,
+        "maximum_process_phase_rss_kib": 329744
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.6512205509934574,
+        "maximum_process_phase_rss_kib": 182228
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 5.621272291988134,
+        "maximum_process_phase_rss_kib": 362312
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 1.9202499249950051,
+        "maximum_process_phase_rss_kib": 31432
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.5627406709827483,
+        "maximum_process_phase_rss_kib": 239344
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.12729009496979415,
+        "maximum_process_phase_rss_kib": 57764
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.9869698979891837,
+        "maximum_process_phase_rss_kib": 164604
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "unchanged-cached",
+    "sample": 1,
+    "elapsed_s": 11.557153817964718,
+    "maximum_process_phase_rss_kib": 289824,
+    "sampled_peak_sum_rss_bytes": 303599616,
+    "memory_samples": 187,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.23160501010715961,
+        "maximum_process_phase_rss_kib": 66700
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.25204523792490363,
+        "maximum_process_phase_rss_kib": 78392
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 1.3846521249506623,
+        "maximum_process_phase_rss_kib": 87708
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.14481713296845555,
+        "maximum_process_phase_rss_kib": 20308
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 5.611884861020371,
+        "maximum_process_phase_rss_kib": 289824
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.159956483868882,
+        "maximum_process_phase_rss_kib": 104300
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.5661979550495744,
+        "maximum_process_phase_rss_kib": 175496
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.11101593100465834,
+        "maximum_process_phase_rss_kib": 57440
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 1.00361485988833,
+        "maximum_process_phase_rss_kib": 169408
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "unchanged-cached",
+    "sample": 2,
+    "elapsed_s": 12.865685180062428,
+    "maximum_process_phase_rss_kib": 529556,
+    "sampled_peak_sum_rss_bytes": 1267142656,
+    "memory_samples": 212,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 0.9135268700774759,
+        "maximum_process_phase_rss_kib": 87428
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.1776980289723724,
+        "maximum_process_phase_rss_kib": 67096
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.13904843106865883,
+        "maximum_process_phase_rss_kib": 78100
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 3.5175483780913055,
+        "maximum_process_phase_rss_kib": 529556
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.40682978415861726,
+        "maximum_process_phase_rss_kib": 114664
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 0.821356353117153,
+        "maximum_process_phase_rss_kib": 143720
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 0.8661620491184294,
+        "maximum_process_phase_rss_kib": 330272
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.44522078707814217,
+        "maximum_process_phase_rss_kib": 182368
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 3.446257702074945,
+        "maximum_process_phase_rss_kib": 363044
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 0.8346872690599412,
+        "maximum_process_phase_rss_kib": 31456
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.4699816298671067,
+        "maximum_process_phase_rss_kib": 240064
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.07543925405479968,
+        "maximum_process_phase_rss_kib": 57600
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.6889228641521186,
+        "maximum_process_phase_rss_kib": 164672
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "unchanged-cached",
+    "sample": 2,
+    "elapsed_s": 7.408111882163212,
+    "maximum_process_phase_rss_kib": 289004,
+    "sampled_peak_sum_rss_bytes": 304103424,
+    "memory_samples": 121,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.19141772692091763,
+        "maximum_process_phase_rss_kib": 66468
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.13608009601011872,
+        "maximum_process_phase_rss_kib": 78980
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 0.5183194610290229,
+        "maximum_process_phase_rss_kib": 88192
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.042473255190998316,
+        "maximum_process_phase_rss_kib": 20268
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 4.039211482973769,
+        "maximum_process_phase_rss_kib": 289004
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 1.1961788479238749,
+        "maximum_process_phase_rss_kib": 104296
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.3929550279863179,
+        "maximum_process_phase_rss_kib": 176320
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.10079017793759704,
+        "maximum_process_phase_rss_kib": 57972
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.7471265159547329,
+        "maximum_process_phase_rss_kib": 169808
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "unchanged-cached",
+    "sample": 2,
+    "elapsed_s": 257.26498291199096,
+    "maximum_process_phase_rss_kib": 20413852,
+    "sampled_peak_sum_rss_bytes": 30679142400,
+    "memory_samples": 3329,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17803,
+        "bytes": 5005421877
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1399722,
+        "start_utc": "2026-10-08T09:09:00.611Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.719225126,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 71572
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1399732,
+        "start_utc": "2026-10-08T09:09:01.391Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.314129563,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 104876
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1399763,
+        "start_utc": "2026-10-08T09:09:01.756Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 254.660322603,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 20413852
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.5713056199909659
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "unchanged-cached",
+    "sample": 3,
+    "elapsed_s": 10.903472991893068,
+    "maximum_process_phase_rss_kib": 289456,
+    "sampled_peak_sum_rss_bytes": 272695296,
+    "memory_samples": 180,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.2979493800085038,
+        "maximum_process_phase_rss_kib": 67376
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.2211429940070957,
+        "maximum_process_phase_rss_kib": 79212
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 1.2518633741419762,
+        "maximum_process_phase_rss_kib": 88048
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.11480288300663233,
+        "maximum_process_phase_rss_kib": 20164
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 5.012719400925562,
+        "maximum_process_phase_rss_kib": 289456
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.325613577850163,
+        "maximum_process_phase_rss_kib": 104480
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.5185011611320078,
+        "maximum_process_phase_rss_kib": 177088
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.11883026408031583,
+        "maximum_process_phase_rss_kib": 57896
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.9981604139320552,
+        "maximum_process_phase_rss_kib": 169824
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "unchanged-cached",
+    "sample": 3,
+    "elapsed_s": 261.84647494903766,
+    "maximum_process_phase_rss_kib": 21077964,
+    "sampled_peak_sum_rss_bytes": 31160958976,
+    "memory_samples": 3342,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17823,
+        "bytes": 5241912392
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1404790,
+        "start_utc": "2026-10-08T09:13:29.605Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.681198732,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 69416
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1404805,
+        "start_utc": "2026-10-08T09:13:30.343Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.284913723,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 105792
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1404829,
+        "start_utc": "2026-10-08T09:13:30.675Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 259.309305318,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 21077964
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.571057176037698
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "unchanged-cached",
+    "sample": 3,
+    "elapsed_s": 18.610633527161554,
+    "maximum_process_phase_rss_kib": 577864,
+    "sampled_peak_sum_rss_bytes": 1351266304,
+    "memory_samples": 300,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 1.1084192499984056,
+        "maximum_process_phase_rss_kib": 88816
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.29295143694616854,
+        "maximum_process_phase_rss_kib": 66504
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.2518603359349072,
+        "maximum_process_phase_rss_kib": 78572
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 4.489855502964929,
+        "maximum_process_phase_rss_kib": 577864
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.5427878161426634,
+        "maximum_process_phase_rss_kib": 114736
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 1.0245682368986309,
+        "maximum_process_phase_rss_kib": 143748
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 1.1603305139578879,
+        "maximum_process_phase_rss_kib": 326872
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.6219384879805148,
+        "maximum_process_phase_rss_kib": 182452
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 5.379699469078332,
+        "maximum_process_phase_rss_kib": 363136
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 2.0386639169882983,
+        "maximum_process_phase_rss_kib": 31224
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.556187829002738,
+        "maximum_process_phase_rss_kib": 239020
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.09695499297231436,
+        "maximum_process_phase_rss_kib": 57792
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.9573517269454896,
+        "maximum_process_phase_rss_kib": 164664
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "unchanged-cached",
+    "sample": 4,
+    "elapsed_s": 292.7331589499954,
+    "maximum_process_phase_rss_kib": 20376000,
+    "sampled_peak_sum_rss_bytes": 30554615808,
+    "memory_samples": 3678,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17842,
+        "bytes": 5459598947
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1411220,
+        "start_utc": "2026-10-08T09:18:10.893Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.70892939,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 78332
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1411230,
+        "start_utc": "2026-10-08T09:18:11.680Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.318380251,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 105044
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1411255,
+        "start_utc": "2026-10-08T09:18:12.054Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 289.989703292,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 20376000
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.716146016995424
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "unchanged-cached",
+    "sample": 4,
+    "elapsed_s": 12.629162884084508,
+    "maximum_process_phase_rss_kib": 529800,
+    "sampled_peak_sum_rss_bytes": 1320632320,
+    "memory_samples": 210,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 0.9369906550273299,
+        "maximum_process_phase_rss_kib": 87100
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.2054861078504473,
+        "maximum_process_phase_rss_kib": 66492
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.16424968698993325,
+        "maximum_process_phase_rss_kib": 78976
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 3.2634645940270275,
+        "maximum_process_phase_rss_kib": 529800
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.38775783916935325,
+        "maximum_process_phase_rss_kib": 114616
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 0.8015805040486157,
+        "maximum_process_phase_rss_kib": 145376
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 0.8784301180858165,
+        "maximum_process_phase_rss_kib": 330404
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.47651638300158083,
+        "maximum_process_phase_rss_kib": 182476
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 3.475976656889543,
+        "maximum_process_phase_rss_kib": 363080
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 0.8125455710105598,
+        "maximum_process_phase_rss_kib": 31128
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.42358331801369786,
+        "maximum_process_phase_rss_kib": 240700
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.07378050009720027,
+        "maximum_process_phase_rss_kib": 57792
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.643990193028003,
+        "maximum_process_phase_rss_kib": 164720
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "unchanged-cached",
+    "sample": 4,
+    "elapsed_s": 8.428536624880508,
+    "maximum_process_phase_rss_kib": 290204,
+    "sampled_peak_sum_rss_bytes": 308510720,
+    "memory_samples": 143,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.18599513289518654,
+        "maximum_process_phase_rss_kib": 66772
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.14267861703410745,
+        "maximum_process_phase_rss_kib": 78436
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 0.9623235131148249,
+        "maximum_process_phase_rss_kib": 88168
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.04889235086739063,
+        "maximum_process_phase_rss_kib": 19900
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 4.168810526141897,
+        "maximum_process_phase_rss_kib": 290204
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 1.581905507016927,
+        "maximum_process_phase_rss_kib": 104632
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.36853020591661334,
+        "maximum_process_phase_rss_kib": 176632
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.08015470416285098,
+        "maximum_process_phase_rss_kib": 57704
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.8236177971120924,
+        "maximum_process_phase_rss_kib": 169836
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk",
+    "mode": "unchanged-cached",
+    "sample": 5,
+    "elapsed_s": 11.890218517975882,
+    "maximum_process_phase_rss_kib": 527100,
+    "sampled_peak_sum_rss_bytes": 1255407616,
+    "memory_samples": 200,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "7bb3b9f1713aed61291e73136ab100c2a6f5457c",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 87769579
+      }
+    ],
+    "phases": [
+      {
+        "name": "authored source synchronization",
+        "elapsed_s": 0.8716491810046136,
+        "maximum_process_phase_rss_kib": 85864
+      },
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.16274536796845496,
+        "maximum_process_phase_rss_kib": 66560
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.12225682102143764,
+        "maximum_process_phase_rss_kib": 78560
+      },
+      {
+        "name": "MDX compatibility and server rendering",
+        "elapsed_s": 3.040190322091803,
+        "maximum_process_phase_rss_kib": 527100
+      },
+      {
+        "name": "content navigation",
+        "elapsed_s": 0.3609384810552001,
+        "maximum_process_phase_rss_kib": 115104
+      },
+      {
+        "name": "ancillary authored pages",
+        "elapsed_s": 0.7348402221687138,
+        "maximum_process_phase_rss_kib": 143840
+      },
+      {
+        "name": "Markdown projection conversion",
+        "elapsed_s": 0.9103791259694844,
+        "maximum_process_phase_rss_kib": 326364
+      },
+      {
+        "name": "discovery projections",
+        "elapsed_s": 0.4523048389237374,
+        "maximum_process_phase_rss_kib": 182476
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 3.244813628960401,
+        "maximum_process_phase_rss_kib": 362516
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 0.7804288459010422,
+        "maximum_process_phase_rss_kib": 31404
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.4375586600508541,
+        "maximum_process_phase_rss_kib": 239272
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.06910318695008755,
+        "maximum_process_phase_rss_kib": 58148
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.6391184900421649,
+        "maximum_process_phase_rss_kib": 165048
+      }
+    ]
+  },
+  {
+    "project": "ai-sdk-agent",
+    "mode": "unchanged-cached",
+    "sample": 5,
+    "elapsed_s": 6.275508922059089,
+    "maximum_process_phase_rss_kib": 291228,
+    "sampled_peak_sum_rss_bytes": 303583232,
+    "memory_samples": 106,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "python3",
+      "scripts/build-content.py"
+    ],
+    "head": "dd568e4ec671dd6ddde38f06f7e24836840f3cb4",
+    "output": [
+      {
+        "directory": "public",
+        "files": 3208,
+        "bytes": 458852130
+      },
+      {
+        "directory": "runtime",
+        "files": 11,
+        "bytes": 88940652
+      }
+    ],
+    "phases": [
+      {
+        "name": "content island compilation",
+        "elapsed_s": 0.1827102650422603,
+        "maximum_process_phase_rss_kib": 66516
+      },
+      {
+        "name": "shared UI compilation",
+        "elapsed_s": 0.12917030812241137,
+        "maximum_process_phase_rss_kib": 78248
+      },
+      {
+        "name": "maintained HTML island preparation",
+        "elapsed_s": 0.5327983021270484,
+        "maximum_process_phase_rss_kib": 88244
+      },
+      {
+        "name": "ancillary HTML island preparation",
+        "elapsed_s": 0.04235574812628329,
+        "maximum_process_phase_rss_kib": 20000
+      },
+      {
+        "name": "shared page UI preparation",
+        "elapsed_s": 3.2915720688179135,
+        "maximum_process_phase_rss_kib": 291228
+      },
+      {
+        "name": "Nift composition",
+        "elapsed_s": 0.9635603069327772,
+        "maximum_process_phase_rss_kib": 104396
+      },
+      {
+        "name": "search indexing",
+        "elapsed_s": 0.3145358960609883,
+        "maximum_process_phase_rss_kib": 176860
+      },
+      {
+        "name": "runtime handler compilation",
+        "elapsed_s": 0.06948038307018578,
+        "maximum_process_phase_rss_kib": 57784
+      },
+      {
+        "name": "reference and runtime publication",
+        "elapsed_s": 0.6732610680628568,
+        "maximum_process_phase_rss_kib": 169676
+      }
+    ]
+  },
+  {
+    "project": "upstream",
+    "mode": "unchanged-cached",
+    "sample": 5,
+    "elapsed_s": 264.9289056540001,
+    "maximum_process_phase_rss_kib": 20177088,
+    "sampled_peak_sum_rss_bytes": 30423973888,
+    "memory_samples": 3384,
+    "sampled_memory_method": "50 ms sum of live driver descendants RSS; shared pages may be counted multiple times; sampled, not exact OS peak",
+    "exit_code": 0,
+    "command": [
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/node-v24.21.0-linux-x64/bin/node",
+      "/home/nick/Repositories/nift/nift-experiments/ai-sdk-baseline/toolchain/pnpm/package/bin/pnpm.cjs",
+      "--dir",
+      "apps/docs",
+      "build:site"
+    ],
+    "head": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "output": [
+      {
+        "directory": "apps/docs/.next",
+        "files": 17833,
+        "bytes": 5448515729
+      },
+      {
+        "directory": "apps/docs/public",
+        "files": 88,
+        "bytes": 4890419
+      }
+    ],
+    "phases": [
+      {
+        "stage": "content-version-synchronization",
+        "pid": 1417427,
+        "start_utc": "2026-10-08T09:23:43.448Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.620382032,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 73344
+      },
+      {
+        "stage": "fumadocs-mdx-generation",
+        "pid": 1417437,
+        "start_utc": "2026-10-08T09:23:44.138Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 0.296400024,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 105452
+      },
+      {
+        "stage": "next-production-build",
+        "pid": 1417462,
+        "start_utc": "2026-10-08T09:23:44.479Z",
+        "scope": "CLI wall time after measurement preload, including its child work; CLI RSS is individual process only; startup/shell/package-manager residual remains in complete pipeline",
+        "elapsed_s": 262.689009282,
+        "exit_code": 0,
+        "cli_maximum_rss_kib": 20177088
+      }
+    ],
+    "cli_stage_overhead_residual_s": 1.323114316000158
+  }
+]
