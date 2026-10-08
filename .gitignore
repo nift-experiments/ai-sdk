@@ -16,3 +16,5 @@
 /public/**/llms.txt
 /public/sitemap.xml
 /public/robots.txt
+
+__pycache__/

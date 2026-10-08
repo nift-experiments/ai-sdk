@@ -1,0 +1,56 @@
+{
+  "scope": "Repeated affected optimized browser interactions. The complete A7 interaction campaign remains preserved; unchanged client source/bundles retain its coverage. All optimized browser matrix states and island host span proofs are separate.",
+  "observations": [
+    {
+      "project": "ai-sdk",
+      "test": "TextGeneration loading and completed response",
+      "loadingObserved": true,
+      "pass": true,
+      "completed": "Answer\nThe sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight reaches the Earth's atmosphere, the gases and particles in the air scatter the shorter blue wavelengths of light more effectively than the other colors in the spectrum. This scattered blue light is what we see when we look up at the sky."
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Version switch v7 to v6",
+      "url": "http://localhost:4334/v6/docs/introduction",
+      "pass": true
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Historical search keyboard selects first page result",
+      "url": "http://localhost:4334/v6/docs/reference/ai-sdk-core/agent",
+      "pass": true
+    },
+    {
+      "project": "ai-sdk",
+      "test": "ObjectGeneration completed notifications",
+      "pass": true,
+      "text": "View Notifications\nJamie Roberts\nHey! How's the study grind going? Need a coffee boost?\n15m ago\nProf. Morgan\nReminder: Your term paper is due promptly at 8 AM tomorrow. Please ensure it meets the submission guidelines outlined.\n46m ago\nAlex Chen\nDude, urgent! Borrow your notes for tomorrow's exam? I swear mine got eaten by my dog!\n30m ago"
+    },
+    {
+      "project": "ai-sdk",
+      "test": "ChatGeneration nested WeatherCard",
+      "pass": true,
+      "text": "User: How is it going?\nAssistant: All good, how may I help you?\nUser: What is the weather in San Francisco?\nAssistant: The weather is 24\u00b0C and sunny in San Francisco.\nThursday, March 7\n24\u00b0\nSunny\n7am\n48\u00b0\n8am\n50\u00b0\n9am\n52\u00b0\n10am\n54\u00b0\n11am\n56\u00b0\n12pm\n58\u00b0\n1pm\n60\u00b0\nType your message\nSend Message"
+    },
+    {
+      "project": "ai-sdk",
+      "test": "InlinePrompt explicit coffee input",
+      "pass": true,
+      "text": "Prompt\nGenerate\nBrewed for better moments."
+    },
+    {
+      "project": "ai-sdk",
+      "test": "CardPlayer play/pause",
+      "playing": "true",
+      "paused": "false",
+      "pass": true
+    },
+    {
+      "project": "ai-sdk",
+      "feature": "Recipes and Guides",
+      "state": "expanded guides and Node.js filter",
+      "pass": true,
+      "nodeRecipeLinks": 26
+    }
+  ]
+}

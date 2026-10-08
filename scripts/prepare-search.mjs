@@ -1,3 +1,5 @@
+import {createHash} from 'node:crypto';
+import {dependencyKey,outputsIntact} from './build-cache.mjs';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import {createSearchAPI} from 'fumadocs-core/search/server';
 import {findPath} from 'fumadocs-core/page-tree';
@@ -21,8 +23,12 @@ for(const version of ['v7','v6','v5']){
   const breadcrumbs=[tree.name,...(path?.slice(0,-1).map(n=>n.name)??[])].filter(n=>typeof n==='string'&&n.length>0);
   return {id:p.route,url:p.route,title:p.metadata.title??p.route,description:p.metadata.description??'',...(breadcrumbs.length?{breadcrumbs}:{}),structuredData:p.structuredData??{headings:[],contents:[]}};
  });
+ const key=createHash('sha256').update(JSON.stringify(indexes)).update(await dependencyKey(['package.json','pnpm-lock.yaml','scripts/prepare-search.mjs','scripts/build-cache.mjs'])).digest('hex');
+ const cachePath='generated/search/'+version+'-build.json';let prior;try{prior=JSON.parse(await readFile(cachePath,'utf8'));}catch{}
+ if(prior?.key===key&&await outputsIntact(prior.outputHashes)&&!process.argv.includes('--force')){console.log(JSON.stringify({version,pages:indexes.length,cached:true}));continue;}
  const api=createSearchAPI('advanced',{indexes,language:'english'});const data=await api.export();
  await writeFile('generated/search/'+version+'-indexes.json',JSON.stringify(indexes)+'\n');
  await writeFile('generated/search/'+version+'-database.json',JSON.stringify(data)+'\n');
+ const outputHashes={};for(const file of ['generated/search/'+version+'-indexes.json','generated/search/'+version+'-database.json'])outputHashes[file]=createHash('sha256').update(await readFile(file)).digest('hex');await writeFile(cachePath,JSON.stringify({key,outputHashes})+'\n');
  console.log(JSON.stringify({version,pages:indexes.length,bytes:Buffer.byteLength(JSON.stringify(data))}));
 }

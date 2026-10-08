@@ -1,0 +1,37 @@
+[
+  {
+    "route": "/llms.txt",
+    "equal": true,
+    "sha256": "69e923a3c33fbe5c8ceea9f43dc608fc9cb570fcb330ff10edb038951094da56"
+  },
+  {
+    "route": "/sitemap.md",
+    "equal": true,
+    "sha256": "d6506a1741ca2c51d28bdcbc263ebb611bdb5676a8936985a18ed48b129fe811"
+  },
+  {
+    "route": "/v6/llms.txt",
+    "equal": true,
+    "sha256": "6aa853618ee84716a4c2bdab9467182f8272b7e597e08a845dadb188f6385374"
+  },
+  {
+    "route": "/v6/sitemap.md",
+    "equal": true,
+    "sha256": "399c7b2fe37b63bf55f1cf6ee7500eaaeb12c43d1b9d3255d20965fd14fe77c6"
+  },
+  {
+    "route": "/v5/llms.txt",
+    "equal": true,
+    "sha256": "59cd0e6db909761ec77e6fe510a9f44d4da5d7500a97fab1f6be96a4fbd9379e"
+  },
+  {
+    "route": "/v5/sitemap.md",
+    "equal": true,
+    "sha256": "a7f460a7a6b302c07e02d4845ded101d492bfa85572fa93c7a3a67d5553feafc"
+  },
+  {
+    "route": "/agents.md",
+    "equal": true,
+    "sha256": "3bc66ba38e098922785eb199ee84cee7b5ec860ff47af317f872eb1a6b2b82f1"
+  }
+]

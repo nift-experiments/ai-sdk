@@ -1,0 +1,506 @@
+[
+  {
+    "path": "/",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/introduction",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/introduction",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/introduction",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v6/docs/introduction",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v6/docs/introduction",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v6/docs/introduction",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v5/docs/introduction",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v5/docs/introduction",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v5/docs/introduction",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/reference/ai-sdk-core/stream-text",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/reference/ai-sdk-core/stream-text",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/reference/ai-sdk-core/stream-text",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/providers/ai-sdk-providers/openai",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/providers/ai-sdk-providers/openai",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/providers/ai-sdk-providers/openai",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/cookbook/next/generate-text",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/cookbook/next/generate-text",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/cookbook/next/generate-text",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/recipes",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/recipes",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/recipes",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/tools",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/tools",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/tools",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/templates",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/templates",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/templates",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/showcase",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/showcase",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/showcase",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/playground-recovery",
+    "viewport": "desktop",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/playground-recovery",
+    "viewport": "desktop",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/playground-recovery",
+    "viewport": "desktop",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/introduction",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/introduction",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/introduction",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v6/docs/introduction",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v6/docs/introduction",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v6/docs/introduction",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v5/docs/introduction",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v5/docs/introduction",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/v5/docs/introduction",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/reference/ai-sdk-core/stream-text",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/reference/ai-sdk-core/stream-text",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/docs/reference/ai-sdk-core/stream-text",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/providers/ai-sdk-providers/openai",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/providers/ai-sdk-providers/openai",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/providers/ai-sdk-providers/openai",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/cookbook/next/generate-text",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/cookbook/next/generate-text",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/cookbook/next/generate-text",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/recipes",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/recipes",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/recipes",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/tools",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/tools",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/tools",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/templates",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/templates",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/templates",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/showcase",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/showcase",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/resources/showcase",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/playground-recovery",
+    "viewport": "mobile",
+    "theme": "light",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/playground-recovery",
+    "viewport": "mobile",
+    "theme": "dark",
+    "differences": [],
+    "pass": true
+  },
+  {
+    "path": "/playground-recovery",
+    "viewport": "mobile",
+    "theme": "system",
+    "differences": [],
+    "pass": true
+  }
+]

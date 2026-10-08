@@ -2,7 +2,7 @@
 import {createServer} from 'node:http';import {readFile,stat} from 'node:fs/promises';import {createReadStream} from 'node:fs';import {createRequire} from 'node:module';import path from 'node:path';import {Readable} from 'node:stream';
 const root=process.cwd(),args=process.argv.slice(2),port=Number(args[args.indexOf('--port')+1]||4334),fixtures=args.includes('--fixtures');
 const {playgroundTransitionResponse,searchResponse,ogResponse,markdownDecision,markdownHeaders,notFoundResponse,chatResponse,feedbackResponse}=createRequire(import.meta.url)(path.join(root,'runtime/runtime-api.cjs'));
-const rules=JSON.parse(await readFile('routes/redirects.json','utf8')).map(row=>({...row,pattern:new RegExp(row.regex)}));
+const rules=JSON.parse(await readFile('runtime/redirects.json','utf8')).map(row=>({...row,pattern:new RegExp(row.regex)}));
 const surfaces=JSON.parse(await readFile('runtime/surfaces.json','utf8'));const markdown=new Set(surfaces.markdown);
 let fixtureSequence=0;
 const mime={'.html':'text/html; charset=utf-8','.md':'text/markdown','.txt':'text/plain; charset=utf-8','.xml':'application/xml','.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.ico':'image/x-icon','.woff2':'font/woff2','.ttf':'font/ttf','.mp4':'video/mp4','.mp3':'audio/mpeg'};

@@ -22,8 +22,12 @@ async function changed(file,value){await mkdir(path.dirname(file),{recursive:tru
 for(const page of pages){
  page.name=page.route==='/'?'index':page.route.slice(1)+'/index';
  const version=page.route.startsWith('/v5/')?'v5':page.route.startsWith('/v6/')?'v6':'v7';const tree=trees[version+'/'+page.family];page.navigationVersion=version;
- const props={layout:page.layout,route:page.route,tree,versionPaths,page:{metadata:page.metadata,toc:page.toc??[],path:page.path}};
- const key=createHash('sha256').update(bundle.key).update(JSON.stringify(props)).digest('hex');
+ const candidate=page.route.replace(/^\/v[56](?=\/)/,'');const ancestors=new Set(['/']);let cursor=candidate;for(;;){ancestors.add(cursor);if(cursor==='/')break;cursor=cursor.slice(0,cursor.lastIndexOf('/'))||'/';}
+ // The public resolver consults the current path and its ancestors only.
+ // Include fallback in the list so items.paths remains nonempty.
+ const localVersionPaths=Object.fromEntries(Object.entries(versionPaths).map(([version,value])=>[version,{...value,paths:[...new Set([...value.paths.filter(path=>ancestors.has(path)),value.fallbackPath])]}]));
+ const props={layout:page.layout,route:page.route,tree,versionPaths:localVersionPaths,page:{metadata:page.metadata,toc:page.toc??[],path:page.path}};
+ const key=createHash('sha256').update(bundle.serverKey||bundle.key).update(JSON.stringify(props)).digest('hex');
  const target='generated/content-shells/'+page.name+'.json';
  let result;
  if(cache[page.route]?.key===key&&!process.argv.includes('--force')){
