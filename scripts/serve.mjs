@@ -4,6 +4,7 @@ const root=process.cwd(),args=process.argv.slice(2),port=Number(args[args.indexO
 const {playgroundTransitionResponse,searchResponse,ogResponse,markdownDecision,markdownHeaders,notFoundResponse,chatResponse,feedbackResponse}=createRequire(import.meta.url)(path.join(root,'runtime/runtime-api.cjs'));
 const rules=JSON.parse(await readFile('routes/redirects.json','utf8')).map(row=>({...row,pattern:new RegExp(row.regex)}));
 const surfaces=JSON.parse(await readFile('runtime/surfaces.json','utf8'));const markdown=new Set(surfaces.markdown);
+let fixtureSequence=0;
 const mime={'.html':'text/html; charset=utf-8','.md':'text/markdown','.txt':'text/plain; charset=utf-8','.xml':'application/xml','.js':'text/javascript','.css':'text/css','.json':'application/json','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.jpeg':'image/jpeg','.webp':'image/webp','.ico':'image/x-icon','.woff2':'font/woff2','.ttf':'font/ttf','.mp4':'video/mp4','.mp3':'audio/mpeg'};
 async function send(response,res,head){res.writeHead(response.status,Object.fromEntries(response.headers));if(head||!response.body){res.end();return;}Readable.fromWeb(response.body).pipe(res);}
 async function fixtureState(){try{return JSON.parse(await readFile(process.env.AI_SDK_FIXTURE_STATE||'/tmp/ai-sdk-fixture-state.json','utf8'));}catch{return {mode:'success'};}}
@@ -16,15 +17,15 @@ createServer(async(req,res)=>{
   res.setHeader('Content-Security-Policy',"connect-src 'self'; script-src 'self' 'unsafe-inline'; form-action 'none'");
   const transition=playgroundTransitionResponse(request);if(transition){await send(transition,res,head);return;}
   if(!read){
-   if(req.method==='POST'&&fixtures&&['/api/chat','/api/feedback'].includes(url.pathname)){
+   if(req.method==='POST'&&fixtures&&['/api/chat','/api/docs-feedback'].includes(url.pathname)){
     const state=await fixtureState();if(state.mode==='error'){await send(Response.json({error:'Deterministic fixture failure'},{status:503}),res,head);return;}
-    if(url.pathname==='/api/feedback'){await send(Response.json({success:true}),res,head);return;}
+    if(url.pathname==='/api/docs-feedback'){await send(Response.json({success:true}),res,head);return;}
     JSON.parse(body.toString());
-    const events=[{type:'start',messageId:'fixture-assistant'},{type:'text-start',id:'fixture-text'},{type:'text-delta',id:'fixture-text',delta:'Deterministic fixture: use streamText to stream a model response.'},{type:'text-end',id:'fixture-text'},{type:'source-url',sourceId:'fixture-doc',url:'https://ai-sdk.dev/docs/reference/ai-sdk-core/stream-text',title:'streamText'},{type:'finish',finishReason:'stop'}];
+    const events=[{type:'start',messageId:'fixture-assistant-'+Date.now()+'-'+(++fixtureSequence)},{type:'text-start',id:'fixture-text'},{type:'text-delta',id:'fixture-text',delta:'Deterministic fixture: use streamText to stream a model response.'},{type:'text-end',id:'fixture-text'},{type:'source-url',sourceId:'fixture-doc',url:'https://ai-sdk.dev/docs/reference/ai-sdk-core/stream-text',title:'streamText'},{type:'finish',finishReason:'stop'}];
     res.writeHead(200,{'Content-Type':'text/event-stream','x-vercel-ai-ui-message-stream':'v1','Cache-Control':'no-cache'});for(const event of events){res.write('data: '+JSON.stringify(event)+'\n\n');if(state.mode==='slow')await new Promise(resolve=>setTimeout(resolve,100));}res.end('data: [DONE]\n\n');return;
    }
    if(req.method==='POST'&&url.pathname==='/api/chat'){await send(await chatResponse(request),res,head);return;}
-   if(req.method==='POST'&&url.pathname==='/api/feedback'){await send(await feedbackResponse(request),res,head);return;}
+   if(req.method==='POST'&&url.pathname==='/api/docs-feedback'){await send(await feedbackResponse(request),res,head);return;}
    await send(new Response('Method not allowed',{status:405}),res,head);return;
   }
   for(const row of rules){

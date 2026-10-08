@@ -63,3 +63,12 @@ Proposed guidance: “Reconcile primary pages, aliases, redirects, negotiated Ma
 A preserved frozen HTML shell does not prove client parity. The landing prototype hydrated its hero but omitted install selectors and lower-page demos. The complete page now composes authored static layout with isolated interactive sections and shared navigation. Suggested scaffold: an interaction inventory per page section, with static/vanilla/island classification, mount/props/SSR/client owner, remote boundary and evidence state. Test each section after hydration, including controls outside the first viewport.
 
 Package install policy must reject ambiguous placeholders: pnpm can write an unreviewed dependency build-script setting, which needs an explicit allow/deny decision. Search/LLMS projection order and renderer bytes belong in the input manifest. Community stats frozen as maintained data and request-generated OG images must be classified separately from routine build products.
+
+A7 transport probing found that reusing `/api/feedback` collided with the upstream retired-playground API contract. The standalone documentation feedback adapter uses `/api/docs-feedback`; the old endpoint keeps its required 410 response. Proposed guidance: “Inventory reserved and retired API routes before assigning standalone transport paths. Exercise success/error submissions, not only opening a form or checking GET responses.”
+
+
+### A7 asynchronous browser fixtures
+
+A media preview begins playback only after its generation animation; a toast auto-dismisses; repeated synthetic message IDs can violate IndexedDB uniqueness. Proposed guidance: “Test completed asynchronous states with semantic conditions, capture transient states immediately, and give fixture messages valid unique IDs. Preserve failed observation attempts without treating a stale capture as a product defect. Probe local persistence separately from remote backend functionality.”
+
+A route/link audit must include CSS URLs and restrict redirect matching by host conditions. Proposed scaffolding: a local-link inventory with explicit categories for static files, published routes, runtime endpoints, host-compatible redirects and inherited upstream failures. Record streamed soft-404 behavior separately from missing migrated pages.

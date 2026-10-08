@@ -1,0 +1,512 @@
+{
+  "observations": [
+    {
+      "model": "ai-sdk",
+      "feature": "cookbook local generation",
+      "loadingObserved": true,
+      "completed": "Answer\nThe sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight reaches the Earth's atmosphere, the gases and particles in the air scatter the shorter blue wavelengths of light more effectively than the other colors in the spectrum. This scattered blue light is what we see when we look up at the sky."
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "cookbook local generation",
+      "loadingObserved": true,
+      "completed": "Answer\nThe sky appears blue because of a phenomenon called Rayleigh scattering. When sunlight reaches the Earth's atmosphere, the gases and particles in the air scatter the shorter blue wavelengths of light more effectively than the other colors in the spectrum. This scattered blue light is what we see when we look up at the sky."
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "v7 to v6 version switch",
+      "url": "http://localhost:4334/v6/docs/introduction"
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "historical search keyboard selection",
+      "url": "http://localhost:4334/v6/docs/reference/ai-sdk-core/agent#see-also"
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "v7 to v6 version switch",
+      "url": "http://localhost:4335/v6/docs/introduction"
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "mobile Browse drawer",
+      "text": "Browse\n\nNavigation for the documentation.\n\nSearch\u2026\n\u2318K\nv6\nv6 maintenance documentation\nAI SDK by Vercel\nFoundations\nGetting Started\nAgents\nAI SDK Core\nAI SDK UI\nAI SDK RSC\nAdvanced\nReference\nMigration Guides\nTroubleshooting\nClose"
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "mobile TOC anchor",
+      "url": "http://localhost:4335/v6/docs/introduction#model-providers"
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "mobile Browse drawer",
+      "text": "Browse\n\nNavigation for the documentation.\n\nSearch\u2026\n\u2318K\nv7\nLatest documentation\nAI SDK by Vercel\nFoundations\nGetting Started\nAgents\nAI SDK Core\nAI SDK Harnesses\nAI SDK UI\nAI SDK RSC\nAdvanced\nReference\nMigration Guides\nTroubleshooting\nClose"
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "mobile TOC anchor",
+      "url": "http://localhost:4334/docs/introduction#model-providers"
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "static MDX keyboard tabs",
+      "selected": "Vue",
+      "focus": true,
+      "panelVisible": true
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "vanilla package snippet copy",
+      "copied": "npm install @ai-sdk/perplexity",
+      "expected": "npm install @ai-sdk/perplexity"
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "static MDX keyboard tabs",
+      "selected": "Vue",
+      "focus": true,
+      "panelVisible": true
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "vanilla package snippet copy",
+      "copied": "npm install @ai-sdk/perplexity",
+      "expected": "npm install @ai-sdk/perplexity"
+    },
+    {
+      "model": "upstream",
+      "feature": "synthetic chat success and citation",
+      "text": "Ask AI\n\nSynthetic parity question: how do I stream text?\n\nUsed 1 source\n\nstreamText\n\nDeterministic fixture: use streamText to stream a model response."
+    },
+    {
+      "model": "upstream",
+      "feature": "synthetic feedback success",
+      "text": "Thank you for your feedback!"
+    },
+    {
+      "model": "upstream",
+      "feature": "synthetic chat error",
+      "text": ""
+    },
+    {
+      "model": "upstream",
+      "feature": "synthetic feedback error",
+      "text": "Sending feedback failed. Please try again."
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "synthetic feedback error",
+      "text": "Sending feedback failed. Please try again."
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "synthetic chat error",
+      "text": "{\"error\":\"Deterministic fixture failure\"}"
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "synthetic chat success and citation",
+      "text": "Ask AI\n\nSynthetic error parity fixture.\n\nSynthetic parity question: how do I stream text?\n\nUsed 1 source\n\nstreamText\n\nDeterministic fixture: use streamText to stream a model response."
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "synthetic feedback success",
+      "text": "Thank you for your feedback!"
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "synthetic feedback success",
+      "text": "Thank you for your feedback!"
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "synthetic chat success and citation",
+      "text": "Ask AI\n\nHow do I stream text?\n\nUsed 1 source\n\nDeterministic fixture: use streamText to stream a model response.\n\nSynthetic final transport parity question.\n\nUsed 1 source\n\nstreamText\n\nDeterministic fixture: use streamText to stream a model response."
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "synthetic chat error",
+      "text": ""
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "synthetic feedback error",
+      "text": "Sending feedback failed. Please try again."
+    },
+    {
+      "model": "upstream",
+      "feature": "structured-object generation",
+      "loadingObserved": true,
+      "firstNotification": "Jamie Roberts"
+    },
+    {
+      "model": "ai-sdk",
+      "feature": "structured-object generation",
+      "loadingObserved": true,
+      "firstNotification": "Jamie Roberts"
+    },
+    {
+      "model": "ai-sdk-agent",
+      "feature": "structured-object generation",
+      "loadingObserved": true,
+      "firstNotification": "Jamie Roberts"
+    },
+    {
+      "project": "upstream",
+      "test": "ChatGeneration nested WeatherCard",
+      "pass": true,
+      "text": "The weather is 24\u00b0C and sunny in San Francisco.",
+      "temperature": "24\u00b0"
+    },
+    {
+      "project": "ai-sdk",
+      "test": "ChatGeneration nested WeatherCard",
+      "pass": true,
+      "temperature": "24\u00b0"
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "ChatGeneration nested WeatherCard",
+      "pass": true,
+      "temperature": "24\u00b0"
+    },
+    {
+      "project": "upstream",
+      "test": "InlinePrompt generate",
+      "pass": true,
+      "response": "Brewed for better moments."
+    },
+    {
+      "project": "ai-sdk",
+      "test": "InlinePrompt generate",
+      "pass": true,
+      "response": "Brewed for better moments."
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "InlinePrompt generate",
+      "pass": true,
+      "response": "Brewed for better moments."
+    },
+    {
+      "project": "upstream",
+      "test": "CardPlayer play/pause",
+      "pass": true,
+      "playing": "true",
+      "paused": "false"
+    },
+    {
+      "project": "ai-sdk",
+      "test": "CardPlayer play/pause",
+      "pass": true,
+      "playing": "true",
+      "paused": "false"
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "CardPlayer play/pause",
+      "pass": true,
+      "playing": "true",
+      "paused": "false"
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Speech media pause/seek",
+      "pass": true,
+      "audio": [
+        {
+          "duration": 10.475063,
+          "muted": true,
+          "paused": true,
+          "ready": 4,
+          "time": 8.475063
+        }
+      ]
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Video local fixture decoded before generation completes",
+      "pass": true,
+      "video": [
+        {
+          "duration": 6.214542,
+          "error": null,
+          "muted": true,
+          "paused": true,
+          "ready": 4
+        }
+      ]
+    },
+    {
+      "project": "upstream",
+      "test": "Speech media pause/seek",
+      "pass": true,
+      "audio": [
+        {
+          "duration": 10.475063,
+          "muted": true,
+          "paused": true,
+          "ready": 4,
+          "time": 0
+        }
+      ]
+    },
+    {
+      "project": "upstream",
+      "test": "Video local fixture decoded before generation completes",
+      "pass": true,
+      "video": [
+        {
+          "duration": 6.214542,
+          "error": null,
+          "muted": true,
+          "paused": true,
+          "ready": 4
+        }
+      ]
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Speech media pause/seek",
+      "pass": true,
+      "audio": [
+        {
+          "duration": 10.475063,
+          "muted": true,
+          "paused": true,
+          "ready": 4,
+          "time": 0
+        }
+      ]
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Video local fixture decoded before generation completes",
+      "pass": true,
+      "video": [
+        {
+          "duration": 6.214542,
+          "error": null,
+          "muted": true,
+          "paused": true,
+          "ready": 4
+        }
+      ]
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Video playback after generation completes",
+      "pass": true
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Video playback after generation completes",
+      "pass": true,
+      "video": [
+        {
+          "duration": 6.214542,
+          "error": null,
+          "muted": true,
+          "paused": false,
+          "ready": 4,
+          "time": 4.256509
+        }
+      ]
+    },
+    {
+      "project": "upstream",
+      "test": "Video playback after generation completes",
+      "pass": true,
+      "video": [
+        {
+          "duration": 6.214542,
+          "error": null,
+          "muted": true,
+          "paused": false,
+          "ready": 4,
+          "time": 1.287296
+        }
+      ]
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Hero provider/source switch",
+      "pass": true,
+      "code": "import { generateText } from 'ai';\n\nimport { openai } from '@ai-sdk/openai';\n\n\n\nconst { text } = await generateText({\n\n  model: openai('gpt-6-astra'),\n\n  prompt: 'Explain the concept of quantum entanglement.',\n\n});\n\n\n\nconsole.log(text);\n"
+    },
+    {
+      "project": "upstream",
+      "test": "Hero provider/source switch",
+      "pass": true,
+      "code": "import { generateText } from 'ai';\n\nimport { openai } from '@ai-sdk/openai';\n\n\n\nconst { text } = await generateText({\n\n  model: openai('gpt-6-astra'),\n\n  prompt: 'Explain the concept of quantum entanglement.',\n\n});\n\n\n\nconsole.log(text);\n"
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Hero provider/source switch",
+      "pass": true,
+      "code": "import { generateText } from 'ai';\n\nimport { openai } from '@ai-sdk/openai';\n\n\n\nconst { text } = await generateText({\n\n  model: openai('gpt-6-astra'),\n\n  prompt: 'Explain the concept of quantum entanglement.',\n\n});\n\n\n\nconsole.log(text);\n"
+    },
+    {
+      "project": "ai-sdk",
+      "test": "PreviewSwitchProviders model selection",
+      "pass": true,
+      "model": "openai(\"gpt-6-astra\")"
+    },
+    {
+      "project": "upstream",
+      "test": "PreviewSwitchProviders model selection",
+      "pass": true,
+      "model": "openai(\"gpt-6-astra\")"
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "PreviewSwitchProviders model selection",
+      "pass": true,
+      "model": "openai(\"gpt-6-astra\")"
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Recipe expansion and environment filter",
+      "pass": true,
+      "expanded": true,
+      "links": [
+        "/resources/recipes/node/generate-text",
+        "/resources/recipes/node/generate-text-with-chat-prompt",
+        "/resources/recipes/node/generate-text-with-image-prompt",
+        "/resources/recipes/node/stream-text",
+        "/resources/recipes/node/stream-text-with-chat-prompt",
+        "/resources/recipes/node/stream-text-with-image-prompt",
+        "/resources/recipes/node/stream-text-with-file-prompt",
+        "/resources/recipes/node/generate-object",
+        "/resources/recipes/node/generate-object-reasoning",
+        "/resources/recipes/node/stream-object",
+        "/resources/recipes/node/stream-object-with-image-prompt",
+        "/resources/recipes/node/stream-object-record-token-usage",
+        "/resources/recipes/node/stream-object-record-final-object",
+        "/resources/recipes/node/call-tools",
+        "/resources/recipes/node/call-tools-in-parallel",
+        "/resources/recipes/node/call-tools-with-image-prompt",
+        "/resources/recipes/node/call-tools-multiple-steps",
+        "/resources/recipes/node/mcp-tools",
+        "/resources/recipes/node/manual-agent-loop",
+        "/resources/recipes/node/web-search-agent",
+        "/resources/recipes/node/mcp-elicitation",
+        "/resources/recipes/node/embed-text",
+        "/resources/recipes/node/embed-text-batch",
+        "/resources/recipes/node/intercept-fetch-requests",
+        "/resources/recipes/node/retrieval-augmented-generation",
+        "/resources/recipes/node/knowledge-base-agent"
+      ]
+    },
+    {
+      "project": "upstream",
+      "test": "Recipe expansion and environment filter",
+      "pass": true,
+      "expanded": true,
+      "links": [
+        "/resources/recipes/node/generate-text",
+        "/resources/recipes/node/generate-text-with-chat-prompt",
+        "/resources/recipes/node/generate-text-with-image-prompt",
+        "/resources/recipes/node/stream-text",
+        "/resources/recipes/node/stream-text-with-chat-prompt",
+        "/resources/recipes/node/stream-text-with-image-prompt",
+        "/resources/recipes/node/stream-text-with-file-prompt",
+        "/resources/recipes/node/generate-object",
+        "/resources/recipes/node/generate-object-reasoning",
+        "/resources/recipes/node/stream-object",
+        "/resources/recipes/node/stream-object-with-image-prompt",
+        "/resources/recipes/node/stream-object-record-token-usage",
+        "/resources/recipes/node/stream-object-record-final-object",
+        "/resources/recipes/node/call-tools",
+        "/resources/recipes/node/call-tools-in-parallel",
+        "/resources/recipes/node/call-tools-with-image-prompt",
+        "/resources/recipes/node/call-tools-multiple-steps",
+        "/resources/recipes/node/mcp-tools",
+        "/resources/recipes/node/manual-agent-loop",
+        "/resources/recipes/node/web-search-agent",
+        "/resources/recipes/node/mcp-elicitation",
+        "/resources/recipes/node/embed-text",
+        "/resources/recipes/node/embed-text-batch",
+        "/resources/recipes/node/intercept-fetch-requests",
+        "/resources/recipes/node/retrieval-augmented-generation",
+        "/resources/recipes/node/knowledge-base-agent"
+      ]
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Recipe expansion and environment filter",
+      "pass": true,
+      "expanded": true,
+      "links": [
+        "/resources/recipes/node/generate-text",
+        "/resources/recipes/node/generate-text-with-chat-prompt",
+        "/resources/recipes/node/generate-text-with-image-prompt",
+        "/resources/recipes/node/stream-text",
+        "/resources/recipes/node/stream-text-with-chat-prompt",
+        "/resources/recipes/node/stream-text-with-image-prompt",
+        "/resources/recipes/node/stream-text-with-file-prompt",
+        "/resources/recipes/node/generate-object",
+        "/resources/recipes/node/generate-object-reasoning",
+        "/resources/recipes/node/stream-object",
+        "/resources/recipes/node/stream-object-with-image-prompt",
+        "/resources/recipes/node/stream-object-record-token-usage",
+        "/resources/recipes/node/stream-object-record-final-object",
+        "/resources/recipes/node/call-tools",
+        "/resources/recipes/node/call-tools-in-parallel",
+        "/resources/recipes/node/call-tools-with-image-prompt",
+        "/resources/recipes/node/call-tools-multiple-steps",
+        "/resources/recipes/node/mcp-tools",
+        "/resources/recipes/node/manual-agent-loop",
+        "/resources/recipes/node/web-search-agent",
+        "/resources/recipes/node/mcp-elicitation",
+        "/resources/recipes/node/embed-text",
+        "/resources/recipes/node/embed-text-batch",
+        "/resources/recipes/node/intercept-fetch-requests",
+        "/resources/recipes/node/retrieval-augmented-generation",
+        "/resources/recipes/node/knowledge-base-agent"
+      ]
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Historical search keyboard activation",
+      "pass": true,
+      "url": "http://localhost:4335/v6/docs/reference/ai-sdk-core/agent#see-also"
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Unique fixture conversation persists after reload",
+      "pass": true
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Unique fixture conversation persists after reload",
+      "pass": true
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Synthetic chat failure notification",
+      "notification": "",
+      "observation": "Toast had auto-dismissed before capture; timely repeated probe follows."
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Synthetic chat failure notification",
+      "notification": "",
+      "observation": "Toast had auto-dismissed before capture; timely repeated probe follows."
+    },
+    {
+      "project": "ai-sdk-agent",
+      "test": "Synthetic chat failure notification timely capture",
+      "pass": true,
+      "notification": "{\"error\":\"Deterministic fixture failure\"}"
+    },
+    {
+      "project": "ai-sdk",
+      "test": "Synthetic chat failure notification timely capture",
+      "pass": true,
+      "notification": "{\"error\":\"Deterministic fixture failure\"}"
+    }
+  ],
+  "externalCaptureSha256": "ff5d809c7662d0d1c4b96241faf7af0bad654a143ea18a65982d2176746848ed",
+  "scope": "Local browser UI and canned transport; no live AI/feedback backend certification. Asynchronous toast/media timing retries are retained as observations."
+}

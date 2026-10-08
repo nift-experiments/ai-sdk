@@ -1,0 +1,1306 @@
+{
+  "referenceStates": 72,
+  "migrationStates": 72,
+  "captureSha256": "1968d5dbf836afe90ace0efcfec6d6bc0656a7eccaf8d052509fc451d08864fb",
+  "geometry": "article/main box; marketing pages use the equivalent h1 box because the migration raw slot is display:contents",
+  "systemDark": false,
+  "screenshotByteEqualityClaimed": false,
+  "rows": [
+    {
+      "path": "/",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/introduction",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/introduction",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/introduction",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v6/docs/introduction",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v6/docs/introduction",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v6/docs/introduction",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v5/docs/introduction",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v5/docs/introduction",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v5/docs/introduction",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/reference/ai-sdk-core/stream-text",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/reference/ai-sdk-core/stream-text",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/reference/ai-sdk-core/stream-text",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/providers/ai-sdk-providers/openai",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/providers/ai-sdk-providers/openai",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/providers/ai-sdk-providers/openai",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/cookbook/next/generate-text",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/cookbook/next/generate-text",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/cookbook/next/generate-text",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/recipes",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/recipes",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/recipes",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/tools",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/tools",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/tools",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/templates",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/templates",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/templates",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/showcase",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/showcase",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/showcase",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/playground-recovery",
+      "viewport": "desktop",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/playground-recovery",
+      "viewport": "desktop",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/playground-recovery",
+      "viewport": "desktop",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/introduction",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/introduction",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/introduction",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v6/docs/introduction",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v6/docs/introduction",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v6/docs/introduction",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v5/docs/introduction",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v5/docs/introduction",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/v5/docs/introduction",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/reference/ai-sdk-core/stream-text",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/reference/ai-sdk-core/stream-text",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/docs/reference/ai-sdk-core/stream-text",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/providers/ai-sdk-providers/openai",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/providers/ai-sdk-providers/openai",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/providers/ai-sdk-providers/openai",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/cookbook/next/generate-text",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/cookbook/next/generate-text",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/cookbook/next/generate-text",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/recipes",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/recipes",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/recipes",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/tools",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/tools",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/tools",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/templates",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/templates",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/templates",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/showcase",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/showcase",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/resources/showcase",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/playground-recovery",
+      "viewport": "mobile",
+      "theme": "light",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/playground-recovery",
+      "viewport": "mobile",
+      "theme": "dark",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    },
+    {
+      "path": "/playground-recovery",
+      "viewport": "mobile",
+      "theme": "system",
+      "checks": {
+        "articleText": true,
+        "brokenImages": true,
+        "colors": true,
+        "geometry": true,
+        "headings": true,
+        "height": true,
+        "nav": true,
+        "theme": true,
+        "title": true,
+        "toc": true,
+        "width": true
+      }
+    }
+  ]
+}

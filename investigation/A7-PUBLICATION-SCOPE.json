@@ -1,0 +1,15 @@
+{
+  "htmlRoutes": 1674,
+  "primaryDocuments": 1386,
+  "browserStatesPassed": 72,
+  "browserReferenceStates": 72,
+  "frozenHttpCasesPassed": 24,
+  "inheritedBrokenLinks": 21,
+  "remainingRegressionLinks": 0,
+  "backendExercised": false,
+  "sourceModelsDistinct": true,
+  "niftCoreChanges": false,
+  "knownTransportDifference": "Standalone JSON transport replaces Next server actions; public feedback behavior and bounded outbound port retained. /api/feedback remains an upstream-retired route; docs use /api/docs-feedback.",
+  "fixtureCorrection": "Repeated canned replies initially reused IDs and caused IndexedDB duplicate-key console errors. Fixture IDs now unique; local conversation persists through reload.",
+  "rssClaims": "No A7 headline benchmark claims."
+}
