@@ -1,0 +1,67 @@
+[
+  {
+    "name": "authored source synchronization",
+    "elapsed_s": 0.8951946750748903,
+    "maximum_process_phase_rss_kib": 86816
+  },
+  {
+    "name": "content island compilation",
+    "elapsed_s": 0.42108449898660183,
+    "maximum_process_phase_rss_kib": 68000
+  },
+  {
+    "name": "shared UI compilation",
+    "elapsed_s": 0.7695548557676375,
+    "maximum_process_phase_rss_kib": 83824
+  },
+  {
+    "name": "MDX compatibility and server rendering",
+    "elapsed_s": 89.10110863298178,
+    "maximum_process_phase_rss_kib": 1277356
+  },
+  {
+    "name": "content navigation",
+    "elapsed_s": 0.411280145868659,
+    "maximum_process_phase_rss_kib": 115632
+  },
+  {
+    "name": "ancillary authored pages",
+    "elapsed_s": 0.8938060509972274,
+    "maximum_process_phase_rss_kib": 146792
+  },
+  {
+    "name": "Markdown projection conversion",
+    "elapsed_s": 24.90196533803828,
+    "maximum_process_phase_rss_kib": 790720
+  },
+  {
+    "name": "discovery projections",
+    "elapsed_s": 0.5946210459806025,
+    "maximum_process_phase_rss_kib": 257416
+  },
+  {
+    "name": "shared page UI preparation",
+    "elapsed_s": 12.742589994100854,
+    "maximum_process_phase_rss_kib": 400404
+  },
+  {
+    "name": "Nift composition",
+    "elapsed_s": 2.5332540899980813,
+    "maximum_process_phase_rss_kib": 132492
+  },
+  {
+    "name": "search indexing",
+    "elapsed_s": 6.393493224168196,
+    "maximum_process_phase_rss_kib": 821960
+  },
+  {
+    "name": "runtime handler compilation",
+    "elapsed_s": 0.20052277692593634,
+    "maximum_process_phase_rss_kib": 55860
+  },
+  {
+    "name": "reference and runtime publication",
+    "elapsed_s": 0.8538356448989362,
+    "maximum_process_phase_rss_kib": 164704
+  }
+]

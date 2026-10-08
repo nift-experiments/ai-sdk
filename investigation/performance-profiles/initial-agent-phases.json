@@ -1,0 +1,47 @@
+[
+  {
+    "name": "content island compilation",
+    "elapsed_s": 0.46947797387838364,
+    "maximum_process_phase_rss_kib": 67632
+  },
+  {
+    "name": "shared UI compilation",
+    "elapsed_s": 0.7390666960272938,
+    "maximum_process_phase_rss_kib": 83572
+  },
+  {
+    "name": "maintained HTML island preparation",
+    "elapsed_s": 62.0363485198468,
+    "maximum_process_phase_rss_kib": 1543508
+  },
+  {
+    "name": "ancillary HTML island preparation",
+    "elapsed_s": 1.2239517159759998,
+    "maximum_process_phase_rss_kib": 100576
+  },
+  {
+    "name": "shared page UI preparation",
+    "elapsed_s": 16.772073328029364,
+    "maximum_process_phase_rss_kib": 519312
+  },
+  {
+    "name": "Nift composition",
+    "elapsed_s": 2.9265954671427608,
+    "maximum_process_phase_rss_kib": 127528
+  },
+  {
+    "name": "search indexing",
+    "elapsed_s": 6.2508702168706805,
+    "maximum_process_phase_rss_kib": 705840
+  },
+  {
+    "name": "runtime handler compilation",
+    "elapsed_s": 0.17190637695603073,
+    "maximum_process_phase_rss_kib": 56388
+  },
+  {
+    "name": "reference and runtime publication",
+    "elapsed_s": 0.8183843400329351,
+    "maximum_process_phase_rss_kib": 169432
+  }
+]

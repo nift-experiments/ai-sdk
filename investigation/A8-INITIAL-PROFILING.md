@@ -1,0 +1,3 @@
+# Initial faithful migration evidence
+
+The accepted A7 source checkpoints are ai-sdk a622b4f and ai-sdk-agent 63ce5fd. Single forced-publication diagnostics are retained in performance-profiles/initial-*. They are engineering observations, not five-sample medians. The initial authored pipeline summed 140.712 seconds of sequential phases; the rendered-source pipeline summed 91.409 seconds. The rejected broad Shiki/compiled-file cache attempt is also retained (MDX 108.15 seconds, approximately 2.49 GiB maximum individual process/phase RSS). The interrupted initial benchmark campaign contributes no accepted headline samples. Final benchmarking follows optimized parity and fresh-clone reproduction. No Nift core/template changes.

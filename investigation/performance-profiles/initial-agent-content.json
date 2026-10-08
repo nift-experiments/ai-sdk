@@ -1,0 +1,11 @@
+{
+  "source_read_hash_s": 1.0171376529615372,
+  "html_parse_s": 25.08054450643249,
+  "host_inventory_s": 3.1165776634588838,
+  "react_subprocess_s": 0.9802022359799594,
+  "html_serialize_write_s": 11.868022673064843,
+  "pages": 1386,
+  "islands": 972,
+  "total_s": 42.21979442099109,
+  "methodology": "Exclusive refresh-stage counters; subprocess includes its startup, all SSR, and request/response IO. No MDX parser runs."
+}

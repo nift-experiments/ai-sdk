@@ -1,0 +1,83 @@
+{
+  "initialization_ms": 159.36753199983696,
+  "frontmatter_ms": 179.4183579999003,
+  "parse_ms": 23233.26308700006,
+  "transforms_ms": 49155.20827999988,
+  "stringify_ms": 2039.8773219998207,
+  "evaluate_ms": 1799.7627890000326,
+  "react_render_ms": 6227.480260999961,
+  "io_hash_ms": 0,
+  "plugins": {
+    "remark:remarkSteps:0": 271.1675879999384,
+    "remark:remarkHeading:2": 229.93395199996303,
+    "remark:remarkImage:3": 339.2799339998892,
+    "remark:remarkCodeTab:4": 235.49846999959846,
+    "remark:remarkNpm:5": 182.15845199978503,
+    "remark:remarkStructure:6": 287.5006019999855,
+    "remark:remarkMdxMermaid:7": 217.56946399982553,
+    "remark:remarkCodeTemplates:8": 51.12343199997849,
+    "remark:remarkDetails:9": 11.724775000024238,
+    "remark:captureProcessedMarkdown:10": 2091.6899230001,
+    "rehype:rehypeCodeTemplates:0": 43.13708799961023,
+    "rehype:rehypeCode:1": 27921.657815999803,
+    "rehype:rehypeToc:2": 338.09960799982946
+  },
+  "families": {
+    "v7/docs": {
+      "pages": 288,
+      "compile_ms": 18961.164139000033,
+      "render_ms": 2560.9160869999573,
+      "cached": 0
+    },
+    "v7/providers": {
+      "pages": 153,
+      "compile_ms": 11151.492129999988,
+      "render_ms": 1407.5887999999977,
+      "cached": 0
+    },
+    "v7/cookbook": {
+      "pages": 89,
+      "compile_ms": 3206.0049909999652,
+      "render_ms": 511.83886900003563,
+      "cached": 0
+    },
+    "v6/docs": {
+      "pages": 232,
+      "compile_ms": 11546.687833000018,
+      "render_ms": 1710.0870060000234,
+      "cached": 0
+    },
+    "v6/providers": {
+      "pages": 131,
+      "compile_ms": 8790.156627000026,
+      "render_ms": 1184.8979419999523,
+      "cached": 0
+    },
+    "v6/cookbook": {
+      "pages": 88,
+      "compile_ms": 3469.621424000019,
+      "render_ms": 566.7345480000804,
+      "cached": 0
+    },
+    "v5/docs": {
+      "pages": 225,
+      "compile_ms": 8401.083634000053,
+      "render_ms": 1490.8104940001213,
+      "cached": 0
+    },
+    "v5/providers": {
+      "pages": 98,
+      "compile_ms": 6825.9498990000575,
+      "render_ms": 936.7272779999912,
+      "cached": 0
+    },
+    "v5/cookbook": {
+      "pages": 82,
+      "compile_ms": 3229.989658000006,
+      "render_ms": 530.6399820000079,
+      "cached": 0
+    }
+  },
+  "total_ms": 88603.93784,
+  "methodology": "parse_ms includes synchronous plugin attachment initialization; plugins are nested within transforms_ms, never added to it; family totals overlap compile/render counters. Residual includes bundling, hashing, IO, cache/report serialization and startup."
+}
