@@ -27,7 +27,7 @@ phase 5 in progress until phases 1-4 acceptance criteria are met.
 
 ## Current
 
-- Checkpoint: A0 complete; A1 production build in progress.
+- Checkpoint: A0/A1 accepted; A2 representative browser contract in progress.
 - Commit SHA: ea741b5
 - Known blockers: none exceptional; build not yet accepted.
-- Next checkpoint: A1 frozen production baseline, then A2 parity contract.
+- Next checkpoint: A2 fixtures, then A3 bounded representative architecture proof before scaling.

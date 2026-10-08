@@ -1,0 +1,17 @@
+{
+  "upstream_commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+  "successful_build": {
+    "elapsed_s": 231.59436464309692,
+    "maximum_measured_process_rss_mib": 19894.51171875,
+    "external_images": "six exact prepared bytes; direct-network attempts failed separately",
+    "sample_count": 1
+  },
+  "source_mdx": 1386,
+  "html_backed_entries": 1676,
+  "public_html_routes": 1674,
+  "other_concrete_prerenders": 1392,
+  "redirect_patterns": 506,
+  "frozen_files": 20222,
+  "archive_sha256": "15090a84590c064864a1592a08204256e5f66d3f55e1dc3931b1c08546cce9b4",
+  "classification": "Frozen accepted output; cross-build nondeterminism characterization pending. Runtime HTML and animation/state differences recorded separately."
+}

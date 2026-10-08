@@ -11,3 +11,7 @@ Runtime search is a version-selected local Geistdocs index, not assumed remote s
 OG has current-source slug image routes and a query-param shape with bounded arbitrary title/description. Capturing published cards as static assets alone does not preserve arbitrary query behavior. Evaluate a bounded route handler plus explicit static maintenance; do not erase this behavior. Historical versions are noindex with no social cards.
 
 Root build invokes Turbo; docs vercel.json directly uses pnpm build:site. Root SDK/package builds are not silently included in docs benchmarks.
+
+## Exact image delivery qualification
+
+Six remote Markdown image inputs captured successfully, bodies/mime/SHA-256 retained in external baseline. Native attempts 01/02 failed direct image acquisition; attempt 03 supplies those identical image bytes through a narrow fetch hook, preserving dimension decoding, MDX compilation, worker startup and complete production pipeline. No upstream content/config/core changed. This is prepared-external-input production timing; do not label it an unchanged direct-network official task timing. Hook rejects outbound non-GET/HEAD requests. Font handling remains upstream and output font hashes will be recorded.
