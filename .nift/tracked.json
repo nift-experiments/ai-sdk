@@ -1,9 +1,39 @@
 {
   "tracked": [
     {
-      "name": "/",
-      "title": "index",
-      "template": "templates/template.html"
+      "name": "index",
+      "title": "/",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/introduction/index",
+      "title": "/docs/introduction",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "docs/reference/ai-sdk-core/stream-text/index",
+      "title": "/docs/reference/ai-sdk-core/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/openai/index",
+      "title": "/providers/ai-sdk-providers/openai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/generate-text/index",
+      "title": "/cookbook/next/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/introduction/index",
+      "title": "/v6/docs/introduction",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/introduction/index",
+      "title": "/v5/docs/introduction",
+      "template": "templates/raw.html"
     }
   ]
 }

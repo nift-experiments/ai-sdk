@@ -1,0 +1,1643 @@
+{
+  "entry": "public/assets/islands/entry-HNB3AM2X.js",
+  "output_bytes": 1047352,
+  "outputs": {
+    "public/assets/islands/entry-HNB3AM2X.js": {
+      "imports": [
+        {
+          "path": "public/assets/islands/chunk-IYWUY3VA.js",
+          "kind": "import-statement"
+        },
+        {
+          "path": "public/assets/islands/chunk-T7HES4KI.js",
+          "kind": "dynamic-import"
+        },
+        {
+          "path": "public/assets/islands/chunk-THUHZB6X.js",
+          "kind": "dynamic-import"
+        },
+        {
+          "path": "public/assets/islands/chunk-KNLHSHI5.js",
+          "kind": "dynamic-import"
+        },
+        {
+          "path": "public/assets/islands/chunk-T7HES4KI.js",
+          "kind": "dynamic-import"
+        },
+        {
+          "path": "public/assets/islands/chunk-THUHZB6X.js",
+          "kind": "dynamic-import"
+        },
+        {
+          "path": "public/assets/islands/chunk-7JGRFG27.js",
+          "kind": "dynamic-import"
+        }
+      ],
+      "exports": [],
+      "entryPoint": "ui/mount-islands.tsx",
+      "inputs": {
+        "node_modules/.pnpm/react@19.2.6/node_modules/react/cjs/react.production.js": {
+          "bytesInOutput": 7616
+        },
+        "node_modules/.pnpm/react@19.2.6/node_modules/react/index.js": {
+          "bytesInOutput": 50
+        },
+        "node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/cjs/scheduler.production.js": {
+          "bytesInOutput": 3662
+        },
+        "node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler/index.js": {
+          "bytesInOutput": 51
+        },
+        "node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom.production.js": {
+          "bytesInOutput": 3342
+        },
+        "node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/index.js": {
+          "bytesInOutput": 253
+        },
+        "node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/cjs/react-dom-client.production.js": {
+          "bytesInOutput": 176788
+        },
+        "node_modules/.pnpm/react-dom@19.2.6_react@19.2.6/node_modules/react-dom/client.js": {
+          "bytesInOutput": 253
+        },
+        "node_modules/.pnpm/react@19.2.6/node_modules/react/cjs/react-jsx-runtime.production.js": {
+          "bytesInOutput": 364
+        },
+        "node_modules/.pnpm/react@19.2.6/node_modules/react/jsx-runtime.js": {
+          "bytesInOutput": 50
+        },
+        "ui/mount-islands.tsx": {
+          "bytesInOutput": 445
+        },
+        "ui/components/docs/text-generation.tsx": {
+          "bytesInOutput": 1104
+        },
+        "ui/components/docs/use-interval.ts": {
+          "bytesInOutput": 202
+        },
+        "node_modules/.pnpm/clsx@2.1.1/node_modules/clsx/dist/clsx.mjs": {
+          "bytesInOutput": 362
+        },
+        "node_modules/.pnpm/tailwind-merge@3.7.0/node_modules/tailwind-merge/dist/bundle-mjs.mjs": {
+          "bytesInOutput": 28475
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/providers/public/utils.js": {
+          "bytesInOutput": 472
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-arrow-up-right-small.js": {
+          "bytesInOutput": 344
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/_internal/components/icon/base-icon.js": {
+          "bytesInOutput": 379
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/_internal/utils/parse-icon-size.js": {
+          "bytesInOutput": 88
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/_internal/utils/calculate-icon-dimensions.js": {
+          "bytesInOutput": 128
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/_internal/utils/svg-color.js": {
+          "bytesInOutput": 80
+        },
+        "ui/components/home/hero-interactive/hero-interactive.tsx": {
+          "bytesInOutput": 1298
+        },
+        "ui/lib/home/code-examples.ts": {
+          "bytesInOutput": 7570
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/components/code-block.js": {
+          "bytesInOutput": 2940
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/_internal/components/logo/base-logo-svg.js": {
+          "bytesInOutput": 654
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/_internal/utils/calculate-logo-dimensions.js": {
+          "bytesInOutput": 266
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-anthropic-svg.js": {
+          "bytesInOutput": 325
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-deepseek-svg.js": {
+          "bytesInOutput": 1523
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-elevenlabs-svg.js": {
+          "bytesInOutput": 249
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-google-svg.js": {
+          "bytesInOutput": 542
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-grok-svg.js": {
+          "bytesInOutput": 537
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-meta-svg.js": {
+          "bytesInOutput": 1067
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-mistral-svg.js": {
+          "bytesInOutput": 351
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-moonshot-svg.js": {
+          "bytesInOutput": 582
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-open-ai-svg.js": {
+          "bytesInOutput": 1158
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-perplexity-svg.js": {
+          "bytesInOutput": 512
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-vercel-svg.js": {
+          "bytesInOutput": 263
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-icon-zai-svg.js": {
+          "bytesInOutput": 325
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-next-js.js": {
+          "bytesInOutput": 1628
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-svelte-svg.js": {
+          "bytesInOutput": 1452
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/providers/public/components/code-block-server.js": {
+          "bytesInOutput": 2007
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-acronym-ts.js": {
+          "bytesInOutput": 547
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-arrow-up-right.js": {
+          "bytesInOutput": 486
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-check.js": {
+          "bytesInOutput": 395
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-chevron-down.js": {
+          "bytesInOutput": 361
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-chevron-down-small.js": {
+          "bytesInOutput": 362
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-chevron-left.js": {
+          "bytesInOutput": 362
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-chevron-right.js": {
+          "bytesInOutput": 360
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-copy.js": {
+          "bytesInOutput": 642
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-file.js": {
+          "bytesInOutput": 380
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-forward-10-seconds-10.js": {
+          "bytesInOutput": 601
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-pause.js": {
+          "bytesInOutput": 270
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-play-fill.js": {
+          "bytesInOutput": 304
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-rewind-10-seconds.js": {
+          "bytesInOutput": 604
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-speaker-off.js": {
+          "bytesInOutput": 510
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-speaker-volume-loud.js": {
+          "bytesInOutput": 547
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-terminal.js": {
+          "bytesInOutput": 386
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/icons/icon-wrench.js": {
+          "bytesInOutput": 1259
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/providers/public/components/copy-button.js": {
+          "bytesInOutput": 815
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/providers/public/components/filename-icon.js": {
+          "bytesInOutput": 212
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/shiki-theme.js": {
+          "bytesInOutput": 2166
+        },
+        "ui/components/home/code-window.tsx": {
+          "bytesInOutput": 2092
+        },
+        "ui/components/home/select.tsx": {
+          "bytesInOutput": 728
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/components/AnimatePresence/index.mjs": {
+          "bytesInOutput": 1217
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/context/LayoutGroupContext.mjs": {
+          "bytesInOutput": 44
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/utils/use-constant.mjs": {
+          "bytesInOutput": 108
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/utils/use-isomorphic-effect.mjs": {
+          "bytesInOutput": 58
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/utils/is-browser.mjs": {
+          "bytesInOutput": 25
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/components/AnimatePresence/PresenceChild.mjs": {
+          "bytesInOutput": 799
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/context/PresenceContext.mjs": {
+          "bytesInOutput": 46
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/components/AnimatePresence/PopChild.mjs": {
+          "bytesInOutput": 1730
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/array.mjs": {
+          "bytesInOutput": 102
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/index.mjs": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/clamp.mjs": {
+          "bytesInOutput": 30
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/errors.mjs": {
+          "bytesInOutput": 24
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/global-config.mjs": {
+          "bytesInOutput": 10
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/is-numerical-string.mjs": {
+          "bytesInOutput": 49
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/is-object.mjs": {
+          "bytesInOutput": 39
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/is-zero-value-string.mjs": {
+          "bytesInOutput": 32
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/memo.mjs": {
+          "bytesInOutput": 55
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/noop.mjs": {
+          "bytesInOutput": 12
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/pipe.mjs": {
+          "bytesInOutput": 43
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/progress.mjs": {
+          "bytesInOutput": 47
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/subscription-manager.mjs": {
+          "bytesInOutput": 354
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/time-conversion.mjs": {
+          "bytesInOutput": 28
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/velocity-per-second.mjs": {
+          "bytesInOutput": 28
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/wrap.mjs": {
+          "bytesInOutput": 50
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/cubic-bezier.mjs": {
+          "bytesInOutput": 289
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/modifiers/mirror.mjs": {
+          "bytesInOutput": 45
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/modifiers/reverse.mjs": {
+          "bytesInOutput": 22
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/back.mjs": {
+          "bytesInOutput": 48
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/anticipate.mjs": {
+          "bytesInOutput": 64
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/circ.mjs": {
+          "bytesInOutput": 55
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/ease.mjs": {
+          "bytesInOutput": 57
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/utils/is-easing-array.mjs": {
+          "bytesInOutput": 50
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/utils/get-easing-for-segment.mjs": {
+          "bytesInOutput": 52
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/utils/is-bezier-definition.mjs": {
+          "bytesInOutput": 50
+        },
+        "node_modules/.pnpm/motion-utils@12.39.0/node_modules/motion-utils/dist/es/easing/utils/map.mjs": {
+          "bytesInOutput": 415
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/frameloop/order.mjs": {
+          "bytesInOutput": 98
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/frameloop/render-step.mjs": {
+          "bytesInOutput": 383
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/frameloop/batcher.mjs": {
+          "bytesInOutput": 749
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/frameloop/frame.mjs": {
+          "bytesInOutput": 110
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/frameloop/sync-time.mjs": {
+          "bytesInOutput": 174
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/is-css-variable.mjs": {
+          "bytesInOutput": 294
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/numbers/index.mjs": {
+          "bytesInOutput": 123
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/utils/sanitize.mjs": {
+          "bytesInOutput": 32
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/utils/float-regex.mjs": {
+          "bytesInOutput": 37
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/utils/is-nullish.mjs": {
+          "bytesInOutput": 30
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/utils/single-color-regex.mjs": {
+          "bytesInOutput": 125
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/color/utils.mjs": {
+          "bytesInOutput": 291
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/color/rgba.mjs": {
+          "bytesInOutput": 262
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/color/hex.mjs": {
+          "bytesInOutput": 378
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/numbers/units.mjs": {
+          "bytesInOutput": 250
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/color/hsla.mjs": {
+          "bytesInOutput": 228
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/color/index.mjs": {
+          "bytesInOutput": 283
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/utils/color-regex.mjs": {
+          "bytesInOutput": 124
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/complex/index.mjs": {
+          "bytesInOutput": 1247
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/color/hsla-to-rgba.mjs": {
+          "bytesInOutput": 376
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/mix/immediate.mjs": {
+          "bytesInOutput": 35
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/mix/number.mjs": {
+          "bytesInOutput": 26
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/mix/color.mjs": {
+          "bytesInOutput": 516
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/mix/visibility.mjs": {
+          "bytesInOutput": 92
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/mix/complex.mjs": {
+          "bytesInOutput": 1187
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/mix/index.mjs": {
+          "bytesInOutput": 106
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/drivers/frame.mjs": {
+          "bytesInOutput": 138
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/utils/linear.mjs": {
+          "bytesInOutput": 164
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/generators/utils/calc-duration.mjs": {
+          "bytesInOutput": 98
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/generators/utils/create-generator-easing.mjs": {
+          "bytesInOutput": 145
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/generators/spring.mjs": {
+          "bytesInOutput": 3337
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/generators/utils/velocity.mjs": {
+          "bytesInOutput": 73
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/generators/inertia.mjs": {
+          "bytesInOutput": 725
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/interpolate.mjs": {
+          "bytesInOutput": 634
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/offsets/fill.mjs": {
+          "bytesInOutput": 94
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/offsets/default.mjs": {
+          "bytesInOutput": 51
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/offsets/time.mjs": {
+          "bytesInOutput": 38
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/generators/keyframes.mjs": {
+          "bytesInOutput": 331
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/get-final.mjs": {
+          "bytesInOutput": 161
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/replace-transition-type.mjs": {
+          "bytesInOutput": 121
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/WithPromise.mjs": {
+          "bytesInOutput": 226
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/JSAnimation.mjs": {
+          "bytesInOutput": 4477
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/utils/fill-wildcards.mjs": {
+          "bytesInOutput": 62
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/dom/parse-transform.mjs": {
+          "bytesInOutput": 1149
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/keys-transform.mjs": {
+          "bytesInOutput": 206
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/utils/unit-conversion.mjs": {
+          "bytesInOutput": 777
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/KeyframesResolver.mjs": {
+          "bytesInOutput": 1576
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/dom/is-css-var.mjs": {
+          "bytesInOutput": 29
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/dom/style-set.mjs": {
+          "bytesInOutput": 63
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/supports/flags.mjs": {
+          "bytesInOutput": 10
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/supports/memo.mjs": {
+          "bytesInOutput": 50
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/supports/scroll-timeline.mjs": {
+          "bytesInOutput": 63
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/supports/linear-easing.mjs": {
+          "bytesInOutput": 135
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/easing/cubic-bezier.mjs": {
+          "bytesInOutput": 59
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/easing/supported.mjs": {
+          "bytesInOutput": 209
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/easing/map-easing.mjs": {
+          "bytesInOutput": 139
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/start-waapi-animation.mjs": {
+          "bytesInOutput": 368
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/generators/utils/is-generator.mjs": {
+          "bytesInOutput": 65
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/utils/apply-generator.mjs": {
+          "bytesInOutput": 126
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/NativeAnimation.mjs": {
+          "bytesInOutput": 2248
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/utils/unsupported-easing.mjs": {
+          "bytesInOutput": 151
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/NativeAnimationExtended.mjs": {
+          "bytesInOutput": 497
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/is-animatable.mjs": {
+          "bytesInOutput": 137
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/can-animate.mjs": {
+          "bytesInOutput": 413
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/make-animation-instant.mjs": {
+          "bytesInOutput": 47
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/utils/accelerated-values.mjs": {
+          "bytesInOutput": 78
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/utils/is-browser-color.mjs": {
+          "bytesInOutput": 163
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/waapi/supports/waapi.mjs": {
+          "bytesInOutput": 585
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/AsyncMotionValueAnimation.mjs": {
+          "bytesInOutput": 2178
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/GroupAnimation.mjs": {
+          "bytesInOutput": 1041
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/GroupAnimationWithThen.mjs": {
+          "bytesInOutput": 81
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/index.mjs": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/calc-child-stagger.mjs": {
+          "bytesInOutput": 163
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/index.mjs": {
+          "bytesInOutput": 2530
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/resolve-transition.mjs": {
+          "bytesInOutput": 84
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/get-value-transition.mjs": {
+          "bytesInOutput": 68
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/default-transitions.mjs": {
+          "bytesInOutput": 317
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/is-transition-defined.mjs": {
+          "bytesInOutput": 201
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/interfaces/motion-value.mjs": {
+          "bytesInOutput": 879
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/utils/css-variables-conversion.mjs": {
+          "bytesInOutput": 481
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/resolve-variants.mjs": {
+          "bytesInOutput": 328
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/resolve-dynamic-variants.mjs": {
+          "bytesInOutput": 77
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/keys-position.mjs": {
+          "bytesInOutput": 71
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/is-keyframes-target.mjs": {
+          "bytesInOutput": 27
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/setters.mjs": {
+          "bytesInOutput": 256
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/utils/is-motion-value.mjs": {
+          "bytesInOutput": 31
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/will-change/is.mjs": {
+          "bytesInOutput": 38
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/will-change/add-will-change.mjs": {
+          "bytesInOutput": 164
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/dom/utils/camel-to-dash.mjs": {
+          "bytesInOutput": 69
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/optimized-appear/data-id.mjs": {
+          "bytesInOutput": 42
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/optimized-appear/get-appear-id.mjs": {
+          "bytesInOutput": 34
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/interfaces/visual-element-target.mjs": {
+          "bytesInOutput": 1027
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/interfaces/visual-element-variant.mjs": {
+          "bytesInOutput": 783
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/interfaces/visual-element.mjs": {
+          "bytesInOutput": 289
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/auto.mjs": {
+          "bytesInOutput": 39
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/test.mjs": {
+          "bytesInOutput": 23
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/dimensions.mjs": {
+          "bytesInOutput": 50
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/utils/is-none.mjs": {
+          "bytesInOutput": 86
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/complex/filter.mjs": {
+          "bytesInOutput": 368
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/complex/mask.mjs": {
+          "bytesInOutput": 155
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/int.mjs": {
+          "bytesInOutput": 36
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/maps/transform.mjs": {
+          "bytesInOutput": 275
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/maps/number.mjs": {
+          "bytesInOutput": 843
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/maps/defaults.mjs": {
+          "bytesInOutput": 230
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/utils/animatable-none.mjs": {
+          "bytesInOutput": 128
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/utils/make-none-animatable.mjs": {
+          "bytesInOutput": 200
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/keyframes/DOMKeyframesResolver.mjs": {
+          "bytesInOutput": 1542
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/border-radius.mjs": {
+          "bytesInOutput": 105
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/resolve-elements.mjs": {
+          "bytesInOutput": 234
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/utils/get-as-type.mjs": {
+          "bytesInOutput": 53
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/is-html-element.mjs": {
+          "bytesInOutput": 74
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/frameloop/microtask.mjs": {
+          "bytesInOutput": 49
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/drag/state/is-active.mjs": {
+          "bytesInOutput": 51
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/drag/state/set-active.mjs": {
+          "bytesInOutput": 126
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/utils/setup.mjs": {
+          "bytesInOutput": 113
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/hover.mjs": {
+          "bytesInOutput": 673
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/utils/is-node-or-child.mjs": {
+          "bytesInOutput": 50
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/utils/is-primary-pointer.mjs": {
+          "bytesInOutput": 90
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/press/utils/is-keyboard-accessible.mjs": {
+          "bytesInOutput": 237
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/press/utils/state.mjs": {
+          "bytesInOutput": 19
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/press/utils/keyboard.mjs": {
+          "bytesInOutput": 452
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/gestures/press/index.mjs": {
+          "bytesInOutput": 760
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/is-svg-element.mjs": {
+          "bytesInOutput": 51
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/resize/handle-element.mjs": {
+          "bytesInOutput": 614
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/resize/handle-window.mjs": {
+          "bytesInOutput": 329
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/resize/index.mjs": {
+          "bytesInOutput": 59
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/stats/buffer.mjs": {
+          "bytesInOutput": 46
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/is-svg-svg-element.mjs": {
+          "bytesInOutput": 47
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/types/utils/find.mjs": {
+          "bytesInOutput": 42
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/geometry/models.mjs": {
+          "bytesInOutput": 131
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/store.mjs": {
+          "bytesInOutput": 19
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/is-animation-controls.mjs": {
+          "bytesInOutput": 79
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/is-variant-label.mjs": {
+          "bytesInOutput": 59
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/variant-props.mjs": {
+          "bytesInOutput": 110
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/is-controlling-variants.mjs": {
+          "bytesInOutput": 101
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/motion-values.mjs": {
+          "bytesInOutput": 356
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/reduced-motion/state.mjs": {
+          "bytesInOutput": 38
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/reduced-motion/index.mjs": {
+          "bytesInOutput": 216
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/VisualElement.mjs": {
+          "bytesInOutput": 6999
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/dom/DOMVisualElement.mjs": {
+          "bytesInOutput": 525
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/Feature.mjs": {
+          "bytesInOutput": 70
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/geometry/conversion.mjs": {
+          "bytesInOutput": 296
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/utils/has-transform.mjs": {
+          "bytesInOutput": 273
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/geometry/delta-apply.mjs": {
+          "bytesInOutput": 1103
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/utils/measure.mjs": {
+          "bytesInOutput": 158
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/html/utils/build-transform.mjs": {
+          "bytesInOutput": 530
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/html/utils/build-styles.mjs": {
+          "bytesInOutput": 402
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/html/utils/render.mjs": {
+          "bytesInOutput": 136
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/styles/scale-border-radius.mjs": {
+          "bytesInOutput": 235
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/styles/scale-box-shadow.mjs": {
+          "bytesInOutput": 314
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/styles/scale-correction.mjs": {
+          "bytesInOutput": 159
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/is-forced-motion-value.mjs": {
+          "bytesInOutput": 121
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/html/utils/scrape-motion-values.mjs": {
+          "bytesInOutput": 170
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/html/HTMLVisualElement.mjs": {
+          "bytesInOutput": 630
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/object/ObjectVisualElement.mjs": {
+          "bytesInOutput": 451
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/svg/utils/path.mjs": {
+          "bytesInOutput": 218
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/svg/utils/build-attrs.mjs": {
+          "bytesInOutput": 685
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/svg/utils/camel-case-attrs.mjs": {
+          "bytesInOutput": 359
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/svg/utils/is-svg-tag.mjs": {
+          "bytesInOutput": 54
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/svg/utils/render.mjs": {
+          "bytesInOutput": 104
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/svg/utils/scrape-motion-values.mjs": {
+          "bytesInOutput": 167
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/svg/SVGVisualElement.mjs": {
+          "bytesInOutput": 492
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/get-variant-context.mjs": {
+          "bytesInOutput": 263
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/shallow-compare.mjs": {
+          "bytesInOutput": 140
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/render/utils/animation-state.mjs": {
+          "bytesInOutput": 2651
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/geometry/copy.mjs": {
+          "bytesInOutput": 185
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/geometry/delta-calc.mjs": {
+          "bytesInOutput": 792
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/geometry/delta-remove.mjs": {
+          "bytesInOutput": 513
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/geometry/utils.mjs": {
+          "bytesInOutput": 480
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/utils/each-axis.mjs": {
+          "bytesInOutput": 37
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/styles/transform.mjs": {
+          "bytesInOutput": 571
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/animation/mix-values.mjs": {
+          "bytesInOutput": 672
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/animation/animate/single-value.mjs": {
+          "bytesInOutput": 80
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/events/add-dom-event.mjs": {
+          "bytesInOutput": 100
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/utils/compare-by-depth.mjs": {
+          "bytesInOutput": 30
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/utils/flat-tree.mjs": {
+          "bytesInOutput": 240
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/utils/delay.mjs": {
+          "bytesInOutput": 116
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/value/utils/resolve-motion-value.mjs": {
+          "bytesInOutput": 38
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/shared/stack.mjs": {
+          "bytesInOutput": 1298
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/node/state.mjs": {
+          "bytesInOutput": 53
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/node/create-projection-node.mjs": {
+          "bytesInOutput": 23119
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/node/DocumentProjectionNode.mjs": {
+          "bytesInOutput": 239
+        },
+        "node_modules/.pnpm/motion-dom@12.43.0/node_modules/motion-dom/dist/es/projection/node/HTMLProjectionNode.mjs": {
+          "bytesInOutput": 344
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/context/MotionConfigContext.mjs": {
+          "bytesInOutput": 101
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/utils/use-composed-ref.mjs": {
+          "bytesInOutput": 348
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/components/AnimatePresence/use-presence.mjs": {
+          "bytesInOutput": 272
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/components/AnimatePresence/utils.mjs": {
+          "bytesInOutput": 129
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/index.mjs": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/context/LazyContext.mjs": {
+          "bytesInOutput": 53
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/definitions.mjs": {
+          "bytesInOutput": 566
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/load-features.mjs": {
+          "bytesInOutput": 70
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/utils/valid-prop.mjs": {
+          "bytesInOutput": 642
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/dom/utils/filter-props.mjs": {
+          "bytesInOutput": 333
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/index.mjs": {
+          "bytesInOutput": 974
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/context/MotionContext/index.mjs": {
+          "bytesInOutput": 44
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/context/MotionContext/create.mjs": {
+          "bytesInOutput": 201
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/context/MotionContext/utils.mjs": {
+          "bytesInOutput": 143
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/dom/use-render.mjs": {
+          "bytesInOutput": 266
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/html/use-props.mjs": {
+          "bytesInOutput": 594
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/html/utils/create-render-state.mjs": {
+          "bytesInOutput": 64
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/svg/use-props.mjs": {
+          "bytesInOutput": 233
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/svg/utils/create-render-state.mjs": {
+          "bytesInOutput": 32
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/svg/lowercase-elements.mjs": {
+          "bytesInOutput": 211
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/dom/utils/is-svg-component.mjs": {
+          "bytesInOutput": 100
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/utils/use-visual-state.mjs": {
+          "bytesInOutput": 773
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/html/use-html-visual-state.mjs": {
+          "bytesInOutput": 65
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/svg/use-svg-visual-state.mjs": {
+          "bytesInOutput": 65
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/utils/symbol.mjs": {
+          "bytesInOutput": 43
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/utils/use-motion-ref.mjs": {
+          "bytesInOutput": 376
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/utils/use-visual-element.mjs": {
+          "bytesInOutput": 1727
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/context/SwitchLayoutGroupContext.mjs": {
+          "bytesInOutput": 44
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/utils/is-ref-object.mjs": {
+          "bytesInOutput": 95
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/components/create-proxy.mjs": {
+          "bytesInOutput": 193
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/dom/create-visual-element.mjs": {
+          "bytesInOutput": 99
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/animation/index.mjs": {
+          "bytesInOutput": 470
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/animation/exit.mjs": {
+          "bytesInOutput": 962
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/animations.mjs": {
+          "bytesInOutput": 50
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/events/event-info.mjs": {
+          "bytesInOutput": 82
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/events/add-pointer-event.mjs": {
+          "bytesInOutput": 44
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/utils/get-context-window.mjs": {
+          "bytesInOutput": 57
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/utils/distance.mjs": {
+          "bytesInOutput": 105
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/gestures/pan/PanSession.mjs": {
+          "bytesInOutput": 3864
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/gestures/drag/utils/constraints.mjs": {
+          "bytesInOutput": 928
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/gestures/drag/VisualElementDragControls.mjs": {
+          "bytesInOutput": 7434
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/gestures/drag/index.mjs": {
+          "bytesInOutput": 586
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/gestures/pan/index.mjs": {
+          "bytesInOutput": 759
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/layout/MeasureLayout.mjs": {
+          "bytesInOutput": 1571
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/drag.mjs": {
+          "bytesInOutput": 79
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/gestures/hover.mjs": {
+          "bytesInOutput": 329
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/gestures/focus.mjs": {
+          "bytesInOutput": 514
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/gestures/press.mjs": {
+          "bytesInOutput": 539
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/viewport/observers.mjs": {
+          "bytesInOutput": 365
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/viewport/index.mjs": {
+          "bytesInOutput": 970
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/gestures.mjs": {
+          "bytesInOutput": 84
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/motion/features/layout.mjs": {
+          "bytesInOutput": 53
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/components/motion/feature-bundle.mjs": {
+          "bytesInOutput": 33
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/render/components/motion/proxy.mjs": {
+          "bytesInOutput": 17
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/utils/is-dom-keyframes.mjs": {
+          "bytesInOutput": 60
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/animate/resolve-subjects.mjs": {
+          "bytesInOutput": 153
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/sequence/utils/calc-repeat-duration.mjs": {
+          "bytesInOutput": 38
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/sequence/utils/calc-time.mjs": {
+          "bytesInOutput": 191
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/sequence/utils/edit.mjs": {
+          "bytesInOutput": 203
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/sequence/utils/normalize-times.mjs": {
+          "bytesInOutput": 74
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/sequence/utils/sort.mjs": {
+          "bytesInOutput": 83
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/sequence/create.mjs": {
+          "bytesInOutput": 2487
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/utils/create-visual-element.mjs": {
+          "bytesInOutput": 356
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/animate/subject.mjs": {
+          "bytesInOutput": 497
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/animate/sequence.mjs": {
+          "bytesInOutput": 300
+        },
+        "node_modules/.pnpm/framer-motion@12.43.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/framer-motion/dist/es/animation/animate/index.mjs": {
+          "bytesInOutput": 536
+        },
+        "node_modules/.pnpm/motion@12.42.2_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/motion/dist/es/react.mjs": {
+          "bytesInOutput": 10
+        },
+        "ui/components/home/hero-interactive/capability-tabs.tsx": {
+          "bytesInOutput": 781
+        },
+        "ui/components/home/hero-interactive/llm-provider-selector.tsx": {
+          "bytesInOutput": 1615
+        },
+        "ui/components/home/hero-interactive/provider-logo.tsx": {
+          "bytesInOutput": 303
+        },
+        "ui/components/home/hero-interactive/llm-provider-tabs.tsx": {
+          "bytesInOutput": 859
+        },
+        "ui/components/home/hero-interactive/preview-panel.tsx": {
+          "bytesInOutput": 2237
+        },
+        "ui/components/home/media-assets.ts": {
+          "bytesInOutput": 121
+        },
+        "ui/components/home/hero-interactive/image-generation.tsx": {
+          "bytesInOutput": 1701
+        },
+        "ui/components/home/hero-interactive/speech-generation.tsx": {
+          "bytesInOutput": 2788
+        },
+        "ui/components/home/hero-interactive/text-generation.tsx": {
+          "bytesInOutput": 1080
+        },
+        "ui/components/home/hero-interactive/transcription-generation.tsx": {
+          "bytesInOutput": 2169
+        },
+        "ui/components/home/hero-interactive/video-generation.tsx": {
+          "bytesInOutput": 490
+        },
+        "ui/components/home/hero-interactive/use-reveal-into-view.ts": {
+          "bytesInOutput": 453
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/ui/dropdown-menu.js": {
+          "bytesInOutput": 1721
+        },
+        "node_modules/.pnpm/@radix-ui+react-primitive@2.1.7_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-primitive/dist/index.mjs": {
+          "bytesInOutput": 461
+        },
+        "node_modules/.pnpm/@radix-ui+react-slot@1.3.0_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-slot/dist/index.mjs": {
+          "bytesInOutput": 1969
+        },
+        "node_modules/.pnpm/@radix-ui+react-compose-refs@1.1.3_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-compose-refs/dist/index.mjs": {
+          "bytesInOutput": 348
+        },
+        "node_modules/.pnpm/@radix-ui+react-context@1.2.0_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-context/dist/index.mjs": {
+          "bytesInOutput": 1024
+        },
+        "node_modules/.pnpm/@radix-ui+react-collection@1.1.12_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-collection/dist/index.mjs": {
+          "bytesInOutput": 1152
+        },
+        "node_modules/.pnpm/@radix-ui+primitive@1.1.6/node_modules/@radix-ui/primitive/dist/index.mjs": {
+          "bytesInOutput": 957
+        },
+        "node_modules/.pnpm/@radix-ui+react-use-controllable-state@1.2.4_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-use-controllable-state/dist/index.mjs": {
+          "bytesInOutput": 2065
+        },
+        "node_modules/.pnpm/@radix-ui+primitive@1.1.6/node_modules/@radix-ui/primitive/dist/internal/is-development.false.mjs": {
+          "bytesInOutput": 10
+        },
+        "node_modules/.pnpm/@radix-ui+react-use-layout-effect@1.1.2_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs": {
+          "bytesInOutput": 66
+        },
+        "node_modules/.pnpm/@radix-ui+react-use-effect-event@0.0.3_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-use-effect-event/dist/index.mjs": {
+          "bytesInOutput": 369
+        },
+        "node_modules/.pnpm/@radix-ui+react-presence@1.1.8_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-presence/dist/index.mjs": {
+          "bytesInOutput": 2706
+        },
+        "node_modules/.pnpm/@radix-ui+react-id@1.1.2_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-id/dist/index.mjs": {
+          "bytesInOutput": 181
+        },
+        "node_modules/.pnpm/@radix-ui+react-direction@1.1.2_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-direction/dist/index.mjs": {
+          "bytesInOutput": 114
+        },
+        "node_modules/.pnpm/@radix-ui+react-dismissable-layer@1.1.16_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-dismissable-layer/dist/index.mjs": {
+          "bytesInOutput": 5315
+        },
+        "node_modules/.pnpm/@radix-ui+react-use-callback-ref@1.1.2_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-use-callback-ref/dist/index.mjs": {
+          "bytesInOutput": 136
+        },
+        "node_modules/.pnpm/@radix-ui+react-focus-scope@1.1.13_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-focus-scope/dist/index.mjs": {
+          "bytesInOutput": 3689
+        },
+        "node_modules/.pnpm/@radix-ui+react-portal@1.1.14_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-portal/dist/index.mjs": {
+          "bytesInOutput": 332
+        },
+        "node_modules/.pnpm/@radix-ui+react-focus-guards@1.1.4_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-focus-guards/dist/index.mjs": {
+          "bytesInOutput": 601
+        },
+        "node_modules/.pnpm/tslib@2.8.1/node_modules/tslib/tslib.es6.mjs": {
+          "bytesInOutput": 747
+        },
+        "node_modules/.pnpm/react-remove-scroll@2.7.2_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll/dist/es2015/Combination.js": {
+          "bytesInOutput": 145
+        },
+        "node_modules/.pnpm/react-remove-scroll@2.7.2_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll/dist/es2015/UI.js": {
+          "bytesInOutput": 977
+        },
+        "node_modules/.pnpm/react-remove-scroll-bar@2.3.8_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll-bar/dist/es2015/constants.js": {
+          "bytesInOutput": 129
+        },
+        "node_modules/.pnpm/use-callback-ref@1.3.3_@types+react@19.3.0_react@19.2.6/node_modules/use-callback-ref/dist/es2015/assignRef.js": {
+          "bytesInOutput": 69
+        },
+        "node_modules/.pnpm/use-callback-ref@1.3.3_@types+react@19.3.0_react@19.2.6/node_modules/use-callback-ref/dist/es2015/useRef.js": {
+          "bytesInOutput": 229
+        },
+        "node_modules/.pnpm/use-callback-ref@1.3.3_@types+react@19.3.0_react@19.2.6/node_modules/use-callback-ref/dist/es2015/useMergeRef.js": {
+          "bytesInOutput": 372
+        },
+        "node_modules/.pnpm/use-callback-ref@1.3.3_@types+react@19.3.0_react@19.2.6/node_modules/use-callback-ref/dist/es2015/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/use-sidecar@1.1.3_@types+react@19.3.0_react@19.2.6/node_modules/use-sidecar/dist/es2015/medium.js": {
+          "bytesInOutput": 847
+        },
+        "node_modules/.pnpm/use-sidecar@1.1.3_@types+react@19.3.0_react@19.2.6/node_modules/use-sidecar/dist/es2015/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/use-sidecar@1.1.3_@types+react@19.3.0_react@19.2.6/node_modules/use-sidecar/dist/es2015/exports.js": {
+          "bytesInOutput": 323
+        },
+        "node_modules/.pnpm/react-remove-scroll@2.7.2_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll/dist/es2015/medium.js": {
+          "bytesInOutput": 12
+        },
+        "node_modules/.pnpm/react-remove-scroll@2.7.2_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll/dist/es2015/SideEffect.js": {
+          "bytesInOutput": 3330
+        },
+        "node_modules/.pnpm/react-remove-scroll-bar@2.3.8_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll-bar/dist/es2015/component.js": {
+          "bytesInOutput": 1583
+        },
+        "node_modules/.pnpm/react-style-singleton@2.2.3_@types+react@19.3.0_react@19.2.6/node_modules/react-style-singleton/dist/es2015/hook.js": {
+          "bytesInOutput": 138
+        },
+        "node_modules/.pnpm/get-nonce@1.0.1/node_modules/get-nonce/dist/es2015/index.js": {
+          "bytesInOutput": 99
+        },
+        "node_modules/.pnpm/react-style-singleton@2.2.3_@types+react@19.3.0_react@19.2.6/node_modules/react-style-singleton/dist/es2015/singleton.js": {
+          "bytesInOutput": 509
+        },
+        "node_modules/.pnpm/react-style-singleton@2.2.3_@types+react@19.3.0_react@19.2.6/node_modules/react-style-singleton/dist/es2015/component.js": {
+          "bytesInOutput": 100
+        },
+        "node_modules/.pnpm/react-style-singleton@2.2.3_@types+react@19.3.0_react@19.2.6/node_modules/react-style-singleton/dist/es2015/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/react-remove-scroll-bar@2.3.8_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll-bar/dist/es2015/utils.js": {
+          "bytesInOutput": 517
+        },
+        "node_modules/.pnpm/react-remove-scroll@2.7.2_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll/dist/es2015/aggresiveCapture.js": {
+          "bytesInOutput": 228
+        },
+        "node_modules/.pnpm/react-remove-scroll@2.7.2_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll/dist/es2015/handleScroll.js": {
+          "bytesInOutput": 1242
+        },
+        "node_modules/.pnpm/react-remove-scroll@2.7.2_@types+react@19.3.0_react@19.2.6/node_modules/react-remove-scroll/dist/es2015/sidecar.js": {
+          "bytesInOutput": 17
+        },
+        "node_modules/.pnpm/aria-hidden@1.2.6/node_modules/aria-hidden/dist/es2015/index.js": {
+          "bytesInOutput": 1490
+        },
+        "node_modules/.pnpm/@radix-ui+react-use-size@1.1.2_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-use-size/dist/index.mjs": {
+          "bytesInOutput": 455
+        },
+        "node_modules/.pnpm/@radix-ui+react-menu@2.1.21_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-menu/dist/index.mjs": {
+          "bytesInOutput": 13498
+        },
+        "node_modules/.pnpm/@radix-ui+react-popper@1.3.4_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-popper/dist/index.mjs": {
+          "bytesInOutput": 4566
+        },
+        "node_modules/.pnpm/@floating-ui+utils@0.2.12/node_modules/@floating-ui/utils/dist/floating-ui.utils.mjs": {
+          "bytesInOutput": 1582
+        },
+        "node_modules/.pnpm/@floating-ui+core@1.8.0/node_modules/@floating-ui/core/dist/floating-ui.core.mjs": {
+          "bytesInOutput": 7933
+        },
+        "node_modules/.pnpm/@floating-ui+utils@0.2.12/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.mjs": {
+          "bytesInOutput": 2306
+        },
+        "node_modules/.pnpm/@floating-ui+dom@1.8.0/node_modules/@floating-ui/dom/dist/floating-ui.dom.mjs": {
+          "bytesInOutput": 7152
+        },
+        "node_modules/.pnpm/@floating-ui+react-dom@2.1.9_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@floating-ui/react-dom/dist/floating-ui.react-dom.mjs": {
+          "bytesInOutput": 3214
+        },
+        "node_modules/.pnpm/@radix-ui+react-arrow@1.1.12_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-arrow/dist/index.mjs": {
+          "bytesInOutput": 373
+        },
+        "node_modules/.pnpm/@radix-ui+react-roving-focus@1.1.16_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-roving-focus/dist/index.mjs": {
+          "bytesInOutput": 3708
+        },
+        "node_modules/.pnpm/@radix-ui+react-use-is-hydrated@0.1.1_@types+react@19.3.0_react@19.2.6/node_modules/@radix-ui/react-use-is-hydrated/dist/index.mjs": {
+          "bytesInOutput": 281
+        },
+        "node_modules/.pnpm/@radix-ui+react-dropdown-menu@2.1.21_@types+react@19.3.0_react-dom@19.2.6_react@19.2.6__react@19.2.6/node_modules/@radix-ui/react-dropdown-menu/dist/index.mjs": {
+          "bytesInOutput": 5458
+        },
+        "ui/adapters/link.tsx": {
+          "bytesInOutput": 123
+        },
+        "ui/components/docs/interactive-code-preview.tsx": {
+          "bytesInOutput": 11374
+        },
+        "ui/lib/geistdocs/model-placeholders.ts": {
+          "bytesInOutput": 211
+        },
+        "ui/lib/playground-urls.ts": {
+          "bytesInOutput": 396
+        },
+        "ui/components/docs/resolve-href.ts": {
+          "bytesInOutput": 119
+        },
+        "ui/lib/code-template.mjs": {
+          "bytesInOutput": 378
+        },
+        "ui/components/docs/code-template.tsx": {
+          "bytesInOutput": 286
+        },
+        "ui/components/docs/provider-preview.tsx": {
+          "bytesInOutput": 2753
+        },
+        "ui/islands.tsx": {
+          "bytesInOutput": 88
+        }
+      },
+      "bytes": 517735
+    },
+    "public/assets/islands/chunk-T7HES4KI.js": {
+      "imports": [
+        {
+          "path": "public/assets/islands/chunk-IYWUY3VA.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "ShikiError",
+        "addClassToHast",
+        "applyColorReplacements",
+        "codeToHast",
+        "codeToHtml",
+        "codeToTokens",
+        "codeToTokensBase",
+        "codeToTokensWithThemes",
+        "createBundledHighlighter",
+        "createCssVariablesTheme",
+        "createHighlighterCore",
+        "createHighlighterCoreSync",
+        "createPositionConverter",
+        "createShikiInternal",
+        "createShikiInternalSync",
+        "createSingletonShorthands",
+        "createdBundledHighlighter",
+        "enableDeprecationWarnings",
+        "flatTokenVariants",
+        "getSingletonHighlighterCore",
+        "getTokenStyleObject",
+        "guessEmbeddedLanguages",
+        "hastToHtml",
+        "isNoneTheme",
+        "isPlainLang",
+        "isSpecialLang",
+        "isSpecialTheme",
+        "makeSingletonHighlighter",
+        "makeSingletonHighlighterCore",
+        "normalizeGetter",
+        "normalizeTheme",
+        "resolveColorReplacements",
+        "splitLines",
+        "splitToken",
+        "splitTokens",
+        "stringifyTokenStyle",
+        "toArray",
+        "tokenizeAnsiWithTheme",
+        "tokenizeWithTheme",
+        "tokensToHast",
+        "transformerDecorations",
+        "warnDeprecated"
+      ],
+      "entryPoint": "node_modules/.pnpm/shiki@3.23.0/node_modules/shiki/dist/core.mjs",
+      "inputs": {
+        "node_modules/.pnpm/@shikijs+types@3.23.0/node_modules/@shikijs/types/dist/index.mjs": {
+          "bytesInOutput": 75
+        },
+        "node_modules/.pnpm/@shikijs+core@3.23.0/node_modules/@shikijs/core/dist/index.mjs": {
+          "bytesInOutput": 37243
+        },
+        "node_modules/.pnpm/@shikijs+vscode-textmate@10.0.2/node_modules/@shikijs/vscode-textmate/dist/index.js": {
+          "bytesInOutput": 42510
+        },
+        "node_modules/.pnpm/html-void-elements@3.0.0/node_modules/html-void-elements/index.js": {
+          "bytesInOutput": 162
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/schema.js": {
+          "bytesInOutput": 152
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/merge.js": {
+          "bytesInOutput": 120
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/normalize.js": {
+          "bytesInOutput": 38
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/info.js": {
+          "bytesInOutput": 393
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/types.js": {
+          "bytesInOutput": 238
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/defined-info.js": {
+          "bytesInOutput": 246
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/create.js": {
+          "bytesInOutput": 268
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/aria.js": {
+          "bytesInOutput": 878
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-sensitive-transform.js": {
+          "bytesInOutput": 38
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-insensitive-transform.js": {
+          "bytesInOutput": 46
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/html.js": {
+          "bytesInOutput": 4319
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/svg.js": {
+          "bytesInOutput": 10097
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/xlink.js": {
+          "bytesInOutput": 207
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/xmlns.js": {
+          "bytesInOutput": 117
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/xml.js": {
+          "bytesInOutput": 131
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/lib/find.js": {
+          "bytesInOutput": 498
+        },
+        "node_modules/.pnpm/property-information@7.2.0/node_modules/property-information/index.js": {
+          "bytesInOutput": 65
+        },
+        "node_modules/.pnpm/zwitch@2.0.4/node_modules/zwitch/index.js": {
+          "bytesInOutput": 278
+        },
+        "node_modules/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/core.js": {
+          "bytesInOutput": 663
+        },
+        "node_modules/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-hexadecimal.js": {
+          "bytesInOutput": 134
+        },
+        "node_modules/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-decimal.js": {
+          "bytesInOutput": 106
+        },
+        "node_modules/.pnpm/character-entities-legacy@3.0.0/node_modules/character-entities-legacy/index.js": {
+          "bytesInOutput": 839
+        },
+        "node_modules/.pnpm/character-entities-html4@2.1.0/node_modules/character-entities-html4/index.js": {
+          "bytesInOutput": 3481
+        },
+        "node_modules/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/constant/dangerous.js": {
+          "bytesInOutput": 63
+        },
+        "node_modules/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-named.js": {
+          "bytesInOutput": 297
+        },
+        "node_modules/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/format-smart.js": {
+          "bytesInOutput": 341
+        },
+        "node_modules/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/index.js": {
+          "bytesInOutput": 58
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/comment.js": {
+          "bytesInOutput": 315
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/doctype.js": {
+          "bytesInOutput": 119
+        },
+        "node_modules/.pnpm/ccount@2.0.1/node_modules/ccount/index.js": {
+          "bytesInOutput": 172
+        },
+        "node_modules/.pnpm/comma-separated-tokens@2.0.3/node_modules/comma-separated-tokens/index.js": {
+          "bytesInOutput": 129
+        },
+        "node_modules/.pnpm/space-separated-tokens@2.0.2/node_modules/space-separated-tokens/index.js": {
+          "bytesInOutput": 41
+        },
+        "node_modules/.pnpm/hast-util-whitespace@3.0.0/node_modules/hast-util-whitespace/lib/index.js": {
+          "bytesInOutput": 143
+        },
+        "node_modules/.pnpm/hast-util-whitespace@3.0.0/node_modules/hast-util-whitespace/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/util/siblings.js": {
+          "bytesInOutput": 152
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/omission.js": {
+          "bytesInOutput": 117
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/closing.js": {
+          "bytesInOutput": 2229
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/opening.js": {
+          "bytesInOutput": 943
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/element.js": {
+          "bytesInOutput": 2298
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/text.js": {
+          "bytesInOutput": 192
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/raw.js": {
+          "bytesInOutput": 78
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/root.js": {
+          "bytesInOutput": 37
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/index.js": {
+          "bytesInOutput": 253
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/index.js": {
+          "bytesInOutput": 1143
+        },
+        "node_modules/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/shiki@3.23.0/node_modules/shiki/dist/core.mjs": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 113545
+    },
+    "public/assets/islands/chunk-THUHZB6X.js": {
+      "imports": [
+        {
+          "path": "public/assets/islands/chunk-IYWUY3VA.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "JavaScriptScanner",
+        "createJavaScriptRawEngine",
+        "createJavaScriptRegexEngine",
+        "defaultJavaScriptRegexConstructor"
+      ],
+      "entryPoint": "node_modules/.pnpm/shiki@3.23.0/node_modules/shiki/dist/engine-javascript.mjs",
+      "inputs": {
+        "node_modules/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/utils.js": {
+          "bytesInOutput": 391
+        },
+        "node_modules/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/tokenizer/tokenize.js": {
+          "bytesInOutput": 11680
+        },
+        "node_modules/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/parser/node-utils.js": {
+          "bytesInOutput": 369
+        },
+        "node_modules/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/parser/parse.js": {
+          "bytesInOutput": 9772
+        },
+        "node_modules/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/traverser/traverse.js": {
+          "bytesInOutput": 1536
+        },
+        "node_modules/.pnpm/regex@6.1.0/node_modules/regex/src/utils-internals.js": {
+          "bytesInOutput": 182
+        },
+        "node_modules/.pnpm/regex-utilities@2.3.0/node_modules/regex-utilities/src/index.js": {
+          "bytesInOutput": 1024
+        },
+        "node_modules/.pnpm/regex@6.1.0/node_modules/regex/src/atomic.js": {
+          "bytesInOutput": 2239
+        },
+        "node_modules/.pnpm/regex@6.1.0/node_modules/regex/src/internals.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/regex-recursion@6.0.2/node_modules/regex-recursion/src/index.js": {
+          "bytesInOutput": 3202
+        },
+        "node_modules/.pnpm/oniguruma-to-es@4.3.6/node_modules/oniguruma-to-es/dist/esm/index.js": {
+          "bytesInOutput": 26388
+        },
+        "node_modules/.pnpm/@shikijs+engine-javascript@3.23.0/node_modules/@shikijs/engine-javascript/dist/shared/engine-javascript.hzpS1_41.mjs": {
+          "bytesInOutput": 967
+        },
+        "node_modules/.pnpm/@shikijs+engine-javascript@3.23.0/node_modules/@shikijs/engine-javascript/dist/engine-compile.mjs": {
+          "bytesInOutput": 383
+        },
+        "node_modules/.pnpm/@shikijs+engine-javascript@3.23.0/node_modules/@shikijs/engine-javascript/dist/index.mjs": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/@shikijs+engine-javascript@3.23.0/node_modules/@shikijs/engine-javascript/dist/engine-raw.mjs": {
+          "bytesInOutput": 211
+        },
+        "node_modules/.pnpm/shiki@3.23.0/node_modules/shiki/dist/engine-javascript.mjs": {
+          "bytesInOutput": 0
+        }
+      },
+      "bytes": 58510
+    },
+    "public/assets/islands/chunk-KNLHSHI5.js": {
+      "imports": [
+        {
+          "path": "public/assets/islands/chunk-IYWUY3VA.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "node_modules/.pnpm/@shikijs+langs@3.23.0/node_modules/@shikijs/langs/dist/tsx.mjs",
+      "inputs": {
+        "node_modules/.pnpm/@shikijs+langs@3.23.0/node_modules/@shikijs/langs/dist/tsx.mjs": {
+          "bytesInOutput": 175512
+        }
+      },
+      "bytes": 175562
+    },
+    "public/assets/islands/chunk-7JGRFG27.js": {
+      "imports": [
+        {
+          "path": "public/assets/islands/chunk-IYWUY3VA.js",
+          "kind": "import-statement"
+        }
+      ],
+      "exports": [
+        "default"
+      ],
+      "entryPoint": "node_modules/.pnpm/@shikijs+langs@3.23.0/node_modules/@shikijs/langs/dist/typescript.mjs",
+      "inputs": {
+        "node_modules/.pnpm/@shikijs+langs@3.23.0/node_modules/@shikijs/langs/dist/typescript.mjs": {
+          "bytesInOutput": 181056
+        }
+      },
+      "bytes": 181106
+    },
+    "public/assets/islands/chunk-IYWUY3VA.js": {
+      "imports": [],
+      "exports": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "inputs": {},
+      "bytes": 894
+    }
+  },
+  "next_runtime_inputs": [],
+  "markdown_parser_inputs": [],
+  "qualification": "Single prototype build observation; not headline benchmark. Four registered components share one eager entry plus five supporting chunks. Splitting by actual page usage remains a profiling target."
+}

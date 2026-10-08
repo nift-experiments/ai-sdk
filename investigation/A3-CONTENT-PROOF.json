@@ -1,0 +1,44 @@
+[
+  {
+    "route": "/docs/introduction",
+    "text_equal": true,
+    "heading_anchors_equal": true,
+    "links_equal": true,
+    "code_text_equal": true
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/stream-text",
+    "text_equal": true,
+    "heading_anchors_equal": true,
+    "links_equal": true,
+    "code_text_equal": true
+  },
+  {
+    "route": "/providers/ai-sdk-providers/openai",
+    "text_equal": true,
+    "heading_anchors_equal": true,
+    "links_equal": true,
+    "code_text_equal": true
+  },
+  {
+    "route": "/cookbook/next/generate-text",
+    "text_equal": true,
+    "heading_anchors_equal": true,
+    "links_equal": true,
+    "code_text_equal": true
+  },
+  {
+    "route": "/v6/docs/introduction",
+    "text_equal": true,
+    "heading_anchors_equal": true,
+    "links_equal": true,
+    "code_text_equal": true
+  },
+  {
+    "route": "/v5/docs/introduction",
+    "text_equal": true,
+    "heading_anchors_equal": true,
+    "links_equal": true,
+    "code_text_equal": true
+  }
+]

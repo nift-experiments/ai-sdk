@@ -329,3 +329,7 @@ See A1-BASELINE-SUMMARY.json. Complete prepared-image production reference succe
 ### A2 contract frozen
 
 72 initial reference states hashed in investigation/A2-REFERENCE-MANIFEST.json; interaction evidence external. These are not migration parity passes. A3 representative bounded renderer/island/dependency proof is next; final interaction and nondeterminism coverage remains open. Fixture proxy localhost:4325 pins public catalog/media script URLs; no live AI/feedback certified.
+
+### A3 representative proof
+
+Seven routes compose through explicit raw dependencies. Six real MDX bodies match reference text, heading anchors, links and code text. Both models pass changed-page/literal-template, changed-island SSR/assets, title/description-removal incremental vs forced checks. See committed evidence JSON. Both models also pass seven-page shared-theme fan-out and missing/corrupt rendered-cache recovery checks. Source inputs are restored after tests. React hero/provider/generation interaction probes work without console errors. This is not full browser/publication parity; shared navigation/search/special families and authoritative authored sync still precede completion. Read README for pinned tools and normal project command. No Nift core/template changes.

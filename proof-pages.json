@@ -1,0 +1,82 @@
+[
+  {
+    "route": "/",
+    "name": "index",
+    "source": "shells/index.prefix.html",
+    "body": "generated/home/hero.html",
+    "prefix": "shells/index.prefix.html",
+    "suffix": "shells/index.suffix.html"
+  },
+  {
+    "route": "/docs/introduction",
+    "name": "docs/introduction/index",
+    "source": "sources/v7/docs/introduction/index.mdx",
+    "body": "generated/v7/docs/introduction/index.html",
+    "prefix": "shells/docs/introduction/index.prefix.html",
+    "suffix": "shells/docs/introduction/index.suffix.html",
+    "metadata": {
+      "title": "AI SDK by Vercel",
+      "description": "The AI SDK is the TypeScript toolkit for building AI applications and agents with React, Next.js, Vue, Svelte, Node.js, and more."
+    }
+  },
+  {
+    "route": "/docs/reference/ai-sdk-core/stream-text",
+    "name": "docs/reference/ai-sdk-core/stream-text/index",
+    "source": "sources/v7/docs/reference/ai-sdk-core/stream-text.mdx",
+    "body": "generated/v7/docs/reference/ai-sdk-core/stream-text.html",
+    "prefix": "shells/docs/reference/ai-sdk-core/stream-text/index.prefix.html",
+    "suffix": "shells/docs/reference/ai-sdk-core/stream-text/index.suffix.html",
+    "metadata": {
+      "title": "streamText",
+      "description": "API Reference for streamText."
+    }
+  },
+  {
+    "route": "/providers/ai-sdk-providers/openai",
+    "name": "providers/ai-sdk-providers/openai/index",
+    "source": "sources/v7/providers/ai-sdk-providers/openai.mdx",
+    "body": "generated/v7/providers/ai-sdk-providers/openai.html",
+    "prefix": "shells/providers/ai-sdk-providers/openai/index.prefix.html",
+    "suffix": "shells/providers/ai-sdk-providers/openai/index.suffix.html",
+    "metadata": {
+      "title": "OpenAI",
+      "description": "Learn how to use the OpenAI provider for the AI SDK."
+    }
+  },
+  {
+    "route": "/cookbook/next/generate-text",
+    "name": "cookbook/next/generate-text/index",
+    "source": "sources/v7/cookbook/next/generate-text.mdx",
+    "body": "generated/v7/cookbook/next/generate-text.html",
+    "prefix": "shells/cookbook/next/generate-text/index.prefix.html",
+    "suffix": "shells/cookbook/next/generate-text/index.suffix.html",
+    "metadata": {
+      "title": "Generate Text",
+      "description": "Learn how to generate text using the AI SDK and Next.js."
+    }
+  },
+  {
+    "route": "/v6/docs/introduction",
+    "name": "v6/docs/introduction/index",
+    "source": "sources/v6/docs/introduction/index.mdx",
+    "body": "generated/v6/docs/introduction/index.html",
+    "prefix": "shells/v6/docs/introduction/index.prefix.html",
+    "suffix": "shells/v6/docs/introduction/index.suffix.html",
+    "metadata": {
+      "title": "AI SDK by Vercel",
+      "description": "The AI SDK is the TypeScript toolkit for building AI applications and agents with React, Next.js, Vue, Svelte, Node.js, and more."
+    }
+  },
+  {
+    "route": "/v5/docs/introduction",
+    "name": "v5/docs/introduction/index",
+    "source": "sources/v5/docs/introduction/index.mdx",
+    "body": "generated/v5/docs/introduction/index.html",
+    "prefix": "shells/v5/docs/introduction/index.prefix.html",
+    "suffix": "shells/v5/docs/introduction/index.suffix.html",
+    "metadata": {
+      "title": "AI SDK by Vercel",
+      "description": "The AI SDK is the TypeScript toolkit for building AI applications and agents with React, Next.js, Vue, Svelte, Node.js, and more."
+    }
+  }
+]

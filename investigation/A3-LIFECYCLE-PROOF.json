@@ -1,0 +1,44 @@
+[
+  {
+    "project": "ai-sdk",
+    "case": "changed page + literal template syntax",
+    "incremental_forced_equal": true,
+    "island_entry_unchanged": true,
+    "incremental_s": 1.6732661030255258,
+    "forced_s": 5.161515763029456
+  },
+  {
+    "project": "ai-sdk",
+    "case": "changed island source",
+    "incremental_forced_equal": true,
+    "ssr_updated": true,
+    "bundle_changed": true
+  },
+  {
+    "project": "ai-sdk",
+    "case": "metadata title change and description removal",
+    "head_and_article_updated": true,
+    "incremental_forced_equal": true
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "changed page + literal template syntax",
+    "incremental_forced_equal": true,
+    "island_entry_unchanged": true,
+    "incremental_s": 0.507505303947255,
+    "forced_s": 1.4576330999843776
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "changed island source",
+    "incremental_forced_equal": true,
+    "ssr_updated": true,
+    "bundle_changed": true
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "metadata title change and description removal",
+    "head_and_article_updated": true,
+    "incremental_forced_equal": true
+  }
+]

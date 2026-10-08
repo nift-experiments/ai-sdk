@@ -4,3 +4,6 @@
 /public/index.html
 /node_modules/
 /generated/
+
+/public/assets/islands/
+/public/**/index.html

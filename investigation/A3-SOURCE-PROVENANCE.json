@@ -1,0 +1,12 @@
+{
+  "pin": "3ebefff610f96892c50be48cf1838c453e2349f7",
+  "fixtures": [
+    "v7/docs/introduction/index.mdx",
+    "v7/docs/reference/ai-sdk-core/stream-text.mdx",
+    "v7/providers/ai-sdk-providers/openai.mdx",
+    "v7/cookbook/next/generate-text.mdx",
+    "v6/docs/introduction/index.mdx",
+    "v5/docs/introduction/index.mdx"
+  ],
+  "ownership": "Representative synchronized MDX preserved verbatim; full authored source sync ownership required before scaling."
+}

@@ -19,3 +19,7 @@ Run the required parity/build checks before checkpoint commits.
 Update HANDOVER.md and investigation/STATUS.md after meaningful checkpoints.
 Do not declare completion without clean-checkout verification.
 <!-- nift:migration:end -->
+
+## Project pipeline
+
+Use `python3 scripts/build-proof.py` for representative source edits, then `nift status`. Bare `nift build` composes prepared inputs. A3 has seven prototype routes; do not describe it as the complete site. Full authored sync ownership, shared UI, ancillary outputs and final parity/benchmarks remain open.

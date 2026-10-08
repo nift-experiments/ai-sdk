@@ -1,0 +1,26 @@
+[
+  {
+    "project": "ai-sdk",
+    "case": "shared theme template",
+    "all_seven_pages_updated": true,
+    "incremental_forced_equal": true,
+    "island_bytes_unchanged": true
+  },
+  {
+    "project": "ai-sdk",
+    "case": "corrupt and missing rendered cache",
+    "publication_restored_from_maintained_source": true
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "shared theme template",
+    "all_seven_pages_updated": true,
+    "incremental_forced_equal": true,
+    "island_bytes_unchanged": true
+  },
+  {
+    "project": "ai-sdk-agent",
+    "case": "corrupt and missing rendered cache",
+    "publication_restored_from_maintained_source": true
+  }
+]

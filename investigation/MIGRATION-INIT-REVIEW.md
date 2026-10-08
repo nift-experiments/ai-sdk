@@ -29,3 +29,13 @@ The current HANDOVER permits React/Vue/Svelte, so describe this as an island-com
 ### A2 findings
 
 Reference capture counts must not be advertised as migrated parity passes. Proposed scaffold fields: fixture route, viewport, theme/system environment, initial state, action, resulting state, transport mode, external-input hash, screenshot path, assertion and status. Separate local UI, synthetic transport and untested backend columns. Add server hostname to the baseline runtime manifest: upstream locale rewrites made a 127.0.0.1 binding unsuitable despite a successful production build. Include known-card vs arbitrary-query OG behavior before choosing static ownership.
+
+### A3 findings
+
+Framework islands proved practical: real upstream hero/provider/generation components hydrate independently; the recorded graph contains no Next runtime. Explicit link/image/English-locale adapters suffice for these fixtures. The authored path uses real pinned MDX transforms/components, while rendered-source normal builds refresh isolated React mounts from HTML/JSON without invoking an MDX compiler. An island source edit must invalidate both client bundles and server mount markup; retaining old SSR while rebuilding JS would leave hydration stale.
+
+Generated guidance should add an island manifest with mount name, props source, SSR owner, bundle owner, dependency inputs and retirement ledger. Suggested text: "When an island changes, rebuild its assets and any server-rendered mount markup. Unrelated content edits should preserve unchanged island assets. Compare incremental publication against forced recomputation, including stale hashed bundle retirement."
+
+The package manager's declared engine range was insufficient for native TypeScript source tests. Lock installer policy and module capability, not only version labels. Current pnpm settings belong in pnpm-workspace.yaml (https://pnpm.io/settings); use a package-specific build-script allowlist rather than allowing all scripts. A raw compatibility output should be appended without reinterpreting literal template syntax, with explicit source/fragment/layout dependencies.
+
+Server-only frozen shells omitted controls added after upstream hydration. Freeze observable DOM behavior as well as HTTP HTML; the footer theme markup had to be composed explicitly. Record requested CSS viewport dimensions separately from screenshot pixel extents/format; do not infer viewport from a filename or assume screenshot bytes are PNG.
