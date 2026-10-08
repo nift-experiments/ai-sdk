@@ -1,2 +1,6 @@
 allowBuilds:
   esbuild: true
+  sharp: false
+overrides:
+  mdast-util-to-markdown: 2.1.2
+  ai: 6.0.221

@@ -363,3 +363,9 @@ All 745 docs routes (288 v7, 232 v6, 225 v5) now compose alongside three A3 prot
 ### A5 accepted
 
 The final restored-corpus checks pass for all 745 published docs: content, anchors, links, code, TOC, metadata, titles, canonicals, Markdown alternates and LLM discovery link. See A5 evidence files. Historical source/sync hashes agree with the immutable archives. Proceed to A6; the experiment is not complete and no final benchmark claims are made.
+
+## A6 accepted — complete families and HTTP publication
+
+The publication now includes all 1,674 HTML routes: 1,386 primary MDX-derived documents, 259 recipe aliases, and 29 ancillary/home pages. All primary published bodies/TOCs pass frozen text, heading anchors, links and code comparisons; all aliases/ancillary pages pass content/link checks; all 1,674 heads pass metadata comparisons. All 1,386 Markdown downloads match frozen bytes, and both pipelines publish equal projection bytes. All 24 frozen HTTP cases pass on the standalone fixture server. Source models remain distinct. Search ranking preserves frozen source order; query OG fixture bytes match. No live backend/feedback/analytics writes occurred.
+
+A7 full hydrated responsive/theme and interaction parity remains open, followed by A8 initial serialized benchmarks/lifecycle, A9 optimization and A10 final judgement/review. A6 preparation phase timings are engineering diagnostics, not benchmark headline samples. The homepage prototype omissions were corrected before accepting this full-family checkpoint.

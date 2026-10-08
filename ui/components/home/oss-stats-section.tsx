@@ -1,10 +1,7 @@
-import { cacheLife } from 'next/cache';
-import { fetchOssStats } from '@/lib/home/oss-stats';
+import counts from '../../../maintained-assets/home-stats.json';
 
-export async function OssStatsSection() {
-  'use cache';
-  cacheLife('hours');
-  const stats = await fetchOssStats();
+export function OssStatsSection() {
+  const stats = {downloads:counts[0],stars:counts[1],contributors:counts[2]};
   return (
     <dl
       aria-label="AI SDK community"

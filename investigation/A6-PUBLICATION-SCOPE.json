@@ -1,0 +1,16 @@
+{
+  "htmlRoutes": 1674,
+  "primaryDocuments": 1386,
+  "recipeAliases": 259,
+  "ancillaryIncludingHome": 29,
+  "redirectRules": 506,
+  "markdownDownloads": 1386,
+  "discoveryProjections": 7,
+  "sitemapUrls": 554,
+  "httpFrozenCases": 24,
+  "primaryBodyAndTocPasses": 1386,
+  "aliasAndAncillaryPasses": 288,
+  "headMetadataPasses": 1674,
+  "liveBackendExercised": false,
+  "headlineBenchmarks": false
+}

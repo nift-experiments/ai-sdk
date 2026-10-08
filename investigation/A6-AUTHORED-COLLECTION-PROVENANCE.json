@@ -1,0 +1,3267 @@
+[
+  {
+    "source": "authored/v6/cookbook/00-guides/01-rag-chatbot.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "5e8b113eacfa247721eaea549b3c5c0828b26265f9d713024b88b825ed831b9b"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/02-multi-modal-chatbot.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "21b6c80b4fb38c69414aa584f8362f26b490aee8d5162d0e1e9962a0df0f544f"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/03-slackbot.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6ce58195d106027ac679caab70626d2a913cd6478a1c3885fa3fdf3e29585942"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/04-natural-language-postgres.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "74c34497e6e5bf1f7d1011328bccad018f63cd12624abe4e3ac57b71b00cc480"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/05-computer-use.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "4ca81c3caf30069682818946f58bc21b32a06adf99372b6674e0b2dafdc86ee5"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/06-agent-skills.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "df1ad5daf98d5e67b5ad47327dec3724e0cc1611d5e778c9602ad1d7f17105a2"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/07-custom-memory-tool.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "337eba9e2dfb7fb2f85bf9006aab917ce5abd7e5af5f445b13af194e14419e41"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/17-gemini.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e9dc0d7a96529d0e2493986789f7fc396af52d8a5cae1afa9664e13a24c02a6f"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/18-claude-4.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "01db94914241b79df0adadeeb76126dd1d145df4dfa17594019086a36a2387d1"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/19-openai-responses.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "3c05b93367155f9bdd6a215ca6c3fa1499be6f26acd74257c6940470aa2eb2b3"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/20-google-gemini-image-generation.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "155604b48e36005b27a2df0d57015d3f5beee7f8c637be3469157a7fa0c8ca2e"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/20-sonnet-3-7.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "5ed80412c28d655d6f0a8ce75949852cef42eb6688ab53606fe2ef93fd47b476"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/21-llama-3_1.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6440eb0e86a0df0cdcac7d4e84ee4ddd3c6c28374f01c51ce07a72290a4aa7ae"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/23-gpt-5.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c16266c544e276499bb45794ee7e8a62b8dc1893369d0fbaea574bf4425630db"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/23-o1.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "0e47f921c828821e29611d408ab9f7486bbb26fbe93dd3700ef81612cffde9b4"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/24-o3.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "10e5ad999663cfeb380c2f72749248fb35e86d1c3f9e33ce391fe9bf9668c521"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/25-r1.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6ce357a19fa0777f1a671dc592414eaca2a637328eca765e385f17eaffc2cb95"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/26-deepseek-v3-2.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "3282d5e00ee89caadcaf7ff54ca53b2b51f150e2634242ec8a995bb24cd62ab3"
+  },
+  {
+    "source": "authored/v6/cookbook/00-guides/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "a660a37ebe9b912b0ff005bbbeca007440f562bcefdf1153c3910729ab764ec8"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/10-generate-text.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "15fe3ac5ec9ca08a66a00031bd960ee4adbc8b3e956430d330212b5a1d6f6615"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/11-generate-text-with-chat-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "aa6eace26c202866950f4422636a823a548c3a16b1bb9f9d3287c7662a65c59d"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/12-generate-image-with-chat-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "2a2a501a6916fd546f477e707e24fb2b637ffbb3bf0930492597be64cc52fb88"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/122-caching-middleware.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "f87a31a393242c1204037a618ee4facfe378dfbb13ea74def595e4e3f4f51ec6"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/20-stream-text.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "2eeb3785755b2524dcf6cf8fde72e48b8fba5a914ca14d6efdc6d6d8bafab81d"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/21-stream-text-with-chat-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "bc5572251a0ca22c68149d1e248a4a9cf99e14fcc53b81b7976e0cd5dafb643a"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/22-stream-text-with-image-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "b671263629ebb954555832303d9a74f58489548c0c390fce7ce0f9f02816d9c9"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/23-chat-with-pdf.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "994333b932d7490d4a9dfeadc51841fa6c8b2ee5c424869dfeb787e892036b04"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/24-stream-text-multistep.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "f09b5d9b2b96a76e1c7dbab17d6790aae48e2878d9dc227d8383fd7fe21768b5"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/25-markdown-chatbot-with-memoization.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "72ca19c20c4432ff37c6dc26f304a9a675b138863a0c86fa88773305f0cc3e53"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/30-generate-object.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "31db599db0c0e2fca4405bf23659fa2bb0fd35722a9312705dec125415576a01"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/31-generate-object-with-file-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "25c948ef4212386001a90b07f8b72f374662395320b235dcd07535193f6bf1a7"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/40-stream-object.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "1901178ba94d33ecd4d1b0bb10a7daaaa1d53bd6a81e5dafc304d9480ba4954f"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/70-call-tools.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "56c0bec922b4326c71cb3ef9a7f0d85d0b10cbfca2b79171a3194cb9cbfaab9d"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/72-call-tools-multiple-steps.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ed8df1e9444df5c069e4ac632795cbd528af396e0ee1bf8fcc76ef6110bcfc6c"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/73-mcp-tools.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "3c7e41a1262f4eedb350b50b1c71e8e6223adb517c7d8a431149f3d05d8066e3"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/74-use-shared-chat-context.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "f0013069aa9628f1d65b8a343e4cd49bb3177fa37273ecd2f01e3be9375d2588"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/75-human-in-the-loop.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "afce3a67863ccf806666c94692f451af436d9eb1156a3fb50a515feb4d6233c9"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/77-track-agent-token-usage.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "32d1570fadb442eaff9389bceb3ca3a8c8c4a7cb5d2833aadde73b2f17e92713"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/80-send-custom-body-from-use-chat.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "cd06a5987ad54e736859a6dbaca7f53901898a4c8f6f7db18628d160fddf1a95"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/85-custom-stream-format.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "b4faf724c21b9a9848ed77079a95f98055c942ba29d820d7637d03bcb09d5d90"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/90-render-visual-interface-in-chat.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ea3bba04457eb71e873ec13be1406a1224664d270ebc73fdcb06cb404ffa27b4"
+  },
+  {
+    "source": "authored/v6/cookbook/01-next/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "cd5a852a8fb4509de6db0f112c58fd40bdeb63ea20271da664801b4fedb27241"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/10-generate-text.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e1dbdd1e4b8170c20d97f5dc5966ce5dde319be19b56e12bf2430ce931bd3550"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/100-retrieval-augmented-generation.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ddc7a90e9369c3f01b7c4ead494d3d25cfffcf9e6dea76fbbeb2b6a03ad1f66c"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/101-knowledge-base-agent.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ab08b090352d92e83acf60aecf75637510af99202c83bdce7a5d8f60fb967bcf"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/11-generate-text-with-chat-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c643f1118a696309716af4eb6a577af5c89745592a1391f00d48ece646dfbbe6"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/12-generate-text-with-image-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "99140797fe49c65dcd41a13b30a90e281da59db73e0f4ab3d216788ce35051b6"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/20-stream-text.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "2dec4160797da828e96ace633b08a2d207dd96cbd75dc28533700256a38955ad"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/21-stream-text-with-chat-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "378668ceffc6dc29eafb294fed7d35e17e68bb688a3f41fee46874d3799b301c"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/22-stream-text-with-image-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "7e44cd925081f11d5a9adc1ddbad6d082cb60bc6c27d7cd6ecb44172e016b8c9"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/23-stream-text-with-file-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "23e74d05f1fb9fd3dd20689ca9b077d0de9c39a9c1f7bd412064aedf452cae83"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/30-generate-object-reasoning.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "39e951f9f38f52307ec3cd0a39c12930fa2bfb4fc3e9dd969400e4f85cb619a6"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/30-generate-object.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "d81e1d89e0950fb93de724f7c014c56c2cd8ee303ea3a1d7703dcb655d466e04"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/40-stream-object.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "00f495b5cabb6a56060c32c1c51baf461e12abfcb5c5bbd3cf52c0cac9858beb"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/41-stream-object-with-image-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9237ab68ac2bdcd2dd292969ccb6d8094c68141b25a8fbedd464cc33c8d3ef5f"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/45-stream-object-record-token-usage.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ae7b0ca027df56c7383e17463967ac94a44c57b895a7d47c15416294ddafcf47"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/46-stream-object-record-final-object.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "57118953e14519982dde54000ec09950add1126f77de7221e805c303304d24a9"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/50-call-tools.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "2be8e40696b9cbd037c26b1fe3500eca28fb65ae83f4dd64546704e664271803"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/51-call-tools-in-parallel.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "814cfa96318a7b93e6cfb263f2e97cebc8df2e3b9b9069865cb519d6902d2097"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/52-call-tools-with-image-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "d1f888f09e28487150aa2a3dff32c00fb1fbd6f5ac1e9a75c0832d8372366788"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/53-call-tools-multiple-steps.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "029936d094eebcee0262a897d7e74eb4d12dee30bd5ed1a48a4e0cc0037c59dd"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/54-mcp-tools.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9cd3fb179aacb5fedcf391f1e0e0a7f93027eaf3f4ce65cedbf4ddd002c5f1f8"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/55-manual-agent-loop.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "f661880702d8947a9f4b52fd64160f573d84c5c62c4e1a35c855bb8a749da633"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/56-web-search-agent.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "81929aec64f2fa99ad61d9e08e79c6d738cbfaa7b6ee2dfc05e0358164c93892"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/57-mcp-elicitation.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "852b62eee4bb49b9d1d238f0a804205403b1f448887644c6b3c894b92c5c5630"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/60-embed-text.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "22383e64df851b776f713cdcd7b9b4bae9b7b97957e6a35fe3160ae3c4feb804"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/61-embed-text-batch.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "14e8dbb1e219ca5c1192a3817efe9cfe107cdcbc2fa79f47674b84c945dda69d"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/70-intercept-fetch-requests.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "5bf73fbe4eeaab34d081f054cf2908530d8d4e07d1f614277f7c3924dfcfa44b"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/80-local-caching-middleware.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "b97648bc4676df3af502d2f3306a741312fea6035433ebab4c7b308c35e89b7a"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/85-repair-json-with-jsonrepair.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "0b5615a0101cfabbcacaec924af2943c689395e77567f2ea30fedb613a5e7917"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/90-dynamic-prompt-caching.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "87dba1e791b06a6e3c553150815f459a6777594ebb9fb5f4d487673a79709cd3"
+  },
+  {
+    "source": "authored/v6/cookbook/05-node/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "265849acff33563427127db1e0170bba4030e8e946818ddff8097586357a8bcb"
+  },
+  {
+    "source": "authored/v6/cookbook/15-api-servers/10-node-http-server.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "cce5210a3400e0dea35b7be2a6fdcc9c7389cf7e0279b585630ca80152db3beb"
+  },
+  {
+    "source": "authored/v6/cookbook/15-api-servers/20-express.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "58202ede3c9e7dc51ed848c4fb85999a7ff8ea6915937d3effea334c55c6a730"
+  },
+  {
+    "source": "authored/v6/cookbook/15-api-servers/30-hono.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "3d46af7182ce20dcc12e918b031cd3d09cd790e7710ac754b30734efc8d3dc2b"
+  },
+  {
+    "source": "authored/v6/cookbook/15-api-servers/40-fastify.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "832d8a72573a0ea7bf7db6d188ac5b48acf9da73859f074aa1df09608f5e4db5"
+  },
+  {
+    "source": "authored/v6/cookbook/15-api-servers/50-nest.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9d56466b5cfd2b682dd43167d0989cfcb83fc29976136f20080d8df5cc9c4ad6"
+  },
+  {
+    "source": "authored/v6/cookbook/15-api-servers/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9cba7af6d2104a47d0c312dc37745ccc66417054bd9d6c54f5ee861421d1c034"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/10-generate-text.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "62989c07a88fbb7cedfe125065dfb41b952dbb13377fe37b8f50727b3519e933"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/11-generate-text-with-chat-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "87e2c4433514b66b1e8d43f15864b8eeabf156842a237e3c0e6ba633342a9ead"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/20-stream-text.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "332ebcf48d78bd8138d51c7c41726dabf4b5be721f3558207aef5e47d9412cdf"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/21-stream-text-with-chat-prompt.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "cade5c97f5883dcd1170fed55c502a1002aee2f571ff67ad7d37f2331bf443e4"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/30-generate-object.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e643f4f4b62a94dd6610e506c1adddcf22557d09e34d85127878353765f34cb9"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/40-stream-object.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "098dd4df83b511e9ff93a5491822e40574ef4e31451b1c0bbb6827e6b889067f"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/50-call-tools.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ab285c8e73012304fa4c85ab0ceffd8089c7beeddf90ec673be745b884e1696a"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/51-call-tools-in-parallel.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "4c109b4ba4aef4effd69ca819ba679ef345cf92283495878a5941b8c13648a98"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/60-save-messages-to-database.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "78f648fe5f4b1b5200e320517dd6c58ad0a57f47e050529772a111e5d73c6542"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/61-restore-messages-from-database.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c3ece1b9888878068674957fbe6868a18a6b7984f145440d6b322760629c23e3"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/90-render-visual-interface-in-chat.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "d66430d23c75a8d7e6a7690b9f3c821aa8cb0da59edf673b7826447311a014c9"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/91-stream-updates-to-visual-interfaces.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "1468e74a39566149cc14e2024c823e5f04cb0df335af279c230fb95e587d10f3"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/92-stream-ui-record-token-usage.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "57a28b9170ce8662ab4380af579468e28ffeb0489228158f8f861ce943c4511e"
+  },
+  {
+    "source": "authored/v6/cookbook/20-rsc/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "a6b93dfbada6b38012e45dd07edaddecc1f845d1f1b3748f73947cb2afc02ac3"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/00-ai-gateway.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ba6b35b10ea48e26ebbbb11fca4101fca9827655ac6d9994fdfe442e9908c05c"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/01-xai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "515db7e371646e9a899418b1ee56c7dc75d7dcfddae5f743f9efc7a8559ef005"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/02-vercel.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "368ed8d975959c2b216fc829a38c446a7c675eeb0be91d2ba98d763c9d6cac0e"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/03-openai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c28d17b2a7cf86ea855393faea3fdd2f983bd677372ba48d01a94cbabc124f74"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/04-azure.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "290b516a8ce6ad9935af914db5aa81e9b8b5ce96aa144cdbc533263636b8d33e"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/05-anthropic.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "da7e9b765fa6063756d551f25f454040ea420d4ef7a1217ad7436b43b45a0a7a"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/06-open-responses.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "4e1a0574f59130aec4a9acfc20994c1bfaf99fd90e2631dc8d9b705c62bb3b48"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/07-anthropic-aws.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "f38484f4f35d447227e4e4459d9d486e3c30bed27eef8ceb1adad4e253e76340"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/08-amazon-bedrock.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9d457c6cc21ff3f71f96bb2d2c9599981fe5cd04b9af3a5087a071937120ab3f"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/09-groq.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "1e921879cbf5c14c940accd5efe5ab33d1dd0565db60e2366075c5fbbd74dd19"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/10-fal.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6ae827a8f2550c130dfc489b6094a9183afc15c4e31dce15aee707d785065cf7"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/100-assemblyai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "638d67f5107e794aa40a0cf1e70f8115871bcca72dbe4be74c0ae05b3dfcbd4c"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/100-gmicloud.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c5336d6ddc0b276c273427771a135816f81b84e8f66534dfcc3d1ae57548a5fb"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/11-deepinfra.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "80d7794083ab2b076d4acb0fb8a318b539a1a150dc18293759a63ed6485f7c89"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/110-deepgram.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "8ab41c5529001b988a8294daa2bc54f20dad8109c9f3740df00627289440155d"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/12-black-forest-labs.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "519022bec2737812992db32b664561a6d3ab76029144e325a69999254fec9ada"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/120-gladia.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6fca7b378e1efc1eaeab57149241727546bdef99fc229fd612ab8c8e9cf46bee"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/15-google-generative-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6c36d695730e40a1caab1b64f2c16edcd476087c930b85a9432865b6e9568115"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/150-hume.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9914585c1df4401d43b1b970c7104e6629ef697bc819e8d038855147089dfe52"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/16-google-vertex.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "b688e225de895b26ee12c2c75f8456f6437f2fa065edcce2fd58384174af9e55"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/160-revai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "dfab71c94771d41661d254adeb98ef408711cf89fcda0178a69a7335c7e2c27e"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/170-baseten.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "34965857cae189eb2bb20e02259b5ef2304324b2c2ffad9b9c9ba1fcea28c8ba"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/170-huggingface.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "252273d5ffce1206ead67cc4e2f2976677218bcb6e728912ba217169672c55b2"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/180-quiverai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6f3a06974443a3a675d34b3532b85ffd7d55cf7123811703a0b96d48b878078a"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/190-fish-audio.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c63b4a1545e9ae5627c798af2ee504909a57d3af57b0321e71f1497fe1a92cf8"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/20-mistral.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ae88883d9957b27a1d102da3fecb9940405de247e4e8c0551fda69027f83dd3c"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/200-zai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "8e18a5a356adebf19402e8f53eafa7df4b147e4ad1187d93254df5eb753106ff"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/24-togetherai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "96fe2e850e36e3379bff5382404893c231f2a51833f90b07e36072aae8d7ed34"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/25-cohere.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e22e037421c4439be7adb55ec54081308e21bc79a453034bc6f2d72cf664bb96"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/26-fireworks.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "16f1f5cd8cc349fa4019443ae795430125258df047439d2e3e0284ef9d2ffd88"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/27-voyage.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ae84d02749f5221a46c754d0c13eff121c0ee78ebe9580ef342f2a132d0bf440"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/30-deepseek.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "d1b4b318583ce13adb5fa4a89939571f6e7c729438f509988d7bc31a1de81902"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/31-moonshotai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "93b134d0e561c0ae820842b384dbbe233a67436f223c70de5a2ff118951edf93"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/32-alibaba.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "dfc8a57d7132c04d5dc723e1d838a89095b7cad34989691aaecde82f5c1a1bac"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/33-minimax.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "27a78180f34009eda82a158049725c611beedf4054154b1b9e9b47cc507a1aeb"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/40-cerebras.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "a01a8e0f0aa9267ef44e2f8696d06a72cee478017babe8b3ea39f219f847da9e"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/60-replicate.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e6d7f735694ec5cc05d6f80437c0864269012d383a86125fe7d09416d59b4481"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/65-prodia.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "66424d69df6fa12261b55ca6e339db97c056e52c6b5153d96509906a7b7a521a"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/70-perplexity.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "a18ff5a45c730aa2990a9a164cc4a65e4be283647207c0fa86bba2ef4f0cc518"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/80-luma.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "192eb0142e0bb3ea098932f34783835f2952ab3876d2d082fd8053b6c84ebafd"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/85-bytedance.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "446f9b791c7b94919a6ec4bc790d96ebb1ff5f9af3f49771c42519ad2f4953d1"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/85-klingai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "73672b47a79a4b89868565213d83345ab9ae610c025bbe0e2621ebef51757c9a"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/90-elevenlabs.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "3ea89300615da00853d9d402bf4284900eb3a3afcdb036f539e8f11de961f8ff"
+  },
+  {
+    "source": "authored/v6/providers/01-ai-sdk-providers/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "2d0f76c5a04554926645443ae034cc188bc3188119b5266f25be3be9e54bdc3b"
+  },
+  {
+    "source": "authored/v6/providers/02-openai-compatible-providers/01-custom-providers.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e0fabce4302d5640b8fba9c483ff42e5d4acc8a598237c2cc272a7135b3d355a"
+  },
+  {
+    "source": "authored/v6/providers/02-openai-compatible-providers/30-lmstudio.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6a7935d58b30e79afa0390d26c30e6de7a2b809ead0f3e142417de764a76c33c"
+  },
+  {
+    "source": "authored/v6/providers/02-openai-compatible-providers/35-nim.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "8ac30bcc6ee78e5f88b119d661c8113d748eda78e713ccf11c88a29d95e2aab6"
+  },
+  {
+    "source": "authored/v6/providers/02-openai-compatible-providers/40-modelrush.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9723f859925ded0edc4b6829fead5da1e2f9df86bb54980a80784ae03167a32f"
+  },
+  {
+    "source": "authored/v6/providers/02-openai-compatible-providers/45-clarifai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "223056326555c6f83fedb025f2b0b326d86170b224ab3f39ecbf6d1f1794b72b"
+  },
+  {
+    "source": "authored/v6/providers/02-openai-compatible-providers/45-heroku.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "b00200b664ce216a92632c9ec3d4cf0d605f17888771e2e151076587190de522"
+  },
+  {
+    "source": "authored/v6/providers/02-openai-compatible-providers/50-nearai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "64562cfd9164d86527bd4ff195e565ee24ff85b0f497b1c9f5e642622f329402"
+  },
+  {
+    "source": "authored/v6/providers/02-openai-compatible-providers/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "eea1adccfc952eac196858aaf4c7d05d24880c7b2a46c0836a942fac30b22ccc"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/01-custom-providers.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "1c2cf85a5e5784d5a92c4f44d1a3e283e761faf9ae8d229430f1d4498d52ba53"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/02-a2a.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6cef3ff136289857b35298fad0e32e7608267f41873f3c48670239bb7aa44604"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/03-acp.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e53e9572607864fc7ed9dbfab01aeec8bede8acc949583547544508921c4906f"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/04-aihubmix.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c92f5c1a5ea5d4e29e339b7ce54918a2a7e258edf73a72958f66de4d48b580a1"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/05-aimlapi.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "f0efd76c9c9b7cd76f5a5e30ede352e0b606f60d6486f40569a3192650b2bfb7"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/06-anthropic-vertex-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "3b1b17351b18dadf52e4537c4c3e1b5756a1b6b5dc4572e13b4823726070b2de"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/07-automatic1111.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "16404819442a9cbfa3609c480094f31bc77fcf134e2ec86f49c25c4ba48695ab"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/08-azure-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "b619e0bde8ebb6bdde418760c3283d2b65b29b94fc2c8f11d3d26a08b2a7e1e5"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/09-browser-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "420b24efa41fee3245ed2daf854d29d00b757f6d9ad33f4e45e43154d6dee29a"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/10-claude-code.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "d9020b2a6f699ca6385570bd013d673bd212392a6876fb4f603dcdb13df69d50"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/11-cloudflare-ai-gateway.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e8bdf8c606eb0ec8c86da385f7eb12c8f8c09def4dfd23b379bec4daec685cb1"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/12-cloudflare-workers-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6392836cc78a5182b590a7001d7ceebc060a4338307d7d5543476e2551cfca7c"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/13-codex-cli.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "b44e037dbcbc6763f5b7be4cdb8e410f674879a93c0be3ee67922766fea887c5"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/14-crosshatch.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "cd123bfb86a7861d4ce318f62bad246996802429471822a9e477372c1229fa34"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/15-dify.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "8551dec8705d70fc150a8b7f6db261f394c65d944c34ca9c3efb50e9dede24b5"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/16-firemoon.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "cdea6873e833f8062947f27b09c6054761aff78b4fb4c75379117943cdfaadd1"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/17-friendliai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "484635f421d202535b3b3ec5a71d7e425a4d0d7ed198a7688deb29087fe04357"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/18-gemini-cli.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "408a1aab21e04c07c3d42e1aa23ffc2c7e516c6695a5b2bfc729e21e87ddbcaf"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/19-helicone.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "923517d33b278122b4b14d1129e111ed181ccc5ad54313e9c97e3765f355a21f"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/20-inflection-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "21e7f6727057547682e9e23999a783c597a13887aed55bd4928436849b8132f2"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/21-jina-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "4d22a364b403c1f29b25a565fa598197ab8a9d91d41dfdb72927633af9503d2e"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/22-langdb.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e7c1263042d10843f6feb9b418345087c7151657d989e155d865a5096af78ac9"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/23-letta.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ceafef358c43ab85ffa8881c7f8b9182354557b887d36cd37748a5885e2c27da"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/24-llama-cpp.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "d633008e91ba18c7efcee203cbf7b873587f4ce4ac2d99309024ee4be5d7db9b"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/25-llamagate.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "38ed3266947759da92ed037f916af3b2ba7424d8cdd119e9a1d273c24af4ed64"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/26-mcp-sampling.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "8af2b908d17d33002390619f355607e6970d8b18fdbb7e4926b98c61628e9866"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/27-mem0.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "7bb0a6e29ecaf495a499bb39473c58b726521e498e914c6c5346e1ad8e3156fb"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/28-minimax.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "2e2cd295dc27ff482010d39e64efafc6eaf1215a4ce10ad729090d6d86edb436"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/29-mixedbread.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "22189a032d8dfe817901c12ef8cb749cfff6121664be15811eb98ceedc9fcd2a"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/30-ollama.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "13c3826ce4868f805e2c842589ce26a6cca6c845c3a5e37cef05395df8bf9aa5"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/31-opencode-sdk.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "5a670f480c7c7db24c3db227f77dd3f9818db64cec0b0671cc08243f97f58255"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/32-openrouter.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "8775a4502f04fa1fe87b6315be6670a84d98947c3da2995497bd140850ac1cf2"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/33-portkey.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "5a932b4ae2d196ddcc5ac2f1e5c67a8be3dad44a1874b1c01efc85d87e219463"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/34-qwen.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "dd47c212b871679b1fd8e16d590b98e170903268cf60f74e38559aaeb1ef0a11"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/35-react-native-apple.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "f0e592247039783fa149ebc313ef1a16f1c7de49372dc307ba0c3a9fa1326cdb"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/36-requesty.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ea533614b56ab6cbeb62c7bd4e935fe9970a3cbcf26433d222cc4279e0e89936"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/37-runpod.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e57d34125faa32595a8b7b8e9673a94005f9d2a907f239362c3ae56af2c46673"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/38-sambanova.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "5ba4f05b1f3ccd1d52cec47dcf8e73ca2936a3c9c2ae70c1e87c71aecfa4130c"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/39-sap-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "4cebb4f67266cd46379cbd7f4d4341f2fa38d9199b0b231dbb4cd278e4fdf05a"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/40-sarvam.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "863f4059e741d45ac449e90fb803806c90f97d4b9fa04a1d1bdab135d610856e"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/41-soniox.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "d153712b56f3c70fa62028a64a91192a1c234e90ab4809f871f29e725392d6ad"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/41-spark.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "ba2c910e11b676a23376aaa9c0fdd7e961d6127877c285cb7e026cfd8ea8c53b"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/42-supermemory.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "408085373fdddb0d43dc094b7cc254852d29909ed9db34df4a2dc1825aeaa6ce"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/43-voyage-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9467364eb8200b5e121c50e23bd21fa03b06fe8d5d2d39b3964b6aae14b1812f"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/44-zhipu.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "fa1d76c6a1ee9468c46f03a4e5a36350697ddc2f73212bf8b1e23513a4921bd3"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/45-vectorstores.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "49e5ee03609dbf23e523762ba2acc72208e5181aec43c9a7d6c815a998f16f39"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/46-codex-app-server.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9b5e3bfb7f911cf7a1dd5a81263dc9b0ed8895b903f290ccadf66228cb95339e"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/47-apertis.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "85d6652922e0d0841580b48535aedda2f789be84c74b9fd7dcb0ce2d1de1de36"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/48-ollm.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "60949e6c2157b53f79fc99329d5423f656388d33e85bf08808ffb1726d88dee7"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/49-cencori.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "31f6ba83714a9488f7a12effef8ab252fd31d6a0558d02cce4df5ee6783b0c5c"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/50-hindsight.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "9ae561e54609f64c88eb0fc8a2c54b850c308c50f557946dff06f0100ee4788c"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/51-nia.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "5d29682971f724d6926fa4982cb1c575c74891e3c7b0a2a1cb550c6bf640dae9"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/51-zeroentropy.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "fe2a406a72ba0ddd6954c54544fea2fc854fb29884ab967bf9ce17a9d367101d"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/52-neon-ai-gateway.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "50672f32152bdd7901192c27d04ecf2156f49fd828652734b550be2c4f53fdef"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/98-flowise.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "121af3850c01dcd01dd0adf95a94211503d0d5ce4ced413b02ed21aeb79b0e48"
+  },
+  {
+    "source": "authored/v6/providers/03-community-providers/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "edc14eec1fe4f82fc7dcf0293d101c64185495d4efdc3f7c54466852b3b840b2"
+  },
+  {
+    "source": "authored/v6/providers/04-adapters/01-langchain.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "b2c8898bb35b9833727e151595b9401841acaefe8c617c40ef0c51a3a4b91954"
+  },
+  {
+    "source": "authored/v6/providers/04-adapters/02-llamaindex.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "2afe672e2dc48ee9d0772e7d0216025d7d17d9e8246c45170bec9548b1d7ce04"
+  },
+  {
+    "source": "authored/v6/providers/04-adapters/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "896983766cb7ebcdb5bb375dbbf7fed3057ae26de0eaab337f4ecfec6dc0b7da"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/arize-ax.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "e6fcce76bc04fe97d2f1a2e0f193164139efc5f1b79970524fbefd22d5afc541"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/axiom.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "12616037e80f360d495dad2294e922ba8e2a0c01ba841bcb812a7bebc3474db2"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/braintrust.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c681e96417002d9ef4e79000a8e63245738e3831d6d068ee23a5b39dd9fa57ab"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/confident-ai.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "062d3c57837f306584d5f4f8617e66ccbaf738d78531487d9b8f4a10f452595f"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/helicone.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "67ca54fb1e000673bf35b15b553ed7b639d7ad5f925feeb35d5945bf5b9fa19e"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/index.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "558ec3f3ef4f13cdd24037e78abf3689a7eefb21918237a0c6b22748e967ec7b"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/laminar.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "d264b45a893ba785ef45a604c4368cdac6b801ef075318f41e3027adfe02ca44"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/langfuse.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "dc9aca0a07d38973020697cc162436b3fe3a90f6060d9c17fb134f2783a4841d"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/langsmith.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "8e28535c04e5b1acc5c0686e67e5ff4b3e38a3ac750fc3e21701eae5ee5d2804"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/langwatch.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "f395cd23566da9d4ce2fd0f88ddcb199510eb8d90b0020c407f218e77f8418c0"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/latitude.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "28b5f4321a13a28dcbb13d03c9e39ca2ce6665aba7e3221a7f8e11ccf6ac6b40"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/maxim.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "950fc82396391a6e4c03414ac5687e62f1e2f37b3eb7cc7b2a9c1e9c6c83c91b"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/mlflow.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6c663512d541de55ae3d1e9089b5bb318961f54101eae2de7aea2a36ee1d6804"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/patronus.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "166790bc3adbc9ef9269a5a374fab88aee695b153907dc19cb97447d158e280d"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/posthog.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "492ab757a75904111f99a2f385645112254ec036cd2ccbf1dad19fb00393690f"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/respan.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "7721b2d99978cba8547725c9d45bb29bd87f065b90d952cab0b3d8a2b6161331"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/scorecard.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "c58dd8dae9decf4e8ca5fc0192689df59dc5b07fd6c56f6872017cde1cee4a93"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/signoz.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "6cd3d59ba5b1759825ce390c3a277635b7fd3b95c314e6b134c10e8984b42790"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/traceloop.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "a37c88f0c071c914deeb9eaa7071020be460cd4316264562b8f73f2af1fe1045"
+  },
+  {
+    "source": "authored/v6/providers/05-observability/weave.mdx",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "sha256": "754c885df11848194f739f423afb442b143dc937f74db235b46d9cea3e5a2b7c"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/01-rag-chatbot.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "2bec607adee44963214fa27d41db446c9f4e945ba00c5125287b3f413dd6f3e8"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/02-multi-modal-chatbot.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "e98d16b086cb8b6ac0728ef23e0b1eb2c413af407709c889cd5928ee57867656"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/03-slackbot.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6ce58195d106027ac679caab70626d2a913cd6478a1c3885fa3fdf3e29585942"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/04-natural-language-postgres.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "bee8c1b4e9a176b5514cc44be69a41348d203533ef6a6ce443dfc8d3f564cf02"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/05-computer-use.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "0bd16bfd3035a9f8c22fb381dd9d8b3126ef4a18cdeba1ca7c93218aec5fec95"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/17-gemini.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "de37acd9ed01272e290fa77138b7647afacaaaab3ba60eadd8134375aae74396"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/18-claude-4.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "4425827fd5bd9cfbb6a44b570a1f90e5a406689e230141ac6dd534f64468b7cc"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/19-openai-responses.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "2863e9e6d2c3a4b884e67825bde5f5b3df935377d51e2e4806e284464e7863c3"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/20-google-gemini-image-generation.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "435ca92c5f808d16e3c8c7348f1704bdfafe74d82350e3d3187821b1a2e9a3f5"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/20-sonnet-3-7.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "afc948075e841ea757312199104e0f64cca38287d4e675445ce9f4d44fcb12aa"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/21-llama-3_1.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "7241de6abfb0c139e1a934e21d1cd767f4db29d823ca762169a62a46e13a7f8f"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/23-gpt-5.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "85f24c66226a2ca8948a12a997a2dbf68c87a2b1b577927bc3549a0bcbdb3543"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/23-o1.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "767d3126d0a936d3beebd29f0257c23259c0fced8b315a0a55072d017073a6f6"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/24-o3.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "a32bc7e0dc84944aa0ef0347dfd6f57a8e6717a791cd212c15e16bca18fbee11"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/25-r1.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "adfd794391b923c5273a364ee7de8f2de48cdacaca6dc19aff9f030501d7fe50"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/26-deepseek-v3-2.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6d04ef456b0dce0310adab3d50929989ad2da4c9d4e3b7ba0d2c14a0a647dc87"
+  },
+  {
+    "source": "authored/v5/cookbook/00-guides/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9e5dff7b5a35390a9251494dae3532ec4f2ac746a8bdef9e3799729788daf84f"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/10-generate-text.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "15fe3ac5ec9ca08a66a00031bd960ee4adbc8b3e956430d330212b5a1d6f6615"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/11-generate-text-with-chat-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "aa6eace26c202866950f4422636a823a548c3a16b1bb9f9d3287c7662a65c59d"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/12-generate-image-with-chat-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "8e73c9755fa2459a9f1fb7b52b7ecf1595600e5924b558b4a00b127858be2309"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/122-caching-middleware.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c1e7fd985d4569b8db34d0ed619391a90b0b007cc581a03c39721a5a0734ebf2"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/20-stream-text.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "2eeb3785755b2524dcf6cf8fde72e48b8fba5a914ca14d6efdc6d6d8bafab81d"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/21-stream-text-with-chat-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "4893dc654d54d0d8f23fb988cde77117283f6aaf0d2888e01ff2c1266e17da79"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/22-stream-text-with-image-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "771d872327916d5986f547749c2d0de2c3bf06bc243427dc5c506d441d7f6564"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/23-chat-with-pdf.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "695064a9c99d5c98931065d1be2496ac7fe3f1c21a34ce1b6e17fc41c992f30a"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/24-stream-text-multistep.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "f09b5d9b2b96a76e1c7dbab17d6790aae48e2878d9dc227d8383fd7fe21768b5"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/25-markdown-chatbot-with-memoization.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6a51651076fbde6e324151f43e28d85c0f87313293e6079aabf66b11469177ca"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/30-generate-object.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "4d6c6c66d6a4b8e536b6255db9cf60a1af309c19b1729bdcf1c07899b57dd438"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/31-generate-object-with-file-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "da1f243ea6bf907a14a684b8b807c837cda90dbe3e63cb11b50cd0608f63abf7"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/40-stream-object.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "84dbbf7466001b024e9514ecdbc4aea57afe091d504acac2ab299f4d8ebbeada"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/70-call-tools.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "a532dc0378f19696bbdba7c86cd0b7239ec11e96536fc0ee5be60007b5c6f941"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/72-call-tools-multiple-steps.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "a1f04d55b533190bcae04954199cd17a44c77181b2fab39678ada494992b698e"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/73-mcp-tools.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "1292959c03da21b0033c942fce6c57b184e741698837ffbc8edfc298c837c39c"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/74-use-shared-chat-context.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "1cc741603aa11718ef9996eb332672b3a88373b3941782cc6eb26161d8ea3dbb"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/75-human-in-the-loop.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c3d62af02691a6e6935cde2b34e93fd6a79df0f3b028ee1716517cf8ddfff7b1"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/80-send-custom-body-from-use-chat.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "948a19b122091a0b50100ce0f279b1d0ab11b365e65db288b939f9f0e116f235"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/85-custom-stream-format.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6982b50540ada27d3815fc029c612cf0be167023dcecd929c73819924937ce4c"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/90-render-visual-interface-in-chat.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "0b6ae9ed27e63a12a2157afcb582dfa528e303ad68924bf66cdbe8ada094d924"
+  },
+  {
+    "source": "authored/v5/cookbook/01-next/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "cd5a852a8fb4509de6db0f112c58fd40bdeb63ea20271da664801b4fedb27241"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/10-generate-text.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "e1dbdd1e4b8170c20d97f5dc5966ce5dde319be19b56e12bf2430ce931bd3550"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/100-retrieval-augmented-generation.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "69653f2be995c0c6906d3161171bc1d4a6ace99104c6a2380eeaca760b92e392"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/101-knowledge-base-agent.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "b77fddbd3eede28edc12154dc6fdaa030c15da2c6d7c85587ede5b06023f02af"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/11-generate-text-with-chat-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c643f1118a696309716af4eb6a577af5c89745592a1391f00d48ece646dfbbe6"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/12-generate-text-with-image-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "99140797fe49c65dcd41a13b30a90e281da59db73e0f4ab3d216788ce35051b6"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/20-stream-text.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "2dec4160797da828e96ace633b08a2d207dd96cbd75dc28533700256a38955ad"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/21-stream-text-with-chat-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "378668ceffc6dc29eafb294fed7d35e17e68bb688a3f41fee46874d3799b301c"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/22-stream-text-with-image-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "7e44cd925081f11d5a9adc1ddbad6d082cb60bc6c27d7cd6ecb44172e016b8c9"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/23-stream-text-with-file-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "23e74d05f1fb9fd3dd20689ca9b077d0de9c39a9c1f7bd412064aedf452cae83"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/30-generate-object-reasoning.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "f4cfca7417886b963293e1d8afbe8b5c411713a64c0d7ad5daac65a7d4a90123"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/30-generate-object.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "3fba94f009a681133b4b44d94da6faef032623adad5382c3b2f918d5e9d94b94"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/40-stream-object.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "a09bfc74c8a83621415a90804f14bb1bbb0ebaf7c762659747547bbb23cda01c"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/41-stream-object-with-image-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "cab2d28d7906a9aa6c3d4be0f54eadf7274ca7e13786d54421ed0d83669f470d"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/45-stream-object-record-token-usage.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "af0bc9c2892476989afa74c6a416927526c49d7f79c5e82cd0e30a7c63839831"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/46-stream-object-record-final-object.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "272e4ea3c9e4f13686bf6b5c9f23bbbabab3a707ac4607cf77aaad76db9f492e"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/50-call-tools.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "75b366529fcb5d44ec3e314d6f955845039d72a176a577bf1d5fbba2d03e2c77"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/52-call-tools-with-image-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "d1f888f09e28487150aa2a3dff32c00fb1fbd6f5ac1e9a75c0832d8372366788"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/53-call-tools-multiple-steps.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "029936d094eebcee0262a897d7e74eb4d12dee30bd5ed1a48a4e0cc0037c59dd"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/54-mcp-tools.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "753027b19f4e17240231d8897a8a1b81bd48b20f89f77b0a922222ce55653e75"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/55-manual-agent-loop.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "f661880702d8947a9f4b52fd64160f573d84c5c62c4e1a35c855bb8a749da633"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/56-web-search-agent.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ff0d3d73c2298cf20ad2bb1345c0b7ac886e8f250ef1659f22a902652e028687"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/57-mcp-elicitation.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "629b2b2b75d981836e40705d554f897c771a4f1d6c6762ef5c25b4178da1f52f"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/60-embed-text.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "22383e64df851b776f713cdcd7b9b4bae9b7b97957e6a35fe3160ae3c4feb804"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/61-embed-text-batch.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "14e8dbb1e219ca5c1192a3817efe9cfe107cdcbc2fa79f47674b84c945dda69d"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/70-intercept-fetch-requests.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "5bf73fbe4eeaab34d081f054cf2908530d8d4e07d1f614277f7c3924dfcfa44b"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/80-local-caching-middleware.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9d3ea6e653b9c3519058eff8356fb2664668d003e0576b9ebee26eea74e7f7c7"
+  },
+  {
+    "source": "authored/v5/cookbook/05-node/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "265849acff33563427127db1e0170bba4030e8e946818ddff8097586357a8bcb"
+  },
+  {
+    "source": "authored/v5/cookbook/15-api-servers/10-node-http-server.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "cce5210a3400e0dea35b7be2a6fdcc9c7389cf7e0279b585630ca80152db3beb"
+  },
+  {
+    "source": "authored/v5/cookbook/15-api-servers/20-express.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "58202ede3c9e7dc51ed848c4fb85999a7ff8ea6915937d3effea334c55c6a730"
+  },
+  {
+    "source": "authored/v5/cookbook/15-api-servers/30-hono.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "3d46af7182ce20dcc12e918b031cd3d09cd790e7710ac754b30734efc8d3dc2b"
+  },
+  {
+    "source": "authored/v5/cookbook/15-api-servers/40-fastify.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "363a749f25b1964abe26a38e5151fbbc3a949b5c408676eaaca58db6d25fffba"
+  },
+  {
+    "source": "authored/v5/cookbook/15-api-servers/50-nest.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9d56466b5cfd2b682dd43167d0989cfcb83fc29976136f20080d8df5cc9c4ad6"
+  },
+  {
+    "source": "authored/v5/cookbook/15-api-servers/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9cba7af6d2104a47d0c312dc37745ccc66417054bd9d6c54f5ee861421d1c034"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/10-generate-text.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "3b3ce6e879a97919dcf30272bc5aef4c0c1d797d7676b9bcc191b4cd866943c3"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/11-generate-text-with-chat-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "22b9a5f097b1a1d9b5fdfa2a88cd9bdb043980c5d7bb9bd14dff482319fae327"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/20-stream-text.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "e6fd8935b8bf6b4d44be9d7b557ea3f008fcb319cf88753e23088689d0c74233"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/21-stream-text-with-chat-prompt.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "788b6683617ba756f96ef487f11fb56c96b6ead5d471ade325777c3a152cbd6e"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/30-generate-object.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9636784f440de1d1babcb9804efdbfb35738219cd18fd364164bd315eb6a5ada"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/40-stream-object.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "69f33be75f31cda91f48f14052191d72d3fbf8731730f7c8aa75b4d65b54737c"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/50-call-tools.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "234afc38e639a2f9f78bb4514b012c26f6af7512216c90d83beff7d4ff209921"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/51-call-tools-in-parallel.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "0048670813757e87dbac283b93702839509c60aeecfd307883e566c773b9b407"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/60-save-messages-to-database.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ae36dc91edffab75472ec200a3f7735ebfaad67b6a3759ae9514ce90d575b2f5"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/61-restore-messages-from-database.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "039de0026f0ae2940f347cc595778392a8afb3819a23a9072f0e7708580f15c9"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/90-render-visual-interface-in-chat.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "e5a2c7d91448dde8e0805d388c3c08e022c281035ac952cfc0110de7446877dd"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/91-stream-updates-to-visual-interfaces.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "b29b8e4d423b7b3d2640d2a1ff818aa0dd6aa6e67733d190e14d9220e72e594b"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/92-stream-ui-record-token-usage.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "88d50e5753591288f16ec644fc99f697985424c272dae47a25d53cb6fb9a1885"
+  },
+  {
+    "source": "authored/v5/cookbook/20-rsc/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "a6b93dfbada6b38012e45dd07edaddecc1f845d1f1b3748f73947cb2afc02ac3"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/00-ai-gateway.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ec639bdce0475b5504cf45fc2760a9bf51327f90ac0222c8393b8e7780820076"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/01-xai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "0d051f4a02f3f2aadb1fc3540dc394d7e3fe5adae0d266401dfc70b9dd91344c"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/02-vercel.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "209a01ab5d8065046a296711e246a3e050ca862e4917da50ac54a3110bd7e09f"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/03-openai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "0300d66f3f1fe2a62f32b64d47acc412d18eaf6f9946d4ef60bc829826933338"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/04-azure.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "60b9d0cda704a7bb49fa2066c963b3ef1b981db9b74fa6fdc42a98aafb00d5e0"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/05-anthropic.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6ef8f613718b6a5deb48b658f51c86ca2cb434cf22260c07141c4e0daf899be8"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/08-amazon-bedrock.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "0bf68ef1a6379769fddf885551ca171a1b9486b7fdac807786edc149e9f1af8a"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/09-groq.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6acbbad28b6751829fc0ef088696071f07c567d306703528a8b4df50f2e5a0e9"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/10-fal.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "5b899283a142fd67f8df11a451f56cd8b0560e61293916ed4a2ea88e7fe62353"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/100-assemblyai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "2faf4091d68ce37881b5ee5da3b7f8e6ff3f6bd007a2daa6a3f7f385f7c7b86e"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/100-gmicloud.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c5336d6ddc0b276c273427771a135816f81b84e8f66534dfcc3d1ae57548a5fb"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/11-deepinfra.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "e32030109aada74760d67678f384e352d5d688c55d773b97b37e48c44ba0cb6a"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/110-deepgram.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c3ec4f97d09d75559f8e13ddd249a6a7a2f20573a300ba37232f7445ad93834a"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/12-black-forest-labs.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "f1bcec8c1a7a4ed4bf1fe1f451a335de2b4c5219d2ecae5950566f98f9bad3ff"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/120-gladia.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "854eb2bc1c806d7f04ddffe9d7d29177e2f605e5cc157c48d5c9ff6d37cdb905"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/15-google-generative-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "d0b2c8bbd1387ac9e80040758a832ebc0a00e2344844e14cc28e96a772c8eb1a"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/150-hume.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "32c4611a4d484d51ee9a1bbb1a877a66dd0ec9856631071bc14297b3e7f4de49"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/16-google-vertex.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "540df68f81d18dbf26952de8cc00472399ab06672eef3320fa8f3bf283f06da4"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/160-revai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "217734d6aa501ed8993ac88fbdac2e08e7d5b298d192b1246c4938b7f1c7d8db"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/170-baseten.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "55198f0d258d92e8242bf696984062be75de66a094c76762ed429529d6aba2af"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/170-huggingface.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "669ad47fbf52d69515a06c0196f278bcddebdc30fa1ed7e9323411de6182e6e9"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/20-mistral.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c3217e29e4d0122e3f9003a019cb6540eb188d75518704b609a44f96b71f26ba"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/200-zai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "8e18a5a356adebf19402e8f53eafa7df4b147e4ad1187d93254df5eb753106ff"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/24-togetherai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "2a3293e1fdd0d007afebe44711bdc3e73825a2ec805935a22030409c14308a93"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/25-cohere.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "b1e1576b33a5a0aa4b7fdcb364a782f2825bd38cebf4894873f1bec333d9f54c"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/26-fireworks.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "eb9a082f969ab68243cdce7aaa4739899d71fd699ac19d71d5800347882f6abd"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/30-deepseek.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "7d0ace8759017c94bd61ccb4d5bd7e94329e6bb399c650a27399d78a55856085"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/31-moonshotai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "8c38bc11e88b8bca49ad0704f35b8b215dfae9384ccc09f33b159e1b3ab44d6f"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/32-alibaba.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ab853910412d8ba60242fcb308fb02375fb6339c315a27d8f92c513dad20d96f"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/40-cerebras.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "25b34f47bfbd9e1674a9b202d16ae3c96f34375a0b9c67782976a721e967eb68"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/60-replicate.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ded15abd1cf5a6092cc11b8ace7f06ae569753adc3ce6eb04c663040d8386466"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/70-perplexity.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "8877253cb1e1c4fac0a94ddd7622797d9a6fc907814003d5d517c28b068eb71d"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/80-luma.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "e07a3fb2e7dd68b441d00b7a6773aaf8a2ee970b519656240ae1a80f5abce8d6"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/90-elevenlabs.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "8e0ee2d857a882dd9afcaf2975624d8f496bff3b0070624b95404acb4b83ffde"
+  },
+  {
+    "source": "authored/v5/providers/01-ai-sdk-providers/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "952bab811fd9ab6641e339ad8cc438509c6a06d9f82479726afc03ca05d84e20"
+  },
+  {
+    "source": "authored/v5/providers/02-openai-compatible-providers/01-custom-providers.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ba1154db9183668b74471651540df0a9dde6bbe987fe1b7d4c74c96a9d8852c0"
+  },
+  {
+    "source": "authored/v5/providers/02-openai-compatible-providers/30-lmstudio.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9654b9808c1240d3e8cfdb6865e18905b57822260b96a50ce0db83c165c52391"
+  },
+  {
+    "source": "authored/v5/providers/02-openai-compatible-providers/35-nim.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "74c0ed03da34696db1ff62f66442f5cd8d807e4133584320d790eba39705acdd"
+  },
+  {
+    "source": "authored/v5/providers/02-openai-compatible-providers/40-modelrush.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9723f859925ded0edc4b6829fead5da1e2f9df86bb54980a80784ae03167a32f"
+  },
+  {
+    "source": "authored/v5/providers/02-openai-compatible-providers/45-clarifai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "223056326555c6f83fedb025f2b0b326d86170b224ab3f39ecbf6d1f1794b72b"
+  },
+  {
+    "source": "authored/v5/providers/02-openai-compatible-providers/45-heroku.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "0576fc32d4a4c80418adfc28f3661712b2e8513ea57038b051ba80aa2f254787"
+  },
+  {
+    "source": "authored/v5/providers/02-openai-compatible-providers/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "15ca2f6cd06922b60d50efc66e1364dd2dc7c2a3ba7ae2921eb56b572809eb86"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/01-custom-providers.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c43e8825df85e9276670fd748e6d28d0d451a7e0b8aef2f29992065a5cca15bd"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/02-qwen.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "3f4439dbf7ca40ac2acb9bc332a14774aeb4e40ab649aea1f7721b30e96803b7"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/03-ollama.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "f6f169c4269714b71da86fe48da166e8bbb1fa3e2b8f60964ffa0a0fd869fc77"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/05-a2a.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6cef3ff136289857b35298fad0e32e7608267f41873f3c48670239bb7aa44604"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/06-acp.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "e53e9572607864fc7ed9dbfab01aeec8bede8acc949583547544508921c4906f"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/07-helicone.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6bb29c908ffc72e01a1607726dedc8c4a24bfe7dcd9e79fe5bb98ad023b17391"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/08-friendliai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "3b07ced0e50d43be59be61ad9c99ca5e2f494f15f1433248145b43626f2df055"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/10-portkey.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "b5758582cb6f68a0bcc3503cd7f9213206483d50e11b664e036d32e51779b3d6"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/100-built-in-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "642f94bc870ef3e2671c8390f46aa620b7e9344d16087584114051dcbde3ea85"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/100-gemini-cli.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "8d5add371f80d4174c9b8d082ce7895f3fbe30839777d9c4ff515db6957a74a4"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/100-mcp-sampling.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6f59af4a60ed25872b6ad35f592bc4d804e8be32d79437df7470572a52608633"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/101-automatic1111.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "b6b693f008bf8fc14d3e17752d25a002278cac67d696f6148722119b9034c4f0"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/11-cloudflare-workers-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "01da73380452336e50231b943ab1d8dce0d19901c099d9dc60015efe77ad8d11"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/12-cloudflare-ai-gateway.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "7a26f59d5cb35ad499819869faa6348304b734290c9cb3051e3ce8f9cdb4a85e"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/13-openrouter.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "07e22379a4e3475f5a481c8fad9dbedabc1aa28fc24cee31fa999f35bef8bcae"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/14-azure-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "b619e0bde8ebb6bdde418760c3283d2b65b29b94fc2c8f11d3d26a08b2a7e1e5"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/15-aihubmix.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "d56e1f1f69268563fc9282dd07c0ed7d8127daaed3e8cdab0f825ade6dd9d257"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/20-sap-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "e44c5b91a7fcb4bb771ee1058ae18eed2bd2e87471cbccf3f25ee2ee0097fb73"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/21-crosshatch.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9d6a92f137d4fd55f9660800b2827dc9338656e355a470e16a3273b5aa1dbd8a"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/5-requesty.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ce526e39c46708c61f1157fe69bea54f84018d9dfde49a228b0a04934f95cd34"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/50-minimax.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "2e2cd295dc27ff482010d39e64efafc6eaf1215a4ce10ad729090d6d86edb436"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/60-mixedbread.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "2b22afa7124d52e6a28c1bfeb8655c853a0cc40cfa37f1c25b45c13cc2d216f0"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/61-voyage-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "71584dc775c9954de96296227e25f83947e1bdad98617b870115b1c065825838"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/62-jina-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "4bbe0222349db58d0fd8e673d133cf95301de5b6933791d17e4bfb7afbae6a58"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/70-mem0.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "828ce441feadecc25d7924ca2de89629cb6bd7b496000b07079b2b037ad8637e"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/71-letta.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ceafef358c43ab85ffa8881c7f8b9182354557b887d36cd37748a5885e2c27da"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/72-supermemory.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "1002bca460a3d272eb900807dfc3046a748e45fb87f5d22a69f222be86f4b6c7"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/90-react-native-apple.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "500542561b3a8cb30c5bbb96be62ef420561ea63ee53950d28e255d31bbd6014"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/91-anthropic-vertex-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "3c7f6bf4eb56aedd46d1f46c533cda13a446a57b89aa7da97e1818474b1a8f50"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/92-spark.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "ba2c910e11b676a23376aaa9c0fdd7e961d6127877c285cb7e026cfd8ea8c53b"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/93-inflection-ai.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "21e7f6727057547682e9e23999a783c597a13887aed55bd4928436849b8132f2"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/94-langdb.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c97f02bd1433dd87883d7c7c2eba36167b0534ff105647c109b7cfb9e4b861d7"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/95-zhipu.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c9acb3a2429803fea9cb73088f7bab5ecf3cc271301ca99c233a5d0f023040ef"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/96-sambanova.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "5ba4f05b1f3ccd1d52cec47dcf8e73ca2936a3c9c2ae70c1e87c71aecfa4130c"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/97-dify.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "8551dec8705d70fc150a8b7f6db261f394c65d944c34ca9c3efb50e9dede24b5"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/97-sarvam.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "863f4059e741d45ac449e90fb803806c90f97d4b9fa04a1d1bdab135d610856e"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/98-aimlapi.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "6983ea46d1ff412bcc04bdc287c46ec50c6c7a772f9a297020782b04c6539b5d"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/99-claude-code.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "270bdfb9d8aeece3c986bca414c6859b2fc9c1449e057627a9e53e7f467c05a4"
+  },
+  {
+    "source": "authored/v5/providers/03-community-providers/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "edc14eec1fe4f82fc7dcf0293d101c64185495d4efdc3f7c54466852b3b840b2"
+  },
+  {
+    "source": "authored/v5/providers/04-adapters/01-langchain.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "9877a84e080ea0b2d3da1d953c6acee28e64b86300751e1556b037c0a1077dd6"
+  },
+  {
+    "source": "authored/v5/providers/04-adapters/02-llamaindex.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "0cf759566bedb85a49e78159fed8b05ffffef3af76c868268d50cae7c4257219"
+  },
+  {
+    "source": "authored/v5/providers/04-adapters/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "896983766cb7ebcdb5bb375dbbf7fed3057ae26de0eaab337f4ecfec6dc0b7da"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/axiom.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "12616037e80f360d495dad2294e922ba8e2a0c01ba841bcb812a7bebc3474db2"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/braintrust.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "c681e96417002d9ef4e79000a8e63245738e3831d6d068ee23a5b39dd9fa57ab"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/helicone.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "67ca54fb1e000673bf35b15b553ed7b639d7ad5f925feeb35d5945bf5b9fa19e"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/index.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "3ff72ba61a9a6e2d228e0ffa760b81bff9c9783de227f0572db179f201cf1b96"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/laminar.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "d264b45a893ba785ef45a604c4368cdac6b801ef075318f41e3027adfe02ca44"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/langfuse.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "f7e4e9472994109601fe3613ed5750990242bd33cac03ce6c2c940c44f62c5b6"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/langsmith.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "8a700f9f6c7da26ded22fa0b99a233936ee17addfb0e95cc1eaff4ad211ff55c"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/langwatch.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "f395cd23566da9d4ce2fd0f88ddcb199510eb8d90b0020c407f218e77f8418c0"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/maxim.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "30d00818f87643b1cd713a9b94712b1865176e24491b8b5c90fcb580800ddc37"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/patronus.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "166790bc3adbc9ef9269a5a374fab88aee695b153907dc19cb97447d158e280d"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/scorecard.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "7e9481d48f9dd6cbc7794684f0f721154284e525b85d1ee3268746ed5cef73a6"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/signoz.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "becd4e9b34f0cd82be27f00f8eb24eb0b705a6a4c24173eb2b3532a283847121"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/traceloop.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "a37c88f0c071c914deeb9eaa7071020be460cd4316264562b8f73f2af1fe1045"
+  },
+  {
+    "source": "authored/v5/providers/05-observability/weave.mdx",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "sha256": "754c885df11848194f739f423afb442b143dc937f74db235b46d9cea3e5a2b7c"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/01-rag-chatbot.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "1fdd7fa24363af73e67c29c44a2e572d8a3c5b0bf2d48ffde72ace085f211a82"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/02-multi-modal-chatbot.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8785c782f96dbf9d338d9b8934d01ea77c3376c2a939e52cad856e3f02d51cc7"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/03-slackbot.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "9986cd06f666658fea99fc746307beabe6bad33080357e5da9a9eb6b1ebc25d5"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/04-natural-language-postgres.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6f83da51609c6f127656f2faae73728633ed4bf6d72ee3262c3f47ad6cb85476"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/05-computer-use.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d34b0af643ee0b733bc47222ad9b0bb3e16f4dd43420ccaf0c53abbdc3084a9a"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/06-agent-skills.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "5ae1bdeb5ac4520d5eb9af3bc75a6181d080437f4609d2febb233f1d7615519f"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/07-custom-memory-tool.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "91836cd6b60eecdc5f5a81af02aacd2ea124cf9f83e4ac29a083551c96f1954c"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/08-agent-context-compaction.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b30f0d4b3ff1c01b6ef67448ab89aa46ee9e63223ce63f56536f3a45598a29c4"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/17-gemini.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "57abd268e7c2559c4902e7e156964e71db3f5daea972614e7b782714d7fe4432"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/18-claude-4.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "224e003b10974588f3e60a102df1b972beeeff346046a7a5000dc1988075d0e1"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/19-openai-responses.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "1902ef1a3d3ffc77904d5152820b5d254edf88021be0463a8bc65bd4647b37ec"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/20-google-gemini-image-generation.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "115d350703e2257a29ee95a49702ae794e53267e0ff7ea2b80c9dfaac92cb5d4"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/20-sonnet-3-7.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "24751127f63c71108a4f23947a5c679f7c77482982ca6588651ee3528f7c8664"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/21-llama-3_1.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "dced9160c7c86696d970b287098bb1e88bea9ed5d68da419afe3b5cbad261f7b"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/23-gpt-5.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "daf0e49346eb968cbe9e8c1f8815c3b783363cc7d5f6ae04bda65a2ec30fc85d"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/23-o1.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d8181333cb7bb89a0da137b5aec885311ae920fc99e594997d2b8e45e435b923"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/24-o3.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "9873211a90a41c35bbb0b1dd01e0c40599fd1b4dce639b8ccb061ac3e3e1158b"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/25-r1.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e272ffa10bdf01c077188ddadeaae452c19ca609481dbc9e9a1dec66a662acca"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/26-deepseek-v3-2.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a07710e65d972f69510c4814a532d0e27b30d6cf45cbc20353d330f3254cadb5"
+  },
+  {
+    "source": "authored/v7/cookbook/00-guides/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "3d7f8acba864a8949572faf4fc9ec7a9884a2fd87925354b6090242b16b85eca"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/10-generate-text.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6e732fb2ba217ec2e611ba9451ba6487df8e3e6479f7774173331674d2fcac2d"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/11-generate-text-with-chat-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "0e1dd68cbe4ce034758f8066a3b580170f498460a7cc691cfa22dda34f1416cc"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/12-generate-image-with-chat-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c8264229b95f008c24d6cbfb821ba9f1e334bdb12c325fa45de711b7048554a9"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/122-caching-middleware.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e1c70daa43a98ad63e4016e18657b5784b68b4194800d740f84d157bfcb69152"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/20-stream-text.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "18705d6df7c1845316ddcf84c13d79266ee1bebd154d3b2dae3643a9450c13a0"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/21-stream-text-with-chat-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "5fcf1a543469f29743a05f983746fe5262f6b9ccedcd47c66f09289307e7c2d1"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/22-stream-text-with-image-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "1700c51f202ce67171d35ababafead5eaeaa7b3cdcd010e212a8d2d030991117"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/23-chat-with-pdf.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "0f2ecc3546e3ad68ea9b029f8ebd6531c070907241c22f69859357593c300473"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/24-stream-text-multistep.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c2b042c6d3b06910b09b997287103217ac4726e5a2343a7e48ad626e78954473"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/25-markdown-chatbot-with-memoization.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "27e84046615c0fc59e4837b5f16a1c02bae3a6cfeba36fc2700144f5d143e7c8"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/30-generate-object.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "779c725c710b265533652eb5a1a74afe3054ff0c512aef0111be84b19cd8244a"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/31-generate-object-with-file-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e5dcd7cb0aa25ef65caa960bae281649af3ea8d69ff7a4db3fd0a545be3fc7d5"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/40-stream-object.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6b843d863a32e8a388bb770ec4881fc5a517dd8301ea722fafa56dacc9af78ae"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/70-call-tools.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "cc2490ea18b9c56c7b54ba0f3c27d96593c5dc5f20e9660441063812a3fc725b"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/72-call-tools-multiple-steps.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "39a86e4e9462de820403fd34dab631ebf27b124086b6606009212a28dd7e560a"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/73-mcp-tools.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d9f2fb97db9b232c328bd4a8cf3f436ba83c9d9402a951b20ccabe22656ec07b"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/74-use-shared-chat-context.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "685afdde8509df05dbd8b93578973b94e8048e53ef748255e0b1dec6f9b9be61"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/75-human-in-the-loop.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "3c2f21110df41006c411326e78ebee78ccf6a329d478b493af30d1015d60fe32"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/77-track-agent-token-usage.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6600a26411e947c6f94c379ae6c4bea338be17803ad8f7ac55d60f304eed7455"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/80-send-custom-body-from-use-chat.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d36e7b67e068d7854e473276afe4988dd0cb665c8b09cff59fb4569d9a8819ac"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/85-custom-stream-format.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "767ae26b1befe18c7ed97af3e5f3184bf9cc14a6bb00f03408ba6c81a385d2e2"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/90-render-visual-interface-in-chat.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "5df0377b08bb0ab9652dd56c72a40944df1a79498a665568df65659502db3491"
+  },
+  {
+    "source": "authored/v7/cookbook/01-next/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "cd5a852a8fb4509de6db0f112c58fd40bdeb63ea20271da664801b4fedb27241"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/10-generate-text.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a12bf2ab18e973f931f5cdd6a0d035fb2390f5fb4409a0939c091d505aba19b6"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/100-retrieval-augmented-generation.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e76a9f5c1a7a74d7b531a1fb637700a61044755c65486966ec09e465c7cba057"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/101-knowledge-base-agent.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "775600ffb9a2f0a89feaaaa54436239a31aa3c0fe877bd3d0ebd2b9c859f1437"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/11-generate-text-with-chat-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "fd6d1b602a82392ad23ceb6d0ca2734a1cabd033e9583271351328c13429d711"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/12-generate-text-with-image-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "63dce12bf94c76f77952a2adf5c7e279879fe0a8df5dd4010b902ae13135fe61"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/20-stream-text.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "07b5850237999d55d88e1e44c02e2d127c0efaf432c39b84c7ce69c4a74f3373"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/21-stream-text-with-chat-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "bde69a2d2539ad3403e5e2c71042c6109dc2d65b71129559eba95b14274ad82c"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/22-stream-text-with-image-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "aa1e600643e3ca8fc24aff9a7de6bdd3a64ffb05870e794857ca1671b8d7d52a"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/23-stream-text-with-file-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "23e74d05f1fb9fd3dd20689ca9b077d0de9c39a9c1f7bd412064aedf452cae83"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/30-generate-object-reasoning.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "673d84fd1c0581a4cd8090d577b98e100e69f8c8cae07128ad60e55561adf8dc"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/30-generate-object.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "25be421a517cbfe03c5406b4c0d410a5256dfa97f7d1fe01e090688d272c9539"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/40-stream-object.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "543bcacc85d3678b0b8418d3572e96160fe1a9e8d758a0d3225f4ef879b4e847"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/41-stream-object-with-image-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "4e22647bc2fde470b8611d9779e9c483e0e61d4169c70712f7f4319d219546ce"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/45-stream-object-record-token-usage.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b4b6964b8fec35041d5aa97c55a445ddaae1c2c3c618f6d44757f7cad057c673"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/46-stream-object-record-final-object.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f10d4bfdb7cb0977397c3ceba8f3497d9ea63f5708a78b2d27826e398be87e0b"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/50-call-tools.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "145eb2fa54679cb32c868c9d38b7eb598797f3e331619b4a30df972c1af13ea9"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/51-call-tools-in-parallel.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "814cfa96318a7b93e6cfb263f2e97cebc8df2e3b9b9069865cb519d6902d2097"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/52-call-tools-with-image-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "69d34515f2acd5b2374c6fd238400c725327ef408b90c96de33bdce17cd68750"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/53-call-tools-multiple-steps.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ef4aadf24dc03559d9979aef9f5a9b9861ee438da26715139b10992067861cbb"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/54-mcp-tools.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "283df56c00a28e1d30f6f74e81a3fb43c0b518f25df648f95ee5a4809e2f7bf6"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/55-manual-agent-loop.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "74dd328cec36f0d3aae682bd20fa08fef64eb1092d9f746d32eba9c6ab2d1ec8"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/56-web-search-agent.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8cfc11aab63e5fe5d8a8c8bf81e0246985a4d2388ee1aa4c27415b6190428ba7"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/57-mcp-elicitation.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6c6f6d39815e69deb4dd83f865abd8a8e59390f518741530ff3197e5f8c2deb6"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/60-embed-text.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "22383e64df851b776f713cdcd7b9b4bae9b7b97957e6a35fe3160ae3c4feb804"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/61-embed-text-batch.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "14e8dbb1e219ca5c1192a3817efe9cfe107cdcbc2fa79f47674b84c945dda69d"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/70-intercept-fetch-requests.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "007293faa31f75a6f4dbced5fec4f3ced83aff3655bacf50c4997e42d21a1919"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/80-local-caching-middleware.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e71921281cf5dd8f5e396e9549e551d5d6c3ec58e692783ab97eed542f3034af"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/85-repair-json-with-jsonrepair.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "0b5615a0101cfabbcacaec924af2943c689395e77567f2ea30fedb613a5e7917"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/90-dynamic-prompt-caching.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "43ee7c79ae799f5771e3ec8044679c54bdefe054b58d587c2734ac3da1eb5da9"
+  },
+  {
+    "source": "authored/v7/cookbook/05-node/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "265849acff33563427127db1e0170bba4030e8e946818ddff8097586357a8bcb"
+  },
+  {
+    "source": "authored/v7/cookbook/15-api-servers/10-node-http-server.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "dcdff48933ed3046af47ddc9963b8368e19c139e1ef714e54a4ad58fd4fcff6b"
+  },
+  {
+    "source": "authored/v7/cookbook/15-api-servers/20-express.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "0c1ab3306674e50cbae557f316dc9587015c3a72fcbefe0ab264d9d668434d94"
+  },
+  {
+    "source": "authored/v7/cookbook/15-api-servers/30-hono.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "3cead7b0220568b70a77aa4cc61ab6dca976033660ff699f08b87c4b32c1c3c2"
+  },
+  {
+    "source": "authored/v7/cookbook/15-api-servers/40-fastify.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e08ef58ae99d7453dcdb9d184f1721f2af6c50bba33ab9e590d81a8d1db4bd19"
+  },
+  {
+    "source": "authored/v7/cookbook/15-api-servers/50-nest.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "73f64d6eca02de3c4268435ef5fcaa0f4d1c32782637ac20f396324fc5fd38b3"
+  },
+  {
+    "source": "authored/v7/cookbook/15-api-servers/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "9cba7af6d2104a47d0c312dc37745ccc66417054bd9d6c54f5ee861421d1c034"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/10-generate-text.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a3feb52c32b686ed0f7699d836c4e3f0f74aab31a0263aefce4d392df2c59d4e"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/11-generate-text-with-chat-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a0c8ea9db85c4bacc603e8611a5240e92107f57c1103b5c3468c8f5c25522e25"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/20-stream-text.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "0d5c541772a1fc06c3a7f611518992efd5a717d6aab9935928babce4d7446280"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/21-stream-text-with-chat-prompt.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "4ce652710c2814b5bb5e5cbea9c648e40a1bd804eb3e3902638ca3b54118f4ea"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/30-generate-object.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "70a6544db042c9ba58942636f11cae8c32a9431bcc8248c447f03140ded2b46b"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/40-stream-object.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "497b92b9515324b8732d13ebf00922254b34bef970edae5b2238722e016cd8a7"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/50-call-tools.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "1be35fc61d560faef05038e65287ab1df3c4a545c615da897aaf460fad4fb4fb"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/51-call-tools-in-parallel.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8284f9abfc947d75d7b8d2665c2499d0aa8ee6cb1ff0db8c17e0c524641dcc3e"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/60-save-messages-to-database.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "59cbff99134fcb434c9cddf0abd5a173aa70bf2377c862f4d2476e7010519f96"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/61-restore-messages-from-database.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "1e27f3c69fd36161f2b5ddf05162ea789fa2a56532844e69d0ce5022dd06304d"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/90-render-visual-interface-in-chat.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "709579ec900c0efeca8897f7d3fb905f96f3f4df61d451524e18f80700e31adc"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/91-stream-updates-to-visual-interfaces.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "199de6c356cc68c542205f4ea73265a666fdc52233b972314072bc98cab16f56"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/92-stream-ui-record-token-usage.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e488e57f53236988b8e7f113cd2e296500337e2f1829e30126c78b70e3cb55b1"
+  },
+  {
+    "source": "authored/v7/cookbook/20-rsc/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a6b93dfbada6b38012e45dd07edaddecc1f845d1f1b3748f73947cb2afc02ac3"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/00-ai-gateway.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "4b3ef1738e9eb6f438e55a11b21c91b2189baa43de57f6155ed08dc8f4ce250f"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/01-xai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ea3b458876b22b423851051b3e2d92df2d7f5c7f0aca0ac683c9ba4e34c47c61"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/03-openai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "5341943258e5827d285e1d6b61d89b49283a2a42c107f7949e0e3ab1a5225481"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/04-azure.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "96838c384f5a5a4879aa2535623f441f9772376d374dcf9dec8086308f130a2e"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/05-anthropic.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f1a07ded00e8c219ced5ba04be6b00a467868d7b97289431e971d7548667d7c2"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/06-open-responses.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "652dfa47f28e9a8919ac270059bf56f12c83e792c3568d9efa9d181d46d29957"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/07-anthropic-aws.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6606fa2a5417a22f099319380074d854d3889ec564892295ab178ba9f511fe84"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/08-amazon-bedrock.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ac743b452274f29b4afc80af1c3f4882bb2763ebd6f221bf0ac9257e5d68b216"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/09-groq.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "bee4a76506f4d2b673310b9b5801443e2c8437c257a488144216a37675dae672"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/10-fal.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a87f0627bfe76155f28e6df62c4048a88bbb33a3e32863047973d67fa4dd7a69"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/100-assemblyai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "2c2c4b271a9cf37e745187f740c4e638af620ff3bf7b07ba942055e8290605d8"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/100-gmicloud.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c5336d6ddc0b276c273427771a135816f81b84e8f66534dfcc3d1ae57548a5fb"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/105-typesafe-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "1b5493af6b9f90c94f3becb4d542db877eb192d8e028d3df701029efe9bbeaca"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/11-deepinfra.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "45a6fc78671a40c40e03c7e1e38faa923bab3ebf119cb9d77d8819fc7d0348ce"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/110-deepgram.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "dbc03471a1f64af34c3158b3fa815e8e9f4c417d1ad8f7a332116e1e0d63266f"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/12-black-forest-labs.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ef78de8317e799ebd883cb7cb97eacb9ec5e7faef967a38d18aed6f5fb294e44"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/120-gladia.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "5a2f2ff282772d5d0dd2e0ed78649ec10af2102722a369f469ed3627ceba2008"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/15-google.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "7fab86455ee5132b6ce9376c62a5725c26be93aa318d0b13d493e7630c620572"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/150-hume.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a8741a484de16de4f95ec4f97e4ca65bf65ae9cdd6c9797a1a2046c0e7e95890"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/16-google-vertex.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "90491866308ce0d7cc78b504674937fa8257e4c4b176c4a2341afe7938e5dd75"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/160-revai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f32297398972eb96981ec641dfa8dfd072480cd55fe310c1b80175e0b9d2cc47"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/170-baseten.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c984a370f674dbd0c2d1457bf1893b4631ccb2c750bf4e6156588a2dd3c2b57e"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/170-huggingface.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "76122ab33ccfec67b19d8024010b75cce4e16bd81232cd19c93149c6403f387c"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/180-quiverai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "20d7645fd77f4aaf7e3ab121256599b575544438ed0e318d7916207b0a67391a"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/190-fish-audio.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c63b4a1545e9ae5627c798af2ee504909a57d3af57b0321e71f1497fe1a92cf8"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/20-mistral.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "fc5fb3fbdfbbc3dc961d8ad010a4403cdba7cc3e4d3ea9676497dfd567981a4a"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/200-zai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8e18a5a356adebf19402e8f53eafa7df4b147e4ad1187d93254df5eb753106ff"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/210-topaz.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6ee2aeb6a46fa8b2ddb6d60457d6fff22421b751b988f049a0e9997dbf4fde1d"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/24-togetherai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f5c3aafb13dc77da729b12984b160a321e5254cc34194a151afab15bb923f503"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/25-cohere.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b8c3f1c02ef4d12694d595fe014a941fd43316f3ff3c9f13643610fe17866184"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/26-fireworks.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "110b95192d2404028607ad85dcd1f1e159cef63c78a1de977d783d65a9913e5d"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/27-voyage.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "04485633c11cb5407ce0d5553efe930a2c5fa94f6919b41e17a6d3581767bdd3"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/30-deepseek.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "5ca08d1c2441d05c8859e3c6b074d3efb928308f5396cf39ea66699dbd17a5fc"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/31-moonshotai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e39593912496dc1cc58071b056ad46a5f3b5869a3b93257f1e605ed76289d68f"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/32-alibaba.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "fdf7033bcd6d2958592dfd7c1d89340c8544d962d038461a39e426cc7fa7fb7a"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/33-minimax.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "7f9efe2cf93b4a1d24d0ad7badca49e8625a0d6e58aeaa59feda833de2c6add4"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/40-cerebras.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f236d908f24051dc1d6f4cd8a4682d8ee3a71066f33bd248b4ccefa02a03face"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/60-replicate.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e914090b71d28c7b7b50ebdf56de05bbe1b38ef724f9c13d031fc5cbd7e323af"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/65-prodia.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "2b0b0e52bc190ea3de6d1d0a715a13380400fc4056a4cfc55ec314e371f750e4"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/70-perplexity.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "755bf12d94bf2f9adfe8d9c826c0d5f85c81fbefcd9bf0e29ad9d87a3bb01f89"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/80-luma.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "7c8d96e775dcb77d95ce02bc92a4b6da5c220c1cb704e16c1aee94101648edcd"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/85-bytedance.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c7d3836b47d1034fd9e9e6ee5bc86f71760d2da9322cd86b85d4f54aeaae9552"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/85-klingai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "01d5b7efdf1da2317c207d661b238c256181b305338984d6f1d0b6c8236f38a8"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/90-elevenlabs.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "097328f82a1e2085aa49922a19c9d84be7e0da6d85f3aedc0d788ce84d8c0914"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/95-cartesia.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "33bc239a69824859f9b87f6e03845b1d71d13923e71b0834f6dfd994e3446890"
+  },
+  {
+    "source": "authored/v7/providers/01-ai-sdk-providers/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "5bf1648ad66c6f433de8ea5f08db861dd202322a66d7a9fa9ad4e63165b46329"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/01-claude-code.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8504aa3b25c6d685aa58d84ce5cc91e364b58af59b527c6fa7722fbdae3367fe"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/02-codex.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "7a6e892b19d35165c13f6ef3516e4bcf3a47e361e99d4015ad4dde855490acbe"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/03-pi.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "13c02c82088688ce0462e12f2daf462fb780763f26049efe240db7cd9ab5619d"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/04-opencode.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "04869110da679913b804c2934232ed91568d934ca85676d6a700310b798c1ea6"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/05-deepagents.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e6922770faa2b981b2cecf50cf007f6512169d1e076898984f19e42b8254935d"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/06-acp.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ee9fa58fc65117a9e3c9f4c8b530195c8b57b3efacda7bea7bf5013f0b39ba65"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/07-grok-build.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c050569dc67ab7d55bf33419ebf8b7531ed64d2cb7813945dfe810f918176069"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/08-cline.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "fc799a9d8510ed1eb22608b0c89656b59f703658b5a0ca469d5065dd744cf177"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/09-cursor.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "87cbd26c55aa62d28424d6f73702290458fd2f4c49494e7eebc15405e663d2ee"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/10-fx.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "7b432646c83cd90c991ae8d9cca7c8a8daa0569682688dfcdaa8bfd793826018"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/11-github-copilot.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "182a21e0e7ca5e56c0013557cf9c81ea93b7d5f3b5747386b2f2003d1a2aa886"
+  },
+  {
+    "source": "authored/v7/providers/02-ai-sdk-harnesses/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6e4b67df17c8b3501644c7120b90ed5115a1aca03401d81a40f181228f21341f"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/arize-ax.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d3827aac751d9606bd86b2b374a31e82fc3c9047e63fe7834798d3b4c2b9b986"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/axiom.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "73f1fb1ccf892a1e0bc6582888ba7f73fd1596c0e42752d8be48916824f9647c"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/braintrust.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "65b09fdf244c6f1333332ccf335e473b32d0017e22cfec9b88ae37882c74a6c2"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/confident-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "623ef4f2016f1926e858eb88d22c3edd0109e88677e2a5ebebf1fb9cd5dd34e2"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/datadog.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6fd8e71ee515a1673d2137dbfbdea4a9c1acb882ca07332f3bd156d66deb4291"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/helicone.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "9a665d3752dee829c1d7fb225f17b116aae7fea55bc6b49e0edac8e22e94ebe1"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "9f0c73ec1a1a34c29d5ad759b2a31b45e3c1acb69485715e50a7e662081352de"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/laminar.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d129713361966db7114b1d95fac9948e7e1410b3ece9f48fcb6d93b5922353f1"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/langfuse.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b94aff30f1a5033f856cd6bddf1cfd087545931564caa179da74021aab765712"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/langsmith.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b97dcac2c10ebe6b78830a103bfc78d052ff3121a2553aa908675839eb4f3a55"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/langwatch.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c9375f35bd27679e93c40f065c44a27c05ff59dc3c50a4d14ce28228d451c832"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/latitude.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "16cb6d0a46f3091562e8cecfcd5b7342d4ec559eef829011adc43b8861124be4"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/maxim.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f9de2fe4ccdd082e437832ef410118897da19280beac26e17e7b610a5a49f969"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/mlflow.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e08395b62b239a56c19ee8c06e11a27408ea988c8f6c2822e88f8bedd17ab4a7"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/patronus.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "4dcfeb8ee2c0e1e7d1b36938ee6b80e61c1562cf7d3641034ce657f622a6d4cd"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/posthog.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "557c46179bfbb0c9455e933f33e815edf901a22b1624c56af369fcabd8d59131"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/raindrop.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "20df1bde95f9d5380721aea191210d4b3f155443eefa36f1609185e75b1e821a"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/respan.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "0be333118227c0af52893ac94065c4e38405d2281ab9a4b8498900874197a2de"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/scorecard.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "9259deb7abc29baf195481243131e0a179ae16547efb565da84445910e7ef94b"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/sentry.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c22445a0cefd3361951b8d87f3bae8a33a67763e997c3165c216de8961cc8bc9"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/signoz.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "21486192e53eea0e12d09d667f6bef886a4578034498ff7f1d68895b4560d1ef"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/traceloop.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d01e267ad57775276ee3914757ecc383171a7014324cb2d685121cb837db1831"
+  },
+  {
+    "source": "authored/v7/providers/03-observability/weave.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f68493f60897a497aee7e302781c8bb37324e91f23ac03b41d6958d04d11dd0f"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/01-custom-providers.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ac0f6c873d4e075ebbeb53194f6eaa0b830e0e455f693452a1404483e14e6203"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/30-lmstudio.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "08c0c25c8838f04b5e51e2ead06069b4da3d66eb8cb22e40bc2f79b1821318e6"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/35-nim.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "109ec9843ec699c1ca4306e4b7222804061e12c05125b4cb273ce6c2c41a6149"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/40-modelrush.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e1632fb66f81ab6ff7b11c18f404fc56b5279472be8a2722f5a5ebab342be0a9"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/42-cheaper-inference.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d13cfae78d79b25d16e02351cbfbe25d49bf073b1dad9ba75ccfc4eef68bd7e1"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/45-clarifai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ae2a43646158f904bde8d3591a2ef65bc571955acf4aef1176ab2aead7d25d46"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/45-heroku.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "dd124dc85b06d69ce45dc2ea098a0a96b39ecdaaa70f8515ff0b7ca5ab33c57c"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/50-nearai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b4aecc9d614b49912255445c2c2a56e52f254273e46faa0b7240f91e0fa8146e"
+  },
+  {
+    "source": "authored/v7/providers/04-openai-compatible-providers/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "222e48f98d21e293f2a36ba3d2f320f5dd013faa40a7f7e54521285ea6e5bd6b"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/01-custom-providers.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b20852ac0a57bc729170e65ca1a25e74c3ede9b80a449a10dc7727bc46da9e9e"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/02-a2a.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "446af9a9540da467b6bcc6f0cf5c97b486fc10dbbab8e7de6a20763e85b4bbf4"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/03-acp.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ded11403b738f3ff23aaa1ef42c5d9308f599205744f0774f151bc9faf243776"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/04-aihubmix.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "2f37e9202e12bb7220f2b95d1ebcdb9f18c358cd46fbf6a4781af45102085d95"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/05-aimlapi.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f1b337d89318dfc1339d2e3a7aff86ed3e7637b51a59e06133df8d9c95e9045e"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/06-anthropic-vertex-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a286f5d8ad5500861587ce84a89c439d27b7d6fad6873d6f4e15109f07936405"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/07-automatic1111.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "848b08f0d204c2c6c2abbec27c022a1c7aa980070bf45f7f010aef33fd9746d6"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/08-azure-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "237e476a1d3049e6d1c4028706b68cbe191ac42f8e82b44d68678b712ecf7ad2"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/09-browser-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d571718ecae4e80c5c816344fd062b068c42141c19e28484ab8e2a9c7e8f869e"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/10-claude-code.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "88137e1358f0214c58caec1a74bdf96b8d2ea50ab4d7939514781510cb084f55"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/11-cloudflare-ai-gateway.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "89f9b2eb198605f4c1c8b54f91ecdf8707475fcffcbff9d799e0f228e58ab627"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/12-cloudflare-workers-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c83ae7b0c39f0ab173fb8cc8fa6079319dc544624cc726b2ec3c6836dbc03fef"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/13-codex-cli.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "e6b0bed0610a06bff26c0147583b80080cfdf76d51141a9c8ee975b4cf187904"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/14-crosshatch.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8d393814d34a483f1d90a2846b558e19fd13726965605c964ebe48dd6a395255"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/15-dify.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8551dec8705d70fc150a8b7f6db261f394c65d944c34ca9c3efb50e9dede24b5"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/16-firemoon.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b3ff603807846c562948ff72dae6fdee2111cd577da89dbe92040c51985c63dd"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/17-friendliai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f5dcdc69952280d467279162f5b9fca8fe004617f417d538bb6980e5f152cd42"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/18-gemini-cli.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "fadcca80f4d009f7adc6efaadda30b14e4c3e8128d86f783b0c090ed895b90a8"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/19-helicone.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f8ada8513d92ce558b5f3c1f8242b73dd3b05f911516093001b12a8c29c84238"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/20-inflection-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "21e7f6727057547682e9e23999a783c597a13887aed55bd4928436849b8132f2"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/21-jina-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "6ea5fc7cb1819e430ed3d417f9edee3c8f9ad1ed8014942d2c86958aec347caa"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/22-langdb.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "2639702465d9204dd35237d17038eb979445a6a94365d3c85173c7e75ab307be"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/23-letta.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "5d295a960dee8dfd4179b526f7d9afb33c3b46ca76b8b4d78ea4286e6b75a1fd"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/24-llama-cpp.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "9c2af10f94ced6363fe5c1611b3b2a95a690a11f7f9530bd13348f0775077930"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/25-llamagate.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a5cf57f835b3b23745d05e22731c52f2059183f73213b2a3ec6150d903b6b5fa"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/26-mcp-sampling.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "52ee4e83bd9e906a1b09745825adf8984ae4a9ed9175a6c9ad8426d785e75b1c"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/27-mem0.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "177cb0e24796c7f47b5e6c9510586c5583085b943a5948474d7ce03ad7d12670"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/28-minimax.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "3561cd1f65a32cf87ecc68a6e03064f5361289cb01ac6cca0561e4019702f5ce"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/29-mixedbread.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "856546908a08228b356daf29675f0bd18ae62a554a37bbe6b46d334fb27b150c"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/30-ollama.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8d148d86a1b1a33ce7c2d118bb1fb32072c3e9a2774e443a7fb0f1b0e246ec45"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/31-opencode-sdk.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a8e993288437fa42bd801ba15ece9394f7f52adb7b2422fb30666d29c9ea9e4e"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/32-openrouter.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "51790598f52f266d8a3e760b3c1eeb03534d2dbe8e51b21032402bcaca0b808c"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/33-portkey.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "108d10fc8559fb0e3a3e2b92d50c1f354d33de9bc5453860a7f33c26149c8508"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/34-qwen.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b8331da3f88a9790921efc834277a46087abd908036e226e4af2f40d2026ad98"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/35-react-native-apple.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8ec2de1131858ca908e837d5dbc3cd93a9fab7e39e25bf89e98f0679ede30262"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/36-requesty.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "1a42f236a7922b2f3eba2fa991ddf23ad56d182fdcde3b919443bd034710aa10"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/37-runpod.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "4102e76d92ed056723b486b51b2dd308dba14fe9dc8e6cd726b15e8e1bbe7b09"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/38-sambanova.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "97731d1da20841a08a7a4ecf70738a1da76d4cb41606ded66059f7ae0432abf0"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/39-sap-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "92cce393e662e67864724dd551b1a2d106ae4b9b975fe5e50fc82d2761301e2a"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/40-sarvam.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a05c003d5fa4c4b20100dc5757f1d293fe75125d5a08322292dca3eb17047ce8"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/41-soniox.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "2160d11993fa296244cbe8818613991ccff29a37caadc063a6f0a21183e76011"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/41-spark.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "ba2c910e11b676a23376aaa9c0fdd7e961d6127877c285cb7e026cfd8ea8c53b"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/42-supermemory.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "40c045fc97024e8e48f0f06843a09c807a16e54da96c8074eaaada69bc3776f0"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/43-voyage-ai.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "518a32e2a8c42d90d2e348813b6e976406e8e88a36bad37c9d73339958f32a72"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/44-zhipu.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "4328cd5d3d025c9da0290a98438a54b848e93e6bb50d8745ad3e8886ccb9569a"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/45-vectorstores.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "d70a80296ac273f3c2fc94e685874c13982da035a3abc0abc370694db9905f52"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/46-codex-app-server.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "9a93dbed47bceaeb6e1530d87c8e93cfc58801700e80cdd4443bda9321b2be54"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/47-apertis.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c31948217fc87ea3a6c0308fb447833f1a3346989a60eed202044b7bab978619"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/48-ollm.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "2c8789b51d99191e345c7164306a71d75e46b95dead607a832ddbb15368e3229"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/49-cencori.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "14bd97e597d8c32eeecd3c31ee23c5590160829a892a387192fac001921f3c91"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/50-hindsight.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "eac7dba1d42b2c191a80bdad2df8771699df474ef3dfc3bde6aa0a4a4edcc37c"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/51-nia.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "58a4e19f92674cb62744490e8f144682919e65a2d149aa5106f3767e888bd8ab"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/51-zeroentropy.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c276b81f3858c4d1cfeb0d09c9eea02ace0bcda29cb495ab5f6522fab6ebf7f9"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/52-crusoe.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "b5a2106aa75523efa7673c8f996d38137897135ba34334e5706c38c89b19b3a2"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/52-neon-ai-gateway.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c85ce11f7c653ff7e66ed867ef4fb777aa970b8d61a50a18ca94eff418d4fb2d"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/53-qvac.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "a69129c4565ab88103756c399f0535401e6243946843222ffd2649d260f526dc"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/54-interfaze.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "8b600ab0b98e9a1c143256a9f13e867ba47b483973a14fb18639714a465a03b9"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/55-telnyx.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c6cc5ebd378d8a556510cdf02559e32d2743af89e63a0e163e54b62f21762eec"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/98-flowise.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "c51d1c1c0a2d46d76ba02224773c06590e08a474ccc0b9aac346afe197ef6f33"
+  },
+  {
+    "source": "authored/v7/providers/05-community-providers/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "edc14eec1fe4f82fc7dcf0293d101c64185495d4efdc3f7c54466852b3b840b2"
+  },
+  {
+    "source": "authored/v7/providers/06-adapters/01-langchain.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "f7563e824779dbaad7de2dfc3924694b5ca719d94f61a08c4e5565b763d903b0"
+  },
+  {
+    "source": "authored/v7/providers/06-adapters/02-llamaindex.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "66c706653b3913bf916ba0e1fd07c84cfaa3678f6aae4420294d9f5c685ed5b7"
+  },
+  {
+    "source": "authored/v7/providers/06-adapters/index.mdx",
+    "commit": "3ebefff610f96892c50be48cf1838c453e2349f7",
+    "sha256": "896983766cb7ebcdb5bb375dbbf7fed3057ae26de0eaab337f4ecfec6dc0b7da"
+  }
+]

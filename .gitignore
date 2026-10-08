@@ -9,3 +9,10 @@
 /public/**/index.html
 
 /public/assets/chrome/
+
+/runtime/
+/public/**/*.md
+/public/llms.txt
+/public/**/llms.txt
+/public/sitemap.xml
+/public/robots.txt

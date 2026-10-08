@@ -1,0 +1,2 @@
+import React from 'react';import {islandMarkup} from './island-server';import {serializeIslandProps} from './island-props';
+let serial=0;export function Island({name,input}:any){const prefix='aux-'+serial+++'-';return <><div data-ai-island={name} data-ai-prefix={prefix} dangerouslySetInnerHTML={{__html:islandMarkup(name,input,prefix)}}/><script type="application/json" dangerouslySetInnerHTML={{__html:JSON.stringify(serializeIslandProps(input)).replace(/</g,'\\u003c')}}/></>;}

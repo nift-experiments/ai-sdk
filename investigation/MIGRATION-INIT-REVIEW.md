@@ -53,3 +53,13 @@ Record pinned internal UI bindings separately from public APIs. Serialize headin
 ### A5 historical findings
 
 Preserve versioned authored provenance and distinguish ordered original files from synchronized pages. Derive version switching from available route sets so missing target pages fall back like upstream. Include maintenance-version robots and social-image rules, plus Markdown alternate links, in head comparisons. Serialize fixture mutations and publication verification. Check restored sources against the immutable original corpus, rather than only against an in-memory backup that could already contain an interrupted fixture. Store test backups outside maintained inputs before mutation.
+
+### A6 complete-family findings
+
+Pin transitive content serializers, not only top-level renderer packages: a minor mdast serializer difference changed escape bytes in otherwise equivalent Markdown downloads. Preserve original source enumeration when search relevance ties or discovery ordering expose it. Explicitly document every required private package binding, runtime HTTP owner, stylesheet sidecar and deployment artifact. A public route factory may still expect a framework request property such as nextUrl; isolate that small boundary rather than importing a framework server.
+
+Proposed guidance: “Reconcile primary pages, aliases, redirects, negotiated Markdown, discovery/search and dynamic API surfaces separately. Preserve maintained structured reference data in a rendered-source model, and explain which inputs must be coordinated when editing. Test production transports with deterministic local fixtures; never equate fixture UI success with live backend certification.”
+
+A preserved frozen HTML shell does not prove client parity. The landing prototype hydrated its hero but omitted install selectors and lower-page demos. The complete page now composes authored static layout with isolated interactive sections and shared navigation. Suggested scaffold: an interaction inventory per page section, with static/vanilla/island classification, mount/props/SSR/client owner, remote boundary and evidence state. Test each section after hydration, including controls outside the first viewport.
+
+Package install policy must reject ambiguous placeholders: pnpm can write an unreviewed dependency build-script setting, which needs an explicit allow/deny decision. Search/LLMS projection order and renderer bytes belong in the input manifest. Community stats frozen as maintained data and request-generated OG images must be classified separately from routine build products.

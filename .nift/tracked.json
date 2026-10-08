@@ -1441,6 +1441,1216 @@
       "template": "templates/raw.html"
     },
     {
+      "name": "providers/adapters/index",
+      "title": "/providers/adapters",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/adapters/langchain/index",
+      "title": "/providers/adapters/langchain",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/adapters/llamaindex/index",
+      "title": "/providers/adapters/llamaindex",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/acp/index",
+      "title": "/providers/ai-sdk-harnesses/acp",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/claude-code/index",
+      "title": "/providers/ai-sdk-harnesses/claude-code",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/cline/index",
+      "title": "/providers/ai-sdk-harnesses/cline",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/codex/index",
+      "title": "/providers/ai-sdk-harnesses/codex",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/cursor/index",
+      "title": "/providers/ai-sdk-harnesses/cursor",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/deepagents/index",
+      "title": "/providers/ai-sdk-harnesses/deepagents",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/fx/index",
+      "title": "/providers/ai-sdk-harnesses/fx",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/github-copilot/index",
+      "title": "/providers/ai-sdk-harnesses/github-copilot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/grok-build/index",
+      "title": "/providers/ai-sdk-harnesses/grok-build",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/index",
+      "title": "/providers/ai-sdk-harnesses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/opencode/index",
+      "title": "/providers/ai-sdk-harnesses/opencode",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-harnesses/pi/index",
+      "title": "/providers/ai-sdk-harnesses/pi",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/ai-gateway/index",
+      "title": "/providers/ai-sdk-providers/ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/alibaba/index",
+      "title": "/providers/ai-sdk-providers/alibaba",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/amazon-bedrock/index",
+      "title": "/providers/ai-sdk-providers/amazon-bedrock",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/anthropic-aws/index",
+      "title": "/providers/ai-sdk-providers/anthropic-aws",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/anthropic/index",
+      "title": "/providers/ai-sdk-providers/anthropic",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/assemblyai/index",
+      "title": "/providers/ai-sdk-providers/assemblyai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/azure/index",
+      "title": "/providers/ai-sdk-providers/azure",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/baseten/index",
+      "title": "/providers/ai-sdk-providers/baseten",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/black-forest-labs/index",
+      "title": "/providers/ai-sdk-providers/black-forest-labs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/bytedance/index",
+      "title": "/providers/ai-sdk-providers/bytedance",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/cartesia/index",
+      "title": "/providers/ai-sdk-providers/cartesia",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/cerebras/index",
+      "title": "/providers/ai-sdk-providers/cerebras",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/cohere/index",
+      "title": "/providers/ai-sdk-providers/cohere",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/deepgram/index",
+      "title": "/providers/ai-sdk-providers/deepgram",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/deepinfra/index",
+      "title": "/providers/ai-sdk-providers/deepinfra",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/deepseek/index",
+      "title": "/providers/ai-sdk-providers/deepseek",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/elevenlabs/index",
+      "title": "/providers/ai-sdk-providers/elevenlabs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/fal/index",
+      "title": "/providers/ai-sdk-providers/fal",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/fireworks/index",
+      "title": "/providers/ai-sdk-providers/fireworks",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/fish-audio/index",
+      "title": "/providers/ai-sdk-providers/fish-audio",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/gladia/index",
+      "title": "/providers/ai-sdk-providers/gladia",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/gmicloud/index",
+      "title": "/providers/ai-sdk-providers/gmicloud",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/google-vertex/index",
+      "title": "/providers/ai-sdk-providers/google-vertex",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/google/index",
+      "title": "/providers/ai-sdk-providers/google",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/groq/index",
+      "title": "/providers/ai-sdk-providers/groq",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/huggingface/index",
+      "title": "/providers/ai-sdk-providers/huggingface",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/hume/index",
+      "title": "/providers/ai-sdk-providers/hume",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/index",
+      "title": "/providers/ai-sdk-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/klingai/index",
+      "title": "/providers/ai-sdk-providers/klingai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/luma/index",
+      "title": "/providers/ai-sdk-providers/luma",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/minimax/index",
+      "title": "/providers/ai-sdk-providers/minimax",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/mistral/index",
+      "title": "/providers/ai-sdk-providers/mistral",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/moonshotai/index",
+      "title": "/providers/ai-sdk-providers/moonshotai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/open-responses/index",
+      "title": "/providers/ai-sdk-providers/open-responses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/openai/index",
+      "title": "/providers/ai-sdk-providers/openai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/perplexity/index",
+      "title": "/providers/ai-sdk-providers/perplexity",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/prodia/index",
+      "title": "/providers/ai-sdk-providers/prodia",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/quiverai/index",
+      "title": "/providers/ai-sdk-providers/quiverai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/replicate/index",
+      "title": "/providers/ai-sdk-providers/replicate",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/revai/index",
+      "title": "/providers/ai-sdk-providers/revai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/togetherai/index",
+      "title": "/providers/ai-sdk-providers/togetherai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/topaz/index",
+      "title": "/providers/ai-sdk-providers/topaz",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/typesafe-ai/index",
+      "title": "/providers/ai-sdk-providers/typesafe-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/voyage/index",
+      "title": "/providers/ai-sdk-providers/voyage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/xai/index",
+      "title": "/providers/ai-sdk-providers/xai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/ai-sdk-providers/zai/index",
+      "title": "/providers/ai-sdk-providers/zai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/a2a/index",
+      "title": "/providers/community-providers/a2a",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/acp/index",
+      "title": "/providers/community-providers/acp",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/aihubmix/index",
+      "title": "/providers/community-providers/aihubmix",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/aimlapi/index",
+      "title": "/providers/community-providers/aimlapi",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/anthropic-vertex-ai/index",
+      "title": "/providers/community-providers/anthropic-vertex-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/apertis/index",
+      "title": "/providers/community-providers/apertis",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/automatic1111/index",
+      "title": "/providers/community-providers/automatic1111",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/azure-ai/index",
+      "title": "/providers/community-providers/azure-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/browser-ai/index",
+      "title": "/providers/community-providers/browser-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/cencori/index",
+      "title": "/providers/community-providers/cencori",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/claude-code/index",
+      "title": "/providers/community-providers/claude-code",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/cloudflare-ai-gateway/index",
+      "title": "/providers/community-providers/cloudflare-ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/cloudflare-workers-ai/index",
+      "title": "/providers/community-providers/cloudflare-workers-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/codex-app-server/index",
+      "title": "/providers/community-providers/codex-app-server",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/codex-cli/index",
+      "title": "/providers/community-providers/codex-cli",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/crosshatch/index",
+      "title": "/providers/community-providers/crosshatch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/crusoe/index",
+      "title": "/providers/community-providers/crusoe",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/custom-providers/index",
+      "title": "/providers/community-providers/custom-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/dify/index",
+      "title": "/providers/community-providers/dify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/firemoon/index",
+      "title": "/providers/community-providers/firemoon",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/flowise/index",
+      "title": "/providers/community-providers/flowise",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/friendliai/index",
+      "title": "/providers/community-providers/friendliai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/gemini-cli/index",
+      "title": "/providers/community-providers/gemini-cli",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/helicone/index",
+      "title": "/providers/community-providers/helicone",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/hindsight/index",
+      "title": "/providers/community-providers/hindsight",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/index",
+      "title": "/providers/community-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/inflection-ai/index",
+      "title": "/providers/community-providers/inflection-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/interfaze/index",
+      "title": "/providers/community-providers/interfaze",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/jina-ai/index",
+      "title": "/providers/community-providers/jina-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/langdb/index",
+      "title": "/providers/community-providers/langdb",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/letta/index",
+      "title": "/providers/community-providers/letta",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/llama-cpp/index",
+      "title": "/providers/community-providers/llama-cpp",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/llamagate/index",
+      "title": "/providers/community-providers/llamagate",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/mcp-sampling/index",
+      "title": "/providers/community-providers/mcp-sampling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/mem0/index",
+      "title": "/providers/community-providers/mem0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/minimax/index",
+      "title": "/providers/community-providers/minimax",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/mixedbread/index",
+      "title": "/providers/community-providers/mixedbread",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/neon-ai-gateway/index",
+      "title": "/providers/community-providers/neon-ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/nia/index",
+      "title": "/providers/community-providers/nia",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/ollama/index",
+      "title": "/providers/community-providers/ollama",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/ollm/index",
+      "title": "/providers/community-providers/ollm",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/opencode-sdk/index",
+      "title": "/providers/community-providers/opencode-sdk",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/openrouter/index",
+      "title": "/providers/community-providers/openrouter",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/portkey/index",
+      "title": "/providers/community-providers/portkey",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/qvac/index",
+      "title": "/providers/community-providers/qvac",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/qwen/index",
+      "title": "/providers/community-providers/qwen",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/react-native-apple/index",
+      "title": "/providers/community-providers/react-native-apple",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/requesty/index",
+      "title": "/providers/community-providers/requesty",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/runpod/index",
+      "title": "/providers/community-providers/runpod",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/sambanova/index",
+      "title": "/providers/community-providers/sambanova",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/sap-ai/index",
+      "title": "/providers/community-providers/sap-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/sarvam/index",
+      "title": "/providers/community-providers/sarvam",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/soniox/index",
+      "title": "/providers/community-providers/soniox",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/spark/index",
+      "title": "/providers/community-providers/spark",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/supermemory/index",
+      "title": "/providers/community-providers/supermemory",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/telnyx/index",
+      "title": "/providers/community-providers/telnyx",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/vectorstores/index",
+      "title": "/providers/community-providers/vectorstores",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/voyage-ai/index",
+      "title": "/providers/community-providers/voyage-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/zeroentropy/index",
+      "title": "/providers/community-providers/zeroentropy",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/community-providers/zhipu/index",
+      "title": "/providers/community-providers/zhipu",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/arize-ax/index",
+      "title": "/providers/observability/arize-ax",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/axiom/index",
+      "title": "/providers/observability/axiom",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/braintrust/index",
+      "title": "/providers/observability/braintrust",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/confident-ai/index",
+      "title": "/providers/observability/confident-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/datadog/index",
+      "title": "/providers/observability/datadog",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/helicone/index",
+      "title": "/providers/observability/helicone",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/index",
+      "title": "/providers/observability",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/laminar/index",
+      "title": "/providers/observability/laminar",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/langfuse/index",
+      "title": "/providers/observability/langfuse",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/langsmith/index",
+      "title": "/providers/observability/langsmith",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/langwatch/index",
+      "title": "/providers/observability/langwatch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/latitude/index",
+      "title": "/providers/observability/latitude",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/maxim/index",
+      "title": "/providers/observability/maxim",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/mlflow/index",
+      "title": "/providers/observability/mlflow",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/patronus/index",
+      "title": "/providers/observability/patronus",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/posthog/index",
+      "title": "/providers/observability/posthog",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/raindrop/index",
+      "title": "/providers/observability/raindrop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/respan/index",
+      "title": "/providers/observability/respan",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/scorecard/index",
+      "title": "/providers/observability/scorecard",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/sentry/index",
+      "title": "/providers/observability/sentry",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/signoz/index",
+      "title": "/providers/observability/signoz",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/traceloop/index",
+      "title": "/providers/observability/traceloop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/observability/weave/index",
+      "title": "/providers/observability/weave",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/cheaper-inference/index",
+      "title": "/providers/openai-compatible-providers/cheaper-inference",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/clarifai/index",
+      "title": "/providers/openai-compatible-providers/clarifai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/custom-providers/index",
+      "title": "/providers/openai-compatible-providers/custom-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/heroku/index",
+      "title": "/providers/openai-compatible-providers/heroku",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/index",
+      "title": "/providers/openai-compatible-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/lmstudio/index",
+      "title": "/providers/openai-compatible-providers/lmstudio",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/modelrush/index",
+      "title": "/providers/openai-compatible-providers/modelrush",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/nearai/index",
+      "title": "/providers/openai-compatible-providers/nearai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "providers/openai-compatible-providers/nim/index",
+      "title": "/providers/openai-compatible-providers/nim",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/api-servers/express/index",
+      "title": "/cookbook/api-servers/express",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/api-servers/fastify/index",
+      "title": "/cookbook/api-servers/fastify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/api-servers/hono/index",
+      "title": "/cookbook/api-servers/hono",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/api-servers/nest/index",
+      "title": "/cookbook/api-servers/nest",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/api-servers/node-http-server/index",
+      "title": "/cookbook/api-servers/node-http-server",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/agent-context-compaction/index",
+      "title": "/cookbook/guides/agent-context-compaction",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/agent-skills/index",
+      "title": "/cookbook/guides/agent-skills",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/claude-4/index",
+      "title": "/cookbook/guides/claude-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/computer-use/index",
+      "title": "/cookbook/guides/computer-use",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/custom-memory-tool/index",
+      "title": "/cookbook/guides/custom-memory-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/deepseek-v3-2/index",
+      "title": "/cookbook/guides/deepseek-v3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/gemini/index",
+      "title": "/cookbook/guides/gemini",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/google-gemini-image-generation/index",
+      "title": "/cookbook/guides/google-gemini-image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/gpt-5/index",
+      "title": "/cookbook/guides/gpt-5",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/index",
+      "title": "/cookbook/guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/llama-3_1/index",
+      "title": "/cookbook/guides/llama-3_1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/multi-modal-chatbot/index",
+      "title": "/cookbook/guides/multi-modal-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/natural-language-postgres/index",
+      "title": "/cookbook/guides/natural-language-postgres",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/o1/index",
+      "title": "/cookbook/guides/o1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/o3/index",
+      "title": "/cookbook/guides/o3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/openai-responses/index",
+      "title": "/cookbook/guides/openai-responses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/r1/index",
+      "title": "/cookbook/guides/r1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/rag-chatbot/index",
+      "title": "/cookbook/guides/rag-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/slackbot/index",
+      "title": "/cookbook/guides/slackbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/guides/sonnet-3-7/index",
+      "title": "/cookbook/guides/sonnet-3-7",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/caching-middleware/index",
+      "title": "/cookbook/next/caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/call-tools-multiple-steps/index",
+      "title": "/cookbook/next/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/call-tools/index",
+      "title": "/cookbook/next/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/chat-with-pdf/index",
+      "title": "/cookbook/next/chat-with-pdf",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/custom-stream-format/index",
+      "title": "/cookbook/next/custom-stream-format",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/generate-image-with-chat-prompt/index",
+      "title": "/cookbook/next/generate-image-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/generate-object-with-file-prompt/index",
+      "title": "/cookbook/next/generate-object-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/generate-object/index",
+      "title": "/cookbook/next/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/generate-text-with-chat-prompt/index",
+      "title": "/cookbook/next/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/generate-text/index",
+      "title": "/cookbook/next/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/human-in-the-loop/index",
+      "title": "/cookbook/next/human-in-the-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/markdown-chatbot-with-memoization/index",
+      "title": "/cookbook/next/markdown-chatbot-with-memoization",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/mcp-tools/index",
+      "title": "/cookbook/next/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/render-visual-interface-in-chat/index",
+      "title": "/cookbook/next/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/send-custom-body-from-use-chat/index",
+      "title": "/cookbook/next/send-custom-body-from-use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/stream-object/index",
+      "title": "/cookbook/next/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/stream-text-multistep/index",
+      "title": "/cookbook/next/stream-text-multistep",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/stream-text-with-chat-prompt/index",
+      "title": "/cookbook/next/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/stream-text-with-image-prompt/index",
+      "title": "/cookbook/next/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/stream-text/index",
+      "title": "/cookbook/next/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/track-agent-token-usage/index",
+      "title": "/cookbook/next/track-agent-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/next/use-shared-chat-context/index",
+      "title": "/cookbook/next/use-shared-chat-context",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/call-tools-in-parallel/index",
+      "title": "/cookbook/node/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/call-tools-multiple-steps/index",
+      "title": "/cookbook/node/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/call-tools-with-image-prompt/index",
+      "title": "/cookbook/node/call-tools-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/call-tools/index",
+      "title": "/cookbook/node/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/dynamic-prompt-caching/index",
+      "title": "/cookbook/node/dynamic-prompt-caching",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/embed-text-batch/index",
+      "title": "/cookbook/node/embed-text-batch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/embed-text/index",
+      "title": "/cookbook/node/embed-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/generate-object-reasoning/index",
+      "title": "/cookbook/node/generate-object-reasoning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/generate-object/index",
+      "title": "/cookbook/node/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/generate-text-with-chat-prompt/index",
+      "title": "/cookbook/node/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/generate-text-with-image-prompt/index",
+      "title": "/cookbook/node/generate-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/generate-text/index",
+      "title": "/cookbook/node/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/intercept-fetch-requests/index",
+      "title": "/cookbook/node/intercept-fetch-requests",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/knowledge-base-agent/index",
+      "title": "/cookbook/node/knowledge-base-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/local-caching-middleware/index",
+      "title": "/cookbook/node/local-caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/manual-agent-loop/index",
+      "title": "/cookbook/node/manual-agent-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/mcp-elicitation/index",
+      "title": "/cookbook/node/mcp-elicitation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/mcp-tools/index",
+      "title": "/cookbook/node/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/repair-json-with-jsonrepair/index",
+      "title": "/cookbook/node/repair-json-with-jsonrepair",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/retrieval-augmented-generation/index",
+      "title": "/cookbook/node/retrieval-augmented-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/stream-object-record-final-object/index",
+      "title": "/cookbook/node/stream-object-record-final-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/stream-object-record-token-usage/index",
+      "title": "/cookbook/node/stream-object-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/stream-object-with-image-prompt/index",
+      "title": "/cookbook/node/stream-object-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/stream-object/index",
+      "title": "/cookbook/node/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/stream-text-with-chat-prompt/index",
+      "title": "/cookbook/node/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/stream-text-with-file-prompt/index",
+      "title": "/cookbook/node/stream-text-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/stream-text-with-image-prompt/index",
+      "title": "/cookbook/node/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/stream-text/index",
+      "title": "/cookbook/node/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/node/web-search-agent/index",
+      "title": "/cookbook/node/web-search-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/call-tools-in-parallel/index",
+      "title": "/cookbook/rsc/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/call-tools/index",
+      "title": "/cookbook/rsc/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/generate-object/index",
+      "title": "/cookbook/rsc/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/generate-text-with-chat-prompt/index",
+      "title": "/cookbook/rsc/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/generate-text/index",
+      "title": "/cookbook/rsc/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/render-visual-interface-in-chat/index",
+      "title": "/cookbook/rsc/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/restore-messages-from-database/index",
+      "title": "/cookbook/rsc/restore-messages-from-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/save-messages-to-database/index",
+      "title": "/cookbook/rsc/save-messages-to-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/stream-object/index",
+      "title": "/cookbook/rsc/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/stream-text-with-chat-prompt/index",
+      "title": "/cookbook/rsc/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/stream-text/index",
+      "title": "/cookbook/rsc/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/stream-ui-record-token-usage/index",
+      "title": "/cookbook/rsc/stream-ui-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "cookbook/rsc/stream-updates-to-visual-interfaces/index",
+      "title": "/cookbook/rsc/stream-updates-to-visual-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
       "name": "v6/docs/advanced/backpressure/index",
       "title": "/v6/docs/advanced/backpressure",
       "template": "templates/raw.html"
@@ -2601,6 +3811,1101 @@
       "template": "templates/raw.html"
     },
     {
+      "name": "v6/providers/adapters/index",
+      "title": "/v6/providers/adapters",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/adapters/langchain/index",
+      "title": "/v6/providers/adapters/langchain",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/adapters/llamaindex/index",
+      "title": "/v6/providers/adapters/llamaindex",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/ai-gateway/index",
+      "title": "/v6/providers/ai-sdk-providers/ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/alibaba/index",
+      "title": "/v6/providers/ai-sdk-providers/alibaba",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/amazon-bedrock/index",
+      "title": "/v6/providers/ai-sdk-providers/amazon-bedrock",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/anthropic-aws/index",
+      "title": "/v6/providers/ai-sdk-providers/anthropic-aws",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/anthropic/index",
+      "title": "/v6/providers/ai-sdk-providers/anthropic",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/assemblyai/index",
+      "title": "/v6/providers/ai-sdk-providers/assemblyai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/azure/index",
+      "title": "/v6/providers/ai-sdk-providers/azure",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/baseten/index",
+      "title": "/v6/providers/ai-sdk-providers/baseten",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/black-forest-labs/index",
+      "title": "/v6/providers/ai-sdk-providers/black-forest-labs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/bytedance/index",
+      "title": "/v6/providers/ai-sdk-providers/bytedance",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/cerebras/index",
+      "title": "/v6/providers/ai-sdk-providers/cerebras",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/cohere/index",
+      "title": "/v6/providers/ai-sdk-providers/cohere",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/deepgram/index",
+      "title": "/v6/providers/ai-sdk-providers/deepgram",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/deepinfra/index",
+      "title": "/v6/providers/ai-sdk-providers/deepinfra",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/deepseek/index",
+      "title": "/v6/providers/ai-sdk-providers/deepseek",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/elevenlabs/index",
+      "title": "/v6/providers/ai-sdk-providers/elevenlabs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/fal/index",
+      "title": "/v6/providers/ai-sdk-providers/fal",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/fireworks/index",
+      "title": "/v6/providers/ai-sdk-providers/fireworks",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/fish-audio/index",
+      "title": "/v6/providers/ai-sdk-providers/fish-audio",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/gladia/index",
+      "title": "/v6/providers/ai-sdk-providers/gladia",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/gmicloud/index",
+      "title": "/v6/providers/ai-sdk-providers/gmicloud",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/google-generative-ai/index",
+      "title": "/v6/providers/ai-sdk-providers/google-generative-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/google-vertex/index",
+      "title": "/v6/providers/ai-sdk-providers/google-vertex",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/groq/index",
+      "title": "/v6/providers/ai-sdk-providers/groq",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/huggingface/index",
+      "title": "/v6/providers/ai-sdk-providers/huggingface",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/hume/index",
+      "title": "/v6/providers/ai-sdk-providers/hume",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/index",
+      "title": "/v6/providers/ai-sdk-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/klingai/index",
+      "title": "/v6/providers/ai-sdk-providers/klingai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/luma/index",
+      "title": "/v6/providers/ai-sdk-providers/luma",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/minimax/index",
+      "title": "/v6/providers/ai-sdk-providers/minimax",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/mistral/index",
+      "title": "/v6/providers/ai-sdk-providers/mistral",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/moonshotai/index",
+      "title": "/v6/providers/ai-sdk-providers/moonshotai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/open-responses/index",
+      "title": "/v6/providers/ai-sdk-providers/open-responses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/openai/index",
+      "title": "/v6/providers/ai-sdk-providers/openai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/perplexity/index",
+      "title": "/v6/providers/ai-sdk-providers/perplexity",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/prodia/index",
+      "title": "/v6/providers/ai-sdk-providers/prodia",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/quiverai/index",
+      "title": "/v6/providers/ai-sdk-providers/quiverai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/replicate/index",
+      "title": "/v6/providers/ai-sdk-providers/replicate",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/revai/index",
+      "title": "/v6/providers/ai-sdk-providers/revai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/togetherai/index",
+      "title": "/v6/providers/ai-sdk-providers/togetherai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/vercel/index",
+      "title": "/v6/providers/ai-sdk-providers/vercel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/voyage/index",
+      "title": "/v6/providers/ai-sdk-providers/voyage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/xai/index",
+      "title": "/v6/providers/ai-sdk-providers/xai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/ai-sdk-providers/zai/index",
+      "title": "/v6/providers/ai-sdk-providers/zai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/a2a/index",
+      "title": "/v6/providers/community-providers/a2a",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/acp/index",
+      "title": "/v6/providers/community-providers/acp",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/aihubmix/index",
+      "title": "/v6/providers/community-providers/aihubmix",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/aimlapi/index",
+      "title": "/v6/providers/community-providers/aimlapi",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/anthropic-vertex-ai/index",
+      "title": "/v6/providers/community-providers/anthropic-vertex-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/apertis/index",
+      "title": "/v6/providers/community-providers/apertis",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/automatic1111/index",
+      "title": "/v6/providers/community-providers/automatic1111",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/azure-ai/index",
+      "title": "/v6/providers/community-providers/azure-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/browser-ai/index",
+      "title": "/v6/providers/community-providers/browser-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/cencori/index",
+      "title": "/v6/providers/community-providers/cencori",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/claude-code/index",
+      "title": "/v6/providers/community-providers/claude-code",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/cloudflare-ai-gateway/index",
+      "title": "/v6/providers/community-providers/cloudflare-ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/cloudflare-workers-ai/index",
+      "title": "/v6/providers/community-providers/cloudflare-workers-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/codex-app-server/index",
+      "title": "/v6/providers/community-providers/codex-app-server",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/codex-cli/index",
+      "title": "/v6/providers/community-providers/codex-cli",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/crosshatch/index",
+      "title": "/v6/providers/community-providers/crosshatch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/custom-providers/index",
+      "title": "/v6/providers/community-providers/custom-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/dify/index",
+      "title": "/v6/providers/community-providers/dify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/firemoon/index",
+      "title": "/v6/providers/community-providers/firemoon",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/flowise/index",
+      "title": "/v6/providers/community-providers/flowise",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/friendliai/index",
+      "title": "/v6/providers/community-providers/friendliai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/gemini-cli/index",
+      "title": "/v6/providers/community-providers/gemini-cli",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/helicone/index",
+      "title": "/v6/providers/community-providers/helicone",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/hindsight/index",
+      "title": "/v6/providers/community-providers/hindsight",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/index",
+      "title": "/v6/providers/community-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/inflection-ai/index",
+      "title": "/v6/providers/community-providers/inflection-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/jina-ai/index",
+      "title": "/v6/providers/community-providers/jina-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/langdb/index",
+      "title": "/v6/providers/community-providers/langdb",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/letta/index",
+      "title": "/v6/providers/community-providers/letta",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/llama-cpp/index",
+      "title": "/v6/providers/community-providers/llama-cpp",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/llamagate/index",
+      "title": "/v6/providers/community-providers/llamagate",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/mcp-sampling/index",
+      "title": "/v6/providers/community-providers/mcp-sampling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/mem0/index",
+      "title": "/v6/providers/community-providers/mem0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/minimax/index",
+      "title": "/v6/providers/community-providers/minimax",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/mixedbread/index",
+      "title": "/v6/providers/community-providers/mixedbread",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/neon-ai-gateway/index",
+      "title": "/v6/providers/community-providers/neon-ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/nia/index",
+      "title": "/v6/providers/community-providers/nia",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/ollama/index",
+      "title": "/v6/providers/community-providers/ollama",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/ollm/index",
+      "title": "/v6/providers/community-providers/ollm",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/opencode-sdk/index",
+      "title": "/v6/providers/community-providers/opencode-sdk",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/openrouter/index",
+      "title": "/v6/providers/community-providers/openrouter",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/portkey/index",
+      "title": "/v6/providers/community-providers/portkey",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/qwen/index",
+      "title": "/v6/providers/community-providers/qwen",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/react-native-apple/index",
+      "title": "/v6/providers/community-providers/react-native-apple",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/requesty/index",
+      "title": "/v6/providers/community-providers/requesty",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/runpod/index",
+      "title": "/v6/providers/community-providers/runpod",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/sambanova/index",
+      "title": "/v6/providers/community-providers/sambanova",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/sap-ai/index",
+      "title": "/v6/providers/community-providers/sap-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/sarvam/index",
+      "title": "/v6/providers/community-providers/sarvam",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/soniox/index",
+      "title": "/v6/providers/community-providers/soniox",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/spark/index",
+      "title": "/v6/providers/community-providers/spark",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/supermemory/index",
+      "title": "/v6/providers/community-providers/supermemory",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/vectorstores/index",
+      "title": "/v6/providers/community-providers/vectorstores",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/voyage-ai/index",
+      "title": "/v6/providers/community-providers/voyage-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/zeroentropy/index",
+      "title": "/v6/providers/community-providers/zeroentropy",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/community-providers/zhipu/index",
+      "title": "/v6/providers/community-providers/zhipu",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/arize-ax/index",
+      "title": "/v6/providers/observability/arize-ax",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/axiom/index",
+      "title": "/v6/providers/observability/axiom",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/braintrust/index",
+      "title": "/v6/providers/observability/braintrust",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/confident-ai/index",
+      "title": "/v6/providers/observability/confident-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/helicone/index",
+      "title": "/v6/providers/observability/helicone",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/index",
+      "title": "/v6/providers/observability",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/laminar/index",
+      "title": "/v6/providers/observability/laminar",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/langfuse/index",
+      "title": "/v6/providers/observability/langfuse",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/langsmith/index",
+      "title": "/v6/providers/observability/langsmith",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/langwatch/index",
+      "title": "/v6/providers/observability/langwatch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/latitude/index",
+      "title": "/v6/providers/observability/latitude",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/maxim/index",
+      "title": "/v6/providers/observability/maxim",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/mlflow/index",
+      "title": "/v6/providers/observability/mlflow",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/patronus/index",
+      "title": "/v6/providers/observability/patronus",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/posthog/index",
+      "title": "/v6/providers/observability/posthog",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/respan/index",
+      "title": "/v6/providers/observability/respan",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/scorecard/index",
+      "title": "/v6/providers/observability/scorecard",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/signoz/index",
+      "title": "/v6/providers/observability/signoz",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/traceloop/index",
+      "title": "/v6/providers/observability/traceloop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/observability/weave/index",
+      "title": "/v6/providers/observability/weave",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/openai-compatible-providers/clarifai/index",
+      "title": "/v6/providers/openai-compatible-providers/clarifai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/openai-compatible-providers/custom-providers/index",
+      "title": "/v6/providers/openai-compatible-providers/custom-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/openai-compatible-providers/heroku/index",
+      "title": "/v6/providers/openai-compatible-providers/heroku",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/openai-compatible-providers/index",
+      "title": "/v6/providers/openai-compatible-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/openai-compatible-providers/lmstudio/index",
+      "title": "/v6/providers/openai-compatible-providers/lmstudio",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/openai-compatible-providers/modelrush/index",
+      "title": "/v6/providers/openai-compatible-providers/modelrush",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/openai-compatible-providers/nearai/index",
+      "title": "/v6/providers/openai-compatible-providers/nearai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/providers/openai-compatible-providers/nim/index",
+      "title": "/v6/providers/openai-compatible-providers/nim",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/api-servers/express/index",
+      "title": "/v6/cookbook/api-servers/express",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/api-servers/fastify/index",
+      "title": "/v6/cookbook/api-servers/fastify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/api-servers/hono/index",
+      "title": "/v6/cookbook/api-servers/hono",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/api-servers/nest/index",
+      "title": "/v6/cookbook/api-servers/nest",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/api-servers/node-http-server/index",
+      "title": "/v6/cookbook/api-servers/node-http-server",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/agent-skills/index",
+      "title": "/v6/cookbook/guides/agent-skills",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/claude-4/index",
+      "title": "/v6/cookbook/guides/claude-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/computer-use/index",
+      "title": "/v6/cookbook/guides/computer-use",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/custom-memory-tool/index",
+      "title": "/v6/cookbook/guides/custom-memory-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/deepseek-v3-2/index",
+      "title": "/v6/cookbook/guides/deepseek-v3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/gemini/index",
+      "title": "/v6/cookbook/guides/gemini",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/google-gemini-image-generation/index",
+      "title": "/v6/cookbook/guides/google-gemini-image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/gpt-5/index",
+      "title": "/v6/cookbook/guides/gpt-5",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/index",
+      "title": "/v6/cookbook/guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/llama-3_1/index",
+      "title": "/v6/cookbook/guides/llama-3_1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/multi-modal-chatbot/index",
+      "title": "/v6/cookbook/guides/multi-modal-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/natural-language-postgres/index",
+      "title": "/v6/cookbook/guides/natural-language-postgres",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/o1/index",
+      "title": "/v6/cookbook/guides/o1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/o3/index",
+      "title": "/v6/cookbook/guides/o3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/openai-responses/index",
+      "title": "/v6/cookbook/guides/openai-responses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/r1/index",
+      "title": "/v6/cookbook/guides/r1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/rag-chatbot/index",
+      "title": "/v6/cookbook/guides/rag-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/slackbot/index",
+      "title": "/v6/cookbook/guides/slackbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/guides/sonnet-3-7/index",
+      "title": "/v6/cookbook/guides/sonnet-3-7",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/caching-middleware/index",
+      "title": "/v6/cookbook/next/caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/call-tools-multiple-steps/index",
+      "title": "/v6/cookbook/next/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/call-tools/index",
+      "title": "/v6/cookbook/next/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/chat-with-pdf/index",
+      "title": "/v6/cookbook/next/chat-with-pdf",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/custom-stream-format/index",
+      "title": "/v6/cookbook/next/custom-stream-format",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/generate-image-with-chat-prompt/index",
+      "title": "/v6/cookbook/next/generate-image-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/generate-object-with-file-prompt/index",
+      "title": "/v6/cookbook/next/generate-object-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/generate-object/index",
+      "title": "/v6/cookbook/next/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/generate-text-with-chat-prompt/index",
+      "title": "/v6/cookbook/next/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/generate-text/index",
+      "title": "/v6/cookbook/next/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/human-in-the-loop/index",
+      "title": "/v6/cookbook/next/human-in-the-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/markdown-chatbot-with-memoization/index",
+      "title": "/v6/cookbook/next/markdown-chatbot-with-memoization",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/mcp-tools/index",
+      "title": "/v6/cookbook/next/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/render-visual-interface-in-chat/index",
+      "title": "/v6/cookbook/next/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/send-custom-body-from-use-chat/index",
+      "title": "/v6/cookbook/next/send-custom-body-from-use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/stream-object/index",
+      "title": "/v6/cookbook/next/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/stream-text-multistep/index",
+      "title": "/v6/cookbook/next/stream-text-multistep",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/stream-text-with-chat-prompt/index",
+      "title": "/v6/cookbook/next/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/stream-text-with-image-prompt/index",
+      "title": "/v6/cookbook/next/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/stream-text/index",
+      "title": "/v6/cookbook/next/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/track-agent-token-usage/index",
+      "title": "/v6/cookbook/next/track-agent-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/next/use-shared-chat-context/index",
+      "title": "/v6/cookbook/next/use-shared-chat-context",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/call-tools-in-parallel/index",
+      "title": "/v6/cookbook/node/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/call-tools-multiple-steps/index",
+      "title": "/v6/cookbook/node/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/call-tools-with-image-prompt/index",
+      "title": "/v6/cookbook/node/call-tools-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/call-tools/index",
+      "title": "/v6/cookbook/node/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/dynamic-prompt-caching/index",
+      "title": "/v6/cookbook/node/dynamic-prompt-caching",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/embed-text-batch/index",
+      "title": "/v6/cookbook/node/embed-text-batch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/embed-text/index",
+      "title": "/v6/cookbook/node/embed-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/generate-object-reasoning/index",
+      "title": "/v6/cookbook/node/generate-object-reasoning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/generate-object/index",
+      "title": "/v6/cookbook/node/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/generate-text-with-chat-prompt/index",
+      "title": "/v6/cookbook/node/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/generate-text-with-image-prompt/index",
+      "title": "/v6/cookbook/node/generate-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/generate-text/index",
+      "title": "/v6/cookbook/node/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/intercept-fetch-requests/index",
+      "title": "/v6/cookbook/node/intercept-fetch-requests",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/knowledge-base-agent/index",
+      "title": "/v6/cookbook/node/knowledge-base-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/local-caching-middleware/index",
+      "title": "/v6/cookbook/node/local-caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/manual-agent-loop/index",
+      "title": "/v6/cookbook/node/manual-agent-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/mcp-elicitation/index",
+      "title": "/v6/cookbook/node/mcp-elicitation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/mcp-tools/index",
+      "title": "/v6/cookbook/node/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/repair-json-with-jsonrepair/index",
+      "title": "/v6/cookbook/node/repair-json-with-jsonrepair",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/retrieval-augmented-generation/index",
+      "title": "/v6/cookbook/node/retrieval-augmented-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/stream-object-record-final-object/index",
+      "title": "/v6/cookbook/node/stream-object-record-final-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/stream-object-record-token-usage/index",
+      "title": "/v6/cookbook/node/stream-object-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/stream-object-with-image-prompt/index",
+      "title": "/v6/cookbook/node/stream-object-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/stream-object/index",
+      "title": "/v6/cookbook/node/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/stream-text-with-chat-prompt/index",
+      "title": "/v6/cookbook/node/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/stream-text-with-file-prompt/index",
+      "title": "/v6/cookbook/node/stream-text-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/stream-text-with-image-prompt/index",
+      "title": "/v6/cookbook/node/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/stream-text/index",
+      "title": "/v6/cookbook/node/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/node/web-search-agent/index",
+      "title": "/v6/cookbook/node/web-search-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/call-tools-in-parallel/index",
+      "title": "/v6/cookbook/rsc/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/call-tools/index",
+      "title": "/v6/cookbook/rsc/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/generate-object/index",
+      "title": "/v6/cookbook/rsc/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/generate-text-with-chat-prompt/index",
+      "title": "/v6/cookbook/rsc/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/generate-text/index",
+      "title": "/v6/cookbook/rsc/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/render-visual-interface-in-chat/index",
+      "title": "/v6/cookbook/rsc/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/restore-messages-from-database/index",
+      "title": "/v6/cookbook/rsc/restore-messages-from-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/save-messages-to-database/index",
+      "title": "/v6/cookbook/rsc/save-messages-to-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/stream-object/index",
+      "title": "/v6/cookbook/rsc/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/stream-text-with-chat-prompt/index",
+      "title": "/v6/cookbook/rsc/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/stream-text/index",
+      "title": "/v6/cookbook/rsc/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/stream-ui-record-token-usage/index",
+      "title": "/v6/cookbook/rsc/stream-ui-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/cookbook/rsc/stream-updates-to-visual-interfaces/index",
+      "title": "/v6/cookbook/rsc/stream-updates-to-visual-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
       "name": "v5/docs/advanced/backpressure/index",
       "title": "/v5/docs/advanced/backpressure",
       "template": "templates/raw.html"
@@ -3726,18 +6031,2343 @@
       "template": "templates/raw.html"
     },
     {
+      "name": "v5/providers/adapters/index",
+      "title": "/v5/providers/adapters",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/adapters/langchain/index",
+      "title": "/v5/providers/adapters/langchain",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/adapters/llamaindex/index",
+      "title": "/v5/providers/adapters/llamaindex",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/ai-gateway/index",
+      "title": "/v5/providers/ai-sdk-providers/ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/alibaba/index",
+      "title": "/v5/providers/ai-sdk-providers/alibaba",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/amazon-bedrock/index",
+      "title": "/v5/providers/ai-sdk-providers/amazon-bedrock",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/anthropic/index",
+      "title": "/v5/providers/ai-sdk-providers/anthropic",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/assemblyai/index",
+      "title": "/v5/providers/ai-sdk-providers/assemblyai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/azure/index",
+      "title": "/v5/providers/ai-sdk-providers/azure",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/baseten/index",
+      "title": "/v5/providers/ai-sdk-providers/baseten",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/black-forest-labs/index",
+      "title": "/v5/providers/ai-sdk-providers/black-forest-labs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/cerebras/index",
+      "title": "/v5/providers/ai-sdk-providers/cerebras",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/cohere/index",
+      "title": "/v5/providers/ai-sdk-providers/cohere",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/deepgram/index",
+      "title": "/v5/providers/ai-sdk-providers/deepgram",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/deepinfra/index",
+      "title": "/v5/providers/ai-sdk-providers/deepinfra",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/deepseek/index",
+      "title": "/v5/providers/ai-sdk-providers/deepseek",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/elevenlabs/index",
+      "title": "/v5/providers/ai-sdk-providers/elevenlabs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/fal/index",
+      "title": "/v5/providers/ai-sdk-providers/fal",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/fireworks/index",
+      "title": "/v5/providers/ai-sdk-providers/fireworks",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/gladia/index",
+      "title": "/v5/providers/ai-sdk-providers/gladia",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/gmicloud/index",
+      "title": "/v5/providers/ai-sdk-providers/gmicloud",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/google-generative-ai/index",
+      "title": "/v5/providers/ai-sdk-providers/google-generative-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/google-vertex/index",
+      "title": "/v5/providers/ai-sdk-providers/google-vertex",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/groq/index",
+      "title": "/v5/providers/ai-sdk-providers/groq",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/huggingface/index",
+      "title": "/v5/providers/ai-sdk-providers/huggingface",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/hume/index",
+      "title": "/v5/providers/ai-sdk-providers/hume",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/index",
+      "title": "/v5/providers/ai-sdk-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/luma/index",
+      "title": "/v5/providers/ai-sdk-providers/luma",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/mistral/index",
+      "title": "/v5/providers/ai-sdk-providers/mistral",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/moonshotai/index",
+      "title": "/v5/providers/ai-sdk-providers/moonshotai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/openai/index",
+      "title": "/v5/providers/ai-sdk-providers/openai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/perplexity/index",
+      "title": "/v5/providers/ai-sdk-providers/perplexity",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/replicate/index",
+      "title": "/v5/providers/ai-sdk-providers/replicate",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/revai/index",
+      "title": "/v5/providers/ai-sdk-providers/revai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/togetherai/index",
+      "title": "/v5/providers/ai-sdk-providers/togetherai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/vercel/index",
+      "title": "/v5/providers/ai-sdk-providers/vercel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/xai/index",
+      "title": "/v5/providers/ai-sdk-providers/xai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/ai-sdk-providers/zai/index",
+      "title": "/v5/providers/ai-sdk-providers/zai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/a2a/index",
+      "title": "/v5/providers/community-providers/a2a",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/acp/index",
+      "title": "/v5/providers/community-providers/acp",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/aihubmix/index",
+      "title": "/v5/providers/community-providers/aihubmix",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/aimlapi/index",
+      "title": "/v5/providers/community-providers/aimlapi",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/anthropic-vertex-ai/index",
+      "title": "/v5/providers/community-providers/anthropic-vertex-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/automatic1111/index",
+      "title": "/v5/providers/community-providers/automatic1111",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/azure-ai/index",
+      "title": "/v5/providers/community-providers/azure-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/built-in-ai/index",
+      "title": "/v5/providers/community-providers/built-in-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/claude-code/index",
+      "title": "/v5/providers/community-providers/claude-code",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/cloudflare-ai-gateway/index",
+      "title": "/v5/providers/community-providers/cloudflare-ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/cloudflare-workers-ai/index",
+      "title": "/v5/providers/community-providers/cloudflare-workers-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/crosshatch/index",
+      "title": "/v5/providers/community-providers/crosshatch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/custom-providers/index",
+      "title": "/v5/providers/community-providers/custom-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/dify/index",
+      "title": "/v5/providers/community-providers/dify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/friendliai/index",
+      "title": "/v5/providers/community-providers/friendliai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/gemini-cli/index",
+      "title": "/v5/providers/community-providers/gemini-cli",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/helicone/index",
+      "title": "/v5/providers/community-providers/helicone",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/index",
+      "title": "/v5/providers/community-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/inflection-ai/index",
+      "title": "/v5/providers/community-providers/inflection-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/jina-ai/index",
+      "title": "/v5/providers/community-providers/jina-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/langdb/index",
+      "title": "/v5/providers/community-providers/langdb",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/letta/index",
+      "title": "/v5/providers/community-providers/letta",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/mcp-sampling/index",
+      "title": "/v5/providers/community-providers/mcp-sampling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/mem0/index",
+      "title": "/v5/providers/community-providers/mem0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/minimax/index",
+      "title": "/v5/providers/community-providers/minimax",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/mixedbread/index",
+      "title": "/v5/providers/community-providers/mixedbread",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/ollama/index",
+      "title": "/v5/providers/community-providers/ollama",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/openrouter/index",
+      "title": "/v5/providers/community-providers/openrouter",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/portkey/index",
+      "title": "/v5/providers/community-providers/portkey",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/qwen/index",
+      "title": "/v5/providers/community-providers/qwen",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/react-native-apple/index",
+      "title": "/v5/providers/community-providers/react-native-apple",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/requesty/index",
+      "title": "/v5/providers/community-providers/requesty",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/sambanova/index",
+      "title": "/v5/providers/community-providers/sambanova",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/sap-ai/index",
+      "title": "/v5/providers/community-providers/sap-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/sarvam/index",
+      "title": "/v5/providers/community-providers/sarvam",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/spark/index",
+      "title": "/v5/providers/community-providers/spark",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/supermemory/index",
+      "title": "/v5/providers/community-providers/supermemory",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/voyage-ai/index",
+      "title": "/v5/providers/community-providers/voyage-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/community-providers/zhipu/index",
+      "title": "/v5/providers/community-providers/zhipu",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/axiom/index",
+      "title": "/v5/providers/observability/axiom",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/braintrust/index",
+      "title": "/v5/providers/observability/braintrust",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/helicone/index",
+      "title": "/v5/providers/observability/helicone",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/index",
+      "title": "/v5/providers/observability",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/laminar/index",
+      "title": "/v5/providers/observability/laminar",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/langfuse/index",
+      "title": "/v5/providers/observability/langfuse",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/langsmith/index",
+      "title": "/v5/providers/observability/langsmith",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/langwatch/index",
+      "title": "/v5/providers/observability/langwatch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/maxim/index",
+      "title": "/v5/providers/observability/maxim",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/patronus/index",
+      "title": "/v5/providers/observability/patronus",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/scorecard/index",
+      "title": "/v5/providers/observability/scorecard",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/signoz/index",
+      "title": "/v5/providers/observability/signoz",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/traceloop/index",
+      "title": "/v5/providers/observability/traceloop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/observability/weave/index",
+      "title": "/v5/providers/observability/weave",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/openai-compatible-providers/clarifai/index",
+      "title": "/v5/providers/openai-compatible-providers/clarifai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/openai-compatible-providers/custom-providers/index",
+      "title": "/v5/providers/openai-compatible-providers/custom-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/openai-compatible-providers/heroku/index",
+      "title": "/v5/providers/openai-compatible-providers/heroku",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/openai-compatible-providers/index",
+      "title": "/v5/providers/openai-compatible-providers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/openai-compatible-providers/lmstudio/index",
+      "title": "/v5/providers/openai-compatible-providers/lmstudio",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/openai-compatible-providers/modelrush/index",
+      "title": "/v5/providers/openai-compatible-providers/modelrush",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/providers/openai-compatible-providers/nim/index",
+      "title": "/v5/providers/openai-compatible-providers/nim",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/api-servers/express/index",
+      "title": "/v5/cookbook/api-servers/express",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/api-servers/fastify/index",
+      "title": "/v5/cookbook/api-servers/fastify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/api-servers/hono/index",
+      "title": "/v5/cookbook/api-servers/hono",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/api-servers/nest/index",
+      "title": "/v5/cookbook/api-servers/nest",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/api-servers/node-http-server/index",
+      "title": "/v5/cookbook/api-servers/node-http-server",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/claude-4/index",
+      "title": "/v5/cookbook/guides/claude-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/computer-use/index",
+      "title": "/v5/cookbook/guides/computer-use",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/deepseek-v3-2/index",
+      "title": "/v5/cookbook/guides/deepseek-v3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/gemini/index",
+      "title": "/v5/cookbook/guides/gemini",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/google-gemini-image-generation/index",
+      "title": "/v5/cookbook/guides/google-gemini-image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/gpt-5/index",
+      "title": "/v5/cookbook/guides/gpt-5",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/index",
+      "title": "/v5/cookbook/guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/llama-3_1/index",
+      "title": "/v5/cookbook/guides/llama-3_1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/multi-modal-chatbot/index",
+      "title": "/v5/cookbook/guides/multi-modal-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/natural-language-postgres/index",
+      "title": "/v5/cookbook/guides/natural-language-postgres",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/o1/index",
+      "title": "/v5/cookbook/guides/o1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/o3/index",
+      "title": "/v5/cookbook/guides/o3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/openai-responses/index",
+      "title": "/v5/cookbook/guides/openai-responses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/r1/index",
+      "title": "/v5/cookbook/guides/r1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/rag-chatbot/index",
+      "title": "/v5/cookbook/guides/rag-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/slackbot/index",
+      "title": "/v5/cookbook/guides/slackbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/guides/sonnet-3-7/index",
+      "title": "/v5/cookbook/guides/sonnet-3-7",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/caching-middleware/index",
+      "title": "/v5/cookbook/next/caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/call-tools-multiple-steps/index",
+      "title": "/v5/cookbook/next/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/call-tools/index",
+      "title": "/v5/cookbook/next/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/chat-with-pdf/index",
+      "title": "/v5/cookbook/next/chat-with-pdf",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/custom-stream-format/index",
+      "title": "/v5/cookbook/next/custom-stream-format",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/generate-image-with-chat-prompt/index",
+      "title": "/v5/cookbook/next/generate-image-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/generate-object-with-file-prompt/index",
+      "title": "/v5/cookbook/next/generate-object-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/generate-object/index",
+      "title": "/v5/cookbook/next/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/generate-text-with-chat-prompt/index",
+      "title": "/v5/cookbook/next/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/generate-text/index",
+      "title": "/v5/cookbook/next/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/human-in-the-loop/index",
+      "title": "/v5/cookbook/next/human-in-the-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/markdown-chatbot-with-memoization/index",
+      "title": "/v5/cookbook/next/markdown-chatbot-with-memoization",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/mcp-tools/index",
+      "title": "/v5/cookbook/next/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/render-visual-interface-in-chat/index",
+      "title": "/v5/cookbook/next/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/send-custom-body-from-use-chat/index",
+      "title": "/v5/cookbook/next/send-custom-body-from-use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/stream-object/index",
+      "title": "/v5/cookbook/next/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/stream-text-multistep/index",
+      "title": "/v5/cookbook/next/stream-text-multistep",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/stream-text-with-chat-prompt/index",
+      "title": "/v5/cookbook/next/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/stream-text-with-image-prompt/index",
+      "title": "/v5/cookbook/next/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/stream-text/index",
+      "title": "/v5/cookbook/next/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/next/use-shared-chat-context/index",
+      "title": "/v5/cookbook/next/use-shared-chat-context",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/call-tools-multiple-steps/index",
+      "title": "/v5/cookbook/node/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/call-tools-with-image-prompt/index",
+      "title": "/v5/cookbook/node/call-tools-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/call-tools/index",
+      "title": "/v5/cookbook/node/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/embed-text-batch/index",
+      "title": "/v5/cookbook/node/embed-text-batch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/embed-text/index",
+      "title": "/v5/cookbook/node/embed-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/generate-object-reasoning/index",
+      "title": "/v5/cookbook/node/generate-object-reasoning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/generate-object/index",
+      "title": "/v5/cookbook/node/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/generate-text-with-chat-prompt/index",
+      "title": "/v5/cookbook/node/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/generate-text-with-image-prompt/index",
+      "title": "/v5/cookbook/node/generate-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/generate-text/index",
+      "title": "/v5/cookbook/node/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/intercept-fetch-requests/index",
+      "title": "/v5/cookbook/node/intercept-fetch-requests",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/knowledge-base-agent/index",
+      "title": "/v5/cookbook/node/knowledge-base-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/local-caching-middleware/index",
+      "title": "/v5/cookbook/node/local-caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/manual-agent-loop/index",
+      "title": "/v5/cookbook/node/manual-agent-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/mcp-elicitation/index",
+      "title": "/v5/cookbook/node/mcp-elicitation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/mcp-tools/index",
+      "title": "/v5/cookbook/node/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/retrieval-augmented-generation/index",
+      "title": "/v5/cookbook/node/retrieval-augmented-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/stream-object-record-final-object/index",
+      "title": "/v5/cookbook/node/stream-object-record-final-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/stream-object-record-token-usage/index",
+      "title": "/v5/cookbook/node/stream-object-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/stream-object-with-image-prompt/index",
+      "title": "/v5/cookbook/node/stream-object-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/stream-object/index",
+      "title": "/v5/cookbook/node/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/stream-text-with-chat-prompt/index",
+      "title": "/v5/cookbook/node/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/stream-text-with-file-prompt/index",
+      "title": "/v5/cookbook/node/stream-text-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/stream-text-with-image-prompt/index",
+      "title": "/v5/cookbook/node/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/stream-text/index",
+      "title": "/v5/cookbook/node/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/node/web-search-agent/index",
+      "title": "/v5/cookbook/node/web-search-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/call-tools-in-parallel/index",
+      "title": "/v5/cookbook/rsc/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/call-tools/index",
+      "title": "/v5/cookbook/rsc/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/generate-object/index",
+      "title": "/v5/cookbook/rsc/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/generate-text-with-chat-prompt/index",
+      "title": "/v5/cookbook/rsc/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/generate-text/index",
+      "title": "/v5/cookbook/rsc/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/render-visual-interface-in-chat/index",
+      "title": "/v5/cookbook/rsc/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/restore-messages-from-database/index",
+      "title": "/v5/cookbook/rsc/restore-messages-from-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/save-messages-to-database/index",
+      "title": "/v5/cookbook/rsc/save-messages-to-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/stream-object/index",
+      "title": "/v5/cookbook/rsc/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/stream-text-with-chat-prompt/index",
+      "title": "/v5/cookbook/rsc/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/stream-text/index",
+      "title": "/v5/cookbook/rsc/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/stream-ui-record-token-usage/index",
+      "title": "/v5/cookbook/rsc/stream-ui-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/cookbook/rsc/stream-updates-to-visual-interfaces/index",
+      "title": "/v5/cookbook/rsc/stream-updates-to-visual-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/api-servers/express/index",
+      "title": "/resources/recipes/api-servers/express",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/api-servers/fastify/index",
+      "title": "/resources/recipes/api-servers/fastify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/api-servers/hono/index",
+      "title": "/resources/recipes/api-servers/hono",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/api-servers/nest/index",
+      "title": "/resources/recipes/api-servers/nest",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/api-servers/node-http-server/index",
+      "title": "/resources/recipes/api-servers/node-http-server",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/agent-context-compaction/index",
+      "title": "/resources/recipes/guides/agent-context-compaction",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/agent-skills/index",
+      "title": "/resources/recipes/guides/agent-skills",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/claude-4/index",
+      "title": "/resources/recipes/guides/claude-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/computer-use/index",
+      "title": "/resources/recipes/guides/computer-use",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/custom-memory-tool/index",
+      "title": "/resources/recipes/guides/custom-memory-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/deepseek-v3-2/index",
+      "title": "/resources/recipes/guides/deepseek-v3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/gemini/index",
+      "title": "/resources/recipes/guides/gemini",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/google-gemini-image-generation/index",
+      "title": "/resources/recipes/guides/google-gemini-image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/gpt-5/index",
+      "title": "/resources/recipes/guides/gpt-5",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/index",
+      "title": "/resources/recipes/guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/llama-3_1/index",
+      "title": "/resources/recipes/guides/llama-3_1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/multi-modal-chatbot/index",
+      "title": "/resources/recipes/guides/multi-modal-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/natural-language-postgres/index",
+      "title": "/resources/recipes/guides/natural-language-postgres",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/o1/index",
+      "title": "/resources/recipes/guides/o1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/o3/index",
+      "title": "/resources/recipes/guides/o3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/openai-responses/index",
+      "title": "/resources/recipes/guides/openai-responses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/r1/index",
+      "title": "/resources/recipes/guides/r1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/rag-chatbot/index",
+      "title": "/resources/recipes/guides/rag-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/slackbot/index",
+      "title": "/resources/recipes/guides/slackbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/guides/sonnet-3-7/index",
+      "title": "/resources/recipes/guides/sonnet-3-7",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/caching-middleware/index",
+      "title": "/resources/recipes/next/caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/call-tools-multiple-steps/index",
+      "title": "/resources/recipes/next/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/call-tools/index",
+      "title": "/resources/recipes/next/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/chat-with-pdf/index",
+      "title": "/resources/recipes/next/chat-with-pdf",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/custom-stream-format/index",
+      "title": "/resources/recipes/next/custom-stream-format",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/generate-image-with-chat-prompt/index",
+      "title": "/resources/recipes/next/generate-image-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/generate-object-with-file-prompt/index",
+      "title": "/resources/recipes/next/generate-object-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/generate-object/index",
+      "title": "/resources/recipes/next/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/generate-text-with-chat-prompt/index",
+      "title": "/resources/recipes/next/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/generate-text/index",
+      "title": "/resources/recipes/next/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/human-in-the-loop/index",
+      "title": "/resources/recipes/next/human-in-the-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/markdown-chatbot-with-memoization/index",
+      "title": "/resources/recipes/next/markdown-chatbot-with-memoization",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/mcp-tools/index",
+      "title": "/resources/recipes/next/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/render-visual-interface-in-chat/index",
+      "title": "/resources/recipes/next/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/send-custom-body-from-use-chat/index",
+      "title": "/resources/recipes/next/send-custom-body-from-use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/stream-object/index",
+      "title": "/resources/recipes/next/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/stream-text-multistep/index",
+      "title": "/resources/recipes/next/stream-text-multistep",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/stream-text-with-chat-prompt/index",
+      "title": "/resources/recipes/next/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/stream-text-with-image-prompt/index",
+      "title": "/resources/recipes/next/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/stream-text/index",
+      "title": "/resources/recipes/next/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/track-agent-token-usage/index",
+      "title": "/resources/recipes/next/track-agent-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/next/use-shared-chat-context/index",
+      "title": "/resources/recipes/next/use-shared-chat-context",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/call-tools-in-parallel/index",
+      "title": "/resources/recipes/node/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/call-tools-multiple-steps/index",
+      "title": "/resources/recipes/node/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/call-tools-with-image-prompt/index",
+      "title": "/resources/recipes/node/call-tools-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/call-tools/index",
+      "title": "/resources/recipes/node/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/dynamic-prompt-caching/index",
+      "title": "/resources/recipes/node/dynamic-prompt-caching",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/embed-text-batch/index",
+      "title": "/resources/recipes/node/embed-text-batch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/embed-text/index",
+      "title": "/resources/recipes/node/embed-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/generate-object-reasoning/index",
+      "title": "/resources/recipes/node/generate-object-reasoning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/generate-object/index",
+      "title": "/resources/recipes/node/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/generate-text-with-chat-prompt/index",
+      "title": "/resources/recipes/node/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/generate-text-with-image-prompt/index",
+      "title": "/resources/recipes/node/generate-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/generate-text/index",
+      "title": "/resources/recipes/node/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/intercept-fetch-requests/index",
+      "title": "/resources/recipes/node/intercept-fetch-requests",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/knowledge-base-agent/index",
+      "title": "/resources/recipes/node/knowledge-base-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/local-caching-middleware/index",
+      "title": "/resources/recipes/node/local-caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/manual-agent-loop/index",
+      "title": "/resources/recipes/node/manual-agent-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/mcp-elicitation/index",
+      "title": "/resources/recipes/node/mcp-elicitation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/mcp-tools/index",
+      "title": "/resources/recipes/node/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/repair-json-with-jsonrepair/index",
+      "title": "/resources/recipes/node/repair-json-with-jsonrepair",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/retrieval-augmented-generation/index",
+      "title": "/resources/recipes/node/retrieval-augmented-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/stream-object-record-final-object/index",
+      "title": "/resources/recipes/node/stream-object-record-final-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/stream-object-record-token-usage/index",
+      "title": "/resources/recipes/node/stream-object-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/stream-object-with-image-prompt/index",
+      "title": "/resources/recipes/node/stream-object-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/stream-object/index",
+      "title": "/resources/recipes/node/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/stream-text-with-chat-prompt/index",
+      "title": "/resources/recipes/node/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/stream-text-with-file-prompt/index",
+      "title": "/resources/recipes/node/stream-text-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/stream-text-with-image-prompt/index",
+      "title": "/resources/recipes/node/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/stream-text/index",
+      "title": "/resources/recipes/node/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/node/web-search-agent/index",
+      "title": "/resources/recipes/node/web-search-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/call-tools-in-parallel/index",
+      "title": "/resources/recipes/rsc/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/call-tools/index",
+      "title": "/resources/recipes/rsc/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/generate-object/index",
+      "title": "/resources/recipes/rsc/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/generate-text-with-chat-prompt/index",
+      "title": "/resources/recipes/rsc/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/generate-text/index",
+      "title": "/resources/recipes/rsc/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/render-visual-interface-in-chat/index",
+      "title": "/resources/recipes/rsc/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/restore-messages-from-database/index",
+      "title": "/resources/recipes/rsc/restore-messages-from-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/save-messages-to-database/index",
+      "title": "/resources/recipes/rsc/save-messages-to-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/stream-object/index",
+      "title": "/resources/recipes/rsc/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/stream-text-with-chat-prompt/index",
+      "title": "/resources/recipes/rsc/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/stream-text/index",
+      "title": "/resources/recipes/rsc/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/stream-ui-record-token-usage/index",
+      "title": "/resources/recipes/rsc/stream-ui-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/rsc/stream-updates-to-visual-interfaces/index",
+      "title": "/resources/recipes/rsc/stream-updates-to-visual-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/api-servers/express/index",
+      "title": "/v6/resources/recipes/api-servers/express",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/api-servers/fastify/index",
+      "title": "/v6/resources/recipes/api-servers/fastify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/api-servers/hono/index",
+      "title": "/v6/resources/recipes/api-servers/hono",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/api-servers/nest/index",
+      "title": "/v6/resources/recipes/api-servers/nest",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/api-servers/node-http-server/index",
+      "title": "/v6/resources/recipes/api-servers/node-http-server",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/agent-skills/index",
+      "title": "/v6/resources/recipes/guides/agent-skills",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/claude-4/index",
+      "title": "/v6/resources/recipes/guides/claude-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/computer-use/index",
+      "title": "/v6/resources/recipes/guides/computer-use",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/custom-memory-tool/index",
+      "title": "/v6/resources/recipes/guides/custom-memory-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/deepseek-v3-2/index",
+      "title": "/v6/resources/recipes/guides/deepseek-v3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/gemini/index",
+      "title": "/v6/resources/recipes/guides/gemini",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/google-gemini-image-generation/index",
+      "title": "/v6/resources/recipes/guides/google-gemini-image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/gpt-5/index",
+      "title": "/v6/resources/recipes/guides/gpt-5",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/index",
+      "title": "/v6/resources/recipes/guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/llama-3_1/index",
+      "title": "/v6/resources/recipes/guides/llama-3_1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/multi-modal-chatbot/index",
+      "title": "/v6/resources/recipes/guides/multi-modal-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/natural-language-postgres/index",
+      "title": "/v6/resources/recipes/guides/natural-language-postgres",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/o1/index",
+      "title": "/v6/resources/recipes/guides/o1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/o3/index",
+      "title": "/v6/resources/recipes/guides/o3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/openai-responses/index",
+      "title": "/v6/resources/recipes/guides/openai-responses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/r1/index",
+      "title": "/v6/resources/recipes/guides/r1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/rag-chatbot/index",
+      "title": "/v6/resources/recipes/guides/rag-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/slackbot/index",
+      "title": "/v6/resources/recipes/guides/slackbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/guides/sonnet-3-7/index",
+      "title": "/v6/resources/recipes/guides/sonnet-3-7",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/caching-middleware/index",
+      "title": "/v6/resources/recipes/next/caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/call-tools-multiple-steps/index",
+      "title": "/v6/resources/recipes/next/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/call-tools/index",
+      "title": "/v6/resources/recipes/next/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/chat-with-pdf/index",
+      "title": "/v6/resources/recipes/next/chat-with-pdf",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/custom-stream-format/index",
+      "title": "/v6/resources/recipes/next/custom-stream-format",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/generate-image-with-chat-prompt/index",
+      "title": "/v6/resources/recipes/next/generate-image-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/generate-object-with-file-prompt/index",
+      "title": "/v6/resources/recipes/next/generate-object-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/generate-object/index",
+      "title": "/v6/resources/recipes/next/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/generate-text-with-chat-prompt/index",
+      "title": "/v6/resources/recipes/next/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/generate-text/index",
+      "title": "/v6/resources/recipes/next/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/human-in-the-loop/index",
+      "title": "/v6/resources/recipes/next/human-in-the-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/markdown-chatbot-with-memoization/index",
+      "title": "/v6/resources/recipes/next/markdown-chatbot-with-memoization",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/mcp-tools/index",
+      "title": "/v6/resources/recipes/next/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/render-visual-interface-in-chat/index",
+      "title": "/v6/resources/recipes/next/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/send-custom-body-from-use-chat/index",
+      "title": "/v6/resources/recipes/next/send-custom-body-from-use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/stream-object/index",
+      "title": "/v6/resources/recipes/next/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/stream-text-multistep/index",
+      "title": "/v6/resources/recipes/next/stream-text-multistep",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/stream-text-with-chat-prompt/index",
+      "title": "/v6/resources/recipes/next/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/stream-text-with-image-prompt/index",
+      "title": "/v6/resources/recipes/next/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/stream-text/index",
+      "title": "/v6/resources/recipes/next/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/track-agent-token-usage/index",
+      "title": "/v6/resources/recipes/next/track-agent-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/next/use-shared-chat-context/index",
+      "title": "/v6/resources/recipes/next/use-shared-chat-context",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/call-tools-in-parallel/index",
+      "title": "/v6/resources/recipes/node/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/call-tools-multiple-steps/index",
+      "title": "/v6/resources/recipes/node/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/call-tools-with-image-prompt/index",
+      "title": "/v6/resources/recipes/node/call-tools-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/call-tools/index",
+      "title": "/v6/resources/recipes/node/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/dynamic-prompt-caching/index",
+      "title": "/v6/resources/recipes/node/dynamic-prompt-caching",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/embed-text-batch/index",
+      "title": "/v6/resources/recipes/node/embed-text-batch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/embed-text/index",
+      "title": "/v6/resources/recipes/node/embed-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/generate-object-reasoning/index",
+      "title": "/v6/resources/recipes/node/generate-object-reasoning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/generate-object/index",
+      "title": "/v6/resources/recipes/node/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/generate-text-with-chat-prompt/index",
+      "title": "/v6/resources/recipes/node/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/generate-text-with-image-prompt/index",
+      "title": "/v6/resources/recipes/node/generate-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/generate-text/index",
+      "title": "/v6/resources/recipes/node/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/intercept-fetch-requests/index",
+      "title": "/v6/resources/recipes/node/intercept-fetch-requests",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/knowledge-base-agent/index",
+      "title": "/v6/resources/recipes/node/knowledge-base-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/local-caching-middleware/index",
+      "title": "/v6/resources/recipes/node/local-caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/manual-agent-loop/index",
+      "title": "/v6/resources/recipes/node/manual-agent-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/mcp-elicitation/index",
+      "title": "/v6/resources/recipes/node/mcp-elicitation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/mcp-tools/index",
+      "title": "/v6/resources/recipes/node/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/repair-json-with-jsonrepair/index",
+      "title": "/v6/resources/recipes/node/repair-json-with-jsonrepair",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/retrieval-augmented-generation/index",
+      "title": "/v6/resources/recipes/node/retrieval-augmented-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/stream-object-record-final-object/index",
+      "title": "/v6/resources/recipes/node/stream-object-record-final-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/stream-object-record-token-usage/index",
+      "title": "/v6/resources/recipes/node/stream-object-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/stream-object-with-image-prompt/index",
+      "title": "/v6/resources/recipes/node/stream-object-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/stream-object/index",
+      "title": "/v6/resources/recipes/node/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/stream-text-with-chat-prompt/index",
+      "title": "/v6/resources/recipes/node/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/stream-text-with-file-prompt/index",
+      "title": "/v6/resources/recipes/node/stream-text-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/stream-text-with-image-prompt/index",
+      "title": "/v6/resources/recipes/node/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/stream-text/index",
+      "title": "/v6/resources/recipes/node/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/node/web-search-agent/index",
+      "title": "/v6/resources/recipes/node/web-search-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/call-tools-in-parallel/index",
+      "title": "/v6/resources/recipes/rsc/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/call-tools/index",
+      "title": "/v6/resources/recipes/rsc/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/generate-object/index",
+      "title": "/v6/resources/recipes/rsc/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/generate-text-with-chat-prompt/index",
+      "title": "/v6/resources/recipes/rsc/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/generate-text/index",
+      "title": "/v6/resources/recipes/rsc/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/render-visual-interface-in-chat/index",
+      "title": "/v6/resources/recipes/rsc/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/restore-messages-from-database/index",
+      "title": "/v6/resources/recipes/rsc/restore-messages-from-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/save-messages-to-database/index",
+      "title": "/v6/resources/recipes/rsc/save-messages-to-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/stream-object/index",
+      "title": "/v6/resources/recipes/rsc/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/stream-text-with-chat-prompt/index",
+      "title": "/v6/resources/recipes/rsc/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/stream-text/index",
+      "title": "/v6/resources/recipes/rsc/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/stream-ui-record-token-usage/index",
+      "title": "/v6/resources/recipes/rsc/stream-ui-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/rsc/stream-updates-to-visual-interfaces/index",
+      "title": "/v6/resources/recipes/rsc/stream-updates-to-visual-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/api-servers/express/index",
+      "title": "/v5/resources/recipes/api-servers/express",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/api-servers/fastify/index",
+      "title": "/v5/resources/recipes/api-servers/fastify",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/api-servers/hono/index",
+      "title": "/v5/resources/recipes/api-servers/hono",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/api-servers/nest/index",
+      "title": "/v5/resources/recipes/api-servers/nest",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/api-servers/node-http-server/index",
+      "title": "/v5/resources/recipes/api-servers/node-http-server",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/claude-4/index",
+      "title": "/v5/resources/recipes/guides/claude-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/computer-use/index",
+      "title": "/v5/resources/recipes/guides/computer-use",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/deepseek-v3-2/index",
+      "title": "/v5/resources/recipes/guides/deepseek-v3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/gemini/index",
+      "title": "/v5/resources/recipes/guides/gemini",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/google-gemini-image-generation/index",
+      "title": "/v5/resources/recipes/guides/google-gemini-image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/gpt-5/index",
+      "title": "/v5/resources/recipes/guides/gpt-5",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/index",
+      "title": "/v5/resources/recipes/guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/llama-3_1/index",
+      "title": "/v5/resources/recipes/guides/llama-3_1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/multi-modal-chatbot/index",
+      "title": "/v5/resources/recipes/guides/multi-modal-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/natural-language-postgres/index",
+      "title": "/v5/resources/recipes/guides/natural-language-postgres",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/o1/index",
+      "title": "/v5/resources/recipes/guides/o1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/o3/index",
+      "title": "/v5/resources/recipes/guides/o3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/openai-responses/index",
+      "title": "/v5/resources/recipes/guides/openai-responses",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/r1/index",
+      "title": "/v5/resources/recipes/guides/r1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/rag-chatbot/index",
+      "title": "/v5/resources/recipes/guides/rag-chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/slackbot/index",
+      "title": "/v5/resources/recipes/guides/slackbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/guides/sonnet-3-7/index",
+      "title": "/v5/resources/recipes/guides/sonnet-3-7",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/caching-middleware/index",
+      "title": "/v5/resources/recipes/next/caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/call-tools-multiple-steps/index",
+      "title": "/v5/resources/recipes/next/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/call-tools/index",
+      "title": "/v5/resources/recipes/next/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/chat-with-pdf/index",
+      "title": "/v5/resources/recipes/next/chat-with-pdf",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/custom-stream-format/index",
+      "title": "/v5/resources/recipes/next/custom-stream-format",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/generate-image-with-chat-prompt/index",
+      "title": "/v5/resources/recipes/next/generate-image-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/generate-object-with-file-prompt/index",
+      "title": "/v5/resources/recipes/next/generate-object-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/generate-object/index",
+      "title": "/v5/resources/recipes/next/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/generate-text-with-chat-prompt/index",
+      "title": "/v5/resources/recipes/next/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/generate-text/index",
+      "title": "/v5/resources/recipes/next/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/human-in-the-loop/index",
+      "title": "/v5/resources/recipes/next/human-in-the-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/markdown-chatbot-with-memoization/index",
+      "title": "/v5/resources/recipes/next/markdown-chatbot-with-memoization",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/mcp-tools/index",
+      "title": "/v5/resources/recipes/next/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/render-visual-interface-in-chat/index",
+      "title": "/v5/resources/recipes/next/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/send-custom-body-from-use-chat/index",
+      "title": "/v5/resources/recipes/next/send-custom-body-from-use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/stream-object/index",
+      "title": "/v5/resources/recipes/next/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/stream-text-multistep/index",
+      "title": "/v5/resources/recipes/next/stream-text-multistep",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/stream-text-with-chat-prompt/index",
+      "title": "/v5/resources/recipes/next/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/stream-text-with-image-prompt/index",
+      "title": "/v5/resources/recipes/next/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/stream-text/index",
+      "title": "/v5/resources/recipes/next/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/next/use-shared-chat-context/index",
+      "title": "/v5/resources/recipes/next/use-shared-chat-context",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/call-tools-multiple-steps/index",
+      "title": "/v5/resources/recipes/node/call-tools-multiple-steps",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/call-tools-with-image-prompt/index",
+      "title": "/v5/resources/recipes/node/call-tools-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/call-tools/index",
+      "title": "/v5/resources/recipes/node/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/embed-text-batch/index",
+      "title": "/v5/resources/recipes/node/embed-text-batch",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/embed-text/index",
+      "title": "/v5/resources/recipes/node/embed-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/generate-object-reasoning/index",
+      "title": "/v5/resources/recipes/node/generate-object-reasoning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/generate-object/index",
+      "title": "/v5/resources/recipes/node/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/generate-text-with-chat-prompt/index",
+      "title": "/v5/resources/recipes/node/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/generate-text-with-image-prompt/index",
+      "title": "/v5/resources/recipes/node/generate-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/generate-text/index",
+      "title": "/v5/resources/recipes/node/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/intercept-fetch-requests/index",
+      "title": "/v5/resources/recipes/node/intercept-fetch-requests",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/knowledge-base-agent/index",
+      "title": "/v5/resources/recipes/node/knowledge-base-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/local-caching-middleware/index",
+      "title": "/v5/resources/recipes/node/local-caching-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/manual-agent-loop/index",
+      "title": "/v5/resources/recipes/node/manual-agent-loop",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/mcp-elicitation/index",
+      "title": "/v5/resources/recipes/node/mcp-elicitation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/mcp-tools/index",
+      "title": "/v5/resources/recipes/node/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/retrieval-augmented-generation/index",
+      "title": "/v5/resources/recipes/node/retrieval-augmented-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/stream-object-record-final-object/index",
+      "title": "/v5/resources/recipes/node/stream-object-record-final-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/stream-object-record-token-usage/index",
+      "title": "/v5/resources/recipes/node/stream-object-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/stream-object-with-image-prompt/index",
+      "title": "/v5/resources/recipes/node/stream-object-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/stream-object/index",
+      "title": "/v5/resources/recipes/node/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/stream-text-with-chat-prompt/index",
+      "title": "/v5/resources/recipes/node/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/stream-text-with-file-prompt/index",
+      "title": "/v5/resources/recipes/node/stream-text-with-file-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/stream-text-with-image-prompt/index",
+      "title": "/v5/resources/recipes/node/stream-text-with-image-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/stream-text/index",
+      "title": "/v5/resources/recipes/node/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/node/web-search-agent/index",
+      "title": "/v5/resources/recipes/node/web-search-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/call-tools-in-parallel/index",
+      "title": "/v5/resources/recipes/rsc/call-tools-in-parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/call-tools/index",
+      "title": "/v5/resources/recipes/rsc/call-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/generate-object/index",
+      "title": "/v5/resources/recipes/rsc/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/generate-text-with-chat-prompt/index",
+      "title": "/v5/resources/recipes/rsc/generate-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/generate-text/index",
+      "title": "/v5/resources/recipes/rsc/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/render-visual-interface-in-chat/index",
+      "title": "/v5/resources/recipes/rsc/render-visual-interface-in-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/restore-messages-from-database/index",
+      "title": "/v5/resources/recipes/rsc/restore-messages-from-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/save-messages-to-database/index",
+      "title": "/v5/resources/recipes/rsc/save-messages-to-database",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/stream-object/index",
+      "title": "/v5/resources/recipes/rsc/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/stream-text-with-chat-prompt/index",
+      "title": "/v5/resources/recipes/rsc/stream-text-with-chat-prompt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/stream-text/index",
+      "title": "/v5/resources/recipes/rsc/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/stream-ui-record-token-usage/index",
+      "title": "/v5/resources/recipes/rsc/stream-ui-record-token-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/rsc/stream-updates-to-visual-interfaces/index",
+      "title": "/v5/resources/recipes/rsc/stream-updates-to-visual-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
       "name": "index",
       "title": "/",
       "template": "templates/raw.html"
     },
     {
-      "name": "providers/ai-sdk-providers/openai/index",
-      "title": "/providers/ai-sdk-providers/openai",
+      "name": "resources/index",
+      "title": "/resources",
       "template": "templates/raw.html"
     },
     {
-      "name": "cookbook/next/generate-text/index",
-      "title": "/cookbook/next/generate-text",
+      "name": "resources/tools/index",
+      "title": "/resources/tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/templates/index",
+      "title": "/resources/templates",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/showcase/index",
+      "title": "/resources/showcase",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "unauthenticated-ai-gateway/index",
+      "title": "/unauthenticated-ai-gateway",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "playground-recovery/index",
+      "title": "/playground-recovery",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/code-execution/index",
+      "title": "/resources/tools/code-execution",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/exa/index",
+      "title": "/resources/tools/exa",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/parallel/index",
+      "title": "/resources/tools/parallel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/ctx-zip/index",
+      "title": "/resources/tools/ctx-zip",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/perplexity-search/index",
+      "title": "/resources/tools/perplexity-search",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/tavily/index",
+      "title": "/resources/tools/tavily",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/firecrawl/index",
+      "title": "/resources/tools/firecrawl",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/bedrock-agentcore/index",
+      "title": "/resources/tools/bedrock-agentcore",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/superagent/index",
+      "title": "/resources/tools/superagent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/tako-search/index",
+      "title": "/resources/tools/tako-search",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/valyu/index",
+      "title": "/resources/tools/valyu",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/airweave/index",
+      "title": "/resources/tools/airweave",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/bash-tool/index",
+      "title": "/resources/tools/bash-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/browserbase/index",
+      "title": "/resources/tools/browserbase",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/you-search/index",
+      "title": "/resources/tools/you-search",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/nitrosend/index",
+      "title": "/resources/tools/nitrosend",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/fatstack/index",
+      "title": "/resources/tools/fatstack",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/pushary/index",
+      "title": "/resources/tools/pushary",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/tools/pexafy/index",
+      "title": "/resources/tools/pexafy",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "resources/recipes/index",
+      "title": "/resources/recipes",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/resources/recipes/index",
+      "title": "/v6/resources/recipes",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/resources/recipes/index",
+      "title": "/v5/resources/recipes",
       "template": "templates/raw.html"
     }
   ]

@@ -27,11 +27,17 @@ await build({entryPoints:['ui/renderer-entry.tsx'],outfile:'generated/renderer.c
 const require=createRequire(import.meta.url);
 const {config,versionedComponents}=require(path.join(root,'generated/renderer.cjs'));
 const opts=await applyMdxPreset(config.mdxOptions)('runtime');
-const allDocs=process.argv.includes('--all-docs');
+// Same MDAST serialization boundary as pinned Fumadocs processed Markdown.
+// Capture transformed Markdown without a second parse or an HTML round trip.
+const {toMarkdown}=createRequire(import.meta.resolve('fumadocs-mdx'))('mdast-util-to-markdown');
+function captureProcessedMarkdown(){const processor=this;return(tree,file)=>{file.data.processedMarkdown=toMarkdown(tree,{...processor.data('settings'),extensions:processor.data('toMarkdownExtensions')||[]});};}
+opts.remarkPlugins=[...opts.remarkPlugins,captureProcessedMarkdown];
+const allContent=process.argv.includes('--all-content');
+const allDocs=allContent||process.argv.includes('--all-docs');
 const corpus=allDocs||process.argv.includes('--current-docs');
 const sourceRoot=corpus?'generated/synced':'sources';
-const provenance=JSON.parse(await readFile(allDocs?'generated/docs-source-map.json':corpus?'generated/current-docs-source-map.json':'investigation/A3-SOURCE-PROVENANCE.json','utf8'));
-const cachePath=allDocs?'generated/docs-mdx-cache.json':corpus?'generated/current-docs-mdx-cache.json':'generated/mdx-cache.json';
+const provenance=JSON.parse(await readFile(allContent?'generated/content-source-map.json':allDocs?'generated/docs-source-map.json':corpus?'generated/current-docs-source-map.json':'investigation/A3-SOURCE-PROVENANCE.json','utf8'));
+const cachePath=allContent?'generated/content-mdx-cache.json':allDocs?'generated/docs-mdx-cache.json':corpus?'generated/current-docs-mdx-cache.json':'generated/mdx-cache.json';
 const results=[];
 let cache={};try{cache=JSON.parse(await readFile(cachePath,'utf8'));}catch{}
 const dependencies=[];
@@ -54,9 +60,9 @@ for(const file of provenance.fixtures){
  const prefix=file.startsWith('v7/')?'':'/'+file.split('/')[0];
  const html=renderToString(React.createElement(mdx.default,{components:versionedComponents(prefix)}));
  await mkdir(path.dirname(target),{recursive:true});let old;try{old=await readFile(target,'utf8');}catch{}if(old!==html)await writeFile(target,html);
- const result={file,metadata:fm.data,toc:(mdx.toc??[]).map(({depth,url,title})=>({depth,url,title:titleTree(title)})),bytes:Buffer.byteLength(html),compile_ms:compiled-begin,render_ms:performance.now()-compiled};results.push(result);
+ const result={file,processedMarkdown:output.data.processedMarkdown,structuredData:mdx.structuredData,metadata:fm.data,toc:(mdx.toc??[]).map(({depth,url,title})=>({depth,url,title:titleTree(title)})),bytes:Buffer.byteLength(html),compile_ms:compiled-begin,render_ms:performance.now()-compiled};results.push(result);
  cache[file]={key,outputHash:createHash('sha256').update(html).digest('hex'),result};
 }
 await writeFile(cachePath,JSON.stringify(cache,null,2)+'\n');
-await writeFile(allDocs?'generated/docs-render-results.json':corpus?'generated/current-docs-render-results.json':'generated/a3-render-results.json',JSON.stringify(results,null,2)+'\n');
+await writeFile(allContent?'generated/content-render-results.json':allDocs?'generated/docs-render-results.json':corpus?'generated/current-docs-render-results.json':'generated/a3-render-results.json',JSON.stringify(results,null,2)+'\n');
 console.log(JSON.stringify(results,null,2));

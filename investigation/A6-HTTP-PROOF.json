@@ -1,0 +1,191 @@
+[
+  {
+    "path": "/",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true
+  },
+  {
+    "path": "/docs/introduction",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true
+  },
+  {
+    "path": "/docs/introduction.md",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/docs/introduction.mdx",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/docs/introduction",
+    "requestHeaders": {
+      "Accept": "text/markdown"
+    },
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/v5/docs/introduction",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true
+  },
+  {
+    "path": "/v6/docs/introduction",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true
+  },
+  {
+    "path": "/v5",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/v6",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/v4",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/cookbook",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/resources/recipes",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true
+  },
+  {
+    "path": "/llms.txt",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/llms-full.txt",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/agents.md",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/sitemap.md",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/sitemap.xml",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/robots.txt",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/.well-known/mcp.json",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/does-not-exist",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/og/docs?title=Fixture&description=Deterministic%20fixture",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/api/search?query=streamText&tag=v7",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/api/search?query=streamText&tag=v6",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  },
+  {
+    "path": "/api/search?query=streamText&tag=v5",
+    "requestHeaders": {},
+    "status_equal": true,
+    "media_type_equal": true,
+    "location_equal": true,
+    "body_equal": true
+  }
+]

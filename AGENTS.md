@@ -22,4 +22,4 @@ Do not declare completion without clean-checkout verification.
 
 ## Project pipeline
 
-Use `python3 scripts/build-docs.py` for current-corpus publication and `nift status` afterward. Bare Nift composes prepared inputs. A5 currently tracks 748 routes; complete-site parity and benchmarks remain open. `build-proof.py` replaces tracking with the historical seven-route prototype. Preserve the maintained source-model distinction and avoid live AI/feedback/analytics requests.
+Use `python3 scripts/build-content.py` for complete publication and `nift status` afterward. Bare Nift composes prepared inputs. Earlier proof/docs commands replace tracking with historical partial scopes. Maintain the source-model distinction and do not send live AI/feedback/analytics requests. Keep benchmark runs serialized and fixture mutations/restoration audited against immutable source provenance.

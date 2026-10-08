@@ -31,6 +31,7 @@ export function CardSnippet({ text, label }: { text: string; label?: string }) {
     <button
       aria-label={copied ? 'Copied' : (label ?? `Copy ${text}`)}
       className="relative w-full rounded-md border border-gray-alpha-400 bg-background-100 py-[10px] pr-12 pl-3 text-left font-mono text-copy-13 leading-5 text-gray-1000 transition-colors hover:bg-gray-alpha-100"
+      data-ai-copy={text}
       data-card-snippet
       onClick={event => {
         event.preventDefault();

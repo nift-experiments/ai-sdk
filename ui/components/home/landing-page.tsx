@@ -1,3 +1,4 @@
+import {Island} from '../../island-boundary';
 import { Badge } from '@vercel/geistdocs/components/badge';
 import { Button } from '@vercel/geistdocs/components/button';
 import {
@@ -27,8 +28,8 @@ import type { ReactNode } from 'react';
 import { PROMPT_TEMPLATES } from '@/lib/home/prompt-templates';
 import { CardSnippet } from './card-snippet';
 import { LogoElementor, LogoOpencode } from './company-logos';
-import { CodeExamplesSection } from './code-examples';
-import { HeroInteractive } from './hero-interactive';
+const CodeExamplesSection=()=> <Island name="CodeExamplesSection" input={{}}/>;
+const HeroInteractive=(input:any)=> <Island name="HeroInteractive" input={input}/>;
 import { InstallCommand } from './install-command';
 import { OssStatsSection } from './oss-stats-section';
 
@@ -172,32 +173,7 @@ export function LandingPage() {
             A unified TypeScript SDK for building AI apps with modern streaming,
             fallbacks, and multi-model support—powered by Vercel
           </p>
-          <CommandPromptRoot
-            className="mt-8 flex w-full flex-col items-center gap-2"
-            defaultValue="humans"
-          >
-            <CommandPromptList>
-              <CommandPromptTrigger value="humans">
-                For humans
-              </CommandPromptTrigger>
-              <CommandPromptTriggerDivider />
-              <CommandPromptTrigger value="agents">
-                For agents
-              </CommandPromptTrigger>
-            </CommandPromptList>
-            <CommandPromptSurface>
-              <CommandPromptPrefix>$</CommandPromptPrefix>
-              <CommandPromptViewport>
-                <CommandPromptContent value="humans">
-                  npm install ai
-                </CommandPromptContent>
-                <CommandPromptContent value="agents">
-                  npx skills add vercel/ai
-                </CommandPromptContent>
-              </CommandPromptViewport>
-              <CommandPromptCopy aria-label="Copy install command" />
-            </CommandPromptSurface>
-          </CommandPromptRoot>
+          <Island name="HomeInstall" input={{}}/>
           <HeroInteractive className="mt-16 w-full md:mt-20" />
         </section>
         <OssStatsSection />
@@ -325,7 +301,7 @@ export function LandingPage() {
                   Read the docs
                 </Button>
               </Link>
-              <InstallCommand command="npm i ai" />
+              <Island name="InstallCommand" input={{command:"npm i ai"}}/>
             </div>
           </div>
           <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-6">

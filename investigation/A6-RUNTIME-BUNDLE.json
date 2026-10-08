@@ -1,0 +1,1949 @@
+{
+  "inputs": [
+    "ui/lib/playground-urls.ts",
+    "node_modules/.pnpm/@vercel+agent-readability@0.7.0_next@16.4.0_@opentelemetry+api@1.9.1_react-dom@19.2.6_react@19.2.6__react@19.2.6_/node_modules/@vercel/agent-readability/dist/index.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/config.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/markdown-negotiation.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/not-found.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/localize-href.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/routes/not-found.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/version.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/exchange-vercel-oidc-token.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/get-context.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/get-vercel-oidc-token-sync.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/token-error.js",
+    "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/errors.js",
+    "node_modules/.pnpm/isexe@2.0.0/node_modules/isexe/windows.js",
+    "node_modules/.pnpm/isexe@2.0.0/node_modules/isexe/mode.js",
+    "node_modules/.pnpm/isexe@2.0.0/node_modules/isexe/index.js",
+    "node_modules/.pnpm/which@2.0.2/node_modules/which/which.js",
+    "node_modules/.pnpm/path-key@3.1.1/node_modules/path-key/index.js",
+    "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/util/resolveCommand.js",
+    "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/util/escape.js",
+    "node_modules/.pnpm/shebang-regex@3.0.0/node_modules/shebang-regex/index.js",
+    "node_modules/.pnpm/shebang-command@2.0.0/node_modules/shebang-command/index.js",
+    "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/util/readShebang.js",
+    "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/parse.js",
+    "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/enoent.js",
+    "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/index.js",
+    "node_modules/.pnpm/strip-final-newline@2.0.0/node_modules/strip-final-newline/index.js",
+    "node_modules/.pnpm/npm-run-path@4.0.1/node_modules/npm-run-path/index.js",
+    "node_modules/.pnpm/mimic-fn@2.1.0/node_modules/mimic-fn/index.js",
+    "node_modules/.pnpm/onetime@5.1.2/node_modules/onetime/index.js",
+    "node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals/build/src/core.js",
+    "node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals/build/src/realtime.js",
+    "node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals/build/src/signals.js",
+    "node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals/build/src/main.js",
+    "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js",
+    "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/stdio.js",
+    "node_modules/.pnpm/signal-exit@3.0.7/node_modules/signal-exit/signals.js",
+    "node_modules/.pnpm/signal-exit@3.0.7/node_modules/signal-exit/index.js",
+    "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/kill.js",
+    "node_modules/.pnpm/is-stream@2.0.1/node_modules/is-stream/index.js",
+    "node_modules/.pnpm/get-stream@6.0.1/node_modules/get-stream/buffer-stream.js",
+    "node_modules/.pnpm/get-stream@6.0.1/node_modules/get-stream/index.js",
+    "node_modules/.pnpm/merge-stream@2.0.0/node_modules/merge-stream/index.js",
+    "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/stream.js",
+    "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/promise.js",
+    "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/command.js",
+    "node_modules/.pnpm/execa@5.1.1/node_modules/execa/index.js",
+    "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/envpath.js",
+    "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/errutils.js",
+    "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/fsutils.js",
+    "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/safety.js",
+    "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/lookup.js",
+    "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/exec.js",
+    "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/index.js",
+    "node_modules/.pnpm/@vercel+cli-config@0.3.1/node_modules/@vercel/cli-config/dist/index.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/token-io.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/oauth.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/auth-errors.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/token-util.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/token.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/get-vercel-oidc-token-with-refresh.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/digest.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/buffer_utils.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/base64url.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/errors.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/random.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/iv.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/check_iv_length.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/is_key_object.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/check_cek_length.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/timing_safe_equal.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/cbc_tag.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/webcrypto.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/crypto_key.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/invalid_key_input.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/ciphers.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/is_key_like.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/decrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/is_disjoint.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/is_object.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/aeskw.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/is_jwk.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/get_named_curve.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/ecdhes.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/check_p2s.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/pbes2kw.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/check_key_length.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/rsaes.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/normalize_key.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/cek.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/asn1.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/jwk_to_key.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/key/import.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/check_key_type.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/encrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/aesgcmkw.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/decrypt_key_management.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/validate_crit.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/validate_algorithms.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/flattened/decrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/compact/decrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/general/decrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/private_symbols.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/key_to_jwk.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/key/export.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/encrypt_key_management.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/flattened/encrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/general/encrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/dsa_digest.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/node_key.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/hmac_digest.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/get_sign_verify_key.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/sign.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/verify.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/flattened/verify.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/compact/verify.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/general/verify.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/epoch.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/secs.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/jwt_claims_set.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/verify.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/decrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/compact/encrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/flattened/sign.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/compact/sign.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/general/sign.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/produce.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/sign.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/encrypt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwk/thumbprint.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwk/embedded.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwks/local.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/fetch_jwks.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwks/remote.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/unsecured.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/base64url.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/decode_protected_header.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/decode_jwt.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/generate.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/key/generate_key_pair.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/key/generate_secret.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/runtime.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/runtime.js",
+    "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/index.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/verify-vercel-oidc-token.js",
+    "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/index.js",
+    "node_modules/.pnpm/@ai-sdk+provider@3.0.13/node_modules/@ai-sdk/provider/dist/index.mjs",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/core.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/errors.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/parse.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/checks.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/doc.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/versions.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/schemas.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/memoizer.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ar.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/az.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/be.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/bg.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/bn.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ca.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ckb.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/cs.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/da.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/de.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/el.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/en.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/eo.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/es.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fa.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fi.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fr.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fr-CA.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/gu.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/he.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hi.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hr.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hu.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hy.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/id.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/is.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/it.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ja.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ka.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/km.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/kh.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/kn.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ko.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/lt.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/mk.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ms.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ne.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/nl.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/nn.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/no.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ota.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ps.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pl.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pt.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pt-BR.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ro.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ru.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sk.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sl.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sv.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ta.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tg.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/th.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tk.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tr.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/uk.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ua.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ur.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/uz.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/vi.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/zh-CN.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/zh-TW.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/yo.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/index.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/registries.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/compile.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/api.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/to-json-schema.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema-processors.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema-generator.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/index.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/checks.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/errors.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/parse.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/schemas.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/compat.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/iso.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/from-json-schema.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/visit.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/deep-partial.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/in-out.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/coerce.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/external.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/index.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/index.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/helpers/util.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/ZodError.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/locales/en.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/errors.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/helpers/parseUtil.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/helpers/typeAliases.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/helpers/errorUtil.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/types.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/external.js",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/index.js",
+    "node_modules/.pnpm/eventsource-parser@3.1.1/node_modules/eventsource-parser/dist/index.js",
+    "node_modules/.pnpm/eventsource-parser@3.1.1/node_modules/eventsource-parser/dist/stream.js",
+    "node_modules/.pnpm/@ai-sdk+provider-utils@4.0.37_zod@4.6.5/node_modules/@ai-sdk/provider-utils/dist/index.mjs",
+    "node_modules/.pnpm/zod@4.6.5/node_modules/zod/index.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/get-context.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/token-error.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/token-io.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/auth-config.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/oauth.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/auth-errors.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/token-util.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/token.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/get-vercel-oidc-token.js",
+    "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/index.js",
+    "node_modules/.pnpm/@ai-sdk+gateway@3.0.145_zod@4.6.5/node_modules/@ai-sdk/gateway/dist/index.mjs",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/version.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/internal/semver.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/internal/global-utils.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/diag/ComponentLogger.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/diag/types.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/diag/internal/logLevelLogger.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/api/diag.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/baggage/internal/baggage-impl.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/baggage/internal/symbol.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/baggage/utils.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/context/context.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/diag/consoleLogger.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/metrics/NoopMeter.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/metrics/Metric.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/propagation/TextMapPropagator.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/context/NoopContextManager.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/api/context.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/trace_flags.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/invalid-span-constants.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/NonRecordingSpan.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/context-utils.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/spancontext-utils.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/NoopTracer.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/ProxyTracer.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/NoopTracerProvider.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/ProxyTracerProvider.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/SamplingResult.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/span_kind.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/status.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/internal/tracestate-validators.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/internal/tracestate-impl.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/internal/utils.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/context-api.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/diag-api.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/metrics/NoopMeterProvider.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/api/metrics.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/metrics-api.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/propagation/NoopTextMapPropagator.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/baggage/context-helpers.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/api/propagation.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/propagation-api.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/api/trace.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace-api.js",
+    "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/index.js",
+    "node_modules/.pnpm/ai@6.0.221_zod@4.6.5/node_modules/ai/dist/index.mjs",
+    "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-ZMWYLUDP.js",
+    "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-OTD7MV33.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/tokenizer/languages.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/utils.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/errors.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/defaults.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/internal-document-id-store.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/documents-store.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/plugins.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/hooks.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/avl.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/flat.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/levenshtein.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/radix.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/bkd.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/bool.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/algorithms.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/vector.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/index.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/sorter.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/tokenizer/diacritics.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/tokenizer/english-stemmer.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/tokenizer/index.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/pinning.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/create.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/docs.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/insert.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/pinning.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/remove.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/constants.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/facets.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/groups.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/pinning-manager.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/search-fulltext.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/search-vector.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/search-hybrid.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/search.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/serialization.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/update.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/upsert.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/answer-session.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/types.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/internals.js",
+    "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/index.js",
+    "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-XOFXGHS4.js",
+    "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-U67V476Y.js",
+    "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-XZSI7AHE.js",
+    "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-XKUN7AUK.js",
+    "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/search/server.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/chat/source-chunks.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/mixedbread.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/chat-retrieval.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/eve-agent.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/eve-agent-session-cookie.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/page-visibility.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/routes/chat.js",
+    "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-ai-sdk.js",
+    "ui/geistdocs.tsx",
+    "ui/lib/geistdocs/migration-site-url.ts",
+    "ui/lib/geistdocs/config.tsx",
+    "ui/og-runtime.tsx",
+    "ui/lib/feedback/message-sources.js",
+    "ui/lib/feedback/message-text.js",
+    "ui/lib/feedback/message-feedback.js",
+    "ui/feedback-runtime.ts",
+    "ui/runtime-api.ts"
+  ],
+  "outputs": {
+    "runtime/runtime-api.cjs": {
+      "imports": [
+        {
+          "path": "node:fs/promises",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "child_process",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "assert",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "events",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "child_process",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:fs/promises",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:fs/promises",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:fs/promises",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:http",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:https",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:events",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:fs/promises",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:fs/promises",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node:path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "@vercel/og",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "react/jsx-runtime",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "exports": [],
+      "entryPoint": "ui/runtime-api.ts",
+      "inputs": {
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/version.js": {
+          "bytesInOutput": 1224
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/exchange-vercel-oidc-token.js": {
+          "bytesInOutput": 5001
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/get-context.js": {
+          "bytesInOutput": 1505
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/get-vercel-oidc-token-sync.js": {
+          "bytesInOutput": 1701
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/token-error.js": {
+          "bytesInOutput": 1616
+        },
+        "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/errors.js": {
+          "bytesInOutput": 6194
+        },
+        "node_modules/.pnpm/isexe@2.0.0/node_modules/isexe/windows.js": {
+          "bytesInOutput": 1152
+        },
+        "node_modules/.pnpm/isexe@2.0.0/node_modules/isexe/mode.js": {
+          "bytesInOutput": 1111
+        },
+        "node_modules/.pnpm/isexe@2.0.0/node_modules/isexe/index.js": {
+          "bytesInOutput": 1403
+        },
+        "node_modules/.pnpm/which@2.0.2/node_modules/which/which.js": {
+          "bytesInOutput": 3477
+        },
+        "node_modules/.pnpm/path-key@3.1.1/node_modules/path-key/index.js": {
+          "bytesInOutput": 550
+        },
+        "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/util/resolveCommand.js": {
+          "bytesInOutput": 1337
+        },
+        "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/util/escape.js": {
+          "bytesInOutput": 796
+        },
+        "node_modules/.pnpm/shebang-regex@3.0.0/node_modules/shebang-regex/index.js": {
+          "bytesInOutput": 200
+        },
+        "node_modules/.pnpm/shebang-command@2.0.0/node_modules/shebang-command/index.js": {
+          "bytesInOutput": 605
+        },
+        "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/util/readShebang.js": {
+          "bytesInOutput": 611
+        },
+        "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/parse.js": {
+          "bytesInOutput": 2128
+        },
+        "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/lib/enoent.js": {
+          "bytesInOutput": 1424
+        },
+        "node_modules/.pnpm/cross-spawn@7.0.6/node_modules/cross-spawn/index.js": {
+          "bytesInOutput": 991
+        },
+        "node_modules/.pnpm/strip-final-newline@2.0.0/node_modules/strip-final-newline/index.js": {
+          "bytesInOutput": 611
+        },
+        "node_modules/.pnpm/npm-run-path@4.0.1/node_modules/npm-run-path/index.js": {
+          "bytesInOutput": 1239
+        },
+        "node_modules/.pnpm/mimic-fn@2.1.0/node_modules/mimic-fn/index.js": {
+          "bytesInOutput": 424
+        },
+        "node_modules/.pnpm/onetime@5.1.2/node_modules/onetime/index.js": {
+          "bytesInOutput": 1374
+        },
+        "node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals/build/src/core.js": {
+          "bytesInOutput": 6606
+        },
+        "node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals/build/src/realtime.js": {
+          "bytesInOutput": 852
+        },
+        "node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals/build/src/signals.js": {
+          "bytesInOutput": 1090
+        },
+        "node_modules/.pnpm/human-signals@2.1.0/node_modules/human-signals/build/src/main.js": {
+          "bytesInOutput": 2093
+        },
+        "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js": {
+          "bytesInOutput": 2543
+        },
+        "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/stdio.js": {
+          "bytesInOutput": 1441
+        },
+        "node_modules/.pnpm/signal-exit@3.0.7/node_modules/signal-exit/signals.js": {
+          "bytesInOutput": 773
+        },
+        "node_modules/.pnpm/signal-exit@3.0.7/node_modules/signal-exit/index.js": {
+          "bytesInOutput": 5062
+        },
+        "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/kill.js": {
+          "bytesInOutput": 3232
+        },
+        "node_modules/.pnpm/is-stream@2.0.1/node_modules/is-stream/index.js": {
+          "bytesInOutput": 830
+        },
+        "node_modules/.pnpm/get-stream@6.0.1/node_modules/get-stream/buffer-stream.js": {
+          "bytesInOutput": 1263
+        },
+        "node_modules/.pnpm/get-stream@6.0.1/node_modules/get-stream/index.js": {
+          "bytesInOutput": 1884
+        },
+        "node_modules/.pnpm/merge-stream@2.0.0/node_modules/merge-stream/index.js": {
+          "bytesInOutput": 1188
+        },
+        "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/stream.js": {
+          "bytesInOutput": 2494
+        },
+        "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/promise.js": {
+          "bytesInOutput": 1276
+        },
+        "node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/command.js": {
+          "bytesInOutput": 1352
+        },
+        "node_modules/.pnpm/execa@5.1.1/node_modules/execa/index.js": {
+          "bytesInOutput": 7730
+        },
+        "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/envpath.js": {
+          "bytesInOutput": 3703
+        },
+        "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/errutils.js": {
+          "bytesInOutput": 1623
+        },
+        "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/fsutils.js": {
+          "bytesInOutput": 4075
+        },
+        "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/safety.js": {
+          "bytesInOutput": 6894
+        },
+        "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/lookup.js": {
+          "bytesInOutput": 18737
+        },
+        "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/exec.js": {
+          "bytesInOutput": 4904
+        },
+        "node_modules/.pnpm/@vercel+cli-exec@1.0.1/node_modules/@vercel/cli-exec/dist/index.js": {
+          "bytesInOutput": 1526
+        },
+        "node_modules/.pnpm/@vercel+cli-config@0.3.1/node_modules/@vercel/cli-config/dist/index.js": {
+          "bytesInOutput": 127960
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/token-io.js": {
+          "bytesInOutput": 3232
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/oauth.js": {
+          "bytesInOutput": 3544
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/auth-errors.js": {
+          "bytesInOutput": 1864
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/token-util.js": {
+          "bytesInOutput": 9938
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/token.js": {
+          "bytesInOutput": 3110
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/get-vercel-oidc-token-with-refresh.js": {
+          "bytesInOutput": 2896
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/digest.js": {
+          "bytesInOutput": 406
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/buffer_utils.js": {
+          "bytesInOutput": 2321
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/base64url.js": {
+          "bytesInOutput": 1151
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/errors.js": {
+          "bytesInOutput": 4901
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/random.js": {
+          "bytesInOutput": 442
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/iv.js": {
+          "bytesInOutput": 877
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/check_iv_length.js": {
+          "bytesInOutput": 546
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/is_key_object.js": {
+          "bytesInOutput": 339
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/check_cek_length.js": {
+          "bytesInOutput": 1615
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/timing_safe_equal.js": {
+          "bytesInOutput": 394
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/cbc_tag.js": {
+          "bytesInOutput": 711
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/webcrypto.js": {
+          "bytesInOutput": 520
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/crypto_key.js": {
+          "bytesInOutput": 5602
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/invalid_key_input.js": {
+          "bytesInOutput": 1288
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/ciphers.js": {
+          "bytesInOutput": 436
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/is_key_like.js": {
+          "bytesInOutput": 639
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/decrypt.js": {
+          "bytesInOutput": 4188
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/is_disjoint.js": {
+          "bytesInOutput": 839
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/is_object.js": {
+          "bytesInOutput": 797
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/aeskw.js": {
+          "bytesInOutput": 2764
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/is_jwk.js": {
+          "bytesInOutput": 842
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/get_named_curve.js": {
+          "bytesInOutput": 2246
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/ecdhes.js": {
+          "bytesInOutput": 3329
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/check_p2s.js": {
+          "bytesInOutput": 491
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/pbes2kw.js": {
+          "bytesInOutput": 2509
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/check_key_length.js": {
+          "bytesInOutput": 794
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/rsaes.js": {
+          "bytesInOutput": 2950
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/normalize_key.js": {
+          "bytesInOutput": 266
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/cek.js": {
+          "bytesInOutput": 868
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/asn1.js": {
+          "bytesInOutput": 2232
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/jwk_to_key.js": {
+          "bytesInOutput": 523
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/key/import.js": {
+          "bytesInOutput": 2300
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/check_key_type.js": {
+          "bytesInOutput": 3946
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/encrypt.js": {
+          "bytesInOutput": 3534
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/aesgcmkw.js": {
+          "bytesInOutput": 991
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/decrypt_key_management.js": {
+          "bytesInOutput": 6105
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/validate_crit.js": {
+          "bytesInOutput": 1832
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/validate_algorithms.js": {
+          "bytesInOutput": 645
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/flattened/decrypt.js": {
+          "bytesInOutput": 7116
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/compact/decrypt.js": {
+          "bytesInOutput": 1381
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/general/decrypt.js": {
+          "bytesInOutput": 1427
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/private_symbols.js": {
+          "bytesInOutput": 327
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/key_to_jwk.js": {
+          "bytesInOutput": 1517
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/key/export.js": {
+          "bytesInOutput": 715
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/encrypt_key_management.js": {
+          "bytesInOutput": 3879
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/flattened/encrypt.js": {
+          "bytesInOutput": 6739
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/general/encrypt.js": {
+          "bytesInOutput": 7558
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/dsa_digest.js": {
+          "bytesInOutput": 886
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/node_key.js": {
+          "bytesInOutput": 4511
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/hmac_digest.js": {
+          "bytesInOutput": 664
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/get_sign_verify_key.js": {
+          "bytesInOutput": 1450
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/sign.js": {
+          "bytesInOutput": 1013
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/verify.js": {
+          "bytesInOutput": 1263
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/flattened/verify.js": {
+          "bytesInOutput": 5379
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/compact/verify.js": {
+          "bytesInOutput": 1228
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/general/verify.js": {
+          "bytesInOutput": 1184
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/epoch.js": {
+          "bytesInOutput": 288
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/secs.js": {
+          "bytesInOutput": 1796
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/lib/jwt_claims_set.js": {
+          "bytesInOutput": 4914
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/verify.js": {
+          "bytesInOutput": 1028
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/decrypt.js": {
+          "bytesInOutput": 1584
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwe/compact/encrypt.js": {
+          "bytesInOutput": 1243
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/flattened/sign.js": {
+          "bytesInOutput": 3860
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/compact/sign.js": {
+          "bytesInOutput": 938
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jws/general/sign.js": {
+          "bytesInOutput": 2628
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/produce.js": {
+          "bytesInOutput": 3098
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/sign.js": {
+          "bytesInOutput": 1147
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/encrypt.js": {
+          "bytesInOutput": 2925
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwk/thumbprint.js": {
+          "bytesInOutput": 2682
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwk/embedded.js": {
+          "bytesInOutput": 1011
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwks/local.js": {
+          "bytesInOutput": 4481
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/fetch_jwks.js": {
+          "bytesInOutput": 1665
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwks/remote.js": {
+          "bytesInOutput": 5463
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/jwt/unsecured.js": {
+          "bytesInOutput": 1661
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/base64url.js": {
+          "bytesInOutput": 401
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/decode_protected_header.js": {
+          "bytesInOutput": 1418
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/decode_jwt.js": {
+          "bytesInOutput": 1532
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/generate.js": {
+          "bytesInOutput": 3840
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/key/generate_key_pair.js": {
+          "bytesInOutput": 455
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/key/generate_secret.js": {
+          "bytesInOutput": 447
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/runtime/runtime.js": {
+          "bytesInOutput": 265
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/util/runtime.js": {
+          "bytesInOutput": 312
+        },
+        "node_modules/.pnpm/jose@5.10.0/node_modules/jose/dist/node/cjs/index.js": {
+          "bytesInOutput": 7643
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/verify-vercel-oidc-token.js": {
+          "bytesInOutput": 4532
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.8.10/node_modules/@vercel/oidc/dist/index.js": {
+          "bytesInOutput": 2307
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/get-context.js": {
+          "bytesInOutput": 1505
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/token-error.js": {
+          "bytesInOutput": 1616
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/token-io.js": {
+          "bytesInOutput": 3232
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/auth-config.js": {
+          "bytesInOutput": 3529
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/oauth.js": {
+          "bytesInOutput": 3544
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/auth-errors.js": {
+          "bytesInOutput": 1803
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/token-util.js": {
+          "bytesInOutput": 8312
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/token.js": {
+          "bytesInOutput": 2769
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/get-vercel-oidc-token.js": {
+          "bytesInOutput": 2844
+        },
+        "node_modules/.pnpm/@vercel+oidc@3.2.0/node_modules/@vercel/oidc/dist/index.js": {
+          "bytesInOutput": 1837
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/tokenizer/languages.js": {
+          "bytesInOutput": 2849
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/utils.js": {
+          "bytesInOutput": 13292
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/errors.js": {
+          "bytesInOutput": 5796
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/defaults.js": {
+          "bytesInOutput": 4358
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/internal-document-id-store.js": {
+          "bytesInOutput": 2131
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/documents-store.js": {
+          "bytesInOutput": 2650
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/plugins.js": {
+          "bytesInOutput": 1572
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/hooks.js": {
+          "bytesInOutput": 2903
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/avl.js": {
+          "bytesInOutput": 11156
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/flat.js": {
+          "bytesInOutput": 4643
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/levenshtein.js": {
+          "bytesInOutput": 2980
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/radix.js": {
+          "bytesInOutput": 11377
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/bkd.js": {
+          "bytesInOutput": 11750
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/bool.js": {
+          "bytesInOutput": 1190
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/algorithms.js": {
+          "bytesInOutput": 3480
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/trees/vector.js": {
+          "bytesInOutput": 2846
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/index.js": {
+          "bytesInOutput": 27026
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/sorter.js": {
+          "bytesInOutput": 9059
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/tokenizer/diacritics.js": {
+          "bytesInOutput": 2939
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/tokenizer/english-stemmer.js": {
+          "bytesInOutput": 4523
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/tokenizer/index.js": {
+          "bytesInOutput": 4515
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/pinning.js": {
+          "bytesInOutput": 2908
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/create.js": {
+          "bytesInOutput": 5357
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/docs.js": {
+          "bytesInOutput": 473
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components.js": {
+          "bytesInOutput": 2455
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/insert.js": {
+          "bytesInOutput": 11943
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/pinning.js": {
+          "bytesInOutput": 956
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/remove.js": {
+          "bytesInOutput": 8139
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/constants.js": {
+          "bytesInOutput": 479
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/facets.js": {
+          "bytesInOutput": 5039
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/groups.js": {
+          "bytesInOutput": 4930
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/components/pinning-manager.js": {
+          "bytesInOutput": 3642
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/search-fulltext.js": {
+          "bytesInOutput": 7988
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/search-vector.js": {
+          "bytesInOutput": 4733
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/search-hybrid.js": {
+          "bytesInOutput": 5437
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/search.js": {
+          "bytesInOutput": 3366
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/serialization.js": {
+          "bytesInOutput": 1254
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/update.js": {
+          "bytesInOutput": 4766
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/upsert.js": {
+          "bytesInOutput": 7915
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/methods/answer-session.js": {
+          "bytesInOutput": 5235
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/types.js": {
+          "bytesInOutput": 1029
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/internals.js": {
+          "bytesInOutput": 2247
+        },
+        "node_modules/.pnpm/@orama+orama@3.1.18/node_modules/@orama/orama/dist/commonjs/index.js": {
+          "bytesInOutput": 5880
+        },
+        "ui/runtime-api.ts": {
+          "bytesInOutput": 4809
+        },
+        "ui/lib/playground-urls.ts": {
+          "bytesInOutput": 2307
+        },
+        "node_modules/.pnpm/@vercel+agent-readability@0.7.0_next@16.4.0_@opentelemetry+api@1.9.1_react-dom@19.2.6_react@19.2.6__react@19.2.6_/node_modules/@vercel/agent-readability/dist/index.js": {
+          "bytesInOutput": 9627
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/config.js": {
+          "bytesInOutput": 723
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/markdown-negotiation.js": {
+          "bytesInOutput": 186
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/not-found.js": {
+          "bytesInOutput": 261
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/localize-href.js": {
+          "bytesInOutput": 246
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/routes/not-found.js": {
+          "bytesInOutput": 2211
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/routes/chat.js": {
+          "bytesInOutput": 38185
+        },
+        "node_modules/.pnpm/@ai-sdk+provider@3.0.13/node_modules/@ai-sdk/provider/dist/index.mjs": {
+          "bytesInOutput": 10494
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/external.js": {
+          "bytesInOutput": 7566
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/index.js": {
+          "bytesInOutput": 10313
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/util.js": {
+          "bytesInOutput": 24811
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/core.js": {
+          "bytesInOutput": 3374
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/errors.js": {
+          "bytesInOutput": 6391
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/parse.js": {
+          "bytesInOutput": 5958
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/regexes.js": {
+          "bytesInOutput": 9215
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/checks.js": {
+          "bytesInOutput": 14758
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/doc.js": {
+          "bytesInOutput": 1150
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/versions.js": {
+          "bytesInOutput": 54
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/schemas.js": {
+          "bytesInOutput": 78386
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/memoizer.js": {
+          "bytesInOutput": 7532
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/index.js": {
+          "bytesInOutput": 1593
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ar.js": {
+          "bytesInOutput": 7477
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/az.js": {
+          "bytesInOutput": 4530
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/be.js": {
+          "bytesInOutput": 9257
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/bg.js": {
+          "bytesInOutput": 8261
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/bn.js": {
+          "bytesInOutput": 6795
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ca.js": {
+          "bytesInOutput": 4338
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ckb.js": {
+          "bytesInOutput": 7786
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/cs.js": {
+          "bytesInOutput": 4647
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/da.js": {
+          "bytesInOutput": 4330
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/de.js": {
+          "bytesInOutput": 4173
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/el.js": {
+          "bytesInOutput": 8290
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/en.js": {
+          "bytesInOutput": 4521
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/eo.js": {
+          "bytesInOutput": 4204
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/es.js": {
+          "bytesInOutput": 4927
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fa.js": {
+          "bytesInOutput": 7070
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fi.js": {
+          "bytesInOutput": 4416
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fr.js": {
+          "bytesInOutput": 4806
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/fr-CA.js": {
+          "bytesInOutput": 4182
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/gu.js": {
+          "bytesInOutput": 7138
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/he.js": {
+          "bytesInOutput": 13526
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hi.js": {
+          "bytesInOutput": 7248
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hr.js": {
+          "bytesInOutput": 4545
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hu.js": {
+          "bytesInOutput": 4444
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/hy.js": {
+          "bytesInOutput": 8730
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/id.js": {
+          "bytesInOutput": 4126
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/is.js": {
+          "bytesInOutput": 4321
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/it.js": {
+          "bytesInOutput": 4135
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ja.js": {
+          "bytesInOutput": 5603
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ka.js": {
+          "bytesInOutput": 8311
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/km.js": {
+          "bytesInOutput": 8414
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/kh.js": {
+          "bytesInOutput": 49
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/kn.js": {
+          "bytesInOutput": 7971
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ko.js": {
+          "bytesInOutput": 5344
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/lt.js": {
+          "bytesInOutput": 7330
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/mk.js": {
+          "bytesInOutput": 7430
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ms.js": {
+          "bytesInOutput": 4036
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ne.js": {
+          "bytesInOutput": 6962
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/nl.js": {
+          "bytesInOutput": 4286
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/nn.js": {
+          "bytesInOutput": 4073
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/no.js": {
+          "bytesInOutput": 4090
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ota.js": {
+          "bytesInOutput": 4349
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ps.js": {
+          "bytesInOutput": 6422
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pl.js": {
+          "bytesInOutput": 4825
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pt.js": {
+          "bytesInOutput": 6360
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/pt-BR.js": {
+          "bytesInOutput": 6355
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ro.js": {
+          "bytesInOutput": 4467
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ru.js": {
+          "bytesInOutput": 9549
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sk.js": {
+          "bytesInOutput": 4607
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sl.js": {
+          "bytesInOutput": 4195
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/sv.js": {
+          "bytesInOutput": 4280
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ta.js": {
+          "bytesInOutput": 8654
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tg.js": {
+          "bytesInOutput": 7824
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/th.js": {
+          "bytesInOutput": 8501
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tk.js": {
+          "bytesInOutput": 3969
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/tr.js": {
+          "bytesInOutput": 4267
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/uk.js": {
+          "bytesInOutput": 8292
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ua.js": {
+          "bytesInOutput": 49
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/ur.js": {
+          "bytesInOutput": 7766
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/uz.js": {
+          "bytesInOutput": 4311
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/vi.js": {
+          "bytesInOutput": 4877
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/zh-CN.js": {
+          "bytesInOutput": 4693
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/zh-TW.js": {
+          "bytesInOutput": 4805
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/locales/yo.js": {
+          "bytesInOutput": 4966
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/registries.js": {
+          "bytesInOutput": 1333
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/compile.js": {
+          "bytesInOutput": 58525
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/api.js": {
+          "bytesInOutput": 23723
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/to-json-schema.js": {
+          "bytesInOutput": 17394
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema-processors.js": {
+          "bytesInOutput": 25448
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema-generator.js": {
+          "bytesInOutput": 2312
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/json-schema.js": {
+          "bytesInOutput": 30
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/schemas.js": {
+          "bytesInOutput": 48514
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/checks.js": {
+          "bytesInOutput": 891
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/errors.js": {
+          "bytesInOutput": 1574
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/parse.js": {
+          "bytesInOutput": 736
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/compat.js": {
+          "bytesInOutput": 641
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/iso.js": {
+          "bytesInOutput": 581
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/from-json-schema.js": {
+          "bytesInOutput": 25359
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/core/visit.js": {
+          "bytesInOutput": 4806
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/deep-partial.js": {
+          "bytesInOutput": 320
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/in-out.js": {
+          "bytesInOutput": 1242
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/coerce.js": {
+          "bytesInOutput": 540
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v4/classic/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/helpers/util.js": {
+          "bytesInOutput": 3421
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/ZodError.js": {
+          "bytesInOutput": 3547
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/locales/en.js": {
+          "bytesInOutput": 4884
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/errors.js": {
+          "bytesInOutput": 91
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/helpers/parseUtil.js": {
+          "bytesInOutput": 3006
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/helpers/errorUtil.js": {
+          "bytesInOutput": 265
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/v3/types.js": {
+          "bytesInOutput": 102125
+        },
+        "node_modules/.pnpm/eventsource-parser@3.1.1/node_modules/eventsource-parser/dist/index.js": {
+          "bytesInOutput": 7760
+        },
+        "node_modules/.pnpm/eventsource-parser@3.1.1/node_modules/eventsource-parser/dist/stream.js": {
+          "bytesInOutput": 669
+        },
+        "node_modules/.pnpm/@ai-sdk+provider-utils@4.0.37_zod@4.6.5/node_modules/@ai-sdk/provider-utils/dist/index.mjs": {
+          "bytesInOutput": 67999
+        },
+        "node_modules/.pnpm/zod@4.6.5/node_modules/zod/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/@ai-sdk+gateway@3.0.145_zod@4.6.5/node_modules/@ai-sdk/gateway/dist/index.mjs": {
+          "bytesInOutput": 75261
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/version.js": {
+          "bytesInOutput": 24
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/internal/semver.js": {
+          "bytesInOutput": 1937
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/internal/global-utils.js": {
+          "bytesInOutput": 1704
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/diag/ComponentLogger.js": {
+          "bytesInOutput": 673
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/diag/types.js": {
+          "bytesInOutput": 473
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/diag/internal/logLevelLogger.js": {
+          "bytesInOutput": 738
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/api/diag.js": {
+          "bytesInOutput": 2142
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/context/context.js": {
+          "bytesInOutput": 894
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/context/NoopContextManager.js": {
+          "bytesInOutput": 280
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/api/context.js": {
+          "bytesInOutput": 1798
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/trace_flags.js": {
+          "bytesInOutput": 182
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/invalid-span-constants.js": {
+          "bytesInOutput": 215
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/NonRecordingSpan.js": {
+          "bytesInOutput": 902
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/context-utils.js": {
+          "bytesInOutput": 643
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/spancontext-utils.js": {
+          "bytesInOutput": 1299
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/NoopTracer.js": {
+          "bytesInOutput": 1535
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/ProxyTracer.js": {
+          "bytesInOutput": 932
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/NoopTracerProvider.js": {
+          "bytesInOutput": 110
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/ProxyTracerProvider.js": {
+          "bytesInOutput": 774
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace/status.js": {
+          "bytesInOutput": 265
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/context-api.js": {
+          "bytesInOutput": 40
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/api/trace.js": {
+          "bytesInOutput": 1588
+        },
+        "node_modules/.pnpm/@opentelemetry+api@1.9.1/node_modules/@opentelemetry/api/build/esm/trace-api.js": {
+          "bytesInOutput": 36
+        },
+        "node_modules/.pnpm/ai@6.0.221_zod@4.6.5/node_modules/ai/dist/index.mjs": {
+          "bytesInOutput": 254937
+        },
+        "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-ZMWYLUDP.js": {
+          "bytesInOutput": 429
+        },
+        "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-OTD7MV33.js": {
+          "bytesInOutput": 1284
+        },
+        "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-XOFXGHS4.js": {
+          "bytesInOutput": 1613
+        },
+        "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-U67V476Y.js": {
+          "bytesInOutput": 176
+        },
+        "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/chunk-XZSI7AHE.js": {
+          "bytesInOutput": 1160
+        },
+        "node_modules/.pnpm/fumadocs-core@16.2.2_@types+react@19.3.0_lucide-react@0.555.0_react@19.2.6__next@16.4.0_cd76ef41dadea8b9b39140cb8ee9e3f8/node_modules/fumadocs-core/dist/search/server.js": {
+          "bytesInOutput": 2632
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/chat/source-chunks.js": {
+          "bytesInOutput": 212
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/mixedbread.js": {
+          "bytesInOutput": 9847
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/chat-retrieval.js": {
+          "bytesInOutput": 2779
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/eve-agent.js": {
+          "bytesInOutput": 16381
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/internal/eve-agent-session-cookie.js": {
+          "bytesInOutput": 4648
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/page-visibility.js": {
+          "bytesInOutput": 315
+        },
+        "node_modules/.pnpm/@vercel+geistdocs@2.9.0_@svta+cml-cta@1.0.6_@svta+cml-structured-field-values@1.1.3_@sv_43511f2a128a6d255501b4dec52cad16/node_modules/@vercel/geistdocs/dist/assets/logos/logo-ai-sdk.js": {
+          "bytesInOutput": 2106
+        },
+        "ui/geistdocs.tsx": {
+          "bytesInOutput": 2276
+        },
+        "ui/lib/geistdocs/migration-site-url.ts": {
+          "bytesInOutput": 77
+        },
+        "ui/lib/geistdocs/config.tsx": {
+          "bytesInOutput": 1656
+        },
+        "ui/og-runtime.tsx": {
+          "bytesInOutput": 2834
+        },
+        "ui/lib/feedback/message-feedback.js": {
+          "bytesInOutput": 3429
+        },
+        "ui/feedback-runtime.ts": {
+          "bytesInOutput": 1360
+        }
+      },
+      "bytes": 2164123
+    }
+  }
+}

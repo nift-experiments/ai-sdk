@@ -1,8 +1,17 @@
+import {HomeInstall} from './components/home/home-install';
+import {InstallCommand} from './components/home/install-command';
+import {CodeExamplesSection} from './components/home/code-examples';
+import {RecipeList} from './components/recipes/recipe-list';
+import {Guides} from './components/recipes/guides';
+import {PlaygroundRecovery} from './components/playground/recovery';
 import {TextGeneration} from './components/docs/text-generation';
 import {HeroInteractive} from './components/home/hero-interactive/hero-interactive';
 import {CodeTemplate} from './components/docs/code-template';
 import {PreviewSwitchProviders} from './components/docs/provider-preview';
 import {BrowserIllustration} from './components/docs/browser-illustration';
 import {InlinePrompt} from './components/docs/inline-prompt';
+import {ChatGeneration} from './components/docs/chat-generation';
+import {ObjectGeneration} from './components/docs/object-generation';
+import {WeatherSearch} from './components/docs/generative-ui-preview';
 import {CardPlayer} from './components/docs/generative-ui-preview';
-export const islands={TextGeneration,HeroInteractive,CodeTemplate,PreviewSwitchProviders,BrowserIllustration,InlinePrompt,CardPlayer};
+export const islands={HomeInstall,InstallCommand,CodeExamplesSection,RecipeList,Guides,PlaygroundRecovery,TextGeneration,HeroInteractive,CodeTemplate,PreviewSwitchProviders,BrowserIllustration,InlinePrompt,CardPlayer,ChatGeneration,ObjectGeneration,WeatherSearch};

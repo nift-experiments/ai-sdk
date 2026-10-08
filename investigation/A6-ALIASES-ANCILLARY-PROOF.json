@@ -1,0 +1,1442 @@
+[
+  {
+    "route": "/resources/recipes/api-servers/express",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/api-servers/fastify",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/api-servers/hono",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/api-servers/nest",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/api-servers/node-http-server",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/agent-context-compaction",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/agent-skills",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/claude-4",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/computer-use",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/custom-memory-tool",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/deepseek-v3-2",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/gemini",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/google-gemini-image-generation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/gpt-5",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/llama-3_1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/multi-modal-chatbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/natural-language-postgres",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/o1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/o3",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/openai-responses",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/r1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/rag-chatbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/slackbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/guides/sonnet-3-7",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/caching-middleware",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/call-tools-multiple-steps",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/chat-with-pdf",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/custom-stream-format",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/generate-image-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/generate-object-with-file-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/human-in-the-loop",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/markdown-chatbot-with-memoization",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/mcp-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/render-visual-interface-in-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/send-custom-body-from-use-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/stream-text-multistep",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/stream-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/track-agent-token-usage",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/next/use-shared-chat-context",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/call-tools-in-parallel",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/call-tools-multiple-steps",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/call-tools-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/dynamic-prompt-caching",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/embed-text-batch",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/embed-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/generate-object-reasoning",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/generate-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/intercept-fetch-requests",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/knowledge-base-agent",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/local-caching-middleware",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/manual-agent-loop",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/mcp-elicitation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/mcp-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/repair-json-with-jsonrepair",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/retrieval-augmented-generation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/stream-object-record-final-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/stream-object-record-token-usage",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/stream-object-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/stream-text-with-file-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/stream-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/node/web-search-agent",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/call-tools-in-parallel",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/render-visual-interface-in-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/restore-messages-from-database",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/save-messages-to-database",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/stream-ui-record-token-usage",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes/rsc/stream-updates-to-visual-interfaces",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/api-servers/express",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/api-servers/fastify",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/api-servers/hono",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/api-servers/nest",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/api-servers/node-http-server",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/agent-skills",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/claude-4",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/computer-use",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/custom-memory-tool",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/deepseek-v3-2",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/gemini",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/google-gemini-image-generation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/gpt-5",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/llama-3_1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/multi-modal-chatbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/natural-language-postgres",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/o1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/o3",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/openai-responses",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/r1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/rag-chatbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/slackbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/guides/sonnet-3-7",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/caching-middleware",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/call-tools-multiple-steps",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/chat-with-pdf",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/custom-stream-format",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/generate-image-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/generate-object-with-file-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/human-in-the-loop",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/markdown-chatbot-with-memoization",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/mcp-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/render-visual-interface-in-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/send-custom-body-from-use-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/stream-text-multistep",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/stream-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/track-agent-token-usage",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/next/use-shared-chat-context",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/call-tools-in-parallel",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/call-tools-multiple-steps",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/call-tools-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/dynamic-prompt-caching",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/embed-text-batch",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/embed-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/generate-object-reasoning",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/generate-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/intercept-fetch-requests",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/knowledge-base-agent",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/local-caching-middleware",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/manual-agent-loop",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/mcp-elicitation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/mcp-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/repair-json-with-jsonrepair",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/retrieval-augmented-generation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/stream-object-record-final-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/stream-object-record-token-usage",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/stream-object-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/stream-text-with-file-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/stream-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/node/web-search-agent",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/call-tools-in-parallel",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/render-visual-interface-in-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/restore-messages-from-database",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/save-messages-to-database",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/stream-ui-record-token-usage",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes/rsc/stream-updates-to-visual-interfaces",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/api-servers/express",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/api-servers/fastify",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/api-servers/hono",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/api-servers/nest",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/api-servers/node-http-server",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/claude-4",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/computer-use",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/deepseek-v3-2",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/gemini",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/google-gemini-image-generation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/gpt-5",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/llama-3_1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/multi-modal-chatbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/natural-language-postgres",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/o1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/o3",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/openai-responses",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/r1",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/rag-chatbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/slackbot",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/guides/sonnet-3-7",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/caching-middleware",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/call-tools-multiple-steps",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/chat-with-pdf",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/custom-stream-format",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/generate-image-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/generate-object-with-file-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/human-in-the-loop",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/markdown-chatbot-with-memoization",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/mcp-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/render-visual-interface-in-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/send-custom-body-from-use-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/stream-text-multistep",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/stream-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/next/use-shared-chat-context",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/call-tools-multiple-steps",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/call-tools-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/embed-text-batch",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/embed-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/generate-object-reasoning",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/generate-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/intercept-fetch-requests",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/knowledge-base-agent",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/local-caching-middleware",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/manual-agent-loop",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/mcp-elicitation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/mcp-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/retrieval-augmented-generation",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/stream-object-record-final-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/stream-object-record-token-usage",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/stream-object-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/stream-text-with-file-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/stream-text-with-image-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/node/web-search-agent",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/call-tools-in-parallel",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/call-tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/generate-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/generate-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/generate-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/render-visual-interface-in-chat",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/restore-messages-from-database",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/save-messages-to-database",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/stream-object",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/stream-text-with-chat-prompt",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/stream-text",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/stream-ui-record-token-usage",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes/rsc/stream-updates-to-visual-interfaces",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/templates",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/showcase",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/unauthenticated-ai-gateway",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/playground-recovery",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/code-execution",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/exa",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/parallel",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/ctx-zip",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/perplexity-search",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/tavily",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/firecrawl",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/bedrock-agentcore",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/superagent",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/tako-search",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/valyu",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/airweave",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/bash-tool",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/browserbase",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/you-search",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/nitrosend",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/fatstack",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/pushary",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/tools/pexafy",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/resources/recipes",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v6/resources/recipes",
+    "textEqual": true,
+    "linksEqual": true
+  },
+  {
+    "route": "/v5/resources/recipes",
+    "textEqual": true,
+    "linksEqual": true
+  }
+]
