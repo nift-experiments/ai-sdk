@@ -1,3 +1,3 @@
 # Status
 
-A0–A4 accepted. All 288 current docs publish with five A3 prototypes (293 tracked routes). Authored provenance, content/TOC/head checks, representative responsive browser comparisons, page metadata/literal syntax lifecycle and cache/shared-layout recovery pass. Full historical/provider/cookbook/ancillary coverage, transport and complete browser parity remain A5–A7; benchmarks/optimization/final assessment remain A8–A10. No Nift core/templates changes.
+A0–A5 accepted. All 745 versioned documentation routes publish with three A3 prototypes (748 tracked routes). Authored/synchronized provenance, all-page content/TOC/head/alternate checks, representative historical browser/version switching and serialized lifecycle checks pass with immutable source restoration. A6 provider/cookbook/resources/special families, A7 complete browser/publication parity and A8–A10 benchmarks/optimization/final assessment remain open. No Nift core/templates changes.

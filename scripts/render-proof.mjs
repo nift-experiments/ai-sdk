@@ -27,10 +27,11 @@ await build({entryPoints:['ui/renderer-entry.tsx'],outfile:'generated/renderer.c
 const require=createRequire(import.meta.url);
 const {config,versionedComponents}=require(path.join(root,'generated/renderer.cjs'));
 const opts=await applyMdxPreset(config.mdxOptions)('runtime');
-const corpus=process.argv.includes('--current-docs');
+const allDocs=process.argv.includes('--all-docs');
+const corpus=allDocs||process.argv.includes('--current-docs');
 const sourceRoot=corpus?'generated/synced':'sources';
-const provenance=JSON.parse(await readFile(corpus?'generated/current-docs-source-map.json':'investigation/A3-SOURCE-PROVENANCE.json','utf8'));
-const cachePath=corpus?'generated/current-docs-mdx-cache.json':'generated/mdx-cache.json';
+const provenance=JSON.parse(await readFile(allDocs?'generated/docs-source-map.json':corpus?'generated/current-docs-source-map.json':'investigation/A3-SOURCE-PROVENANCE.json','utf8'));
+const cachePath=allDocs?'generated/docs-mdx-cache.json':corpus?'generated/current-docs-mdx-cache.json':'generated/mdx-cache.json';
 const results=[];
 let cache={};try{cache=JSON.parse(await readFile(cachePath,'utf8'));}catch{}
 const dependencies=[];
@@ -39,7 +40,7 @@ await walk('ui');await walk('maintained-assets');dependencies.push('package.json
 const hash=createHash('sha256').update(process.env.NODE_ENV||'development').update(process.versions.node);for(const f of dependencies){hash.update(f);hash.update(await readFile(f));}const compilerKey=hash.digest('hex');
 for(const file of provenance.fixtures){
  const begin=performance.now();
- const inputRoot=corpus||file.startsWith('v7/docs/')?'generated/synced':sourceRoot;
+ const inputRoot=corpus||file.includes('/docs/')?'generated/synced':sourceRoot;
  const source=await readFile(inputRoot+'/'+file,'utf8');
  const target='generated/'+file.replace(/\.mdx$/,'.html');
  const key=createHash('sha256').update(compilerKey).update(source).digest('hex');
@@ -57,5 +58,5 @@ for(const file of provenance.fixtures){
  cache[file]={key,outputHash:createHash('sha256').update(html).digest('hex'),result};
 }
 await writeFile(cachePath,JSON.stringify(cache,null,2)+'\n');
-await writeFile(corpus?'generated/current-docs-render-results.json':'generated/a3-render-results.json',JSON.stringify(results,null,2)+'\n');
+await writeFile(allDocs?'generated/docs-render-results.json':corpus?'generated/current-docs-render-results.json':'generated/a3-render-results.json',JSON.stringify(results,null,2)+'\n');
 console.log(JSON.stringify(results,null,2));

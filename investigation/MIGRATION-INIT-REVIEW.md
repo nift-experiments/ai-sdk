@@ -49,3 +49,7 @@ Package barrel exports can execute unused font compiler modules, and server acti
 ### A4 publication findings
 
 Record pinned internal UI bindings separately from public APIs. Serialize heading titles as structured React children: HTML-only labels broke desktop text extraction while mobile rendering worked. Test both modes. Define necessary production constants outside the original framework and inspect console failures. Compare document/social titles including section-label rules. Browser visible-text checks should exclude inert island-props scripts; separately verify exact code and hidden metadata ownership. Keep UI/transport/backend acceptance separate.
+
+### A5 historical findings
+
+Preserve versioned authored provenance and distinguish ordered original files from synchronized pages. Derive version switching from available route sets so missing target pages fall back like upstream. Include maintenance-version robots and social-image rules, plus Markdown alternate links, in head comparisons. Serialize fixture mutations and publication verification. Check restored sources against the immutable original corpus, rather than only against an in-memory backup that could already contain an interrupted fixture. Store test backups outside maintained inputs before mutation.

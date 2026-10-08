@@ -8,7 +8,7 @@ def run(name,args):
  start=time.perf_counter();subprocess.run(args,cwd=ROOT,env={**os.environ,'NODE_ENV':'production'},check=True);phases.append({'name':name,'elapsed_s':time.perf_counter()-start})
 run('island compilation',[node,'scripts/build-islands.mjs',*force])
 if (ROOT/'sources').exists():
- run('authored docs synchronization',[node,'scripts/sync-authored.mjs'])
+ run('authored docs synchronization',[node,'scripts/sync-docs.mjs'])
  run('MDX compatibility and SSR',[node,'scripts/render-proof.mjs',*force])
  key=json.loads((ROOT/'generated/islands-build.json').read_text())['key']
  marker=ROOT/'generated/home-island-key'

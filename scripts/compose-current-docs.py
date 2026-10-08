@@ -28,7 +28,7 @@ for page in model:
  name=page['name'];prefix=(root/page['prefix']).read_text();suffix=(root/page['suffix']).read_text()
  if page in current:
   meta=page['metadata'];page_title=meta['title'];document_title=(section_label(tree,page['route']) or page_title) if page_title=='Overview' else page_title;title=str(document_title)+' | AI SDK';description=meta.get('description');canonical='https://ai-sdk.dev'+page['route']
-  values='<title>'+html.escape(title)+'</title><link rel="canonical" href="'+html.escape(canonical,quote=True)+'"/>'
+  values='<title>'+html.escape(title)+'</title><link rel="canonical" href="'+html.escape(canonical,quote=True)+'"/><link rel="alternate" type="text/markdown" href="'+html.escape(canonical+'.md',quote=True)+'"/>'
   for attribute,key,value in [('name','description',description),('property','og:title',title),('property','og:description',description),('name','twitter:title',title),('name','twitter:description',description)]:
    if value is not None:values+='<meta '+attribute+'="'+key+'" content="'+html.escape(str(value),quote=True)+'"/>'
   slug=page['route'].removeprefix('/docs/');image='https://ai-sdk.dev/og/'+slug+'/image.png'

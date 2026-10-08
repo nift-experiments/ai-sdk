@@ -58,7 +58,7 @@
   {
     "route": "/v6/docs/introduction",
     "name": "v6/docs/introduction/index",
-    "source": "sources/v6/docs/introduction/index.mdx",
+    "source": "authored/v6/docs/00-introduction/index.mdx",
     "body": "generated/v6/docs/introduction/index.html",
     "prefix": "shells/v6/docs/introduction/index.prefix.html",
     "suffix": "shells/v6/docs/introduction/index.suffix.html",
@@ -70,7 +70,7 @@
   {
     "route": "/v5/docs/introduction",
     "name": "v5/docs/introduction/index",
-    "source": "sources/v5/docs/introduction/index.mdx",
+    "source": "authored/v5/docs/00-introduction/index.mdx",
     "body": "generated/v5/docs/introduction/index.html",
     "prefix": "shells/v5/docs/introduction/index.prefix.html",
     "suffix": "shells/v5/docs/introduction/index.suffix.html",

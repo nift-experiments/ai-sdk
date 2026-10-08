@@ -11,7 +11,7 @@ if agent:
  run('prototype HTML island refresh',['python3','scripts/refresh-islands.py',*force])
  run('current HTML island refresh',['python3','scripts/refresh-islands.py','--current-docs',*force])
 else:
- run('authored docs synchronization',[node,'scripts/sync-authored.mjs'])
+ run('authored docs synchronization',[node,'scripts/sync-docs.mjs'])
  run('prototype MDX and SSR',[node,'scripts/render-proof.mjs',*force])
  run('current authored preparation',['python3','scripts/prepare-current-docs.py',*force])
  run('home island SSR',[node,'scripts/render-home-proof.mjs'])

@@ -1,0 +1,29 @@
+---
+title: AI_NoTranscriptGeneratedError
+description: Learn how to fix AI_NoTranscriptGeneratedError
+---
+
+# AI_NoTranscriptGeneratedError
+
+This error occurs when no transcript could be generated from the input.
+
+## Properties
+
+- `responses`: Array of responses
+- `message`: The error message
+
+## Checking for this Error
+
+AI SDK 5 does not export the `NoTranscriptGeneratedError` class. Use the base
+`AISDKError` guard and check the error name:
+
+```typescript
+import { AISDKError } from 'ai';
+
+if (
+  AISDKError.isInstance(error) &&
+  error.name === 'AI_NoTranscriptGeneratedError'
+) {
+  // Handle the error
+}
+```

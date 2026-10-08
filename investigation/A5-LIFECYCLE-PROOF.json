@@ -1,0 +1,17 @@
+{
+  "cases": [
+    {
+      "project": "ai-sdk",
+      "case": "current page and literal template syntax",
+      "incremental_forced_equal": true,
+      "incremental_s": 6.425714740063995,
+      "changed_public_files": 1
+    },
+    {
+      "project": "ai-sdk",
+      "case": "current metadata update and removal",
+      "incremental_forced_equal": true
+    }
+  ],
+  "validation": "Final serialized run; human historical sources verified against immutable archive before and after. An interrupted earlier run left a fixture and was rejected by the immutable-input audit; those source bytes were restored before this accepted run."
+}

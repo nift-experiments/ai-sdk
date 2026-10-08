@@ -1,0 +1,2804 @@
+[
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/00-introduction/index.mdx",
+    "sha256": "3c2a6beb43fdf3c2fefb0c942744287534eee1d6425825123be174f0f42195b6"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-foundations/01-overview.mdx",
+    "sha256": "ac7f976b18363266e47b41ac76d9bbe302af3e869867882bf37d011f3d193d6f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-foundations/02-providers-and-models.mdx",
+    "sha256": "adfb2d283f79b5c24c756d12ae7e8277b0018e9b6dd63ebe0351b46341f7d7b3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-foundations/03-prompts.mdx",
+    "sha256": "c3904fdc567168b872267d4051a3b20b11f1d726c980e1ad0cdd303b5f47c39c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-foundations/04-tools.mdx",
+    "sha256": "f71aebe1e7ceb3a743e341aa6e9cf2b6bb961e19ecb7e857d3d87493ca8ea3f7"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-foundations/05-streaming.mdx",
+    "sha256": "51577abf679ed39522d82da700e23ed0c6041880ebb6427a872b25977572f500"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-foundations/06-provider-options.mdx",
+    "sha256": "5427b57b9addccadb3f2e8f58e6f9893d798147eb9e9b9a249c797023e4806f3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-foundations/index.mdx",
+    "sha256": "13acd41b0f0412a06f19477d9933ede5c37c0b4a97cf2f6ea6990fdc387a7b8f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/00-choosing-a-provider.mdx",
+    "sha256": "580eafc8cc3fb9beac6fd082bc78f6c9cdf76ff02ae0eb55352d52d4ce95c088"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/01-navigating-the-library.mdx",
+    "sha256": "b22aac40cc47db225deebeb67ad0bb3299eda4f50f7d3bbeb61fb27e77381eef"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/02-nextjs-app-router.mdx",
+    "sha256": "30c94e7b7a50915a5feff510b8b923d71c06ca891b1ee701ca7fafdf8509d2fa"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/03-nextjs-pages-router.mdx",
+    "sha256": "d21207673e2da918e3d4e70f87055930eb44f00633e8a6ad33cbe7df694b9c99"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/04-svelte.mdx",
+    "sha256": "5f57844984e000acfbc8233ef661c960991f6c2c2a2d5364e63f02f405cdb611"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/05-nuxt.mdx",
+    "sha256": "7fe92020652f97679645438116051b2adf051b6991865d158755017769f5031d"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/06-nodejs.mdx",
+    "sha256": "370af66124ba02dbf73d82cae859426a63081b2d2ffe06f421e916826778e571"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/07-expo.mdx",
+    "sha256": "8b9e36bbde7cf8209dcce655627bef94cf9755625adf0ce43781071f1d6ece4f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/08-tanstack-start.mdx",
+    "sha256": "c1e1ce4fcf115f0bb15a08a84d50c7582f3c05814af57691b251bc7dd693f7c1"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/09-coding-agents.mdx",
+    "sha256": "cacc5241b20864a03173f6e8bd6a128d807b69220b103436f5ac5d97092de6ef"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/02-getting-started/index.mdx",
+    "sha256": "7abd5db17df6bcb30196e1c8f34a213d3187ea6b8d3b178fede319aca2606572"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-agents/01-overview.mdx",
+    "sha256": "74afdcfd601a2c850597ab1de85107acf8f53cd0d0b913a3249f015e0bd9ec55"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-agents/02-building-agents.mdx",
+    "sha256": "b89d27facb85d8ca2b075142002c77be3e097ea0895f040cffa9b3f6d24d2584"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-agents/03-workflows.mdx",
+    "sha256": "6906b5d8b339226b09cb570317b04850869bcf1bae9aae29e171c08b84ed8446"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-agents/04-loop-control.mdx",
+    "sha256": "146c43176a32e5e7149c7b2d529c03f10d509fa73e4b8b972a06f9bebc0dc5d1"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-agents/05-configuring-call-options.mdx",
+    "sha256": "4277d2b15c562bab64be3191263b8938690de2ddcd503756e63dfb3239e82ffb"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-agents/06-memory.mdx",
+    "sha256": "ea006d0460f137cb3261ed2d1ce3e5f8db442db432e10805897fb1c6d4676f89"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-agents/06-subagents.mdx",
+    "sha256": "be0571f4c7b1440cbcd8a814ee9a8d4cb9dceb965c800993aef3b5e6b412c8a8"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-agents/index.mdx",
+    "sha256": "84194f2ed07bd2dc89af8d8864c83e9fe780c6d9ffcfd362577b33c14b37391b"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/01-overview.mdx",
+    "sha256": "6920b97001c69730dbf8925cb4c40567f4e311175ad588424816932301606254"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/05-generating-text.mdx",
+    "sha256": "ca1db18fd64fb74675fb95d5b18b59dfd171f0202a8633276ea72590ea8d320a"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/10-generating-structured-data.mdx",
+    "sha256": "6cbec98b4e458d427204a0c814b6012524b1397e1113a0a6a2a9c55fb561170b"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/15-tools-and-tool-calling.mdx",
+    "sha256": "e3b0ba9d5139038075dbe583243baf62f605a11e91304580a0180ea61cf2abcf"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/16-mcp-tools.mdx",
+    "sha256": "0921090cf7ffff5b5b5d1850fd914da116d6b1cc87e8042bbfd3b6927f57e21f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/20-prompt-engineering.mdx",
+    "sha256": "0f19eeddf7e42a95768b62c95d602cf551b18e90d484dac7e610e3e58f68cce0"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/25-settings.mdx",
+    "sha256": "8e8c0e45e7dcfd070737d01f15fd40b2d715ba0209af072081f00aa220f311c5"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/30-embeddings.mdx",
+    "sha256": "fe8e8e926363a3b46f6dfdd5c0ea2cd50d5f4d96f3df83558310a7f6de9b9483"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/31-reranking.mdx",
+    "sha256": "17eb7d0330cc8c3664060912a6d7511c39c9ee42daa674e29a7dd0dab4960e46"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/35-image-generation.mdx",
+    "sha256": "d73391e667269f0dc94106b8b43e5a9db26255be48eeeaef7c7bf295ccb83aa3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/36-transcription.mdx",
+    "sha256": "7fd2aeb64b404d67734813836e2d4e7be607836a07b1314b50666061128ccd12"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/37-speech.mdx",
+    "sha256": "ebe232112e3d9cc6e557b2975248ce6fb2c4bd68ebef385beeff0092156aa079"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/38-video-generation.mdx",
+    "sha256": "3694a6ddab72ab5939b0144c13a8c25a10aaccc0c0485a4d900c96da4a8ec947"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/40-middleware.mdx",
+    "sha256": "b45d8dc638c981c79822142837fab6543420c1e47db4e0c09cfa384b27094573"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/45-provider-management.mdx",
+    "sha256": "7e7bd903f6be02238845be741268cc451f9cb170159c3a8c568cd9cacd423bc8"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/50-error-handling.mdx",
+    "sha256": "898b1fde280bb0e23178110282292477db841d4066cd95c2e52af857958df375"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/55-testing.mdx",
+    "sha256": "4e200346a65b883bdc7b5577009ec77c88d80c8e8827fa149eef2be377be0e39"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/60-telemetry.mdx",
+    "sha256": "251f7fa3b4811b362220c8aa23d13b1b078841d63726c5de50cb6c7448e60eee"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/65-devtools.mdx",
+    "sha256": "229f00e60377c13649277a75facba287e200cd9e9b295869c349351b2e29e165"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/65-event-listeners.mdx",
+    "sha256": "67f6a1f048dd2665f2d0ba95a32a7dc2c3a5300a5cef6f9ed19f90a897f51774"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/03-ai-sdk-core/index.mdx",
+    "sha256": "d9d40b20fc9ff54c90a01058070df760f86362d22c14f9f813d2189b6e6b9601"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/01-overview.mdx",
+    "sha256": "144d4660ab8f6c07d908a0d55e13a422a141a5e5ed39451aa0075d0e089694a8"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/02-chatbot.mdx",
+    "sha256": "0fe3efde7db4289c0ae041c70d788e1fcb7990b8418b1523a1b72eacf4df1c20"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/03-chatbot-message-persistence.mdx",
+    "sha256": "1778ed52709b465ab1bf387771293bc07c03da60c2222d0e3164cf981ad00a7b"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/03-chatbot-resume-streams.mdx",
+    "sha256": "d1559fdeed839f4eeb97a9084a54948fdddefe910209aac29b67970ab781e5a9"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/03-chatbot-tool-usage.mdx",
+    "sha256": "ab5f28658d28a8404e9875f59ccb6fd37bcbe8c8027fa04895ca731f7e6ff16c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/04-generative-user-interfaces.mdx",
+    "sha256": "14c13def73c15852ba7ba96b9bc41d689ac174069b1eb5da77424606d84fbc7f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/05-completion.mdx",
+    "sha256": "06189f24f69d35a710f487c5e54e2795706090eed1ba3b74a4a6af8382667871"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/08-object-generation.mdx",
+    "sha256": "fb40c01122cc7c63924c6dd53586b65edf7a0e9d697501845becc7035a96f0d3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/20-streaming-data.mdx",
+    "sha256": "528b59850ba0a3692592812e09c3bf8d71c19d9a8b14682998015f8994202432"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/21-error-handling.mdx",
+    "sha256": "db273ed71011c96ee2db182256104bbf3ddbe0dd8fe10515b6a7a93b461a43e7"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/21-transport.mdx",
+    "sha256": "619fe7d2ade4e4426a35f61e018e1f3fbb95ecfa5c0acc18dbaa2ad6adb35019"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/24-reading-ui-message-streams.mdx",
+    "sha256": "77c9b23841f53175b17631c1f528cf7a1f7a75836e81cc43fa1ae0aa071c3044"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/25-message-metadata.mdx",
+    "sha256": "d1f8455ca29635c5baf3d3260d9619b08a62b557984a71a8f02a5d6da3656fb3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/50-stream-protocol.mdx",
+    "sha256": "88d3649d3b2a5895618ea6e9f59dbbb00ff727f3e2c6ab49768f61a78fce17a8"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/04-ai-sdk-ui/index.mdx",
+    "sha256": "7fc9c0bbdfb1065c065d44e0b5274393dd31ade28b1fd9f154298b99173aa6a7"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/01-overview.mdx",
+    "sha256": "f4b24f34f1c84c8fe45d43d63cd4a2a6acb7a7fd89c8a9c84eb671eff215cb0f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/02-streaming-react-components.mdx",
+    "sha256": "3011503c59708e44321078e0a07362d513676c97e62aa36aa5ddf4a66516dae3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/03-generative-ui-state.mdx",
+    "sha256": "58db916d375c9f424659e5746efc45d3c6f2be9d7fa0a9cf78e3f93f9354ac4c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/03-saving-and-restoring-states.mdx",
+    "sha256": "8c21a7be4e8181bcfd664db657b26feb1282c496db855968c1a3a9a4c2e029a0"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/04-multistep-interfaces.mdx",
+    "sha256": "2336187cf3f11bb181a4b9b44f73b3fcce18b53c9d3633b7855afd2f6fae14a6"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/05-streaming-values.mdx",
+    "sha256": "0185e3ee55964f7df17bef72072c034084d11795094d665808e68895a7c18796"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/06-loading-state.mdx",
+    "sha256": "8aab42e7ecb313620172bf2bf3ff5d21beeec6b12631159251e7d3c79bb20d8c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/08-error-handling.mdx",
+    "sha256": "8ffc61b5a5fafca2fe2cd9f65ccffbdafb04a75ccdf2c868cc7c8dd2b756fe99"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/09-authentication.mdx",
+    "sha256": "0a7fc735e6dc49f55afe692aa78d73338cf24f3902abe7a2cf5203fba3256ea6"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/10-migrating-to-ui.mdx",
+    "sha256": "c032322160166b4ff9a389f517f724c13aa4dce1545d1e62df023ea5ee437004"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/05-ai-sdk-rsc/index.mdx",
+    "sha256": "76189157733e3346c4cdb448dca9f8437759e671f13cc74bf34933979b0eff3d"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/01-prompt-engineering.mdx",
+    "sha256": "ac486f660c67ed6dbd7a692c6c95ad68ab093a2337715a6371a42e28c1df1900"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/02-stopping-streams.mdx",
+    "sha256": "48f0d4b2015282f93906af1872c8ad391ceeebbdc63a4d2480d7fbb7aa66dd97"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/03-backpressure.mdx",
+    "sha256": "009e6a03253575ed01d09a24a95fea0b2405be2a4c41da444120b17fe126f828"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/04-caching.mdx",
+    "sha256": "6c7f1ed0e8afb60aa441910f19414774f9dd7105473510119201a8f2e8e4b5b8"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/05-multiple-streamables.mdx",
+    "sha256": "03c26a405f35d3450db937eb45150ba56fe5f73237ba29e309ec397d7e485c2c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/06-rate-limiting.mdx",
+    "sha256": "bf237d6e81e5d268d70495a632be2dccaaceb540b7e9226ec1ee2a8d962bccf1"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/07-rendering-ui-with-language-models.mdx",
+    "sha256": "a280f82fca0cafd3e839ff0e56c4506c4fccf9a3eb63c1c8a5140c9edf001318"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/08-model-as-router.mdx",
+    "sha256": "96b6a29e6deb7f5a98339135e88f0e610631ef468fa1deda8bac12335f08ad9f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/09-multistep-interfaces.mdx",
+    "sha256": "6637c1d857d8eea916c3279b3b633c327ade1540758cf46fa47cab85d1085850"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/09-sequential-generations.mdx",
+    "sha256": "3083450d9f51c3d8d7a2492b703c4c1b1d9da08336deb2a587d3c672155177fd"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/10-vercel-deployment-guide.mdx",
+    "sha256": "9bf5bde1d1be91efbebe4c95785da6aa62708d3aea6f9822a400c27ee2ecb628"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/06-advanced/index.mdx",
+    "sha256": "6193c90ffc5a4ca3a78652c41593a72e543f1366448f49379b69e2ce0e38f755"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/01-generate-text.mdx",
+    "sha256": "4039ee2a1475730a86bc1bbcfdf0059c8b165b232c0c56d2950af59e091f8156"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/02-stream-text.mdx",
+    "sha256": "7500fb6193373f3bde366b79bcafa152d2de59746673246ca3318f6474b7bd9f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/05-embed.mdx",
+    "sha256": "cc942b048738ce6a873cc4bb1c6c526a2241130fc6bf77dcdb0f93d7cafc57da"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/06-embed-many.mdx",
+    "sha256": "42ca43e32445e4185afcec4a37bae2c103521411155cf1e5ed6585064015dbb9"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/06-rerank.mdx",
+    "sha256": "dc1ff79c5cbb2320baa0bac4dcdaafec2d7b464ed82f96733c5be3c8cdaa55ec"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/10-generate-image.mdx",
+    "sha256": "709bff33c8b51c30266eace3dd9f63d23e751dc0682fc84343461ec726829de2"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/11-transcribe.mdx",
+    "sha256": "bb7fbbb71016618345df11d4a387d62fdcbcc1be66ff29e1cd8c993f9caadc39"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/12-generate-speech.mdx",
+    "sha256": "e1ee02919caaab0681694e3f94ee6b95b6f4762049cafed8c9dfacae073404ab"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/13-generate-video.mdx",
+    "sha256": "e5cec45b1f82446bd1b449a887287c8111019f7822b65d43e35c373dbc55cc06"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/15-agent.mdx",
+    "sha256": "bafb2dff6ad279748ee56c6c59a462f3684ad4d66fdcc31d764a22df48f3700f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/16-tool-loop-agent.mdx",
+    "sha256": "113762d83ebf20f4005540f73ba2337f8f4bab1680874e390d31d07b3a595a26"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/17-create-agent-ui-stream.mdx",
+    "sha256": "ba725e43aa03f417599294dec04cceb552cfa9a75256e6fc65b6ec4470983799"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/18-create-agent-ui-stream-response.mdx",
+    "sha256": "ba8ee3e1af087f0e803204d282c23a079dd7a26b5c071c72dbff963d8b142a8a"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/18-pipe-agent-ui-stream-to-response.mdx",
+    "sha256": "768044e406212c5d74f6d5140fca9c4cbfe21d5c900643aceaf6c6391c7494e1"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/20-tool.mdx",
+    "sha256": "b1219d3803354766222483f9fb824d69ea73bfba03453572feb460dba94a307e"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/22-dynamic-tool.mdx",
+    "sha256": "0d5dfb48b9a115ca656ca243e6a5bfad5d2569609c250cb363cac848d0abfebf"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/23-create-mcp-client.mdx",
+    "sha256": "2198694edc636518af525f88ba9ad94ed9611ab28356042ad81d4e1ad22002c5"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/24-mcp-stdio-transport.mdx",
+    "sha256": "fe315dd632db22a5bc8479f02a8ac90759058d354daa9a9416ef557a27759825"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/25-json-schema.mdx",
+    "sha256": "09f1611a2081c4f5a41aed34a366f7069aefa27450539c277a9facac92625bc1"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/26-zod-schema.mdx",
+    "sha256": "0b9097092d6b1a95e2865b6ca879849436a426b3fe7e65d854c241f113500c71"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/27-valibot-schema.mdx",
+    "sha256": "591bfcddc27f4e5f0ea6683f8537c63a1efbe10361089bd94abe852dfc42d2dc"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/28-output.mdx",
+    "sha256": "f71c8867b51a084727a791738ea010357009b28e4c6d418f356157b8a8b498fa"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/30-model-message.mdx",
+    "sha256": "8a5c1c0f6223e401309a78fa878298c75802526dd189f8daf8225130c9305508"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/31-ui-message.mdx",
+    "sha256": "957a3f2c46c72fd2ed1945e5475b793378f02a675df977345d910e82073fe2cb"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/32-validate-ui-messages.mdx",
+    "sha256": "6468b3186ae20fd81b95c7e219b493e3d73c49f6b16af618d12a01bd2c782df7"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/33-safe-validate-ui-messages.mdx",
+    "sha256": "826a899873d34ed43a14ddc10e7b03778aaf94b84868116b7190fc2205da2bb6"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/40-provider-registry.mdx",
+    "sha256": "f3220dd3e406b1eaaf9a1be60c937751482a80efd451752e5a39270773208b32"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/42-custom-provider.mdx",
+    "sha256": "7b813e9eb739015b5ed48de2626a8935bb5c2483da6ac5e7843da2ea1c06074b"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/50-cosine-similarity.mdx",
+    "sha256": "f84f13920f0a82e24285e3a95d8c2ab138c6f1752f8618d359e7a4ad8795294c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/60-wrap-language-model.mdx",
+    "sha256": "34c17a5399b53084d7f534183873256e0479bacfd8797f686375599d3827664e"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/61-wrap-image-model.mdx",
+    "sha256": "41761a6d2d9feba9fb317d10235a149bc56d8498efe73b782fbb321afc32436f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/65-language-model-v2-middleware.mdx",
+    "sha256": "2fcbd082136024cd52161fc2f3280beb3583ce953e91479aaeaad193c1040733"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/66-extract-reasoning-middleware.mdx",
+    "sha256": "464df0b9b9537b054a26378cfdef9650e182bcc386e0dbaec5833063edcc47e5"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/67-simulate-streaming-middleware.mdx",
+    "sha256": "97a02b4e225f37851f8438f4833f186462d4a39f55800bcd58b99fc33f85f898"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/68-default-settings-middleware.mdx",
+    "sha256": "8c627864188c4be5c79fdd34aac0ee8cc1c614e1498d8e5d8d62176c81b57ab3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/69-add-tool-input-examples-middleware.mdx",
+    "sha256": "4ec62e9addcc6c4ae1a0f2957d56b79ac51a6118b8f83592b755c5c78a589069"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/70-extract-json-middleware.mdx",
+    "sha256": "6461a8fc8143115ed0703cfa0682e2a7ef7b35d72cf177662efd434777debd11"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/70-step-count-is.mdx",
+    "sha256": "7be010e67d26da221c56e9e43752b4dac631d51cbdd953ff342b61b7876155a3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/71-has-tool-call.mdx",
+    "sha256": "9f84505392320ca22f9824fa5e35a90b9742b8425fd5e7a56c78a624bb256ff3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/72-loop-finished.mdx",
+    "sha256": "6ebd039bde414dd9427308a804ad6baae8550cfdebd566bcec00b70c04dd750a"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/75-simulate-readable-stream.mdx",
+    "sha256": "ccd466191936d20cef5f852758292f9aee98e3869c923c85f22b40e28e240912"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/80-smooth-stream.mdx",
+    "sha256": "2caf0949be970273d6188ceda5354e40ba4cf88ddf7e6a4796df912f6b9e52b0"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/90-generate-id.mdx",
+    "sha256": "89c4c5468552d9becdb9bd994711ff673e141f22e78b77103982bbd3cb129850"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/91-create-id-generator.mdx",
+    "sha256": "34201272b4dd87805f24de11d9207181fb04081a63d427f1f7c50f114a4c8347"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/92-default-generated-file.mdx",
+    "sha256": "a030f6b86c972cc1fb77a20c011184b2df4663bcde4926a48cd233c91e89efbb"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/01-ai-sdk-core/index.mdx",
+    "sha256": "a577e0ecb32957833a6de1a3b7e973a9f4b4dcd70feb43d0351ad1f3e98d29d2"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/01-use-chat.mdx",
+    "sha256": "edb1a73b04be8712104ffe3856b2af434eb094af744a6f7f42e7cb400efde581"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/02-use-completion.mdx",
+    "sha256": "5e57348ca99a0e600bd26e5e41877d3a87af35315f417490401b9c8d8fd55d65"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/03-use-object.mdx",
+    "sha256": "4fce843e917566591d048956c8bb89fbfccc079ac1a06c31d412c6f4ec8c9c63"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/31-convert-to-model-messages.mdx",
+    "sha256": "fe8729afe6bf5700fb28b77f60bab5dd60c61cabcf5e440a954d22bf675f69ff"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/32-prune-messages.mdx",
+    "sha256": "c7004f846cc1085338a79926b8c674ec6d185610086208997cd44154d2674966"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/40-create-ui-message-stream.mdx",
+    "sha256": "35b743cd38ef0f4a140b9a46e1cb9b3e1edbc4526f4592811fccbcd90dc6fb05"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/41-create-ui-message-stream-response.mdx",
+    "sha256": "f0ebe87310d8c41b361869dac5af165d3dab76614ca3185b159820b08c242490"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/42-pipe-ui-message-stream-to-response.mdx",
+    "sha256": "6cb9f8084f7c5072c96fe0ca21e0c11eafd3295497aef8a7cdf300ad892894d7"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/43-read-ui-message-stream.mdx",
+    "sha256": "37dba1ac4bf14ca6259b0a2e7752c73ce6d6168e8bca44704f6ea435c01fdcd4"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/46-infer-ui-tools.mdx",
+    "sha256": "900c821c78f7e51bad45469add1899d098c4a561e360c9439aa5a639cc292427"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/47-infer-ui-tool.mdx",
+    "sha256": "45f5ada98a37d9373c8c47e6c8673c14f46e66ec04561e0db45ed7bc544743cb"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/50-direct-chat-transport.mdx",
+    "sha256": "606172de5fdaa6a95bbe601d1eaa9fee5825110e850dd7d8186462fe55b2cf46"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/02-ai-sdk-ui/index.mdx",
+    "sha256": "0a3d81e078d10ca1bb4a22ea40a135af8ace0727d1d7361173440ec19e327e70"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/01-stream-ui.mdx",
+    "sha256": "d1d1ae92bfeecc5a5451f2ae7b84df321340cb780eee55557c4f85bfc89988ed"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/02-create-ai.mdx",
+    "sha256": "60e606ae55bcd78232d39e98a8c6f09c58cdb0327a9a70084d636cf9e1bebf40"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/03-create-streamable-ui.mdx",
+    "sha256": "944e03386035bc73c68622495d8b64206afa3a8b93c25a39188bca9acc9760fd"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/04-create-streamable-value.mdx",
+    "sha256": "2950b3ee74b91938f3a98a22d125cda409c12c28b4bc748486a85e4e727cd765"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/05-read-streamable-value.mdx",
+    "sha256": "fc0cf20b4a88cc84c5a673d9f73da87007c6eecc4f57aaece02684919a8259aa"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/06-get-ai-state.mdx",
+    "sha256": "03212f86f29a72453e8bfec7adf14ed7cbd23645eac3b12b45a9736dd2eea157"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/07-get-mutable-ai-state.mdx",
+    "sha256": "b96068082429de6f834684896bd435be97b408beb99cb0d94e7610b625af138d"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/08-use-ai-state.mdx",
+    "sha256": "d0f8a4b071e8093d733fa691869a815d763f03d1bbe4bd7d8792c2e326dcc8fc"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/09-use-actions.mdx",
+    "sha256": "bb0e728742689db7788332a834fb1a457b3bc50b4d7e19372be13b005450c990"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/10-use-ui-state.mdx",
+    "sha256": "dd2bb31f12bf4e30badf5f2135858dac71cba558638833fe93ffd187d54fda34"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/11-use-streamable-value.mdx",
+    "sha256": "8c33f5e450e1a42c9f7dc52c483666ff4d067f59d136615e29b2c18545ed870a"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/20-render.mdx",
+    "sha256": "e79dd31f40e8c729e76a1b849d8a0e16e0d81691f7e6c33ce28079ce53f01d0d"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/03-ai-sdk-rsc/index.mdx",
+    "sha256": "8c139aaa82638cf48dd9394d57c93754e0d995ee47e7b536ac636b1b2b7b8f8b"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-api-call-error.mdx",
+    "sha256": "85ff0e14edb25334ff6f4571001a192e424a227d326bd28cceca10a2ec1cf5c6"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-download-error.mdx",
+    "sha256": "fa4e51847cc601edbebcc07740ffca0b84ec081bbd35d67184e7a6cc0ee88763"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-empty-response-body-error.mdx",
+    "sha256": "f2833e1a3a1412e48abe165003159a726b62d214cf035ef94135119fb32eda22"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-invalid-argument-error.mdx",
+    "sha256": "8c4560456ba5be1a551550ce08920e5fa98440ea77e8c2749a5c0963e0c43bbd"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-invalid-data-content-error.mdx",
+    "sha256": "47ab193045cd57b771e5e2fef81db1520f0370f3617b9f28f1cc5a2f2d4ce80a"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-invalid-message-role-error.mdx",
+    "sha256": "5b2c6c7d0cf69e46e70c9b248b61edc7e6332da1e7006a924b8ef85fffad83b8"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-invalid-prompt-error.mdx",
+    "sha256": "83c26deda8f0e161db25bc54416113c7c5ca0afba6be7a5db5e8f71163ff7b68"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-invalid-response-data-error.mdx",
+    "sha256": "cd7323ab32bc02891e23714a953ec9c3caabf0384bcda90813d968bf30e249dd"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-invalid-tool-approval-error.mdx",
+    "sha256": "7d769e35fdec7b6bc5ba08b0469fe837403b90b834813c64250c368d1ba5cce4"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-invalid-tool-approval-signature-error.mdx",
+    "sha256": "c2c93b366acef3864be498455c3738d4f6952f3fe05deac0f70071ac790896c8"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-invalid-tool-input-error.mdx",
+    "sha256": "12734ade3fd74d00727e1cb30ed5abb14ad1da44815ee537f0843dc7a66a732a"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-json-parse-error.mdx",
+    "sha256": "345a6578a9725068af73e898dd9a780e1ef447be79d1ff71ddf63ab17e046757"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-load-api-key-error.mdx",
+    "sha256": "648e1b4a02f61f4c7dd6f85c226157d4ba31a99dfdc551c74b6b2ffc02d0cf72"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-load-setting-error.mdx",
+    "sha256": "0973da0f7fd2fe5ac0e83d3ce2f901e894d67ef336ed2b785e9ffabd349989a0"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-message-conversion-error.mdx",
+    "sha256": "5b0d3a1c0c7a61d51a7ad7e535c0215f03c4d9044e7696e2660ed7529b5a4043"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-content-generated-error.mdx",
+    "sha256": "0ec0880e89012891a6727c319336709d9f6d082bb2ab6ceece1487911a91ecf5"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-image-generated-error.mdx",
+    "sha256": "7e89ba11230536a14c69c924071f7669e356f262422605dd1e73c3375ec44c11"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-object-generated-error.mdx",
+    "sha256": "456eb2d841623c15f5197aaaaea0cd4a4267abc661744bb2a1c0662bc03d11e8"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-output-generated-error.mdx",
+    "sha256": "c1423e4262c91139cf6c87844fb9187050e5751457011848a2cdd1ee9b7948f0"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-speech-generated-error.mdx",
+    "sha256": "4b29cabc285a33648d2092341d37c5f602b803b166453b8447434ece171d5125"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-such-model-error.mdx",
+    "sha256": "709955c3549cdf4c49d149b8818e3c2986e1194694635d063c45b54170b427d9"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-such-provider-error.mdx",
+    "sha256": "dc84510e6484e7934640a2b2b9e59e226429b2b6fcf5d9ed703f0aa1ddf90642"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-such-tool-error.mdx",
+    "sha256": "d5f5932af47324eec7c7f1e32264dded983313b460622cea34ef7b996861cb07"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-transcript-generated-error.mdx",
+    "sha256": "7aa8e8734fdcf85590537ace72a0b1d3cc262cdfbab5f01d672cfe7e3e6ae516"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-no-video-generated-error.mdx",
+    "sha256": "f96cf4b89d6fb08bf6915a3b3116100d7ba6a1e4f876530198341b43ea736085"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-retry-error.mdx",
+    "sha256": "cd2fdbd575d00a192dc7a4d3e83855af9fe2c944888137bd926938eab2acd8c6"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-too-many-embedding-values-for-call-error.mdx",
+    "sha256": "ffb2d038a0d70d6773fbd834ab1becc0d9de35076bf5beb7cee96d8179e62a8e"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-tool-call-not-found-for-approval-error.mdx",
+    "sha256": "26221e6898fc2b0a1cd9bf336bbf21ed3039f9b744703819173db8ac4cea7056"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-tool-call-repair-error.mdx",
+    "sha256": "b3420ddf174017385793919f632c129fd8df6e98bbc7d55de9e398bbfb71e4b0"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-tool-choice-violation-error.mdx",
+    "sha256": "1a1c392cfa4eef3fe20255250c32d54d8588a64748ac82cea975ff0f29bf5114"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-type-validation-error.mdx",
+    "sha256": "80ade99cdeba90ee3d86116c5a38449863fd619c54e09f50b888fe804b7431e0"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-ui-message-stream-error.mdx",
+    "sha256": "dfa5c939e6b7efb04053ad7f7a02b8847eb88f8af44134dfc3613f9435c15617"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/ai-unsupported-functionality-error.mdx",
+    "sha256": "934eaf6fa4a323413d6b1e9939048ea48821b470cbc0cb5f43b1478f0b8a3ffe"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/05-ai-sdk-errors/index.mdx",
+    "sha256": "25c88dfb32643f1d63e35d37e00ecbaa63488e6b68ad222e510ecf331cc8592e"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/07-reference/index.mdx",
+    "sha256": "4225db9d5f1a6fc9a3d9cc2eabaef2dbf64f27d7d59a6af9ff9b44be992dfc73"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/00-versioning.mdx",
+    "sha256": "8eddc549ebb7a24b7a90bd8472542a10599570bcacf94b4a9bfa0bb462a24a36"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/24-migration-guide-6-0.mdx",
+    "sha256": "7f4d2fab5a0c632363253174e8cab83f0d6d97ce92a2e671aa87db541191bac3"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/25-migration-guide-5-0-data.mdx",
+    "sha256": "4744281865dd895cdf8a9ba0b60aacd7b6469f2432696282bca8f3e71fdee7df"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/26-migration-guide-5-0.mdx",
+    "sha256": "bb42101c89f818d47132a66043146de40d62fba35c0fd52cc9db2201e6ab2a11"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/27-migration-guide-4-2.mdx",
+    "sha256": "a3a05c9aeb89e433919feec6398a635834e5c50f7ec7ffeef4ec4ca3b6e375af"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/28-migration-guide-4-1.mdx",
+    "sha256": "1cb96475e992001e0b75e2642859217d3f0c774af831ecd79021f4a87651ae6c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/29-migration-guide-4-0.mdx",
+    "sha256": "9fa5d2327b60c673a76f2ec491c52534315d0bcb717a10c0e8964bcd2c4fa213"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/36-migration-guide-3-4.mdx",
+    "sha256": "5efe4d34da7800d5c380ab6e91d447549b818aa673f83db53b2128997bc33176"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/37-migration-guide-3-3.mdx",
+    "sha256": "8e67d4528c8525a1552a16ff0ba2828eddf1f3952f474ef0a983591ab3b0ec4f"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/38-migration-guide-3-2.mdx",
+    "sha256": "ca440f0900a7513ab8d3c05b31bd511f26f2e91b3289bb58683ee7f523b84f0e"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/39-migration-guide-3-1.mdx",
+    "sha256": "0c92e0e1c32bc8c5d58b35e38a336a94ae0ea159762fcfcb65bd758cf22e196d"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/08-migration-guides/index.mdx",
+    "sha256": "16e53f00206d1613fb25a672b31723dd365688a0d3b2c5090971b9f39b41c065"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/01-azure-stream-slow.mdx",
+    "sha256": "dfe5019ae256cdf41b8d4eb6d0cadef9430d8d2b49699086130ab980b245eda9"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/03-server-actions-in-client-components.mdx",
+    "sha256": "d16200d600cde80a12422c9baf91c6bf3536635edee68c1f3ebd3a938896db59"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/04-strange-stream-output.mdx",
+    "sha256": "17afd8f66741b87bb9f090c7081bd38abeeb1440d9d9a96ba6106c2207c4a3c6"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/05-streamable-ui-errors.mdx",
+    "sha256": "d4b9dea1100fb47f0eb8e0c0add6e6f78df623ac44ebb9e3dc44eb3567b03f03"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/05-tool-invocation-missing-result.mdx",
+    "sha256": "65a5e231f6113b39c162bc61ab22c8c59420945c873f5445e8a699a1e7bb5ff2"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/06-streaming-not-working-when-deployed.mdx",
+    "sha256": "40ce7d8474095be5e44e06aefa6cdc4309bfdea0db213b65265b463c0c9706d9"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/06-streaming-not-working-when-proxied.mdx",
+    "sha256": "21e33488d4c4a102cfcfa6385949e1d4c62b6987887efcb549c767f48c6a647d"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/06-timeout-on-vercel.mdx",
+    "sha256": "3acd2b67f573d03e00c49343f462e0111c12664decf17570df3370986070ce81"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/07-unclosed-streams.mdx",
+    "sha256": "b561b334f143ee38b0d5a9d9ae955556bd4b80ba9c4648d79742e95f28bf2ed1"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/08-use-chat-failed-to-parse-stream.mdx",
+    "sha256": "3ad9af7b2223b0c30f9cb07ace84de69f761b7f0a84cf301a2e85a8be655b32c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/09-client-stream-error.mdx",
+    "sha256": "f5df9267b9b5033f44d68533656dbd7420622ad659e6f792cf8bd7f62af9d167"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/10-use-chat-tools-no-response.mdx",
+    "sha256": "f83a04ec072fc5060997c0a7325a0cba1a6643f2078aa2585acb0297a3dce675"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/11-use-chat-custom-request-options.mdx",
+    "sha256": "e319fa7be830db641c250248c3e723beebce68224abc1d5b41f3f2c77c2c68ff"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/12-typescript-performance-zod.mdx",
+    "sha256": "e13f67455415fb2dcadbc24b359bf17e7f36aff7abea4e6b62a6785414f9fa3c"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/12-use-chat-an-error-occurred.mdx",
+    "sha256": "39bcc93895c91254616c58a5a4c8e3ad39b9c0f2d77f978dc8d832bf2b327784"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/13-repeated-assistant-messages.mdx",
+    "sha256": "dacb9b367cd240dee80d4197ce932d657c549880a47227cf627ecb6ff96ebbd5"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/14-stream-abort-handling.mdx",
+    "sha256": "fcd480623949443ade549da59f870fbee7728124531896bd29fb92db07cc9a93"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/14-tool-calling-with-structured-outputs.mdx",
+    "sha256": "296eca8c1c68a27cf1615c21c4cfc64d1e22e1274835809d741337b962cf6d9a"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/15-abort-breaks-resumable-streams.mdx",
+    "sha256": "a657c260bd4c6a40db885916352e810b281c09615821b4297dde0027dce147cd"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/15-stream-text-not-working.mdx",
+    "sha256": "636d77374e0569cf651dc354d758e3ded00bef9fa5147890176961f9cf280f0e"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/16-streaming-status-delay.mdx",
+    "sha256": "394c2904a11348f27dccb090c517f7f878e1cddd8fb7459dd96b4e02ae324951"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/17-use-chat-stale-body-data.mdx",
+    "sha256": "ac67f67b953cbafb78a635b8e47c8420178ebe8be12cbd7e2f09566144a7c9ca"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/18-ontoolcall-type-narrowing.mdx",
+    "sha256": "33fb3a14ce8ecb2a1097a25c70e97b501008e2ce72a3399f4e5047b5e802ce60"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/19-unsupported-model-version.mdx",
+    "sha256": "cfb597047b60bb10d3c290261183d963edc633eed21dcbdb95b04d7202e1cc56"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/20-no-object-generated-content-filter.mdx",
+    "sha256": "7caa73593a422887a69b9a05aaa031cf5081bab59a997e66ddba6d7ec868fde5"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/21-missing-tool-results-error.mdx",
+    "sha256": "4f36b2d2f5b411bc7ef4b2042c4b43f48890dcdc4382725cb349d85b0a9ca6ad"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/30-model-is-not-assignable-to-type.mdx",
+    "sha256": "ccef69197061a032d35dcfc4959f7c7ac7fddb3f775d6dc652c6a93e201a4fcf"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/40-typescript-cannot-find-namespace-jsx.mdx",
+    "sha256": "63cc72f0322777e922a1d8e7710e423708a2cca71a70ac3e2de36e4d5e03fe61"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/50-react-maximum-update-depth-exceeded.mdx",
+    "sha256": "3497fb0ed2e79a5025ca487fa539c3ad626fc6036d5a1520768b0333f78ca11d"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/60-jest-cannot-find-module-ai-rsc.mdx",
+    "sha256": "f64d212d0bf35dd8f5caa1f639d9525b2f9b8f969036549c168271ed69b8b43e"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/70-high-memory-usage-with-images.mdx",
+    "sha256": "4814b9d49f83f55d19b8c484d10a833a8ce31a6b3c022daf6f169ce6f3a23988"
+  },
+  {
+    "version": "v6",
+    "commit": "0fb3a2241334c3e9df9aa15c86cb26c1cee9ba3a",
+    "source": "authored/v6/docs/09-troubleshooting/index.mdx",
+    "sha256": "9560c9be475f738e8ca3cb222dd28b824506cf4be705d63ca407d83662603ede"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/00-introduction/index.mdx",
+    "sha256": "3c2a6beb43fdf3c2fefb0c942744287534eee1d6425825123be174f0f42195b6"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/01-announcing-ai-sdk-6-beta/index.mdx",
+    "sha256": "329ea16fb042eb61b9ee7a7e44a75cf3c28385114f5b6048faaf176e2216cbff"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-foundations/01-overview.mdx",
+    "sha256": "ac7f976b18363266e47b41ac76d9bbe302af3e869867882bf37d011f3d193d6f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-foundations/02-providers-and-models.mdx",
+    "sha256": "9badc63e87a8b1e8566cc8b9115d07b53a9135564d03f58cae2a88818e9e17be"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-foundations/03-prompts.mdx",
+    "sha256": "0ad774798e5188ca9055bf7a4b00ac3fb35f25396b2d586006eda4d65b0b4dba"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-foundations/04-tools.mdx",
+    "sha256": "2184b8fbca6028e829232a864fec4a01e0a4bbe391f93de0405c1f4076643850"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-foundations/05-streaming.mdx",
+    "sha256": "b3d8d5651c3af33926ce94f9567d30a7e8cc9be8cfc91c877fbc686863fe6400"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-foundations/index.mdx",
+    "sha256": "eadf070a3cae5b612f22d96bac50f82cde96879ccd1d4c27e9c6d8e954ce42a3"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/00-choosing-a-provider.mdx",
+    "sha256": "cfcfb01a647a69564d27c3a069df5dd14714cda0841426220a63975f86f482c5"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/01-navigating-the-library.mdx",
+    "sha256": "4af9c6e4d2c0f4800d7f95c06bb751fd2035edc77e684a8b976c7ffdd6e39e04"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/02-nextjs-app-router.mdx",
+    "sha256": "a5326b8e6addbb5623a1c90c7b56e18af2d3daaf4fc3fc9a260b8d207c91b9cf"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/03-nextjs-pages-router.mdx",
+    "sha256": "3dcb305ac9ded280f3afb7f5e4f5ee6f6db32091c0067c2eae91f9f5f6bd1d10"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/04-svelte.mdx",
+    "sha256": "aded23e4dc9030c08e12c6c5f4431437c1df01b5034f15ae257f3cda80646bb7"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/05-nuxt.mdx",
+    "sha256": "f7c39d27da71adda060bdaaed8ece624a904b9214cf28ed57f735e38932374fc"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/06-nodejs.mdx",
+    "sha256": "7316e7a61da61ac14e58dce34ac87910972970acb81b5fe318c5ee157e969745"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/07-expo.mdx",
+    "sha256": "a7a4eb27e6a7f9c01119110360a394e9da3c725f4975d70ced8156cd4e9f7d02"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/08-tanstack-start.mdx",
+    "sha256": "5a9265e171d723c4b77648930c09e52f62a69756639ccb06a7182bdeb45664db"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/02-getting-started/index.mdx",
+    "sha256": "7abd5db17df6bcb30196e1c8f34a213d3187ea6b8d3b178fede319aca2606572"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-agents/01-overview.mdx",
+    "sha256": "f9f51491563da8456cd44911dc692661f93611494ff81e4fb02f40cef8200cb5"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-agents/02-building-agents.mdx",
+    "sha256": "dc879e54a203747a8cf31833ecfe1a0ef0e5fc88bdd76a49800b15ce78e0594f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-agents/03-workflows.mdx",
+    "sha256": "66fc9ea45c209642c3f20a86a0b30e21c8b5f70802adea612a68ca139dfadb14"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-agents/04-loop-control.mdx",
+    "sha256": "87e2ba7f56c18601ff4cdb50ea256866eec9031ca76fddf97d5fab3796312be0"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-agents/index.mdx",
+    "sha256": "d97900c51e511f5bc6bd710984a910927b5731c285eee41f63697fbe65b9d358"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/01-overview.mdx",
+    "sha256": "b06e132a2983c2c83c0076201c30b5e89a44a1523c4ebe95dfb913fe112869f4"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/05-generating-text.mdx",
+    "sha256": "951e3260c010e6595f44aa7f2cfc1eba06f32c1f42725748ced80a7365b1a9d7"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/10-generating-structured-data.mdx",
+    "sha256": "ec59ba45e5ddc7a3816bb9dce0bf6505183c4fc1a7fd4d9fc158911cdd911dbe"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/15-tools-and-tool-calling.mdx",
+    "sha256": "9ee4876e994be9fa95c4c2984e0c6a82c06efe4847d32b0b270df9afdb0cdaa1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/16-mcp-tools.mdx",
+    "sha256": "5dd5406d636c51d279a704970112a2c38a28d141461a267510c55e8462c25987"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/20-prompt-engineering.mdx",
+    "sha256": "b7117ce2de9cf6f4310a6b592157c528eea691d079ce3293c120fd956f37a31d"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/25-settings.mdx",
+    "sha256": "6663ada097a603d1c25523b38e19e1941cdcdf595b6dba6af66a58673cd61b83"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/30-embeddings.mdx",
+    "sha256": "40519f5a7be936ae70cb354f92d6738ea369f1b0c387b07679e9e0f84ceeaa30"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/35-image-generation.mdx",
+    "sha256": "10a5fd5c2ab2b0aa241433b2b5abac81f3cdf3c0c7a95ca92937f6a1f344e0f3"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/36-transcription.mdx",
+    "sha256": "87c79f8bd9c0997e4ac22a167c6c2bad38adf292c31b69163dbcba194586387b"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/37-speech.mdx",
+    "sha256": "da3e019e2ee8d4b09e27537d8ce440088b9cdab5f245a2859c3ad42ab64c603a"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/40-middleware.mdx",
+    "sha256": "caf81f73d325a52e47e9c53b5447b98d5cc890bbd0f1036acce03babf16ea0c8"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/45-provider-management.mdx",
+    "sha256": "d00233be0cfab1799256ab59b8d0f86693f312dd22c428ee6d454b36256df594"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/50-error-handling.mdx",
+    "sha256": "38d9c289606fdf3cb4ba83db4bdafd110430833455fccd543e23a38e6d24e6be"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/55-testing.mdx",
+    "sha256": "9c74eb61fecfdd929710479b921d1e5b51eebcb5170986b767273270e415370f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/60-telemetry.mdx",
+    "sha256": "53f17c56c2d91bf43f6b43420e0c41e458ff1ec75dd5330e5e0198383e69555a"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/03-ai-sdk-core/index.mdx",
+    "sha256": "610caee26e68379ae7f5d214bb755f0fe2fa86b4cb57baf298a938259dd5aaa5"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/01-overview.mdx",
+    "sha256": "98802de6206c303a475ab83bad0f6154bdd198c5cd1f0e1bf2dfec019a367bc5"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/02-chatbot.mdx",
+    "sha256": "92701690f4733022f6bf48b842ebc64622d34d096b221abf3e64af3947f27441"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/03-chatbot-message-persistence.mdx",
+    "sha256": "74c5b649edddf3485df863f4ee91c0e0f7db589d6b61cd9db3a9d4bdec245c6f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/03-chatbot-resume-streams.mdx",
+    "sha256": "ba7935b5bf3bc9831e3dbcc8a5231e0c82e6a55f919a1fdcf1aed7a851313966"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/03-chatbot-tool-usage.mdx",
+    "sha256": "2381f42ea3cff392e0cb313b52a48fef0d6bf755cdfa9a0c48e21a08bde3ba17"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/04-generative-user-interfaces.mdx",
+    "sha256": "72b11fbdc1c8aa22cb7a9119ff7e25d94e7f08ec6689a667b0da51ec17c36821"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/05-completion.mdx",
+    "sha256": "08af1f87e3ab6e8956aad90e6beb33a6c6a4ed2023eb28b324de44bfa1687e59"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/08-object-generation.mdx",
+    "sha256": "066489c0925cc0b96ed8ab93bcd43305085881b801ccea526def14510666aada"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/20-streaming-data.mdx",
+    "sha256": "34074cd8343e10477757ca66971801f360f38cc687a23ccf10cd8ab1344f8905"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/21-error-handling.mdx",
+    "sha256": "7cb1d9a433cde5e8cdddd821227670d1b4cc32ede2c2b392510e5dcc46446df4"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/21-transport.mdx",
+    "sha256": "89a02d1c85d97bb0802f8d848739168241068459959ec75fc25037c040e8cdd5"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/24-reading-ui-message-streams.mdx",
+    "sha256": "77c9b23841f53175b17631c1f528cf7a1f7a75836e81cc43fa1ae0aa071c3044"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/25-message-metadata.mdx",
+    "sha256": "edffe510ef6a4d0df5990a1b59d71a6de6fad1a559522310474ad81b478c0aef"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/50-stream-protocol.mdx",
+    "sha256": "41730f3cdd8ab3ed38e2d666db0fb19c99a15d8108063b5b9aadba55779d7c04"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/04-ai-sdk-ui/index.mdx",
+    "sha256": "7fc9c0bbdfb1065c065d44e0b5274393dd31ade28b1fd9f154298b99173aa6a7"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/01-overview.mdx",
+    "sha256": "f4b24f34f1c84c8fe45d43d63cd4a2a6acb7a7fd89c8a9c84eb671eff215cb0f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/02-streaming-react-components.mdx",
+    "sha256": "51bdb6a2d1a296c7d3c2255fcd2803dcdb63d1328c1cdbc934e465569a551821"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/03-generative-ui-state.mdx",
+    "sha256": "7b9a138ca044777efd6c4ba314cffa855b05caa354bdffd96a871a4816c980cf"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/03-saving-and-restoring-states.mdx",
+    "sha256": "8c21a7be4e8181bcfd664db657b26feb1282c496db855968c1a3a9a4c2e029a0"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/04-multistep-interfaces.mdx",
+    "sha256": "9c625c822351b1b248a79dc1e684c3770cfe0aeec2cd9dee079fb4c2ee243530"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/05-streaming-values.mdx",
+    "sha256": "0b8080ead326333490187e4f9ba18227bd63b08fb3391d5b75a27d3fa7769ede"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/06-loading-state.mdx",
+    "sha256": "8aab42e7ecb313620172bf2bf3ff5d21beeec6b12631159251e7d3c79bb20d8c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/08-error-handling.mdx",
+    "sha256": "ae1082d327612f57374df13e866f7a00962c76271f6f07162bcbb3af14595be0"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/09-authentication.mdx",
+    "sha256": "cd48ce86ba04383d762a62ca9adbd6911c3e1f8fc114c2ea8c932ec664d81714"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/10-migrating-to-ui.mdx",
+    "sha256": "d28fd61d1572e901183f34aa728c522dfab974f3bab382b53fae82fe81f8608c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/05-ai-sdk-rsc/index.mdx",
+    "sha256": "478a43502e9fd3845372917fa7f783d2de6cb41731ce9c0bfc8b4fe15f6909aa"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/01-prompt-engineering.mdx",
+    "sha256": "ac486f660c67ed6dbd7a692c6c95ad68ab093a2337715a6371a42e28c1df1900"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/02-stopping-streams.mdx",
+    "sha256": "63e1df40bcfc48782a1c203a88b74071f21c1d5f0e0def572095c401910d24a8"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/03-backpressure.mdx",
+    "sha256": "009e6a03253575ed01d09a24a95fea0b2405be2a4c41da444120b17fe126f828"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/04-caching.mdx",
+    "sha256": "c66f0abcbab53c5d0975ad67abd50ec83ab3ee225e12bc8e002155a6f5f6610d"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/05-multiple-streamables.mdx",
+    "sha256": "03c26a405f35d3450db937eb45150ba56fe5f73237ba29e309ec397d7e485c2c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/06-rate-limiting.mdx",
+    "sha256": "697b2f69a782e9877809ebb6b62f875abe2b5f20ccc22ee90c01508fefec87d9"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/07-rendering-ui-with-language-models.mdx",
+    "sha256": "5aac0234c90e4205b0438124ec4d50cd38d8fbec9e7cdf1888c2125d32323bd8"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/08-model-as-router.mdx",
+    "sha256": "39e976c8479c4911f390236954c495c057230948646a48cb3e99a8a4dec521c3"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/09-multistep-interfaces.mdx",
+    "sha256": "2361594ea1681dfcebdf26a01e956dade228cecd37b5301523e59371c750825c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/09-sequential-generations.mdx",
+    "sha256": "3083450d9f51c3d8d7a2492b703c4c1b1d9da08336deb2a587d3c672155177fd"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/10-vercel-deployment-guide.mdx",
+    "sha256": "a1cd657902e39b1003e7e1bb9b5e8c3df4a3a0831e8e6abbea0e2bbae40d3b6c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/06-advanced/index.mdx",
+    "sha256": "6193c90ffc5a4ca3a78652c41593a72e543f1366448f49379b69e2ce0e38f755"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/01-generate-text.mdx",
+    "sha256": "d38527fc136067505a76383bb45df0bc5dc6ab09f4a476122cc784c30ed4d052"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/02-stream-text.mdx",
+    "sha256": "9005056d68b81aa29185f7baa19aea8c43e91b0b0187088315613346b3250663"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/03-generate-object.mdx",
+    "sha256": "6f8017aba6ca534d49a9daa1152d73a402d14fccbd12f81ee0e8adcaac942e36"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/04-stream-object.mdx",
+    "sha256": "8bb0898d5764f1664d6d70bf886579adc464c5eda4340211ac817accc63a6265"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/05-embed.mdx",
+    "sha256": "dbe2a607839bc2523518ad98a80c5d9b336b8ecf2548a3a89e84fd65a4efbedb"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/06-embed-many.mdx",
+    "sha256": "496750008bff0e046bbd457b0f296af404a90c3afa784a4bc0afa5545dadbc08"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/10-generate-image.mdx",
+    "sha256": "d382f76099632b9886db9c35c590531ad8e83da061514685628fd706f9a133a4"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/11-transcribe.mdx",
+    "sha256": "beed6d6fd91c55f7f7182bde11361f17065e0af05fa89e4d803cc1ec7c1994d3"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/12-generate-speech.mdx",
+    "sha256": "80d87fb4538a8436a1c4c287f8a69e539a428e18c802d348472e9d5521494137"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/20-tool.mdx",
+    "sha256": "2a465cb9de8e51802e36794d1f139986d4436ccc7e53b0717c9aef06dfd36685"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/22-dynamic-tool.mdx",
+    "sha256": "69b10847317bc6acc7c8c471f1fa30269ec8e8c8a76b038e80b2419d7bf4a832"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/23-create-mcp-client.mdx",
+    "sha256": "2c73c889b879cc7ea03c2276db7b67cb3dea41671c464c8d4b17fd56862a3d59"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/24-mcp-stdio-transport.mdx",
+    "sha256": "9e936bc02cb52fc5ce069db3308ff83e2093e231ca46ab569645c1ab0e4bd61d"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/25-json-schema.mdx",
+    "sha256": "09f1611a2081c4f5a41aed34a366f7069aefa27450539c277a9facac92625bc1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/26-zod-schema.mdx",
+    "sha256": "0b9097092d6b1a95e2865b6ca879849436a426b3fe7e65d854c241f113500c71"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/27-valibot-schema.mdx",
+    "sha256": "b593411e1e191a3490052f09a54c4275dffff70aad8a1dad53a02bc22b4f9fd9"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/30-model-message.mdx",
+    "sha256": "e65f9e4aa7aed00e5f3fee3527fa6bed2e4f994242b9458000a845bc95ac0e98"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/31-ui-message.mdx",
+    "sha256": "baa74435dd9d9ffe4b98b510d30191bb3f4f7dd2a31a79899a0e7efe153d72b7"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/32-validate-ui-messages.mdx",
+    "sha256": "6468b3186ae20fd81b95c7e219b493e3d73c49f6b16af618d12a01bd2c782df7"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/33-safe-validate-ui-messages.mdx",
+    "sha256": "826a899873d34ed43a14ddc10e7b03778aaf94b84868116b7190fc2205da2bb6"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/40-provider-registry.mdx",
+    "sha256": "de02c4500d7d21d561009d519560ac4bb69cec50dee98802f62964662b884aeb"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/42-custom-provider.mdx",
+    "sha256": "18815b646742499554a607ecae985dbc1d9ae29ec584f60617664195ff7d97d1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/50-cosine-similarity.mdx",
+    "sha256": "f84f13920f0a82e24285e3a95d8c2ab138c6f1752f8618d359e7a4ad8795294c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/60-wrap-language-model.mdx",
+    "sha256": "e00f731f38588a418eb5d519a7483e6f94975c6f568346a30755a47f347c1568"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/65-language-model-v2-middleware.mdx",
+    "sha256": "9102801c7c8259849d6a6d680a844792fdd51ec69e0abc99def2df2b5d840f9b"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/66-extract-reasoning-middleware.mdx",
+    "sha256": "f3fc4022a4af9ad01e0a0803235c89983c39515d42c8936168f3d5d0e60ee146"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/67-simulate-streaming-middleware.mdx",
+    "sha256": "97a02b4e225f37851f8438f4833f186462d4a39f55800bcd58b99fc33f85f898"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/68-default-settings-middleware.mdx",
+    "sha256": "91b220e8197761e6aeae30b729a412c8221dbcfe2c1fdce799b4b14435db92f6"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/70-step-count-is.mdx",
+    "sha256": "7be010e67d26da221c56e9e43752b4dac631d51cbdd953ff342b61b7876155a3"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/71-has-tool-call.mdx",
+    "sha256": "9f84505392320ca22f9824fa5e35a90b9742b8425fd5e7a56c78a624bb256ff3"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/75-simulate-readable-stream.mdx",
+    "sha256": "ccd466191936d20cef5f852758292f9aee98e3869c923c85f22b40e28e240912"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/80-smooth-stream.mdx",
+    "sha256": "f9757890e8579ba45a308d142ad05395d97a6526a9ac742e6d29d48d2c789784"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/90-generate-id.mdx",
+    "sha256": "a49244bafd480152db574afb6bc360bed889a646914712ce22bdc131c0403f6b"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/91-create-id-generator.mdx",
+    "sha256": "34201272b4dd87805f24de11d9207181fb04081a63d427f1f7c50f114a4c8347"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/01-ai-sdk-core/index.mdx",
+    "sha256": "050fa03699a4de94c8c74aac4065b4a8d9d08a078818ac4d9e66c54e547c248e"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/01-use-chat.mdx",
+    "sha256": "72bdc0d6d4371373d217d572a5629e64809823e8f73dc949af5573665b2a64e1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/02-use-completion.mdx",
+    "sha256": "ec4194c0c211d5ca6a8b98e47f9f1de6f549870f600b44456a3d6fe6626a076a"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/03-use-object.mdx",
+    "sha256": "7f12e7596ee124b64c84012cc8565adcbb48fd240e33d2c8a84af370b7b8c209"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/31-convert-to-model-messages.mdx",
+    "sha256": "cc2c4278ad3bdda6bfa45b6683f0df13a0c6a17e4a6e83105aa255b3b0e4f3ed"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/32-prune-messages.mdx",
+    "sha256": "b3a97fa1f3f30d7c975c34a2f2ed4578b6cf86c75498698266d992db5dcc1d1b"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/40-create-ui-message-stream.mdx",
+    "sha256": "d93eeddfaeb0695cf35f205deda47eb26d09546ea053c39d24ec2dad350d7e59"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/41-create-ui-message-stream-response.mdx",
+    "sha256": "570335dab7790bd1bdc8d23dcb15b3c1d7d65b298e08515af4f972136e45a2e1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/42-pipe-ui-message-stream-to-response.mdx",
+    "sha256": "28114844d3c6c636f6086c23f50b6b2116be27a62319c0a35dd239051f334719"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/43-read-ui-message-stream.mdx",
+    "sha256": "37dba1ac4bf14ca6259b0a2e7752c73ce6d6168e8bca44704f6ea435c01fdcd4"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/46-infer-ui-tools.mdx",
+    "sha256": "a51d83519bdfea4e3d819b374126b8014adc767f486ff363791f6cb147cb9f5a"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/47-infer-ui-tool.mdx",
+    "sha256": "9516dc042b13f67b09c59193c2d90c930ce276df4f20e06d919074420a246330"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/02-ai-sdk-ui/index.mdx",
+    "sha256": "69bf93b60870ff2b3113d4e1d7c94f19217b46b56bd4de4ae81828394fe533fc"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/01-stream-ui.mdx",
+    "sha256": "98dbee2f4bb43956d4a402d06cb3799de0d70dc3f99bf752097c91bde11ca9e8"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/02-create-ai.mdx",
+    "sha256": "60e606ae55bcd78232d39e98a8c6f09c58cdb0327a9a70084d636cf9e1bebf40"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/03-create-streamable-ui.mdx",
+    "sha256": "944e03386035bc73c68622495d8b64206afa3a8b93c25a39188bca9acc9760fd"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/04-create-streamable-value.mdx",
+    "sha256": "c536dc4b624624cd6a178ec5f08ce268e60f432d42928c5956b6bb3b77a1a5c4"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/05-read-streamable-value.mdx",
+    "sha256": "4c16bec87d5a1e7a46a35d8a722e50e4f999aee7d9f1143399933e5443038f8c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/06-get-ai-state.mdx",
+    "sha256": "03212f86f29a72453e8bfec7adf14ed7cbd23645eac3b12b45a9736dd2eea157"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/07-get-mutable-ai-state.mdx",
+    "sha256": "b96068082429de6f834684896bd435be97b408beb99cb0d94e7610b625af138d"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/08-use-ai-state.mdx",
+    "sha256": "5f7d92e89f076d9fb48c3c90976b8565addd39288557e82983659935c33b8590"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/09-use-actions.mdx",
+    "sha256": "5cdbc9952d39f86ed8808cc4ae784a2e47ff84860c1c03b2a0fedbbaa27cbfed"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/10-use-ui-state.mdx",
+    "sha256": "dd2bb31f12bf4e30badf5f2135858dac71cba558638833fe93ffd187d54fda34"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/11-use-streamable-value.mdx",
+    "sha256": "8c33f5e450e1a42c9f7dc52c483666ff4d067f59d136615e29b2c18545ed870a"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/20-render.mdx",
+    "sha256": "43bbd0f1eebcf158e8b09f3788ac676bc7cd912394402f9a432d6543e857ceb8"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/03-ai-sdk-rsc/index.mdx",
+    "sha256": "26ec9fb3c4ec53a8f06772767c9585685a9bd83b2bb0bca5dae08268763b05c4"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/01-ai-stream.mdx",
+    "sha256": "dccd9e28fc556db33e7d29869a97b6a4ab77e34a9f1933c0aef38576b4e65c59"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/02-streaming-text-response.mdx",
+    "sha256": "29ccdfb931124dde9147555774dc7a2a5f79ab62a1cc6382f80f47a2fe8e75fc"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/05-stream-to-response.mdx",
+    "sha256": "ee5aead3d5d9ddb4d5930993fd6fdc227c9b0cee86dcd73d7730c11e5dbc8e16"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/07-openai-stream.mdx",
+    "sha256": "f70b4c7596525865f778d90717a83ba4b9a8a09f22f1197b6113769fc90c32d7"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/08-anthropic-stream.mdx",
+    "sha256": "d584e00ff2a3fe4c40c1b503c92c69bf0dc768106c099393c8ee173edfea6c39"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/09-aws-bedrock-stream.mdx",
+    "sha256": "a16008a0e2d3e7fa7694c7cd6b4fc390258a56761c0bd93e957dfd2c22722220"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/10-aws-bedrock-anthropic-stream.mdx",
+    "sha256": "c6ffb532ab996b92ddcc02e0f077fb242865b7f6e980f2408b4553172785d955"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/10-aws-bedrock-messages-stream.mdx",
+    "sha256": "772ac755c950a1ec5b1eca7d1d07ae815dd880be9f3456c95d7e76a3d3074d13"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/11-aws-bedrock-cohere-stream.mdx",
+    "sha256": "3ba09c3ad3fff58e2ab73eb92c4a44e01325b6d26bd7e74ee25b1c54f7976200"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/12-aws-bedrock-llama-2-stream.mdx",
+    "sha256": "5eadc63a78af7169b405f428ee6a5057f32fe0e70b812c4e3899d489b8a83724"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/13-cohere-stream.mdx",
+    "sha256": "57b44be73f1db816c0f8db2c7588c73d2be235c037f9b3da2d5a05755689d5b1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/14-google-generative-ai-stream.mdx",
+    "sha256": "34cc02e324f9d82788f45d4270d84c42c61e26dfaf74f19a78374b8fafc8835a"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/15-hugging-face-stream.mdx",
+    "sha256": "9de11dc77c7558093788d5a1275bbfede817f98a120a0e7ddefc5b8a1c8a194f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/16-langchain-adapter.mdx",
+    "sha256": "efc575ae66eec1015299598e3d9aaf5f823b98712dccef927ae82326ac223c93"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/16-llamaindex-adapter.mdx",
+    "sha256": "3d181cae2c03398d8a9a33912b446e229a514134b388d54fca1d59a0d81a4dcd"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/17-mistral-stream.mdx",
+    "sha256": "1061eb64cfaa8c857e39f0b758d797f96d8a8b8bbbc68f61df130041b86cbacb"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/18-replicate-stream.mdx",
+    "sha256": "e36431938ecdce6e96137fef683c244291fba282f49bd06acd272b655d86827a"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/19-inkeep-stream.mdx",
+    "sha256": "3fdfbd9b54c4e67e82dcc1e81a0f20d577ef2b49bf0d56115cd950df72980873"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/04-stream-helpers/index.mdx",
+    "sha256": "c7bb8ca31ae6199eecc448151032d6e4f422b4d00f3a0164c601ea38d799c8bc"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-api-call-error.mdx",
+    "sha256": "010bc549ba258dba06cb1ebb433fb503849a691da8c1f014cfb915fe98810ccf"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-download-error.mdx",
+    "sha256": "ce464e8f9b05e8477ee8f0b4ced03fd6ef4f333879aa9e66ef6374c72e28bee1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-empty-response-body-error.mdx",
+    "sha256": "f2833e1a3a1412e48abe165003159a726b62d214cf035ef94135119fb32eda22"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-invalid-argument-error.mdx",
+    "sha256": "8c4560456ba5be1a551550ce08920e5fa98440ea77e8c2749a5c0963e0c43bbd"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-invalid-data-content-error.mdx",
+    "sha256": "08641d54809396d6483d5114634d8c0a29b5b5d6641175c32cec4b1aeb8efae1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-invalid-data-content.mdx",
+    "sha256": "19f0bcdde173e55de1596d589e78392476993bcfece8f1917793d65741535bce"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-invalid-message-role-error.mdx",
+    "sha256": "a70606c363dc121102fa9d4e7242a3b0366f8d6c5cb391435642d20bd2d63110"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-invalid-prompt-error.mdx",
+    "sha256": "7d84bde1f30a0b087e8ec52aff2837092eb8a0616165c97af170833b960a1fac"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-invalid-response-data-error.mdx",
+    "sha256": "cd7323ab32bc02891e23714a953ec9c3caabf0384bcda90813d968bf30e249dd"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-invalid-tool-input-error.mdx",
+    "sha256": "12734ade3fd74d00727e1cb30ed5abb14ad1da44815ee537f0843dc7a66a732a"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-json-parse-error.mdx",
+    "sha256": "08f78167c36957937ab51e2c2306caee26c1405dbb59e3a335d15fc46a75623c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-load-api-key-error.mdx",
+    "sha256": "648e1b4a02f61f4c7dd6f85c226157d4ba31a99dfdc551c74b6b2ffc02d0cf72"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-load-setting-error.mdx",
+    "sha256": "0973da0f7fd2fe5ac0e83d3ce2f901e894d67ef336ed2b785e9ffabd349989a0"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-message-conversion-error.mdx",
+    "sha256": "5b0d3a1c0c7a61d51a7ad7e535c0215f03c4d9044e7696e2660ed7529b5a4043"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-content-generated-error.mdx",
+    "sha256": "e8d5f52d258356199d6f8da026f6272fea380d83231a2ac8aa7b697f078ffd24"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-image-generated-error.mdx",
+    "sha256": "ac20e9b2631c821c05d5178132f5325ae538245c00f99c3682fca42340d8335c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-object-generated-error.mdx",
+    "sha256": "c0f00f38e5c7d79138671ece57d3a5b1e96debf2b7fa6c660d37029cb230febe"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-output-specified-error.mdx",
+    "sha256": "a425815f7bcc914728f63f3f95beda1cd570a5c87436172a0c8516ea7e078411"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-speech-generated-error.mdx",
+    "sha256": "ab22a80c8bfcc1746d73e392f20ff2790797203ca02a21076d1b1a20470b5b73"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-such-model-error.mdx",
+    "sha256": "0efdb63612034f109ace96669ce4beccd5d44b8668253dafdfdb156779576608"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-such-provider-error.mdx",
+    "sha256": "dc84510e6484e7934640a2b2b9e59e226429b2b6fcf5d9ed703f0aa1ddf90642"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-such-tool-error.mdx",
+    "sha256": "9cd5d9c28b45dea750b5355365d6d08a1f8961099fee4c7d2c2d34306fb360aa"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-no-transcript-generated-error.mdx",
+    "sha256": "7909fce73f3e92668a9ad0e2fa2284931dd645721ec90fb39aed00b85f25ea87"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-retry-error.mdx",
+    "sha256": "cd2fdbd575d00a192dc7a4d3e83855af9fe2c944888137bd926938eab2acd8c6"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-too-many-embedding-values-for-call-error.mdx",
+    "sha256": "ffb2d038a0d70d6773fbd834ab1becc0d9de35076bf5beb7cee96d8179e62a8e"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-tool-call-repair-error.mdx",
+    "sha256": "b3420ddf174017385793919f632c129fd8df6e98bbc7d55de9e398bbfb71e4b0"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-type-validation-error.mdx",
+    "sha256": "dacee104e05e8d122b6989eb6435b9d81e825ede80227514a0369956eb9e6055"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/ai-unsupported-functionality-error.mdx",
+    "sha256": "6c5f0dec82e5b2fd8194286652ff4a3d59efb5b0c03bb99581fa60f74472b5ad"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/05-ai-sdk-errors/index.mdx",
+    "sha256": "1696b847032ccbdb8ee2d49001035a510380a412c20157ac59f434cad5021556"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/07-reference/index.mdx",
+    "sha256": "e5c805efec93ce19306cb4d2291ae056df6101d156db5a6c8e61bab3804655ef"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/00-versioning.mdx",
+    "sha256": "8eddc549ebb7a24b7a90bd8472542a10599570bcacf94b4a9bfa0bb462a24a36"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/24-migration-guide-6-0.mdx",
+    "sha256": "cf735667a7c35262fac7af9a54ad8528c85e44e46091350501f8c04696927e90"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/25-migration-guide-5-0-data.mdx",
+    "sha256": "4744281865dd895cdf8a9ba0b60aacd7b6469f2432696282bca8f3e71fdee7df"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/26-migration-guide-5-0.mdx",
+    "sha256": "590c52eaf40262db591d5480dd17ac9f0e48e575b2a5f67d8bfe14deeb0e59d0"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/27-migration-guide-4-2.mdx",
+    "sha256": "a3a05c9aeb89e433919feec6398a635834e5c50f7ec7ffeef4ec4ca3b6e375af"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/28-migration-guide-4-1.mdx",
+    "sha256": "1cb96475e992001e0b75e2642859217d3f0c774af831ecd79021f4a87651ae6c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/29-migration-guide-4-0.mdx",
+    "sha256": "24c59a56c1b26002fc450231e5a1899b153064dc5d9a10cff4e59350585755c3"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/36-migration-guide-3-4.mdx",
+    "sha256": "5efe4d34da7800d5c380ab6e91d447549b818aa673f83db53b2128997bc33176"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/37-migration-guide-3-3.mdx",
+    "sha256": "8e67d4528c8525a1552a16ff0ba2828eddf1f3952f474ef0a983591ab3b0ec4f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/38-migration-guide-3-2.mdx",
+    "sha256": "ca440f0900a7513ab8d3c05b31bd511f26f2e91b3289bb58683ee7f523b84f0e"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/39-migration-guide-3-1.mdx",
+    "sha256": "b425581f4ac8c0ffe011dc40a0776859ee04d53767325f90fcc5449ffa056926"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/08-migration-guides/index.mdx",
+    "sha256": "16e53f00206d1613fb25a672b31723dd365688a0d3b2c5090971b9f39b41c065"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/01-azure-stream-slow.mdx",
+    "sha256": "dfe5019ae256cdf41b8d4eb6d0cadef9430d8d2b49699086130ab980b245eda9"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/02-client-side-function-calls-not-invoked.mdx",
+    "sha256": "f45d049324a199f8b6d6cd03dcc8b77805c28f90097fcc0b9d000caedfc40bb0"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/03-server-actions-in-client-components.mdx",
+    "sha256": "d16200d600cde80a12422c9baf91c6bf3536635edee68c1f3ebd3a938896db59"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/04-strange-stream-output.mdx",
+    "sha256": "6588bd0cda4e7e77016ea7418bf35ff0ac00e77739c2b423ae3d97fc7f401353"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/05-streamable-ui-errors.mdx",
+    "sha256": "d4b9dea1100fb47f0eb8e0c0add6e6f78df623ac44ebb9e3dc44eb3567b03f03"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/05-tool-invocation-missing-result.mdx",
+    "sha256": "65a5e231f6113b39c162bc61ab22c8c59420945c873f5445e8a699a1e7bb5ff2"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/06-streaming-not-working-when-deployed.mdx",
+    "sha256": "40ce7d8474095be5e44e06aefa6cdc4309bfdea0db213b65265b463c0c9706d9"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/06-streaming-not-working-when-proxied.mdx",
+    "sha256": "21e33488d4c4a102cfcfa6385949e1d4c62b6987887efcb549c767f48c6a647d"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/06-timeout-on-vercel.mdx",
+    "sha256": "3acd2b67f573d03e00c49343f462e0111c12664decf17570df3370986070ce81"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/07-unclosed-streams.mdx",
+    "sha256": "b561b334f143ee38b0d5a9d9ae955556bd4b80ba9c4648d79742e95f28bf2ed1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/08-use-chat-failed-to-parse-stream.mdx",
+    "sha256": "3ad9af7b2223b0c30f9cb07ace84de69f761b7f0a84cf301a2e85a8be655b32c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/09-client-stream-error.mdx",
+    "sha256": "5513535022b8bd40597440f9f0071f8c57b1d01ebd37d9810bb7b494bd9d2d24"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/10-use-chat-tools-no-response.mdx",
+    "sha256": "a5b021a5d9827ec2ea00c11294f4accd8de72b69bead86d6119b77b8ce73c900"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/11-use-chat-custom-request-options.mdx",
+    "sha256": "e319fa7be830db641c250248c3e723beebce68224abc1d5b41f3f2c77c2c68ff"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/12-typescript-performance-zod.mdx",
+    "sha256": "e13f67455415fb2dcadbc24b359bf17e7f36aff7abea4e6b62a6785414f9fa3c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/12-use-chat-an-error-occurred.mdx",
+    "sha256": "39bcc93895c91254616c58a5a4c8e3ad39b9c0f2d77f978dc8d832bf2b327784"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/13-repeated-assistant-messages.mdx",
+    "sha256": "a301b6584edb1c04f3707687b3bb58bee078f53e88cc849ab8652a0a68ae63d1"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/14-stream-abort-handling.mdx",
+    "sha256": "5ea5ebbc31a87ccc2be9965a9d272ea5817ab412f995b838ff3ba3774ef679cd"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/14-tool-calling-with-structured-outputs.mdx",
+    "sha256": "6719f7daed42f6dff32c38682799c0ccc454feab451a95580271e4a0325a015f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/15-abort-breaks-resumable-streams.mdx",
+    "sha256": "e312823fd5bb1be4b64bf59e55e5a68d2662ed3bbbc1e6855b000a913b9ba746"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/15-stream-text-not-working.mdx",
+    "sha256": "636d77374e0569cf651dc354d758e3ded00bef9fa5147890176961f9cf280f0e"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/16-streaming-status-delay.mdx",
+    "sha256": "394c2904a11348f27dccb090c517f7f878e1cddd8fb7459dd96b4e02ae324951"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/17-use-chat-stale-body-data.mdx",
+    "sha256": "bc4b991990272ef3de8d96a674dcf250833d0cbdfabfedef3fdef6716fb89e7c"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/18-ontoolcall-type-narrowing.mdx",
+    "sha256": "33fb3a14ce8ecb2a1097a25c70e97b501008e2ce72a3399f4e5047b5e802ce60"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/19-unsupported-model-version.mdx",
+    "sha256": "cfb597047b60bb10d3c290261183d963edc633eed21dcbdb95b04d7202e1cc56"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/20-no-object-generated-content-filter.mdx",
+    "sha256": "20070acc807a3fd275d857408e44191fa9d8b0ab863bc9f7c0495f47b39525fb"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/30-model-is-not-assignable-to-type.mdx",
+    "sha256": "f305709d27aa3885794d0b3a58b76aac2aa45aaa91720f6224373d8a2e583a2f"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/40-typescript-cannot-find-namespace-jsx.mdx",
+    "sha256": "63cc72f0322777e922a1d8e7710e423708a2cca71a70ac3e2de36e4d5e03fe61"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/50-react-maximum-update-depth-exceeded.mdx",
+    "sha256": "3497fb0ed2e79a5025ca487fa539c3ad626fc6036d5a1520768b0333f78ca11d"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/60-jest-cannot-find-module-ai-rsc.mdx",
+    "sha256": "f64d212d0bf35dd8f5caa1f639d9525b2f9b8f969036549c168271ed69b8b43e"
+  },
+  {
+    "version": "v5",
+    "commit": "239ea3a151f81aa55b78d8eeca5fd20555730de5",
+    "source": "authored/v5/docs/09-troubleshooting/index.mdx",
+    "sha256": "9560c9be475f738e8ca3cb222dd28b824506cf4be705d63ca407d83662603ede"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "scope": "Representative historical docs; full-site browser acceptance remains A7",
+  "comparisons": [
+    {
+      "version": "v5",
+      "route": "/v5/docs/reference/ai-sdk-core/stream-text",
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "title_equal": true,
+      "heading_equal": true,
+      "visibleText_equal": true,
+      "toc_equal": true,
+      "articleRect_equal": true
+    },
+    {
+      "version": "v6",
+      "route": "/v6/docs/reference/ai-sdk-core/stream-text",
+      "css_viewport": [
+        1440,
+        1000
+      ],
+      "title_equal": true,
+      "heading_equal": true,
+      "visibleText_equal": true,
+      "toc_equal": true,
+      "articleRect_equal": true
+    }
+  ],
+  "missing_version_page_fallback": {
+    "from": "/docs/ai-sdk-harnesses/overview",
+    "target": "/v5/docs/introduction",
+    "matches_reference": true
+  },
+  "existing_page_switch": {
+    "from": "/v5/docs/introduction",
+    "target": "/v6/docs/introduction",
+    "observed_project": "ai-sdk"
+  },
+  "historical_metadata": "noindex, follow; no social image, matching pinned production"
+}

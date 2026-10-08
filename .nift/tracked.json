@@ -1441,6 +1441,2291 @@
       "template": "templates/raw.html"
     },
     {
+      "name": "v6/docs/advanced/backpressure/index",
+      "title": "/v6/docs/advanced/backpressure",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/caching/index",
+      "title": "/v6/docs/advanced/caching",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/index",
+      "title": "/v6/docs/advanced",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/model-as-router/index",
+      "title": "/v6/docs/advanced/model-as-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/multiple-streamables/index",
+      "title": "/v6/docs/advanced/multiple-streamables",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/multistep-interfaces/index",
+      "title": "/v6/docs/advanced/multistep-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/prompt-engineering/index",
+      "title": "/v6/docs/advanced/prompt-engineering",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/rate-limiting/index",
+      "title": "/v6/docs/advanced/rate-limiting",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/rendering-ui-with-language-models/index",
+      "title": "/v6/docs/advanced/rendering-ui-with-language-models",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/sequential-generations/index",
+      "title": "/v6/docs/advanced/sequential-generations",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/stopping-streams/index",
+      "title": "/v6/docs/advanced/stopping-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/advanced/vercel-deployment-guide/index",
+      "title": "/v6/docs/advanced/vercel-deployment-guide",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/agents/building-agents/index",
+      "title": "/v6/docs/agents/building-agents",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/agents/configuring-call-options/index",
+      "title": "/v6/docs/agents/configuring-call-options",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/agents/loop-control/index",
+      "title": "/v6/docs/agents/loop-control",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/agents/memory/index",
+      "title": "/v6/docs/agents/memory",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/agents/overview/index",
+      "title": "/v6/docs/agents/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/agents/subagents/index",
+      "title": "/v6/docs/agents/subagents",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/agents/workflows/index",
+      "title": "/v6/docs/agents/workflows",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/devtools/index",
+      "title": "/v6/docs/ai-sdk-core/devtools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/embeddings/index",
+      "title": "/v6/docs/ai-sdk-core/embeddings",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/error-handling/index",
+      "title": "/v6/docs/ai-sdk-core/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/event-listeners/index",
+      "title": "/v6/docs/ai-sdk-core/event-listeners",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/generating-structured-data/index",
+      "title": "/v6/docs/ai-sdk-core/generating-structured-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/generating-text/index",
+      "title": "/v6/docs/ai-sdk-core/generating-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/image-generation/index",
+      "title": "/v6/docs/ai-sdk-core/image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/mcp-tools/index",
+      "title": "/v6/docs/ai-sdk-core/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/middleware/index",
+      "title": "/v6/docs/ai-sdk-core/middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/overview/index",
+      "title": "/v6/docs/ai-sdk-core/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/prompt-engineering/index",
+      "title": "/v6/docs/ai-sdk-core/prompt-engineering",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/provider-management/index",
+      "title": "/v6/docs/ai-sdk-core/provider-management",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/reranking/index",
+      "title": "/v6/docs/ai-sdk-core/reranking",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/settings/index",
+      "title": "/v6/docs/ai-sdk-core/settings",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/speech/index",
+      "title": "/v6/docs/ai-sdk-core/speech",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/telemetry/index",
+      "title": "/v6/docs/ai-sdk-core/telemetry",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/testing/index",
+      "title": "/v6/docs/ai-sdk-core/testing",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/tools-and-tool-calling/index",
+      "title": "/v6/docs/ai-sdk-core/tools-and-tool-calling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/transcription/index",
+      "title": "/v6/docs/ai-sdk-core/transcription",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-core/video-generation/index",
+      "title": "/v6/docs/ai-sdk-core/video-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/authentication/index",
+      "title": "/v6/docs/ai-sdk-rsc/authentication",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/error-handling/index",
+      "title": "/v6/docs/ai-sdk-rsc/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/generative-ui-state/index",
+      "title": "/v6/docs/ai-sdk-rsc/generative-ui-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/loading-state/index",
+      "title": "/v6/docs/ai-sdk-rsc/loading-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/migrating-to-ui/index",
+      "title": "/v6/docs/ai-sdk-rsc/migrating-to-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/multistep-interfaces/index",
+      "title": "/v6/docs/ai-sdk-rsc/multistep-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/overview/index",
+      "title": "/v6/docs/ai-sdk-rsc/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/saving-and-restoring-states/index",
+      "title": "/v6/docs/ai-sdk-rsc/saving-and-restoring-states",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/streaming-react-components/index",
+      "title": "/v6/docs/ai-sdk-rsc/streaming-react-components",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-rsc/streaming-values/index",
+      "title": "/v6/docs/ai-sdk-rsc/streaming-values",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/chatbot-message-persistence/index",
+      "title": "/v6/docs/ai-sdk-ui/chatbot-message-persistence",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/chatbot-resume-streams/index",
+      "title": "/v6/docs/ai-sdk-ui/chatbot-resume-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/chatbot-tool-usage/index",
+      "title": "/v6/docs/ai-sdk-ui/chatbot-tool-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/chatbot/index",
+      "title": "/v6/docs/ai-sdk-ui/chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/completion/index",
+      "title": "/v6/docs/ai-sdk-ui/completion",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/error-handling/index",
+      "title": "/v6/docs/ai-sdk-ui/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/generative-user-interfaces/index",
+      "title": "/v6/docs/ai-sdk-ui/generative-user-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/message-metadata/index",
+      "title": "/v6/docs/ai-sdk-ui/message-metadata",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/object-generation/index",
+      "title": "/v6/docs/ai-sdk-ui/object-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/overview/index",
+      "title": "/v6/docs/ai-sdk-ui/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/reading-ui-message-streams/index",
+      "title": "/v6/docs/ai-sdk-ui/reading-ui-message-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/stream-protocol/index",
+      "title": "/v6/docs/ai-sdk-ui/stream-protocol",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/streaming-data/index",
+      "title": "/v6/docs/ai-sdk-ui/streaming-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/ai-sdk-ui/transport/index",
+      "title": "/v6/docs/ai-sdk-ui/transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/foundations/overview/index",
+      "title": "/v6/docs/foundations/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/foundations/prompts/index",
+      "title": "/v6/docs/foundations/prompts",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/foundations/provider-options/index",
+      "title": "/v6/docs/foundations/provider-options",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/foundations/providers-and-models/index",
+      "title": "/v6/docs/foundations/providers-and-models",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/foundations/streaming/index",
+      "title": "/v6/docs/foundations/streaming",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/foundations/tools/index",
+      "title": "/v6/docs/foundations/tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/choosing-a-provider/index",
+      "title": "/v6/docs/getting-started/choosing-a-provider",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/coding-agents/index",
+      "title": "/v6/docs/getting-started/coding-agents",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/expo/index",
+      "title": "/v6/docs/getting-started/expo",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/index",
+      "title": "/v6/docs/getting-started",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/navigating-the-library/index",
+      "title": "/v6/docs/getting-started/navigating-the-library",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/nextjs-app-router/index",
+      "title": "/v6/docs/getting-started/nextjs-app-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/nextjs-pages-router/index",
+      "title": "/v6/docs/getting-started/nextjs-pages-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/nodejs/index",
+      "title": "/v6/docs/getting-started/nodejs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/nuxt/index",
+      "title": "/v6/docs/getting-started/nuxt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/svelte/index",
+      "title": "/v6/docs/getting-started/svelte",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/getting-started/tanstack-start/index",
+      "title": "/v6/docs/getting-started/tanstack-start",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/introduction/index",
+      "title": "/v6/docs/introduction",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/index",
+      "title": "/v6/docs/migration-guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-3-1/index",
+      "title": "/v6/docs/migration-guides/migration-guide-3-1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-3-2/index",
+      "title": "/v6/docs/migration-guides/migration-guide-3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-3-3/index",
+      "title": "/v6/docs/migration-guides/migration-guide-3-3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-3-4/index",
+      "title": "/v6/docs/migration-guides/migration-guide-3-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-4-0/index",
+      "title": "/v6/docs/migration-guides/migration-guide-4-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-4-1/index",
+      "title": "/v6/docs/migration-guides/migration-guide-4-1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-4-2/index",
+      "title": "/v6/docs/migration-guides/migration-guide-4-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-5-0-data/index",
+      "title": "/v6/docs/migration-guides/migration-guide-5-0-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-5-0/index",
+      "title": "/v6/docs/migration-guides/migration-guide-5-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/migration-guide-6-0/index",
+      "title": "/v6/docs/migration-guides/migration-guide-6-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/migration-guides/versioning/index",
+      "title": "/v6/docs/migration-guides/versioning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/add-tool-input-examples-middleware/index",
+      "title": "/v6/docs/reference/ai-sdk-core/add-tool-input-examples-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/agent/index",
+      "title": "/v6/docs/reference/ai-sdk-core/agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/cosine-similarity/index",
+      "title": "/v6/docs/reference/ai-sdk-core/cosine-similarity",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/create-agent-ui-stream-response/index",
+      "title": "/v6/docs/reference/ai-sdk-core/create-agent-ui-stream-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/create-agent-ui-stream/index",
+      "title": "/v6/docs/reference/ai-sdk-core/create-agent-ui-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/create-id-generator/index",
+      "title": "/v6/docs/reference/ai-sdk-core/create-id-generator",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/create-mcp-client/index",
+      "title": "/v6/docs/reference/ai-sdk-core/create-mcp-client",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/custom-provider/index",
+      "title": "/v6/docs/reference/ai-sdk-core/custom-provider",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/default-generated-file/index",
+      "title": "/v6/docs/reference/ai-sdk-core/default-generated-file",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/default-settings-middleware/index",
+      "title": "/v6/docs/reference/ai-sdk-core/default-settings-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/dynamic-tool/index",
+      "title": "/v6/docs/reference/ai-sdk-core/dynamic-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/embed-many/index",
+      "title": "/v6/docs/reference/ai-sdk-core/embed-many",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/embed/index",
+      "title": "/v6/docs/reference/ai-sdk-core/embed",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/extract-json-middleware/index",
+      "title": "/v6/docs/reference/ai-sdk-core/extract-json-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/extract-reasoning-middleware/index",
+      "title": "/v6/docs/reference/ai-sdk-core/extract-reasoning-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/generate-id/index",
+      "title": "/v6/docs/reference/ai-sdk-core/generate-id",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/generate-image/index",
+      "title": "/v6/docs/reference/ai-sdk-core/generate-image",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/generate-speech/index",
+      "title": "/v6/docs/reference/ai-sdk-core/generate-speech",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/generate-text/index",
+      "title": "/v6/docs/reference/ai-sdk-core/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/generate-video/index",
+      "title": "/v6/docs/reference/ai-sdk-core/generate-video",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/has-tool-call/index",
+      "title": "/v6/docs/reference/ai-sdk-core/has-tool-call",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/index",
+      "title": "/v6/docs/reference/ai-sdk-core",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/json-schema/index",
+      "title": "/v6/docs/reference/ai-sdk-core/json-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/language-model-v2-middleware/index",
+      "title": "/v6/docs/reference/ai-sdk-core/language-model-v2-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/loop-finished/index",
+      "title": "/v6/docs/reference/ai-sdk-core/loop-finished",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/mcp-stdio-transport/index",
+      "title": "/v6/docs/reference/ai-sdk-core/mcp-stdio-transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/model-message/index",
+      "title": "/v6/docs/reference/ai-sdk-core/model-message",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/output/index",
+      "title": "/v6/docs/reference/ai-sdk-core/output",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/pipe-agent-ui-stream-to-response/index",
+      "title": "/v6/docs/reference/ai-sdk-core/pipe-agent-ui-stream-to-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/provider-registry/index",
+      "title": "/v6/docs/reference/ai-sdk-core/provider-registry",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/rerank/index",
+      "title": "/v6/docs/reference/ai-sdk-core/rerank",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/safe-validate-ui-messages/index",
+      "title": "/v6/docs/reference/ai-sdk-core/safe-validate-ui-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/simulate-readable-stream/index",
+      "title": "/v6/docs/reference/ai-sdk-core/simulate-readable-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/simulate-streaming-middleware/index",
+      "title": "/v6/docs/reference/ai-sdk-core/simulate-streaming-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/smooth-stream/index",
+      "title": "/v6/docs/reference/ai-sdk-core/smooth-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/step-count-is/index",
+      "title": "/v6/docs/reference/ai-sdk-core/step-count-is",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/stream-text/index",
+      "title": "/v6/docs/reference/ai-sdk-core/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/tool-loop-agent/index",
+      "title": "/v6/docs/reference/ai-sdk-core/tool-loop-agent",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/tool/index",
+      "title": "/v6/docs/reference/ai-sdk-core/tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/transcribe/index",
+      "title": "/v6/docs/reference/ai-sdk-core/transcribe",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/ui-message/index",
+      "title": "/v6/docs/reference/ai-sdk-core/ui-message",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/valibot-schema/index",
+      "title": "/v6/docs/reference/ai-sdk-core/valibot-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/validate-ui-messages/index",
+      "title": "/v6/docs/reference/ai-sdk-core/validate-ui-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/wrap-image-model/index",
+      "title": "/v6/docs/reference/ai-sdk-core/wrap-image-model",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/wrap-language-model/index",
+      "title": "/v6/docs/reference/ai-sdk-core/wrap-language-model",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-core/zod-schema/index",
+      "title": "/v6/docs/reference/ai-sdk-core/zod-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-api-call-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-api-call-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-download-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-download-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-empty-response-body-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-empty-response-body-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-invalid-argument-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-invalid-argument-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-invalid-data-content-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-invalid-data-content-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-invalid-message-role-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-invalid-message-role-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-invalid-prompt-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-invalid-prompt-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-invalid-response-data-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-invalid-response-data-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-signature-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-invalid-tool-approval-signature-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-invalid-tool-input-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-invalid-tool-input-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-json-parse-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-json-parse-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-load-api-key-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-load-api-key-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-load-setting-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-load-setting-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-message-conversion-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-message-conversion-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-content-generated-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-content-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-image-generated-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-image-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-object-generated-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-object-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-output-generated-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-output-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-speech-generated-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-speech-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-such-model-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-such-model-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-such-provider-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-such-provider-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-such-tool-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-such-tool-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-transcript-generated-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-transcript-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-no-video-generated-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-no-video-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-retry-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-retry-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-tool-call-not-found-for-approval-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-tool-call-not-found-for-approval-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-tool-call-repair-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-tool-call-repair-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-tool-choice-violation-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-tool-choice-violation-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-type-validation-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-type-validation-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-ui-message-stream-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-ui-message-stream-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/ai-unsupported-functionality-error/index",
+      "title": "/v6/docs/reference/ai-sdk-errors/ai-unsupported-functionality-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-errors/index",
+      "title": "/v6/docs/reference/ai-sdk-errors",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/create-ai/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/create-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/create-streamable-ui/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/create-streamable-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/create-streamable-value/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/create-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/get-ai-state/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/get-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/get-mutable-ai-state/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/get-mutable-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/read-streamable-value/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/read-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/render/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/render",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/stream-ui/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/stream-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/use-actions/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/use-actions",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/use-ai-state/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/use-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/use-streamable-value/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/use-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-rsc/use-ui-state/index",
+      "title": "/v6/docs/reference/ai-sdk-rsc/use-ui-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/convert-to-model-messages/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/convert-to-model-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/create-ui-message-stream-response/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/create-ui-message-stream-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/create-ui-message-stream/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/create-ui-message-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/direct-chat-transport/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/direct-chat-transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/index",
+      "title": "/v6/docs/reference/ai-sdk-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/infer-ui-tool/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/infer-ui-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/infer-ui-tools/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/infer-ui-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/prune-messages/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/prune-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/read-ui-message-stream/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/read-ui-message-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/use-chat/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/use-completion/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/use-completion",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/ai-sdk-ui/use-object/index",
+      "title": "/v6/docs/reference/ai-sdk-ui/use-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/reference/index",
+      "title": "/v6/docs/reference",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/abort-breaks-resumable-streams/index",
+      "title": "/v6/docs/troubleshooting/abort-breaks-resumable-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/azure-stream-slow/index",
+      "title": "/v6/docs/troubleshooting/azure-stream-slow",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/client-stream-error/index",
+      "title": "/v6/docs/troubleshooting/client-stream-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/high-memory-usage-with-images/index",
+      "title": "/v6/docs/troubleshooting/high-memory-usage-with-images",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/index",
+      "title": "/v6/docs/troubleshooting",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/jest-cannot-find-module-ai-rsc/index",
+      "title": "/v6/docs/troubleshooting/jest-cannot-find-module-ai-rsc",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/missing-tool-results-error/index",
+      "title": "/v6/docs/troubleshooting/missing-tool-results-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/model-is-not-assignable-to-type/index",
+      "title": "/v6/docs/troubleshooting/model-is-not-assignable-to-type",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/no-object-generated-content-filter/index",
+      "title": "/v6/docs/troubleshooting/no-object-generated-content-filter",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/ontoolcall-type-narrowing/index",
+      "title": "/v6/docs/troubleshooting/ontoolcall-type-narrowing",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/react-maximum-update-depth-exceeded/index",
+      "title": "/v6/docs/troubleshooting/react-maximum-update-depth-exceeded",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/repeated-assistant-messages/index",
+      "title": "/v6/docs/troubleshooting/repeated-assistant-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/server-actions-in-client-components/index",
+      "title": "/v6/docs/troubleshooting/server-actions-in-client-components",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/strange-stream-output/index",
+      "title": "/v6/docs/troubleshooting/strange-stream-output",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/stream-abort-handling/index",
+      "title": "/v6/docs/troubleshooting/stream-abort-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/stream-text-not-working/index",
+      "title": "/v6/docs/troubleshooting/stream-text-not-working",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/streamable-ui-errors/index",
+      "title": "/v6/docs/troubleshooting/streamable-ui-errors",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/streaming-not-working-when-deployed/index",
+      "title": "/v6/docs/troubleshooting/streaming-not-working-when-deployed",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/streaming-not-working-when-proxied/index",
+      "title": "/v6/docs/troubleshooting/streaming-not-working-when-proxied",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/streaming-status-delay/index",
+      "title": "/v6/docs/troubleshooting/streaming-status-delay",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/timeout-on-vercel/index",
+      "title": "/v6/docs/troubleshooting/timeout-on-vercel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/tool-calling-with-structured-outputs/index",
+      "title": "/v6/docs/troubleshooting/tool-calling-with-structured-outputs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/tool-invocation-missing-result/index",
+      "title": "/v6/docs/troubleshooting/tool-invocation-missing-result",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/typescript-cannot-find-namespace-jsx/index",
+      "title": "/v6/docs/troubleshooting/typescript-cannot-find-namespace-jsx",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/typescript-performance-zod/index",
+      "title": "/v6/docs/troubleshooting/typescript-performance-zod",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/unclosed-streams/index",
+      "title": "/v6/docs/troubleshooting/unclosed-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/unsupported-model-version/index",
+      "title": "/v6/docs/troubleshooting/unsupported-model-version",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/use-chat-an-error-occurred/index",
+      "title": "/v6/docs/troubleshooting/use-chat-an-error-occurred",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/use-chat-custom-request-options/index",
+      "title": "/v6/docs/troubleshooting/use-chat-custom-request-options",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/use-chat-failed-to-parse-stream/index",
+      "title": "/v6/docs/troubleshooting/use-chat-failed-to-parse-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/use-chat-stale-body-data/index",
+      "title": "/v6/docs/troubleshooting/use-chat-stale-body-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v6/docs/troubleshooting/use-chat-tools-no-response/index",
+      "title": "/v6/docs/troubleshooting/use-chat-tools-no-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/backpressure/index",
+      "title": "/v5/docs/advanced/backpressure",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/caching/index",
+      "title": "/v5/docs/advanced/caching",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/index",
+      "title": "/v5/docs/advanced",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/model-as-router/index",
+      "title": "/v5/docs/advanced/model-as-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/multiple-streamables/index",
+      "title": "/v5/docs/advanced/multiple-streamables",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/multistep-interfaces/index",
+      "title": "/v5/docs/advanced/multistep-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/prompt-engineering/index",
+      "title": "/v5/docs/advanced/prompt-engineering",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/rate-limiting/index",
+      "title": "/v5/docs/advanced/rate-limiting",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/rendering-ui-with-language-models/index",
+      "title": "/v5/docs/advanced/rendering-ui-with-language-models",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/sequential-generations/index",
+      "title": "/v5/docs/advanced/sequential-generations",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/stopping-streams/index",
+      "title": "/v5/docs/advanced/stopping-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/advanced/vercel-deployment-guide/index",
+      "title": "/v5/docs/advanced/vercel-deployment-guide",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/agents/building-agents/index",
+      "title": "/v5/docs/agents/building-agents",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/agents/loop-control/index",
+      "title": "/v5/docs/agents/loop-control",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/agents/overview/index",
+      "title": "/v5/docs/agents/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/agents/workflows/index",
+      "title": "/v5/docs/agents/workflows",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/embeddings/index",
+      "title": "/v5/docs/ai-sdk-core/embeddings",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/error-handling/index",
+      "title": "/v5/docs/ai-sdk-core/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/generating-structured-data/index",
+      "title": "/v5/docs/ai-sdk-core/generating-structured-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/generating-text/index",
+      "title": "/v5/docs/ai-sdk-core/generating-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/image-generation/index",
+      "title": "/v5/docs/ai-sdk-core/image-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/mcp-tools/index",
+      "title": "/v5/docs/ai-sdk-core/mcp-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/middleware/index",
+      "title": "/v5/docs/ai-sdk-core/middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/overview/index",
+      "title": "/v5/docs/ai-sdk-core/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/prompt-engineering/index",
+      "title": "/v5/docs/ai-sdk-core/prompt-engineering",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/provider-management/index",
+      "title": "/v5/docs/ai-sdk-core/provider-management",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/settings/index",
+      "title": "/v5/docs/ai-sdk-core/settings",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/speech/index",
+      "title": "/v5/docs/ai-sdk-core/speech",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/telemetry/index",
+      "title": "/v5/docs/ai-sdk-core/telemetry",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/testing/index",
+      "title": "/v5/docs/ai-sdk-core/testing",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/tools-and-tool-calling/index",
+      "title": "/v5/docs/ai-sdk-core/tools-and-tool-calling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-core/transcription/index",
+      "title": "/v5/docs/ai-sdk-core/transcription",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/authentication/index",
+      "title": "/v5/docs/ai-sdk-rsc/authentication",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/error-handling/index",
+      "title": "/v5/docs/ai-sdk-rsc/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/generative-ui-state/index",
+      "title": "/v5/docs/ai-sdk-rsc/generative-ui-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/loading-state/index",
+      "title": "/v5/docs/ai-sdk-rsc/loading-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/migrating-to-ui/index",
+      "title": "/v5/docs/ai-sdk-rsc/migrating-to-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/multistep-interfaces/index",
+      "title": "/v5/docs/ai-sdk-rsc/multistep-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/overview/index",
+      "title": "/v5/docs/ai-sdk-rsc/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/saving-and-restoring-states/index",
+      "title": "/v5/docs/ai-sdk-rsc/saving-and-restoring-states",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/streaming-react-components/index",
+      "title": "/v5/docs/ai-sdk-rsc/streaming-react-components",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-rsc/streaming-values/index",
+      "title": "/v5/docs/ai-sdk-rsc/streaming-values",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/chatbot-message-persistence/index",
+      "title": "/v5/docs/ai-sdk-ui/chatbot-message-persistence",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/chatbot-resume-streams/index",
+      "title": "/v5/docs/ai-sdk-ui/chatbot-resume-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/chatbot-tool-usage/index",
+      "title": "/v5/docs/ai-sdk-ui/chatbot-tool-usage",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/chatbot/index",
+      "title": "/v5/docs/ai-sdk-ui/chatbot",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/completion/index",
+      "title": "/v5/docs/ai-sdk-ui/completion",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/error-handling/index",
+      "title": "/v5/docs/ai-sdk-ui/error-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/generative-user-interfaces/index",
+      "title": "/v5/docs/ai-sdk-ui/generative-user-interfaces",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/message-metadata/index",
+      "title": "/v5/docs/ai-sdk-ui/message-metadata",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/object-generation/index",
+      "title": "/v5/docs/ai-sdk-ui/object-generation",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/overview/index",
+      "title": "/v5/docs/ai-sdk-ui/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/reading-ui-message-streams/index",
+      "title": "/v5/docs/ai-sdk-ui/reading-ui-message-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/stream-protocol/index",
+      "title": "/v5/docs/ai-sdk-ui/stream-protocol",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/streaming-data/index",
+      "title": "/v5/docs/ai-sdk-ui/streaming-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/ai-sdk-ui/transport/index",
+      "title": "/v5/docs/ai-sdk-ui/transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/announcing-ai-sdk-6-beta/index",
+      "title": "/v5/docs/announcing-ai-sdk-6-beta",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/foundations/overview/index",
+      "title": "/v5/docs/foundations/overview",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/foundations/prompts/index",
+      "title": "/v5/docs/foundations/prompts",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/foundations/providers-and-models/index",
+      "title": "/v5/docs/foundations/providers-and-models",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/foundations/streaming/index",
+      "title": "/v5/docs/foundations/streaming",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/foundations/tools/index",
+      "title": "/v5/docs/foundations/tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/choosing-a-provider/index",
+      "title": "/v5/docs/getting-started/choosing-a-provider",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/expo/index",
+      "title": "/v5/docs/getting-started/expo",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/index",
+      "title": "/v5/docs/getting-started",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/navigating-the-library/index",
+      "title": "/v5/docs/getting-started/navigating-the-library",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/nextjs-app-router/index",
+      "title": "/v5/docs/getting-started/nextjs-app-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/nextjs-pages-router/index",
+      "title": "/v5/docs/getting-started/nextjs-pages-router",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/nodejs/index",
+      "title": "/v5/docs/getting-started/nodejs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/nuxt/index",
+      "title": "/v5/docs/getting-started/nuxt",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/svelte/index",
+      "title": "/v5/docs/getting-started/svelte",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/getting-started/tanstack-start/index",
+      "title": "/v5/docs/getting-started/tanstack-start",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/introduction/index",
+      "title": "/v5/docs/introduction",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/index",
+      "title": "/v5/docs/migration-guides",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-3-1/index",
+      "title": "/v5/docs/migration-guides/migration-guide-3-1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-3-2/index",
+      "title": "/v5/docs/migration-guides/migration-guide-3-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-3-3/index",
+      "title": "/v5/docs/migration-guides/migration-guide-3-3",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-3-4/index",
+      "title": "/v5/docs/migration-guides/migration-guide-3-4",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-4-0/index",
+      "title": "/v5/docs/migration-guides/migration-guide-4-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-4-1/index",
+      "title": "/v5/docs/migration-guides/migration-guide-4-1",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-4-2/index",
+      "title": "/v5/docs/migration-guides/migration-guide-4-2",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-5-0-data/index",
+      "title": "/v5/docs/migration-guides/migration-guide-5-0-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-5-0/index",
+      "title": "/v5/docs/migration-guides/migration-guide-5-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/migration-guide-6-0/index",
+      "title": "/v5/docs/migration-guides/migration-guide-6-0",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/migration-guides/versioning/index",
+      "title": "/v5/docs/migration-guides/versioning",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/cosine-similarity/index",
+      "title": "/v5/docs/reference/ai-sdk-core/cosine-similarity",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/create-id-generator/index",
+      "title": "/v5/docs/reference/ai-sdk-core/create-id-generator",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/create-mcp-client/index",
+      "title": "/v5/docs/reference/ai-sdk-core/create-mcp-client",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/custom-provider/index",
+      "title": "/v5/docs/reference/ai-sdk-core/custom-provider",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/default-settings-middleware/index",
+      "title": "/v5/docs/reference/ai-sdk-core/default-settings-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/dynamic-tool/index",
+      "title": "/v5/docs/reference/ai-sdk-core/dynamic-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/embed-many/index",
+      "title": "/v5/docs/reference/ai-sdk-core/embed-many",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/embed/index",
+      "title": "/v5/docs/reference/ai-sdk-core/embed",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/extract-reasoning-middleware/index",
+      "title": "/v5/docs/reference/ai-sdk-core/extract-reasoning-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/generate-id/index",
+      "title": "/v5/docs/reference/ai-sdk-core/generate-id",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/generate-image/index",
+      "title": "/v5/docs/reference/ai-sdk-core/generate-image",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/generate-object/index",
+      "title": "/v5/docs/reference/ai-sdk-core/generate-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/generate-speech/index",
+      "title": "/v5/docs/reference/ai-sdk-core/generate-speech",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/generate-text/index",
+      "title": "/v5/docs/reference/ai-sdk-core/generate-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/has-tool-call/index",
+      "title": "/v5/docs/reference/ai-sdk-core/has-tool-call",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/index",
+      "title": "/v5/docs/reference/ai-sdk-core",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/json-schema/index",
+      "title": "/v5/docs/reference/ai-sdk-core/json-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/language-model-v2-middleware/index",
+      "title": "/v5/docs/reference/ai-sdk-core/language-model-v2-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/mcp-stdio-transport/index",
+      "title": "/v5/docs/reference/ai-sdk-core/mcp-stdio-transport",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/model-message/index",
+      "title": "/v5/docs/reference/ai-sdk-core/model-message",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/provider-registry/index",
+      "title": "/v5/docs/reference/ai-sdk-core/provider-registry",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/safe-validate-ui-messages/index",
+      "title": "/v5/docs/reference/ai-sdk-core/safe-validate-ui-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/simulate-readable-stream/index",
+      "title": "/v5/docs/reference/ai-sdk-core/simulate-readable-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/simulate-streaming-middleware/index",
+      "title": "/v5/docs/reference/ai-sdk-core/simulate-streaming-middleware",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/smooth-stream/index",
+      "title": "/v5/docs/reference/ai-sdk-core/smooth-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/step-count-is/index",
+      "title": "/v5/docs/reference/ai-sdk-core/step-count-is",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/stream-object/index",
+      "title": "/v5/docs/reference/ai-sdk-core/stream-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/stream-text/index",
+      "title": "/v5/docs/reference/ai-sdk-core/stream-text",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/tool/index",
+      "title": "/v5/docs/reference/ai-sdk-core/tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/transcribe/index",
+      "title": "/v5/docs/reference/ai-sdk-core/transcribe",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/ui-message/index",
+      "title": "/v5/docs/reference/ai-sdk-core/ui-message",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/valibot-schema/index",
+      "title": "/v5/docs/reference/ai-sdk-core/valibot-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/validate-ui-messages/index",
+      "title": "/v5/docs/reference/ai-sdk-core/validate-ui-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/wrap-language-model/index",
+      "title": "/v5/docs/reference/ai-sdk-core/wrap-language-model",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-core/zod-schema/index",
+      "title": "/v5/docs/reference/ai-sdk-core/zod-schema",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-api-call-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-api-call-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-download-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-download-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-empty-response-body-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-empty-response-body-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-invalid-argument-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-invalid-argument-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-invalid-data-content-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-invalid-data-content-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-invalid-data-content/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-invalid-data-content",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-invalid-message-role-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-invalid-message-role-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-invalid-prompt-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-invalid-prompt-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-invalid-response-data-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-invalid-response-data-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-invalid-tool-input-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-invalid-tool-input-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-json-parse-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-json-parse-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-load-api-key-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-load-api-key-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-load-setting-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-load-setting-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-message-conversion-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-message-conversion-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-content-generated-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-content-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-image-generated-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-image-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-object-generated-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-object-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-output-specified-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-output-specified-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-speech-generated-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-speech-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-such-model-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-such-model-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-such-provider-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-such-provider-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-such-tool-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-such-tool-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-no-transcript-generated-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-no-transcript-generated-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-retry-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-retry-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-too-many-embedding-values-for-call-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-tool-call-repair-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-tool-call-repair-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-type-validation-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-type-validation-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/ai-unsupported-functionality-error/index",
+      "title": "/v5/docs/reference/ai-sdk-errors/ai-unsupported-functionality-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-errors/index",
+      "title": "/v5/docs/reference/ai-sdk-errors",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/create-ai/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/create-ai",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/create-streamable-ui/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/create-streamable-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/create-streamable-value/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/create-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/get-ai-state/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/get-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/get-mutable-ai-state/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/get-mutable-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/read-streamable-value/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/read-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/render/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/render",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/stream-ui/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/stream-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/use-actions/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/use-actions",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/use-ai-state/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/use-ai-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/use-streamable-value/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/use-streamable-value",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-rsc/use-ui-state/index",
+      "title": "/v5/docs/reference/ai-sdk-rsc/use-ui-state",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/convert-to-model-messages/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/convert-to-model-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/create-ui-message-stream-response/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/create-ui-message-stream-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/create-ui-message-stream/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/create-ui-message-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/index",
+      "title": "/v5/docs/reference/ai-sdk-ui",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/infer-ui-tool/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/infer-ui-tool",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/infer-ui-tools/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/infer-ui-tools",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/pipe-ui-message-stream-to-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/prune-messages/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/prune-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/read-ui-message-stream/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/read-ui-message-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/use-chat/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/use-chat",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/use-completion/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/use-completion",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/ai-sdk-ui/use-object/index",
+      "title": "/v5/docs/reference/ai-sdk-ui/use-object",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/index",
+      "title": "/v5/docs/reference",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/ai-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/ai-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/anthropic-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/anthropic-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/aws-bedrock-anthropic-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/aws-bedrock-anthropic-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/aws-bedrock-cohere-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/aws-bedrock-cohere-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/aws-bedrock-llama-2-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/aws-bedrock-llama-2-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/aws-bedrock-messages-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/aws-bedrock-messages-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/aws-bedrock-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/aws-bedrock-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/cohere-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/cohere-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/google-generative-ai-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/google-generative-ai-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/hugging-face-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/hugging-face-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/index",
+      "title": "/v5/docs/reference/stream-helpers",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/inkeep-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/inkeep-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/langchain-adapter/index",
+      "title": "/v5/docs/reference/stream-helpers/langchain-adapter",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/llamaindex-adapter/index",
+      "title": "/v5/docs/reference/stream-helpers/llamaindex-adapter",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/mistral-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/mistral-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/openai-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/openai-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/replicate-stream/index",
+      "title": "/v5/docs/reference/stream-helpers/replicate-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/stream-to-response/index",
+      "title": "/v5/docs/reference/stream-helpers/stream-to-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/reference/stream-helpers/streaming-text-response/index",
+      "title": "/v5/docs/reference/stream-helpers/streaming-text-response",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/abort-breaks-resumable-streams/index",
+      "title": "/v5/docs/troubleshooting/abort-breaks-resumable-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/azure-stream-slow/index",
+      "title": "/v5/docs/troubleshooting/azure-stream-slow",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/client-side-function-calls-not-invoked/index",
+      "title": "/v5/docs/troubleshooting/client-side-function-calls-not-invoked",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/client-stream-error/index",
+      "title": "/v5/docs/troubleshooting/client-stream-error",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/index",
+      "title": "/v5/docs/troubleshooting",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/jest-cannot-find-module-ai-rsc/index",
+      "title": "/v5/docs/troubleshooting/jest-cannot-find-module-ai-rsc",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/model-is-not-assignable-to-type/index",
+      "title": "/v5/docs/troubleshooting/model-is-not-assignable-to-type",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/no-object-generated-content-filter/index",
+      "title": "/v5/docs/troubleshooting/no-object-generated-content-filter",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/ontoolcall-type-narrowing/index",
+      "title": "/v5/docs/troubleshooting/ontoolcall-type-narrowing",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/react-maximum-update-depth-exceeded/index",
+      "title": "/v5/docs/troubleshooting/react-maximum-update-depth-exceeded",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/repeated-assistant-messages/index",
+      "title": "/v5/docs/troubleshooting/repeated-assistant-messages",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/server-actions-in-client-components/index",
+      "title": "/v5/docs/troubleshooting/server-actions-in-client-components",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/strange-stream-output/index",
+      "title": "/v5/docs/troubleshooting/strange-stream-output",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/stream-abort-handling/index",
+      "title": "/v5/docs/troubleshooting/stream-abort-handling",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/stream-text-not-working/index",
+      "title": "/v5/docs/troubleshooting/stream-text-not-working",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/streamable-ui-errors/index",
+      "title": "/v5/docs/troubleshooting/streamable-ui-errors",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/streaming-not-working-when-deployed/index",
+      "title": "/v5/docs/troubleshooting/streaming-not-working-when-deployed",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/streaming-not-working-when-proxied/index",
+      "title": "/v5/docs/troubleshooting/streaming-not-working-when-proxied",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/streaming-status-delay/index",
+      "title": "/v5/docs/troubleshooting/streaming-status-delay",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/timeout-on-vercel/index",
+      "title": "/v5/docs/troubleshooting/timeout-on-vercel",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/tool-calling-with-structured-outputs/index",
+      "title": "/v5/docs/troubleshooting/tool-calling-with-structured-outputs",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/tool-invocation-missing-result/index",
+      "title": "/v5/docs/troubleshooting/tool-invocation-missing-result",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/typescript-cannot-find-namespace-jsx/index",
+      "title": "/v5/docs/troubleshooting/typescript-cannot-find-namespace-jsx",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/typescript-performance-zod/index",
+      "title": "/v5/docs/troubleshooting/typescript-performance-zod",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/unclosed-streams/index",
+      "title": "/v5/docs/troubleshooting/unclosed-streams",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/unsupported-model-version/index",
+      "title": "/v5/docs/troubleshooting/unsupported-model-version",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/use-chat-an-error-occurred/index",
+      "title": "/v5/docs/troubleshooting/use-chat-an-error-occurred",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/use-chat-custom-request-options/index",
+      "title": "/v5/docs/troubleshooting/use-chat-custom-request-options",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/use-chat-failed-to-parse-stream/index",
+      "title": "/v5/docs/troubleshooting/use-chat-failed-to-parse-stream",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/use-chat-stale-body-data/index",
+      "title": "/v5/docs/troubleshooting/use-chat-stale-body-data",
+      "template": "templates/raw.html"
+    },
+    {
+      "name": "v5/docs/troubleshooting/use-chat-tools-no-response/index",
+      "title": "/v5/docs/troubleshooting/use-chat-tools-no-response",
+      "template": "templates/raw.html"
+    },
+    {
       "name": "index",
       "title": "/",
       "template": "templates/raw.html"
@@ -1453,16 +3738,6 @@
     {
       "name": "cookbook/next/generate-text/index",
       "title": "/cookbook/next/generate-text",
-      "template": "templates/raw.html"
-    },
-    {
-      "name": "v6/docs/introduction/index",
-      "title": "/v6/docs/introduction",
-      "template": "templates/raw.html"
-    },
-    {
-      "name": "v5/docs/introduction/index",
-      "title": "/v5/docs/introduction",
       "template": "templates/raw.html"
     }
   ]

@@ -355,3 +355,11 @@ The shared UI is now present in both projects, with zero Next runtime graph inpu
 ### A4 accepted
 
 All 288 current pages pass content, TOC, head metadata, canonical and title comparisons. Missing/corrupt shell, corrupt body, shared-head fan-out and current-page literal syntax/metadata incremental-versus-forced checks pass with restored inputs. Representative streamText desktop/mobile geometry and visible text match. See A4-PUBLICATION-SCOPE.json for browser scope and open transports. Next A5: historical authored corpora/agent HTML and full version fallback/navigation; A6 special families/transports.
+
+## A5 versioned documentation
+
+All 745 docs routes (288 v7, 232 v6, 225 v5) now compose alongside three A3 prototype routes (748 tracked routes). Human originals total 761 MDX files and derive 798 synchronized files byte-identical to pinned production. The agent owns 745 HTML bodies/metadata in docs-pages.json and maintained version trees in docs-navigation.json; no routine Markdown renderer. Duplicate historical/current prototype doc source files are retired. Version-route sets and nearest-ancestor/landing fallback are explicit. Historical robots/social-image rules and per-route Markdown alternate links preserve upstream behavior. Final serialized lifecycle cases restore exact immutable human source hashes. Complete special families and browser/transport parity remain A6/A7, and benchmarks/optimization/final assessment remain A8–A10. Normal command becomes python3 scripts/build-docs.py.
+
+### A5 accepted
+
+The final restored-corpus checks pass for all 745 published docs: content, anchors, links, code, TOC, metadata, titles, canonicals, Markdown alternates and LLM discovery link. See A5 evidence files. Historical source/sync hashes agree with the immutable archives. Proceed to A6; the experiment is not complete and no final benchmark claims are made.

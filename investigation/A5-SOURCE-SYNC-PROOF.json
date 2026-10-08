@@ -1,0 +1,36 @@
+{
+  "versions": [
+    {
+      "version": "v7",
+      "authoredMdx": 294,
+      "synchronizedMdx": 288
+    },
+    {
+      "version": "v6",
+      "authoredMdx": 237,
+      "synchronizedMdx": 232
+    },
+    {
+      "version": "v5",
+      "authoredMdx": 230,
+      "synchronizedMdx": 225
+    }
+  ],
+  "comparisons": [
+    {
+      "version": "v7",
+      "synchronized_files": 307,
+      "byte_identical": true
+    },
+    {
+      "version": "v6",
+      "synchronized_files": 248,
+      "byte_identical": true
+    },
+    {
+      "version": "v5",
+      "synchronized_files": 243,
+      "byte_identical": true
+    }
+  ]
+}
