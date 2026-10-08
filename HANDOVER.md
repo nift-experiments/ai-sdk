@@ -325,3 +325,7 @@ Pinned upstream 3ebefff610f96892c50be48cf1838c453e2349f7; nine synced collection
 ### A1 accepted / A2 in progress
 
 See A1-BASELINE-SUMMARY.json. Complete prepared-image production reference succeeded (231.59s single run; process/phase RSS 19,894.51 MiB). 1,674 public HTML routes all HTTP 200; 24 special probes recorded externally. Frozen full build archive/hash and source/input inventories outside migration repos. Use localhost binding, not 127.0.0.1, for Next reference locale routing. Browser reference proxy on localhost:4324 blocks telemetry/POST; original working server localhost:4323 guards outbound writes. Next: finish representative themes/viewports/interactions, characterize nondeterminism, prove bounded MDX/islands/raw-composition dependencies for both models before broad corpus work.
+
+### A2 contract frozen
+
+72 initial reference states hashed in investigation/A2-REFERENCE-MANIFEST.json; interaction evidence external. These are not migration parity passes. A3 representative bounded renderer/island/dependency proof is next; final interaction and nondeterminism coverage remains open. Fixture proxy localhost:4325 pins public catalog/media script URLs; no live AI/feedback certified.

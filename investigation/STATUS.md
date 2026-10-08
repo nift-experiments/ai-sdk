@@ -1,33 +1,3 @@
-# STATUS.md
+# Status
 
-Resumable migration state. A new agent should be able to read `AGENTS.md`,
-`MIGRATION.md`, this file and `HANDOVER.md` and know exactly where the
-migration is without reconstructing history.
-
-## Phases
-
-Mark each: not started / in progress / blocked / done.
-
-| Phase | Status | Acceptance criteria | Required evidence | Commands | Commit |
-| --- | --- | --- | --- | --- | --- |
-| 1 Baseline frozen | | | | | |
-| 2 Parity contract + fixtures | | | | | |
-| 3 Initial Nift structure | | | | | |
-| 4 Shared shells/templates | | | | | |
-| 5 Authored content | | | | | |
-| 6 Source compatibility | | | | | |
-| 7 Route/content/render parity | | | | | |
-| 8 Incremental correctness | | | | | |
-| 9 Benchmark | | | | | |
-| 10 Clean-checkout verification | | | | | |
-| 11 Handover / final report | | | | | |
-
-GATE: compatibility proof must precede broad content translation. Do not mark
-phase 5 in progress until phases 1-4 acceptance criteria are met.
-
-## Current
-
-- Checkpoint: A0/A1 accepted; A2 representative browser contract in progress.
-- Commit SHA: ea741b5
-- Known blockers: none exceptional; build not yet accepted.
-- Next checkpoint: A2 fixtures, then A3 bounded representative architecture proof before scaling.
+A0 initialization and A1 upstream reference accepted and pushed. A2 route/browser/runtime parity contract frozen. A3 representative architecture proof next, before broad migration. No migrated corpus or final parity/benchmark claim yet. Nift core and templates unchanged.

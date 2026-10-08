@@ -25,3 +25,7 @@ Upstream sync invokes git fetch --depth=1 for historical pins, introducing shall
 ## Core-workspace feedback, ready now
 
 The current HANDOVER permits React/Vue/Svelte, so describe this as an island-composition discoverability gap rather than a demonstrated vanilla-only prohibition. Exact proposed wording is above. Feed this review to later Nift guidance work without editing core/template files during this campaign. Candidate addition to HANDOVER Other stacks: “For mostly static sites, framework components may be independently bundled as client-side islands mounted into Nift-composed pages. External tooling owns those bundles; give Nift explicit dependencies on their outputs. Use the lightest faithful solution per feature.”
+
+### A2 findings
+
+Reference capture counts must not be advertised as migrated parity passes. Proposed scaffold fields: fixture route, viewport, theme/system environment, initial state, action, resulting state, transport mode, external-input hash, screenshot path, assertion and status. Separate local UI, synthetic transport and untested backend columns. Add server hostname to the baseline runtime manifest: upstream locale rewrites made a 127.0.0.1 binding unsuitable despite a successful production build. Include known-card vs arbitrary-query OG behavior before choosing static ownership.

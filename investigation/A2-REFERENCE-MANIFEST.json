@@ -1,0 +1,846 @@
+{
+  "upstream": "3ebefff610f96892c50be48cf1838c453e2349f7",
+  "fixture_paths": [
+    "/",
+    "/docs/introduction",
+    "/v6/docs/introduction",
+    "/v5/docs/introduction",
+    "/docs/reference/ai-sdk-core/stream-text",
+    "/providers/ai-sdk-providers/openai",
+    "/cookbook/next/generate-text",
+    "/resources/recipes",
+    "/resources/tools",
+    "/resources/templates",
+    "/resources/showcase",
+    "/playground-recovery"
+  ],
+  "viewports": {
+    "desktop": [
+      1440,
+      1000
+    ],
+    "mobile": [
+      390,
+      844
+    ]
+  },
+  "themes": [
+    "light",
+    "dark",
+    "system"
+  ],
+  "system_environment": "prefers-color-scheme dark=false",
+  "captures": [
+    {
+      "path": "browser/cookbook-answer-complete.txt",
+      "bytes": 16022,
+      "sha256": "b0e9210d6b86b38ed39a0f01f881c57250ffbb9ab4f1b17f8c7e7849743e35f1"
+    },
+    {
+      "path": "browser/cookbook-answer-loading.txt",
+      "bytes": 15708,
+      "sha256": "e69cd213d11ceeac8088e596329abd64e1fd001e88e836558335852c5ae4ea1e"
+    },
+    {
+      "path": "browser/docs-provider-tab.txt",
+      "bytes": 27678,
+      "sha256": "7392a03e881ae351b1b18f269415e7c7e4751093b5cbc1e6ba9f668b522aa652"
+    },
+    {
+      "path": "browser/fixture-0-desktop-dark.png",
+      "bytes": 68283,
+      "sha256": "a0add2b4778567eea3844d63010e34324c77dad15b35411aaf5fa873a73d4569"
+    },
+    {
+      "path": "browser/fixture-0-desktop-dark.txt",
+      "bytes": 16210,
+      "sha256": "8f301f495286a26faa59db44b3405acdcc5db121af04307b8e651fdb8cda640e"
+    },
+    {
+      "path": "browser/fixture-0-desktop-light.png",
+      "bytes": 66056,
+      "sha256": "27fff85df7f23d4f137dd1e82ea08f4bed16c6b871342571fe6db6f163c33020"
+    },
+    {
+      "path": "browser/fixture-0-desktop-light.txt",
+      "bytes": 16210,
+      "sha256": "8f301f495286a26faa59db44b3405acdcc5db121af04307b8e651fdb8cda640e"
+    },
+    {
+      "path": "browser/fixture-0-desktop-system.png",
+      "bytes": 66056,
+      "sha256": "27fff85df7f23d4f137dd1e82ea08f4bed16c6b871342571fe6db6f163c33020"
+    },
+    {
+      "path": "browser/fixture-0-desktop-system.txt",
+      "bytes": 16210,
+      "sha256": "8f301f495286a26faa59db44b3405acdcc5db121af04307b8e651fdb8cda640e"
+    },
+    {
+      "path": "browser/fixture-0-mobile-dark.png",
+      "bytes": 38094,
+      "sha256": "4a046c0100b18ef40a89fbb7120e5196475e9a7794b3af5dbd17ec487cbb25ee"
+    },
+    {
+      "path": "browser/fixture-0-mobile-dark.txt",
+      "bytes": 16123,
+      "sha256": "f20409fd921b58ab336aecd534aaac9d4bcbbce1cdacea5b11c1e32346cd1c6f"
+    },
+    {
+      "path": "browser/fixture-0-mobile-light.png",
+      "bytes": 36319,
+      "sha256": "147400ace28e3bc5ac9cfe53d18866461cac59152a4d4b8088cd35cbcd179138"
+    },
+    {
+      "path": "browser/fixture-0-mobile-light.txt",
+      "bytes": 16123,
+      "sha256": "f20409fd921b58ab336aecd534aaac9d4bcbbce1cdacea5b11c1e32346cd1c6f"
+    },
+    {
+      "path": "browser/fixture-0-mobile-system.png",
+      "bytes": 36319,
+      "sha256": "147400ace28e3bc5ac9cfe53d18866461cac59152a4d4b8088cd35cbcd179138"
+    },
+    {
+      "path": "browser/fixture-0-mobile-system.txt",
+      "bytes": 16123,
+      "sha256": "f20409fd921b58ab336aecd534aaac9d4bcbbce1cdacea5b11c1e32346cd1c6f"
+    },
+    {
+      "path": "browser/fixture-1-desktop-dark.png",
+      "bytes": 131639,
+      "sha256": "33e881eebe5060faef12d31bfabe9a81062e7bd84b96cf386cd3ef042b6ef3c1"
+    },
+    {
+      "path": "browser/fixture-1-desktop-dark.txt",
+      "bytes": 27386,
+      "sha256": "6f0f798e3e0035a16cd7e32a04372aa0c1dc60c77f94081163993763e1c87af9"
+    },
+    {
+      "path": "browser/fixture-1-desktop-light.png",
+      "bytes": 127543,
+      "sha256": "669c91883dedb1045d38f8b101a20df6e1919b3d505cef4f6fb8608e73caa522"
+    },
+    {
+      "path": "browser/fixture-1-desktop-light.txt",
+      "bytes": 27386,
+      "sha256": "6f0f798e3e0035a16cd7e32a04372aa0c1dc60c77f94081163993763e1c87af9"
+    },
+    {
+      "path": "browser/fixture-1-desktop-system.png",
+      "bytes": 127543,
+      "sha256": "669c91883dedb1045d38f8b101a20df6e1919b3d505cef4f6fb8608e73caa522"
+    },
+    {
+      "path": "browser/fixture-1-desktop-system.txt",
+      "bytes": 27386,
+      "sha256": "6f0f798e3e0035a16cd7e32a04372aa0c1dc60c77f94081163993763e1c87af9"
+    },
+    {
+      "path": "browser/fixture-1-mobile-dark.png",
+      "bytes": 46402,
+      "sha256": "3ecc7dc838e3ea1196d73616e49c2e59c7c3d1fde35268e1d3f8d7716dfeb766"
+    },
+    {
+      "path": "browser/fixture-1-mobile-dark.txt",
+      "bytes": 24994,
+      "sha256": "7d1b81d655f6ec2ed2df879adc340b2f6dd51edae5f96c4a529552a442d3eeb6"
+    },
+    {
+      "path": "browser/fixture-1-mobile-light.png",
+      "bytes": 44632,
+      "sha256": "0a229e9f70d0dcb3ac2ca2297903c4c18109ce74c2ac797c6b5a9f558fe5acf0"
+    },
+    {
+      "path": "browser/fixture-1-mobile-light.txt",
+      "bytes": 24994,
+      "sha256": "7d1b81d655f6ec2ed2df879adc340b2f6dd51edae5f96c4a529552a442d3eeb6"
+    },
+    {
+      "path": "browser/fixture-1-mobile-system.png",
+      "bytes": 44632,
+      "sha256": "0a229e9f70d0dcb3ac2ca2297903c4c18109ce74c2ac797c6b5a9f558fe5acf0"
+    },
+    {
+      "path": "browser/fixture-1-mobile-system.txt",
+      "bytes": 24994,
+      "sha256": "7d1b81d655f6ec2ed2df879adc340b2f6dd51edae5f96c4a529552a442d3eeb6"
+    },
+    {
+      "path": "browser/fixture-10-desktop-dark.png",
+      "bytes": 37534,
+      "sha256": "1029d471e347b66658c331b6ae0379576c74f0704d8c1331ffb2ebe9c7e7515a"
+    },
+    {
+      "path": "browser/fixture-10-desktop-dark.txt",
+      "bytes": 8879,
+      "sha256": "42018d18657c4973ec12cde7db27f3d87a5bc77c5245d75c167547f98cfaf0a3"
+    },
+    {
+      "path": "browser/fixture-10-desktop-light.png",
+      "bytes": 83754,
+      "sha256": "a5b75af1f8efe657ee9ab269325d11c46e18b1166cdd083ebef1ba28c3ed2471"
+    },
+    {
+      "path": "browser/fixture-10-desktop-light.txt",
+      "bytes": 8879,
+      "sha256": "42018d18657c4973ec12cde7db27f3d87a5bc77c5245d75c167547f98cfaf0a3"
+    },
+    {
+      "path": "browser/fixture-10-desktop-system.png",
+      "bytes": 83797,
+      "sha256": "3cbd7c0c53bb95eb19050af4ad9a831ad5eb546fa80c8bc2b4e851fa492f8851"
+    },
+    {
+      "path": "browser/fixture-10-desktop-system.txt",
+      "bytes": 8879,
+      "sha256": "42018d18657c4973ec12cde7db27f3d87a5bc77c5245d75c167547f98cfaf0a3"
+    },
+    {
+      "path": "browser/fixture-10-mobile-dark.png",
+      "bytes": 22086,
+      "sha256": "75fcfac1b5877f5b5252280a21a85425922012ac4c39f7d523492e3316421525"
+    },
+    {
+      "path": "browser/fixture-10-mobile-dark.txt",
+      "bytes": 9007,
+      "sha256": "d307d2b83cfa1034a355eb6be60e705774983e4f6607485b742f45cbcf4188d6"
+    },
+    {
+      "path": "browser/fixture-10-mobile-light.png",
+      "bytes": 20620,
+      "sha256": "bc11835476d5ac403224e3f09bde8ff8623917630fa3d548afa1247b601f132a"
+    },
+    {
+      "path": "browser/fixture-10-mobile-light.txt",
+      "bytes": 9007,
+      "sha256": "d307d2b83cfa1034a355eb6be60e705774983e4f6607485b742f45cbcf4188d6"
+    },
+    {
+      "path": "browser/fixture-10-mobile-system.png",
+      "bytes": 20620,
+      "sha256": "bc11835476d5ac403224e3f09bde8ff8623917630fa3d548afa1247b601f132a"
+    },
+    {
+      "path": "browser/fixture-10-mobile-system.txt",
+      "bytes": 9007,
+      "sha256": "d307d2b83cfa1034a355eb6be60e705774983e4f6607485b742f45cbcf4188d6"
+    },
+    {
+      "path": "browser/fixture-11-desktop-dark.png",
+      "bytes": 94348,
+      "sha256": "5afeb0624e69458a00b6cc59b12daa37bbcbb1dec39f067d8988bae3e44c92ac"
+    },
+    {
+      "path": "browser/fixture-11-desktop-dark.txt",
+      "bytes": 8272,
+      "sha256": "b3c9f65429f49aa261ffda5ec55837e75fcfc67213dc3f86456bb52624e2507a"
+    },
+    {
+      "path": "browser/fixture-11-desktop-light.png",
+      "bytes": 92276,
+      "sha256": "a873b709a182834c05cf3a0c0d150408aaeabfe85ff9a809b54b7119f5902fbd"
+    },
+    {
+      "path": "browser/fixture-11-desktop-light.txt",
+      "bytes": 8272,
+      "sha256": "b3c9f65429f49aa261ffda5ec55837e75fcfc67213dc3f86456bb52624e2507a"
+    },
+    {
+      "path": "browser/fixture-11-desktop-system.png",
+      "bytes": 92277,
+      "sha256": "ab62b63c24b9380ed769a8a80b097431b27ade90491fdea579b247f216ff8618"
+    },
+    {
+      "path": "browser/fixture-11-desktop-system.txt",
+      "bytes": 8272,
+      "sha256": "b3c9f65429f49aa261ffda5ec55837e75fcfc67213dc3f86456bb52624e2507a"
+    },
+    {
+      "path": "browser/fixture-11-mobile-dark.png",
+      "bytes": 55200,
+      "sha256": "274f1ce06c5926e295a1f3aa2e6ad722704093ccb24ff1d042dec020309cd6d4"
+    },
+    {
+      "path": "browser/fixture-11-mobile-dark.txt",
+      "bytes": 8400,
+      "sha256": "3115ad4f7c4489be98c599bb256aa8e9eaa2ba624b911f16242863a5f9d73a09"
+    },
+    {
+      "path": "browser/fixture-11-mobile-light.png",
+      "bytes": 52684,
+      "sha256": "7b72769d6e8410abff50ad2040bc8f19f2f3e599467e1511da73c3b234e909bc"
+    },
+    {
+      "path": "browser/fixture-11-mobile-light.txt",
+      "bytes": 8400,
+      "sha256": "3115ad4f7c4489be98c599bb256aa8e9eaa2ba624b911f16242863a5f9d73a09"
+    },
+    {
+      "path": "browser/fixture-11-mobile-system.png",
+      "bytes": 52678,
+      "sha256": "c0943b0038dabcb77ab4cd21209fda919d585b099e44ae55bb3bdbc60a92fb95"
+    },
+    {
+      "path": "browser/fixture-11-mobile-system.txt",
+      "bytes": 8400,
+      "sha256": "3115ad4f7c4489be98c599bb256aa8e9eaa2ba624b911f16242863a5f9d73a09"
+    },
+    {
+      "path": "browser/fixture-2-desktop-dark.png",
+      "bytes": 126126,
+      "sha256": "8a96f1fc030acd5fe6f607fc13c7f3f721a751cf7e60f7cff5bde66316360db6"
+    },
+    {
+      "path": "browser/fixture-2-desktop-dark.txt",
+      "bytes": 26684,
+      "sha256": "d7c6a36c24b41215ba8d7b0c60b76ace86b5b500a321e6483cb5d79e05e36a51"
+    },
+    {
+      "path": "browser/fixture-2-desktop-light.png",
+      "bytes": 121586,
+      "sha256": "c7075f85b5b1fc15ec70dcb6a07cd603fdf6bca7bf7b6b2bb8fbc50807c1b70a"
+    },
+    {
+      "path": "browser/fixture-2-desktop-light.txt",
+      "bytes": 26684,
+      "sha256": "d7c6a36c24b41215ba8d7b0c60b76ace86b5b500a321e6483cb5d79e05e36a51"
+    },
+    {
+      "path": "browser/fixture-2-desktop-system.png",
+      "bytes": 121586,
+      "sha256": "c7075f85b5b1fc15ec70dcb6a07cd603fdf6bca7bf7b6b2bb8fbc50807c1b70a"
+    },
+    {
+      "path": "browser/fixture-2-desktop-system.txt",
+      "bytes": 26684,
+      "sha256": "d7c6a36c24b41215ba8d7b0c60b76ace86b5b500a321e6483cb5d79e05e36a51"
+    },
+    {
+      "path": "browser/fixture-2-mobile-dark.png",
+      "bytes": 46400,
+      "sha256": "277815ae7aa584464f66ea19abf1a3c3cbf05e641e0e01fe7a29656a77bcb1e4"
+    },
+    {
+      "path": "browser/fixture-2-mobile-dark.txt",
+      "bytes": 24337,
+      "sha256": "c3de621927025642f97fee7b9c9963e6b6906e4421334f01d295fbe608207eaa"
+    },
+    {
+      "path": "browser/fixture-2-mobile-light.png",
+      "bytes": 44636,
+      "sha256": "c3354b7b09363f8d04ad8d45d727353bae246faa9e479a87ae67df11ffaf0f98"
+    },
+    {
+      "path": "browser/fixture-2-mobile-light.txt",
+      "bytes": 24337,
+      "sha256": "c3de621927025642f97fee7b9c9963e6b6906e4421334f01d295fbe608207eaa"
+    },
+    {
+      "path": "browser/fixture-2-mobile-system.png",
+      "bytes": 44636,
+      "sha256": "c3354b7b09363f8d04ad8d45d727353bae246faa9e479a87ae67df11ffaf0f98"
+    },
+    {
+      "path": "browser/fixture-2-mobile-system.txt",
+      "bytes": 24337,
+      "sha256": "c3de621927025642f97fee7b9c9963e6b6906e4421334f01d295fbe608207eaa"
+    },
+    {
+      "path": "browser/fixture-3-desktop-dark.png",
+      "bytes": 126808,
+      "sha256": "5daf7cd59ca3ba4f5f856be6de20526e50040602d4f74caaa96928c05cdea8f7"
+    },
+    {
+      "path": "browser/fixture-3-desktop-dark.txt",
+      "bytes": 26811,
+      "sha256": "189e0f1440c21cdac753da12ece12c06cc435e7667b3b24ee4af28315ea2f9e9"
+    },
+    {
+      "path": "browser/fixture-3-desktop-light.png",
+      "bytes": 122239,
+      "sha256": "4c3db41aa7ad645f54a6767047bf96413c6ea872865780bf79d66c3e3ef229f2"
+    },
+    {
+      "path": "browser/fixture-3-desktop-light.txt",
+      "bytes": 26811,
+      "sha256": "189e0f1440c21cdac753da12ece12c06cc435e7667b3b24ee4af28315ea2f9e9"
+    },
+    {
+      "path": "browser/fixture-3-desktop-system.png",
+      "bytes": 122239,
+      "sha256": "4c3db41aa7ad645f54a6767047bf96413c6ea872865780bf79d66c3e3ef229f2"
+    },
+    {
+      "path": "browser/fixture-3-desktop-system.txt",
+      "bytes": 26811,
+      "sha256": "189e0f1440c21cdac753da12ece12c06cc435e7667b3b24ee4af28315ea2f9e9"
+    },
+    {
+      "path": "browser/fixture-3-mobile-dark.png",
+      "bytes": 46400,
+      "sha256": "277815ae7aa584464f66ea19abf1a3c3cbf05e641e0e01fe7a29656a77bcb1e4"
+    },
+    {
+      "path": "browser/fixture-3-mobile-dark.txt",
+      "bytes": 24351,
+      "sha256": "b80a13b959602a911432efb21f7206f66440341f438fdf049df5386181d5a7fa"
+    },
+    {
+      "path": "browser/fixture-3-mobile-light.png",
+      "bytes": 44636,
+      "sha256": "c3354b7b09363f8d04ad8d45d727353bae246faa9e479a87ae67df11ffaf0f98"
+    },
+    {
+      "path": "browser/fixture-3-mobile-light.txt",
+      "bytes": 24351,
+      "sha256": "b80a13b959602a911432efb21f7206f66440341f438fdf049df5386181d5a7fa"
+    },
+    {
+      "path": "browser/fixture-3-mobile-system.png",
+      "bytes": 44636,
+      "sha256": "c3354b7b09363f8d04ad8d45d727353bae246faa9e479a87ae67df11ffaf0f98"
+    },
+    {
+      "path": "browser/fixture-3-mobile-system.txt",
+      "bytes": 24351,
+      "sha256": "b80a13b959602a911432efb21f7206f66440341f438fdf049df5386181d5a7fa"
+    },
+    {
+      "path": "browser/fixture-4-desktop-dark.png",
+      "bytes": 93955,
+      "sha256": "3e4a5cc8406a210512579878349e8f8315c640dd961c2f96031be9d1d059c12d"
+    },
+    {
+      "path": "browser/fixture-4-desktop-dark.txt",
+      "bytes": 208969,
+      "sha256": "dd8da40ef11b96bf7eb1d14df79d95fcdffc2783e69821c9fa91a07bdb4f0a8f"
+    },
+    {
+      "path": "browser/fixture-4-desktop-light.png",
+      "bytes": 89930,
+      "sha256": "fb89a92e18494ee94df8ba76a9bdd581730981a7682ed2e560ba5b615b1c517d"
+    },
+    {
+      "path": "browser/fixture-4-desktop-light.txt",
+      "bytes": 208969,
+      "sha256": "dd8da40ef11b96bf7eb1d14df79d95fcdffc2783e69821c9fa91a07bdb4f0a8f"
+    },
+    {
+      "path": "browser/fixture-4-desktop-system.png",
+      "bytes": 89930,
+      "sha256": "fb89a92e18494ee94df8ba76a9bdd581730981a7682ed2e560ba5b615b1c517d"
+    },
+    {
+      "path": "browser/fixture-4-desktop-system.txt",
+      "bytes": 208969,
+      "sha256": "dd8da40ef11b96bf7eb1d14df79d95fcdffc2783e69821c9fa91a07bdb4f0a8f"
+    },
+    {
+      "path": "browser/fixture-4-mobile-dark.png",
+      "bytes": 39881,
+      "sha256": "0d9c84105e85da2792c2420c18587a3aefd6a79e51d90ab7df3e05faca1c496c"
+    },
+    {
+      "path": "browser/fixture-4-mobile-dark.txt",
+      "bytes": 205872,
+      "sha256": "b6e9b5ebd1ea7f2385051950004978c96a09331ffd7557b4e80d31d656a01012"
+    },
+    {
+      "path": "browser/fixture-4-mobile-light.png",
+      "bytes": 37599,
+      "sha256": "e2ff6c929b3c0a1b9119471511e18d92a1ec7bb6759e7fb4bf6900b9aa9e8853"
+    },
+    {
+      "path": "browser/fixture-4-mobile-light.txt",
+      "bytes": 205872,
+      "sha256": "b6e9b5ebd1ea7f2385051950004978c96a09331ffd7557b4e80d31d656a01012"
+    },
+    {
+      "path": "browser/fixture-4-mobile-system.png",
+      "bytes": 37599,
+      "sha256": "e2ff6c929b3c0a1b9119471511e18d92a1ec7bb6759e7fb4bf6900b9aa9e8853"
+    },
+    {
+      "path": "browser/fixture-4-mobile-system.txt",
+      "bytes": 205872,
+      "sha256": "b6e9b5ebd1ea7f2385051950004978c96a09331ffd7557b4e80d31d656a01012"
+    },
+    {
+      "path": "browser/fixture-5-desktop-dark.png",
+      "bytes": 107226,
+      "sha256": "fbbaefa82ddb0a5a81e99c85fb88daae3a5b39cc482a679f13dda695a42a7e66"
+    },
+    {
+      "path": "browser/fixture-5-desktop-dark.txt",
+      "bytes": 233483,
+      "sha256": "291d02ce43238b4c7c7e201e64657b5362796e4d6944fbf00c0587dcb26402af"
+    },
+    {
+      "path": "browser/fixture-5-desktop-light.png",
+      "bytes": 102778,
+      "sha256": "6426908f92271e6f627915fa39c8a463d5c5130cd70d86b4455f2133d50daa7e"
+    },
+    {
+      "path": "browser/fixture-5-desktop-light.txt",
+      "bytes": 233483,
+      "sha256": "291d02ce43238b4c7c7e201e64657b5362796e4d6944fbf00c0587dcb26402af"
+    },
+    {
+      "path": "browser/fixture-5-desktop-system.png",
+      "bytes": 102778,
+      "sha256": "6426908f92271e6f627915fa39c8a463d5c5130cd70d86b4455f2133d50daa7e"
+    },
+    {
+      "path": "browser/fixture-5-desktop-system.txt",
+      "bytes": 233483,
+      "sha256": "291d02ce43238b4c7c7e201e64657b5362796e4d6944fbf00c0587dcb26402af"
+    },
+    {
+      "path": "browser/fixture-5-mobile-dark.png",
+      "bytes": 34342,
+      "sha256": "cbdc33f26cbcb77cfe3b6fd73114e0ed05b3e0e6ce8d626be91592e69dff46a9"
+    },
+    {
+      "path": "browser/fixture-5-mobile-dark.txt",
+      "bytes": 221396,
+      "sha256": "8a444910f63541aa86a1838c9cfa62ce30a71867409e8172f13ecf921847bfbc"
+    },
+    {
+      "path": "browser/fixture-5-mobile-light.png",
+      "bytes": 32214,
+      "sha256": "260dfb3a18601dc8f7afbcca165033393b92ec614341e8597bd3ee338891da4d"
+    },
+    {
+      "path": "browser/fixture-5-mobile-light.txt",
+      "bytes": 221396,
+      "sha256": "8a444910f63541aa86a1838c9cfa62ce30a71867409e8172f13ecf921847bfbc"
+    },
+    {
+      "path": "browser/fixture-5-mobile-system.png",
+      "bytes": 32214,
+      "sha256": "260dfb3a18601dc8f7afbcca165033393b92ec614341e8597bd3ee338891da4d"
+    },
+    {
+      "path": "browser/fixture-5-mobile-system.txt",
+      "bytes": 221396,
+      "sha256": "8a444910f63541aa86a1838c9cfa62ce30a71867409e8172f13ecf921847bfbc"
+    },
+    {
+      "path": "browser/fixture-6-desktop-dark.png",
+      "bytes": 117732,
+      "sha256": "967eaa4231a87711569fe3e7239043275581395d26e35ef325bb7c41dc6564c5"
+    },
+    {
+      "path": "browser/fixture-6-desktop-dark.txt",
+      "bytes": 15462,
+      "sha256": "ef62195d917689c3b10002f47f8c80542ef9dcca3997e497a24d436717547b0f"
+    },
+    {
+      "path": "browser/fixture-6-desktop-light.png",
+      "bytes": 113917,
+      "sha256": "319b6f64e54d1cf76f7194c0b952698cf2398a270176bf2f68e2eaaa0554c24d"
+    },
+    {
+      "path": "browser/fixture-6-desktop-light.txt",
+      "bytes": 15462,
+      "sha256": "ef62195d917689c3b10002f47f8c80542ef9dcca3997e497a24d436717547b0f"
+    },
+    {
+      "path": "browser/fixture-6-desktop-system.png",
+      "bytes": 113944,
+      "sha256": "dd77651221f198600f760cbcc8f4aa1f4e2f4ae111a6bd61aceed8658a3e2763"
+    },
+    {
+      "path": "browser/fixture-6-desktop-system.txt",
+      "bytes": 15462,
+      "sha256": "ef62195d917689c3b10002f47f8c80542ef9dcca3997e497a24d436717547b0f"
+    },
+    {
+      "path": "browser/fixture-6-mobile-dark.png",
+      "bytes": 39465,
+      "sha256": "cf9cec08722cbe27c0fea402c152a31b8558cb5c734e9750244ffd6c5227a4af"
+    },
+    {
+      "path": "browser/fixture-6-mobile-dark.txt",
+      "bytes": 11157,
+      "sha256": "a8593a3169611fd9e902aa0f00fec2a7e56aa9525cf5e985a139c206d4d53e28"
+    },
+    {
+      "path": "browser/fixture-6-mobile-light.png",
+      "bytes": 37422,
+      "sha256": "6a2395579e94a426423c89a4928f806abceffc5c9b8f61e5928852c282d80462"
+    },
+    {
+      "path": "browser/fixture-6-mobile-light.txt",
+      "bytes": 11157,
+      "sha256": "a8593a3169611fd9e902aa0f00fec2a7e56aa9525cf5e985a139c206d4d53e28"
+    },
+    {
+      "path": "browser/fixture-6-mobile-system.png",
+      "bytes": 37422,
+      "sha256": "6a2395579e94a426423c89a4928f806abceffc5c9b8f61e5928852c282d80462"
+    },
+    {
+      "path": "browser/fixture-6-mobile-system.txt",
+      "bytes": 11157,
+      "sha256": "a8593a3169611fd9e902aa0f00fec2a7e56aa9525cf5e985a139c206d4d53e28"
+    },
+    {
+      "path": "browser/fixture-7-desktop-dark.png",
+      "bytes": 72005,
+      "sha256": "abdd2f5fdd330d840e1e7c8c1681a0cae90e73feab2a83dd3d4e70fa9c1e6eb6"
+    },
+    {
+      "path": "browser/fixture-7-desktop-dark.txt",
+      "bytes": 15104,
+      "sha256": "385b53339319b35e3476ac70119a6052136aac3665192271bf7cf727766adf22"
+    },
+    {
+      "path": "browser/fixture-7-desktop-light.png",
+      "bytes": 69174,
+      "sha256": "f8e05463e2277533dd366af419aaa6531f77ede7b36c1a0166baa3b78cc08f60"
+    },
+    {
+      "path": "browser/fixture-7-desktop-light.txt",
+      "bytes": 15104,
+      "sha256": "385b53339319b35e3476ac70119a6052136aac3665192271bf7cf727766adf22"
+    },
+    {
+      "path": "browser/fixture-7-desktop-system.png",
+      "bytes": 69174,
+      "sha256": "f8e05463e2277533dd366af419aaa6531f77ede7b36c1a0166baa3b78cc08f60"
+    },
+    {
+      "path": "browser/fixture-7-desktop-system.txt",
+      "bytes": 15104,
+      "sha256": "385b53339319b35e3476ac70119a6052136aac3665192271bf7cf727766adf22"
+    },
+    {
+      "path": "browser/fixture-7-mobile-dark.png",
+      "bytes": 29018,
+      "sha256": "33d95736075132be25f419d56e5ee83302307b0b5cd2d6f8974314f8ffda1c0a"
+    },
+    {
+      "path": "browser/fixture-7-mobile-dark.txt",
+      "bytes": 14980,
+      "sha256": "af53c7e3b495008d4693a6d30587679bb21a2096fb6a2f28ceb4d081c0eb9010"
+    },
+    {
+      "path": "browser/fixture-7-mobile-light.png",
+      "bytes": 28404,
+      "sha256": "7ce38563f6f2fbe7ef9b19af4885a4e6fe7bc98752bbc2ce07b44d71db0e3b07"
+    },
+    {
+      "path": "browser/fixture-7-mobile-light.txt",
+      "bytes": 14980,
+      "sha256": "af53c7e3b495008d4693a6d30587679bb21a2096fb6a2f28ceb4d081c0eb9010"
+    },
+    {
+      "path": "browser/fixture-7-mobile-system.png",
+      "bytes": 28404,
+      "sha256": "7ce38563f6f2fbe7ef9b19af4885a4e6fe7bc98752bbc2ce07b44d71db0e3b07"
+    },
+    {
+      "path": "browser/fixture-7-mobile-system.txt",
+      "bytes": 14980,
+      "sha256": "af53c7e3b495008d4693a6d30587679bb21a2096fb6a2f28ceb4d081c0eb9010"
+    },
+    {
+      "path": "browser/fixture-8-desktop-dark.png",
+      "bytes": 135326,
+      "sha256": "ab61909ff738365468ae48e1d08cfcf0344afcada8d7b18bf7300dad0203020c"
+    },
+    {
+      "path": "browser/fixture-8-desktop-dark.txt",
+      "bytes": 21609,
+      "sha256": "a16d2219a516739a67f8b74f98350628441519ee9a0cf6cbe18218494398f4d3"
+    },
+    {
+      "path": "browser/fixture-8-desktop-light.png",
+      "bytes": 134282,
+      "sha256": "b9f3ca3ecbcd572c1ee3d9595f6c45c9af34b62e972a473701791d97fa2589f4"
+    },
+    {
+      "path": "browser/fixture-8-desktop-light.txt",
+      "bytes": 21609,
+      "sha256": "a16d2219a516739a67f8b74f98350628441519ee9a0cf6cbe18218494398f4d3"
+    },
+    {
+      "path": "browser/fixture-8-desktop-system.png",
+      "bytes": 134282,
+      "sha256": "b9f3ca3ecbcd572c1ee3d9595f6c45c9af34b62e972a473701791d97fa2589f4"
+    },
+    {
+      "path": "browser/fixture-8-desktop-system.txt",
+      "bytes": 21609,
+      "sha256": "a16d2219a516739a67f8b74f98350628441519ee9a0cf6cbe18218494398f4d3"
+    },
+    {
+      "path": "browser/fixture-8-mobile-dark.png",
+      "bytes": 35131,
+      "sha256": "8b953b48ec0f6e087c4ddc0397ce6d742891cb172dda1b340bc1b1d8a3a7ffda"
+    },
+    {
+      "path": "browser/fixture-8-mobile-dark.txt",
+      "bytes": 21737,
+      "sha256": "5c580408e0583531c62d730b91ab0b34c0f3718ba4d90f25f3749cace7eb8767"
+    },
+    {
+      "path": "browser/fixture-8-mobile-light.png",
+      "bytes": 34558,
+      "sha256": "a48616454b74cdd1aa09a1ab048c760b0c0b776a5239ef6623231544a5a25028"
+    },
+    {
+      "path": "browser/fixture-8-mobile-light.txt",
+      "bytes": 21737,
+      "sha256": "5c580408e0583531c62d730b91ab0b34c0f3718ba4d90f25f3749cace7eb8767"
+    },
+    {
+      "path": "browser/fixture-8-mobile-system.png",
+      "bytes": 34558,
+      "sha256": "a48616454b74cdd1aa09a1ab048c760b0c0b776a5239ef6623231544a5a25028"
+    },
+    {
+      "path": "browser/fixture-8-mobile-system.txt",
+      "bytes": 21737,
+      "sha256": "5c580408e0583531c62d730b91ab0b34c0f3718ba4d90f25f3749cace7eb8767"
+    },
+    {
+      "path": "browser/fixture-9-desktop-dark.png",
+      "bytes": 74323,
+      "sha256": "0c3bfdc01a08050027814cda912786107e95121b4a36659d80059222be4816dd"
+    },
+    {
+      "path": "browser/fixture-9-desktop-dark.txt",
+      "bytes": 12734,
+      "sha256": "ef8368b83b2385a0b23ce8a7f8c213cbb43317238e7bfa910dc6c19d448d0e6f"
+    },
+    {
+      "path": "browser/fixture-9-desktop-light.png",
+      "bytes": 72818,
+      "sha256": "4ab7d57371d8f80654eabd7f1f7ec22afb4fccc1d270588e30754a63184caa1b"
+    },
+    {
+      "path": "browser/fixture-9-desktop-light.txt",
+      "bytes": 12734,
+      "sha256": "ef8368b83b2385a0b23ce8a7f8c213cbb43317238e7bfa910dc6c19d448d0e6f"
+    },
+    {
+      "path": "browser/fixture-9-desktop-system.png",
+      "bytes": 72823,
+      "sha256": "10b81c5b3b3f75935f5c5322eeb53ab5d55ed9aaa6a58f10b34594972f47c440"
+    },
+    {
+      "path": "browser/fixture-9-desktop-system.txt",
+      "bytes": 12734,
+      "sha256": "ef8368b83b2385a0b23ce8a7f8c213cbb43317238e7bfa910dc6c19d448d0e6f"
+    },
+    {
+      "path": "browser/fixture-9-mobile-dark.png",
+      "bytes": 30969,
+      "sha256": "fc0ce9cbdd31d2b9a2c235ad0356c7c538c86b85d754cb4db7705b8f93f7be75"
+    },
+    {
+      "path": "browser/fixture-9-mobile-dark.txt",
+      "bytes": 12862,
+      "sha256": "0a14bc248b3f557a6a26c785db1dca77e78c59e3be6e5efbe2223e3f045f32f5"
+    },
+    {
+      "path": "browser/fixture-9-mobile-light.png",
+      "bytes": 29995,
+      "sha256": "217a96690a8fa3120dc5810d723d32b8c1add256741043dcfedeee9c6d99c201"
+    },
+    {
+      "path": "browser/fixture-9-mobile-light.txt",
+      "bytes": 12862,
+      "sha256": "0a14bc248b3f557a6a26c785db1dca77e78c59e3be6e5efbe2223e3f045f32f5"
+    },
+    {
+      "path": "browser/fixture-9-mobile-system.png",
+      "bytes": 29995,
+      "sha256": "217a96690a8fa3120dc5810d723d32b8c1add256741043dcfedeee9c6d99c201"
+    },
+    {
+      "path": "browser/fixture-9-mobile-system.txt",
+      "bytes": 12862,
+      "sha256": "0a14bc248b3f557a6a26c785db1dca77e78c59e3be6e5efbe2223e3f045f32f5"
+    },
+    {
+      "path": "browser/home-hero-image.png",
+      "bytes": 97367,
+      "sha256": "95da239fb45e79da6cd8158bb88243e42918df8a7c7553757fd85e6e075ebbc0"
+    },
+    {
+      "path": "browser/home-hero-interaction.txt",
+      "bytes": 440,
+      "sha256": "be25e519c032e5209f7b50447f2daa948f0822087b681712acef059fc84ae2b6"
+    },
+    {
+      "path": "browser/home-initial.json",
+      "bytes": 864,
+      "sha256": "7eabf40c48d0bd0db62aedeaeff9f662d17705028732118e12bdd033e1fe2406"
+    },
+    {
+      "path": "browser/home-initial.png",
+      "bytes": 77773,
+      "sha256": "12fa65b526da8e64706485af9f8a95b64c8d38ce0e84cd9d107230ba5ad44450"
+    },
+    {
+      "path": "browser/mobile-doc-menu.png",
+      "bytes": 16725,
+      "sha256": "9a18d788781045a9cb6ec75b6ad455970a912db423e0dda7f446e83fb888ebc8"
+    },
+    {
+      "path": "browser/mobile-doc-menu.txt",
+      "bytes": 23235,
+      "sha256": "2d1f92102af7e15946869c04cf9875075de717b3fac25079e83e34e6b9fe6825"
+    },
+    {
+      "path": "browser/mobile-toc.txt",
+      "bytes": 26305,
+      "sha256": "c3338f80a75e5a1e46cab32c163e4f21bb707ec32653299e4976569674843f43"
+    },
+    {
+      "path": "browser/model-selector-grok.txt",
+      "bytes": 27555,
+      "sha256": "8026bcb5a1d766506158d43c89e4bf6d97f9db6d9208723291ec076d213a113a"
+    },
+    {
+      "path": "browser/speech-local-paused.txt",
+      "bytes": 16483,
+      "sha256": "b35a291d2ae20364399e264a633609fd44535bd7ddab80d9029bd8c39ed61c3d"
+    },
+    {
+      "path": "browser/speech-paused.txt",
+      "bytes": 16483,
+      "sha256": "9d52b30b739fdd94c300bcef6940ac815ce722fd54f77229b4257f5daa903d73"
+    },
+    {
+      "path": "browser/v6-dark.png",
+      "bytes": 71197,
+      "sha256": "9607d18ae095531490b56cda2f9ade81b79d7a67c48f43cd139a9dd658f8c416"
+    },
+    {
+      "path": "browser/v6-search.txt",
+      "bytes": 138632,
+      "sha256": "d01bc22e018400eebb495bb198485e7e9cf544d18c04d39508816856a4f70bfc"
+    },
+    {
+      "path": "browser/v6-version-navigation.txt",
+      "bytes": 26913,
+      "sha256": "7dd4d331d70ee8f33f5a69d824ba0b76b051171bc8c0a6491d6738cb470b5e44"
+    },
+    {
+      "path": "browser/version-menu.txt",
+      "bytes": 24370,
+      "sha256": "03e17c0fe38ec021279205b59cefa0a34cdfe6616f1f94a9baaa5fbb8fad13b6"
+    },
+    {
+      "path": "browser/video-local.txt",
+      "bytes": 16431,
+      "sha256": "9e2eedefb6295a166cd8024ca411a62f6451f219ea2d139a647e9def33d58eb8"
+    }
+  ],
+  "qualification": "72 initial page/theme/viewport states, not 72 interactive parity passes; animations and scroll position are observational snapshots, not normalized pixel assertions. Some captures used blocked remote reads; separate fixture proxy pins catalog/audio. Local media and catalog provenance are explicit."
+}
