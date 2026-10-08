@@ -333,3 +333,11 @@ See A1-BASELINE-SUMMARY.json. Complete prepared-image production reference succe
 ### A3 representative proof
 
 Seven routes compose through explicit raw dependencies. Six real MDX bodies match reference text, heading anchors, links and code text. Both models pass changed-page/literal-template, changed-island SSR/assets, title/description-removal incremental vs forced checks. See committed evidence JSON. Both models also pass seven-page shared-theme fan-out and missing/corrupt rendered-cache recovery checks. Source inputs are restored after tests. React hero/provider/generation interaction probes work without console errors. This is not full browser/publication parity; shared navigation/search/special families and authoritative authored sync still precede completion. Read README for pinned tools and normal project command. No Nift core/template changes.
+
+## A4 source preparation (publication acceptance still open)
+
+All 288 current documentation bodies pass frozen-reference text, heading-anchor, link and exact code comparisons. The human repository preserves all 294 original authored MDX files with numeric ordering under `authored/v7/docs/`; the pinned pure upstream sync transforms produce 288 MDX pages and 307 total synchronized files byte-identical to the frozen sync output. Six dropped legacy index pages are intentionally distinct from published routes. The agent repository maintains the 288 resulting HTML bodies and explicit metadata/routes in `current-docs.json`, plus maintained structured navigation. No routine Markdown renderer is added to the agent path.
+
+This is content preparation, not complete A4 page publication or browser parity. Existing seven-route proof publication remains separate while the shared navigation/UI composition is implemented. Authored-source edits in the full corpus use `scripts/prepare-current-docs.py`; `scripts/build-proof.py` still exercises the A3 fixture pipeline. Do not treat the prototype `sources/` as full-corpus authority.
+
+Current corpus discovery adds BrowserIllustration, InlinePrompt and CardPlayer islands because their observable animation, prompt and play/pause behavior requires state. Their client and server markup share the upstream components. Asset-cache validity now checks every generated bundle hash, rather than assuming the cache record proves output files exist.

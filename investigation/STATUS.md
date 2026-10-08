@@ -1,3 +1,3 @@
 # Status
 
-A0–A2 accepted/pushed. A3 representative content/island/raw-composition/lifecycle proof implemented; checks passed; ready for independent checkpoint commits. Seven prototype routes only. Full authored source sync and current corpus A4 are next; A5–A10 remain open. Nift core/templates unchanged.
+A0–A3 accepted and pushed. A4 source preparation: 288 current docs bodies pass semantic reference checks in both source models. Human authored sync is byte-identical to pinned upstream; agent owns maintained HTML/metadata/navigation. Shared current-corpus publication UI, browser parity and full A4 acceptance remain open. A5–A10 remain open. No Nift core/template changes.

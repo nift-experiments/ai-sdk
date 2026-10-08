@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://cdn.getmaxim.ai/public/images/maxim_vercel.gif",
+    "file": "704515f3296923f614f154ad4ef869f59648f4099fce419b4c7ecc44f48f9a24",
+    "sha256": "519ceaf173089aedbbf6b47a4a1fadf86da82361b8d3c6ed4e72e2fa024183b6",
+    "bytes": 5507557,
+    "mime": "image/gif"
+  },
+  {
+    "url": "https://confident-docs.s3.us-east-1.amazonaws.com/confident-trace-workflows.png",
+    "file": "bb965d8e80c99c0e63a2267af8cc972a47875ec8d28ce0cdd8b3b778b822e3c6",
+    "sha256": "6c17daef55b740b65cd83853020d8094df621d7793f02d47fc60f4d3d85f179e",
+    "bytes": 470092,
+    "mime": "image/png"
+  },
+  {
+    "url": "https://confident-docs.s3.us-east-1.amazonaws.com/llm-tracing:prompt-logging.png",
+    "file": "629aca0cf3a59933be7fa8b59dd432cfb1b9e8ebdec9d4cb3f375b2d3370a8bb",
+    "sha256": "9ea351439012ba3dec82d57180bc79da51562f2dbe1fa9f88090355e837bf3d6",
+    "bytes": 517628,
+    "mime": "image/png"
+  },
+  {
+    "url": "https://e742qlubrjnjqpp0.public.blob.vercel-storage.com/resume-stream-diagram.png",
+    "file": "13fa1b3a6d45cb56094fdcc24a8aec0ebee274338fd05cbbc9a9ddcd36a38930",
+    "sha256": "c16ee25c02df678c37b8a0ba4f17b9a937b1fd4198561a6719e05c4495acd4e0",
+    "bytes": 247270,
+    "mime": "image/png"
+  },
+  {
+    "url": "https://langfuse.com/images/docs/vercel-nested-trace.png",
+    "file": "33a57b46d0e8cf83dc8e9c6dbd0da21062660f5545e02c405e5bc72d346f60d2",
+    "sha256": "57f979d8dd9c3f8ec69f9fccabb311638517850536409079d152738f306d149d",
+    "bytes": 572860,
+    "mime": "image/png"
+  },
+  {
+    "url": "https://mintlify.s3.us-west-1.amazonaws.com/langwatch/images/integration/vercel-ai-sdk.png",
+    "file": "d63bc9428a3cfe1375152545f0453e81042141205282f292a006c66021c5f5b3",
+    "sha256": "7e67b967801f876e2b7e1cb95699fb09fae41ca5a20c8ec3fe091a6615a688a1",
+    "bytes": 52312,
+    "mime": "application/octet-stream"
+  }
+]

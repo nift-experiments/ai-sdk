@@ -1,0 +1,12 @@
+[
+  {
+    "project": "ai-sdk",
+    "missing_and_corrupt_island_bundle_recovered": true,
+    "restored_sha256": "38102ac5723da86c8b01e45426b1b3bc804a2f6660ecd5755d60a96f4367a2da"
+  },
+  {
+    "project": "ai-sdk-agent",
+    "missing_and_corrupt_island_bundle_recovered": true,
+    "restored_sha256": "38102ac5723da86c8b01e45426b1b3bc804a2f6660ecd5755d60a96f4367a2da"
+  }
+]

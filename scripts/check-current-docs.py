@@ -1,0 +1,33 @@
+"""Compare maintained/rendered document bodies to A1 frozen HTTP responses.
+
+This checks content semantics, not complete page layout or browser behavior.
+Pass the external baseline directory explicitly; it is not a build dependency.
+"""
+from pathlib import Path
+import argparse,json,re
+from bs4 import BeautifulSoup
+p=argparse.ArgumentParser();p.add_argument('reference',type=Path);args=p.parse_args()
+root=Path(__file__).resolve().parents[1]
+reference={row['path']:row for row in json.loads((args.reference/'http-reference/all-html-cases-responses.json').read_text())}
+if (root/'authored').exists():
+ pages=json.loads((root/'generated/current-docs-source-map.json').read_text())['pages']
+ inputs=[(row['route'],root/'generated'/row['file'].replace('.mdx','.html')) for row in pages]
+else:
+ pages=json.loads((root/'current-docs.json').read_text())
+ inputs=[(row['route'],root/row['source']) for row in pages]
+def text(node):return ' '.join(node.get_text(' ',strip=True).split())
+def headings(node):return [(v.get('id'),text(v)) for v in node.select('h2,h3,h4,h5,h6')]
+def links(node):return [(v.get('href'),text(v)) for v in node.select('a')]
+def code(node):return [v.get_text() for v in node.select('pre code')]
+rows=[]
+for route,source in inputs:
+ document=BeautifulSoup((args.reference/'http-reference'/reference[route]['file']).read_bytes(),'html.parser')
+ body=document.select_one('[data-geistdocs-article="body"]')
+ if body is None:raise RuntimeError('Missing reference body: '+route)
+ own=BeautifulSoup(source.read_text(),'html.parser')
+ rows.append({'route':route,'text_equal':text(body)==text(own),'heading_anchors_equal':headings(body)==headings(own),'links_equal':links(body)==links(own),'code_text_equal':code(body)==code(own)})
+out=root/'investigation/A4-CURRENT-DOCS-CONTENT-PROOF.json'
+out.write_text(json.dumps(rows,indent=2)+'\n')
+failed=[row for row in rows if not all(v for k,v in row.items() if k!='route')]
+print(json.dumps({'pages':len(rows),'failed':failed},indent=2))
+if failed:raise SystemExit(1)
