@@ -2,7 +2,7 @@
 
 Maintained source model: authored Markdown/MDX/frontmatter and original ordered sources. Upstream is pinned to `3ebefff610f96892c50be48cf1838c453e2349f7`.
 
-A0–A7 are accepted. A7 establishes the complete 1,674-route publication and browser parity. A8 initial profiling and A9 optimization evidence are preserved in investigation; fresh-clone acceptance and final A10 benchmarks remain open. Frozen upstream output/history/logs live outside this repository. These preparation runs are not headline benchmark samples.
+A0–A7 are accepted. A7 establishes the complete 1,674-route publication and browser parity. A8 initial profiling and A9 optimized parity/fresh-clone reproduction are accepted and preserved in investigation; final A10 benchmarks remain open. Frozen upstream output/history/logs live outside this repository. These preparation runs are not headline benchmark samples.
 
 Use Node 24.21.0, pnpm 11.23.0, Nift 4.8.0 and `requirements.txt`. Install with `pnpm install --frozen-lockfile`.
 

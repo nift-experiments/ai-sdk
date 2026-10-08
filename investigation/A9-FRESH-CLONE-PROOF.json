@@ -1,0 +1,8 @@
+{
+  "project": "ai-sdk",
+  "head": "373cd7f6bbfc400a109b5a0d59537661075b036f",
+  "public_runtime_files": 3219,
+  "differences": [],
+  "fresh_clone_publication_byte_equal": true,
+  "clean_after_build": true
+}

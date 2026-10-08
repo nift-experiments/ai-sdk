@@ -8,7 +8,7 @@ results=[]
 def digest(root):
  return {str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for folder in ['public','runtime'] for p in sorted((root/folder).rglob('*')) if p.is_file()}
 for project in [ROOT.name]:
- root=BASE/project;agent=project.endswith('-agent');env={**os.environ,'AI_SDK_NODE':NODE,'NODE_ENV':'production','PYTHONDONTWRITEBYTECODE':'1'}
+ root=ROOT;agent=not(root/'authored').exists();env={**os.environ,'AI_SDK_NODE':NODE,'NODE_ENV':'production','PYTHONDONTWRITEBYTECODE':'1'}
  def build(case,force=False):
   start=time.perf_counter()
   with (OUT/(project+'-'+case+'.log')).open('w') as log:subprocess.run(['python3','scripts/build-content.py',*(['--force'] if force else [])],cwd=root,env=env,stdout=log,stderr=subprocess.STDOUT,check=True)
